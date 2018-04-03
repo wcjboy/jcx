@@ -1,0 +1,74 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button menuToggle>
+        <ion-icon large name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="topbar-logo"></div>
+    <ion-buttons end>
+      <button (click)="myMoreAction($event)">
+        <ion-icon large name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+  <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>
+
+<ion-grid>
+  <ion-row>
+    <ion-col width-75>
+      <input type="text" style="border: 1px solid green;padding: 6px; width:100%;
+    height: 35px; border-radius: 4px;" placeholder="网店关键字搜索……" [(ngModel)]="keywords" >
+</ion-col>
+<ion-col width-25>
+  <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;
+      border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
+<strong style="color: #f90;">搜索</strong>
+</button>
+</ion-col>
+</ion-row>
+</ion-grid>
+
+<ion-card>
+  <ion-card-header>
+    最新店铺评价
+  </ion-card-header>
+  <ion-card-content>
+    <div *ngIf="userSettings.allinone != null">
+      <div class="shoptopic" *ngFor="let item of userSettings.allinone.recentShopTopics" (click)="openTopic(item)">
+        <img class="shoptopicLeft" src="{{ item.logo }}">
+        <div class="shoptopicRight">
+          <a class="textEllipsis" href="#" [innerHTML]="item.lpuShopScoreStarRating + item.shopname | safeHtml">
+          </a>
+          <ion-label style="margin: 0px 8px 0px 0;">{{ item.textAbbr }}</ion-label>
+</div>
+</div>
+</div>
+</ion-card-content>
+</ion-card>
+
+<ion-card>
+  <ion-card-header>
+    最新热门店铺
+  </ion-card-header>
+  <ion-card-content>
+    <div *ngIf="userSettings.allinone != null">
+      <div class="topshop" *ngFor="let item of userSettings.allinone.topShopForums" (click)="gotoShopPage(item)">
+        <img class="topshopLeft" src="{{ item.logo }}">
+        <div class="topshopRight">
+          <a class="textEllipsis" href="#" [innerHTML]=" item.shopScoreStarRating + item.shopName | safeHtml">
+          </a>
+        </div>
+      </div>
+    </div>
+  </ion-card-content>
+</ion-card>
+
+</ion-content>

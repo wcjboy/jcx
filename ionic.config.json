@@ -1,0 +1,21 @@
+{
+  "name": "jcx-app",
+  "app_id": "32373270",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "gulp": {
+    "enabled": false
+  }
+}

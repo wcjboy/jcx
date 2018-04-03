@@ -1,0 +1,56 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button menuToggle>
+        <ion-icon large name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="topbar-logo"></div>
+    <ion-buttons end>
+      <button (click)="myMoreAction($event)">
+        <ion-icon large name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <h4 style="text-align: center; font-weight: 800;">集诚信 -- 物物交易</h4>
+
+  <div *ngIf="userSettings.allinone != null">
+    <ion-list>
+      <ion-item *ngFor="let item of userSettings.allinone.tiList">
+        <ion-thumbnail item-left>
+          <img class="tradeImg" src="{{item.imgSrc}}">
+        </ion-thumbnail>
+        <h2>{{item.subject}}</h2>
+        <p>{{item.postTime}}</p>
+        <button clear item-right (click)="openTradeTopic(item)">查看</button>
+      </ion-item>
+    </ion-list>
+  </div>
+
+  <div *ngIf="userSettings.allCategories != null">
+    <ion-list>
+      <ion-item *ngFor="let category of userSettings.getAllTradeCategories()">
+        <div class="categoryName">
+          <span style="color:#F96E02" *ngIf="category.isNew">*</span> {{ category.name }}
+          <span style="color:#F96E02" *ngIf="category.isNew">*</span>
+        </div>
+        <ion-list>
+          <ion-item *ngFor="let forum of category.forums" (click)="openTradeForum(forum)">
+            <div item-left class="forumicon" [ngStyle]="{'background-position':-forum.forumIconPos * 36 + 'px 0px'}"></div>
+            <h2>{{forum.name}}</h2>
+            <p>
+              <span style="color:#F96E02" *ngIf="forum.isNew">【最新】</span> {{ forum.lpi == null ? forum.description : forum.lpi.topicTitle}}
+            </p>
+          </ion-item>
+        </ion-list>
+      </ion-item>
+    </ion-list>
+  </div>
+
+</ion-content>

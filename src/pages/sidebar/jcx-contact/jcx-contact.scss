@@ -1,0 +1,388 @@
+page-jcx-contact {
+
+.responsive-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.decoration {
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    margin-top: 0;
+    margin-bottom: 30px;
+    display: block;
+    clear: both;
+}
+
+.static-notification-red {
+    overflow: hidden;
+    background-color: #c0392b;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+
+
+/*	13. Notifications */ 
+
+.red-notification{
+	background-color:#c0392b!important;
+	color:#FFFFFF;	
+}
+
+.green-notification{
+	background-color:#27ae60!important;
+	color:#FFFFFF;	
+}
+
+.yellow-notification{
+	background-color:#f39c12!important;
+	color:#FFFFFF;	
+}
+
+.blue-notification{
+	background-color:#2980b9!important;
+	color:#FFFFFF;	
+}
+
+.big-notification{
+	margin-bottom:30px;
+	padding:8px;
+}
+
+.big-notification h3{
+	font-family:'Dosis', sans-serif;
+	font-weight:400;
+	color:#FFFFFF;
+	margin-bottom:5px;
+	margin:10px;
+	padding-bottom:10px;
+	padding-top:5px;
+	border-bottom:solid 1px rgba(255,255,255,0.2);
+}
+
+.big-notification h4{
+	font-family:'Dosis', sans-serif;
+	font-weight:400;
+	color:#FFFFFF;
+	margin-bottom:5px;
+	margin:10px;
+	padding-bottom:10px;
+	padding-top:0px;
+	border-bottom:solid 1px rgba(255,255,255,0.2);
+}
+
+
+.close-big-notification{
+	font-size:15px;
+	color:#FFFFFF;
+	float:right;
+	margin-top:-43px;
+	margin-right:10px;
+	width:20px;
+	height:20px;
+	text-align:center;
+}
+
+.close-big-notification:hover{color:#FFFFFF;}
+
+.big-notification p{
+	padding:10px;	
+	padding-top:0px;
+	margin-bottom:0px;
+}
+
+.static-notification-red{
+	overflow:hidden;
+	background-color:#c0392b;
+	color:#FFFFFF;
+	margin-bottom:30px;
+}
+
+.static-notification-red p{
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:500;
+}
+
+.static-notification-green{
+	overflow:hidden;
+	background-color:#27ae60;
+	color:#FFFFFF;
+	margin-bottom:30px;
+}
+
+.static-notification-green p{
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:500;
+}
+
+.static-notification-yellow{
+	overflow:hidden;
+	background-color:#f39c12;
+	color:#FFFFFF;
+	margin-bottom:30px;
+}
+
+.static-notification-yellow p{
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:500;
+}
+
+.static-notification-blue{
+	overflow:hidden;
+	background-color:#2980b9;
+	color:#FFFFFF;
+	margin-bottom:30px;
+}
+
+.static-notification-blue p{
+	font-size:11px;
+	margin-top:10px;
+	margin-bottom:10px;
+	font-weight:500;
+}
+
+/*Top Notifications*/
+
+.notification-top{
+	height:0px;
+	width:100%;
+	transition:all 400ms ease;
+}
+
+.show-notification-top{
+	height:100px!important;
+	transition:all 400ms ease;
+	transition-delay:1s;
+}
+
+.notification-top a{
+	color:#FFFFFF;
+	border-bottom:solid 1px rgba(255,255,255,0.3);
+	padding-bottom:2px;	
+}
+
+.hide-top-notification{
+	font-size:10px;
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:34px;
+	top:17px;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:rgba(0,0,0,0.1);
+	border-radius:30px;
+	line-height:31px;
+	border:none!important;
+	transition:all 200ms ease;	
+}
+
+.hide-top-notification:hover{
+	background-color:rgba(0,0,0,0.3);
+	transition:all 200ms ease;	
+}
+
+.goto-top-notification{
+	font-size:10px;
+	width:30px;
+	height:30px;
+	position:absolute;
+	right:80px;
+	top:17px;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:rgba(0,0,0,0.1);
+	border-radius:30px;
+	line-height:30px;
+	border:none!important;
+	transition:all 200ms ease;	
+}
+
+.goto-top-notification:hover{
+	background-color:rgba(0,0,0,0.3);
+	transition:all 200ms ease;	
+}
+
+.notification-top h3{
+	margin-left:30px;
+	margin-top:23px;
+	margin-bottom:12px;
+	color:#FFFFFF;
+}
+
+.notification-top p{
+	font-size:12px;
+	margin-left:30px;
+	padding-right:30px;
+	line-height:24px;
+	opacity:0.8;
+}
+
+/*	17. Contact Form  */ 
+
+.contactField{
+	background-color:rgba(255,255,255,0.4);
+	font-size:12px;
+	color:#666;
+	border:solid 1px #cacaca;
+}
+
+
+.contactField:focus{
+    border:solid 1px #27ae60;
+}
+
+.contactTextarea{
+	background-color:rgba(255,255,255,0.4);
+	font-size:12px;
+	border:solid 1px #cacaca;
+	color: #666;
+}
+
+.contactTextarea:focus{
+    border:solid 1px #27ae60;
+}
+
+.contactSubmitButton{
+	line-height:19px!important;
+	display:block!important;
+	height:36px!important;
+	margin-right:4px;
+	width:100%;
+}
+
+.contact-form{
+	margin-bottom:20px;
+}
+
+.contactNameField{
+	padding-bottom:5px;	
+	font-size:15px;
+	line-height: 30px;
+}
+
+.contactNameField span{
+	float:right;
+	opacity:0.2;
+}
+
+.contactEmailField{
+	padding-bottom:5px;
+	font-size:15px;
+	line-height: 30px;
+}
+
+.contactEmailField span{
+	float:right;
+	opacity:0.2;
+}
+
+.contactMessageTextarea{
+	padding-bottom:5px;
+	font-size:15px;
+	line-height: 30px;
+}
+
+.contactMessageTextarea span{
+	float:right;
+	opacity:0.2;
+}
+
+
+/*Field Styles*/
+.formFieldWrap{
+	margin-top:-5px;	
+}
+
+#contactNameField{
+	text-transform:capitalize;
+}
+
+.contactField{
+	min-width:100%;	
+	display:block;
+	box-sizing:border-box;
+}
+
+.contactTextarea{
+	min-width:100%;
+	display:block;
+	box-sizing:border-box;
+}
+
+.buttonWrap{
+	line-height:20px;
+	padding-bottom:24px;
+	min-width:43%;
+	display:inline-block;
+}
+
+.formSubmitButtonErrorsWrap a{
+	width:25%;
+	text-align:center;
+	padding:8px 10px!important;
+}
+
+
+.formValidationError .red-notification p{
+	background-image:none!important;
+	display:block!important;
+	padding-left:0px!important;
+	text-align:center!important;
+}
+
+.contactField{
+	height:40px;
+	padding-left:10px;
+	padding-right:10px;
+	margin-bottom:10px;
+}
+
+.contactTextarea{
+	margin-bottom: 20px;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	line-height: 18px;
+	height: 80px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: 800;
+    color: #212935;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+.contact-mail {
+    color: #666;
+    display: block;
+}
+
+.contact-facebook {
+    color: #666;
+    display: block;
+}
+
+.contact-twitter {
+    color: #666;
+    display: block;
+}
+
+
+}

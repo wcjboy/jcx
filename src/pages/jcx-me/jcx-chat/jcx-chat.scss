@@ -1,0 +1,11 @@
+page-jcx-chat {
+    .chatinput {
+        border: 1px solid lime;
+    }
+    #chatroom {
+        border: 1px solid blue;
+        margin-top: 10px;
+        height: 400px;
+        overflow-y: scroll;
+    }
+}

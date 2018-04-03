@@ -1,0 +1,60 @@
+page-jcx-forum {
+    .slider-wrapper {
+        width: 100%;
+        height: auto;
+        // border: 1px solid lime;
+        background: #ededed;
+        padding-top: 5px;
+        z-index: 1;
+        border-radius: 5px;
+    }
+
+    .slide-item {
+        margin: auto;
+        height: 100%;
+        text-align: center;
+        white-space: nowrap;
+        font: 0/0 a;
+        position: static;
+        z-index: 2;
+    }
+
+    div.imgMiddleCenterBackground2 {
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .pi-desc {
+        text-align: center;
+        font-weight: bold;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    img.slideImg {
+        margin: auto;
+        height: 230px;
+        width: auto;
+    }
+
+
+    .categoryName{
+        width: 100%;
+        background-color: green;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px;
+    }
+
+    .forumicon {
+        margin: auto;
+        width: 36px;
+        height: 36px;
+        overflow: hidden;
+        background-image: url('http://jichengxin.com/upload/icons/forum.png');
+    }
+}

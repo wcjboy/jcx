@@ -1,0 +1,187 @@
+<!--
+  Generated template for the SbSearchShop page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+	<ion-navbar>
+		<ion-title>搜索/排序网店</ion-title>
+	</ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+	<div class="container large-title no-bottom">
+		<h3 style="text-align: center;">请输入关键字搜索网店。</h3>
+	</div>
+	<div>
+		<input id="query_keywords" type="text" [(ngModel)]="query_keywords" placeholder="关键字" class="contactField requiredField">
+	</div>
+<div class="portfolio-two">
+	<div class="portfolio-two-item full-bottom">
+		<div class="ui-field-contain">
+			<label class="search_label_name" for="select_tb_shoptype">店铺类型:</label>
+			<select [(ngModel)]="query_shoptype" id="query_shoptype" (change)="selectShopType($event);" data-native-menu="false" data-mini="true">
+<option value="none" selected="selected">不限</option>
+<option value="tbshop">淘宝</option>
+<option value="tmshop">天猫</option>
+<option value="jdshop">京东</option>
+<option value="tyshop">其它</option>
+</select>
+		</div>
+	</div>
+	<div class="portfolio-two-item full-bottom">
+		<div class="ui-field-contain">
+			<label class="search_label_name" for="select_tb_area">所在地区:</label>
+			<select [(ngModel)]="query_shoparea" id="query_shoparea" data-native-menu="false" data-mini="true" tabindex="-1">
+								<option value="none" selected="selected">所有地区</option>
+							  	<optgroup label="城市">
+								    <option value="北京  北京市">北京</option>
+								    <option value="上海  上海市">上海</option>
+								    <option value="重庆  重庆市">重庆</option>
+								    <option value="天津  天津市">天津</option>
+								    <option value="深圳  深圳市 ">深圳</option>
+								    <option value="广州  广州市 ">广州</option>
+								    <option value="杭州  杭州市 ">杭州</option>
+								    <option value="温州  温州市 ">温州</option>
+								    <option value="宁波  宁波市 ">宁波</option>
+									<option value="南京  南京市 ">南京</option>
+									<option value="苏州  苏州市 ">苏州</option>
+									<option value="济南  济南市 ">济南</option>
+									<option value="青岛  青岛市 ">青岛</option>
+									<option value="大连  大连市 ">大连</option>
+									<option value="无锡  无锡市 ">无锡</option>
+									<option value="合肥  合肥市 ">合肥</option>
+									<option value="长沙  长沙市 ">长沙</option>
+									<option value="武汉  武汉市 ">武汉</option>
+									<option value="郑州  郑州市 ">郑州</option>
+									<option value="石家庄  石家庄市 ">石家庄</option>
+									<option value="成都  成都市 ">成都</option>
+									<option value="西安  西安市 ">西安</option>
+									<option value="昆明  昆明市 ">昆明</option>
+									<option value="南宁  南宁市 ">南宁</option>
+									<option value="福州  福州市 ">福州</option>
+									<option value="厦门  厦门市 ">厦门</option>
+									<option value="南昌  南昌市 ">南昌</option>
+									<option value="东莞  东莞市 ">东莞</option>
+									<option value="沈阳  沈阳市 ">沈阳</option>
+									<option value="长春  长春市 ">长春</option>
+									<option value="哈尔滨  哈尔滨市 ">哈尔滨</option>
+									<option value="拉萨  拉萨市 ">拉萨</option>
+									<option value="香港  香港市 ">香港 </option>
+									<option value="澳门  澳门市 ">澳门</option>				
+								</optgroup>
+								<optgroup label="省/地区">			
+									<option value="河北  河北省 ">河北</option>
+									<option value="河南  河南省 ">河南</option>
+									<option value="湖北  湖北省 ">湖北</option>
+									<option value="湖南  湖南省 ">湖南</option>
+									<option value="福建  福建省 ">福建</option>
+									<option value="江苏  江苏省 ">江苏</option>
+									<option value="江西  江西省 ">江西</option>
+									<option value="广东  广东省 ">广东</option>
+									<option value="广西  广西省 ">广西</option>
+									<option value="海南  海南省 ">海南</option>
+									<option value="浙江  浙江省 ">浙江</option>
+									<option value="安徽  安徽省 ">安徽</option>
+									<option value="吉林  吉林省 ">吉林</option>
+									<option value="辽宁  辽宁省 ">辽宁</option>
+									<option value="黑龙江  黑龙江省 ">黑龙江</option>
+									<option value="山东  山东省 ">山东</option>
+									<option value="山西  山西省 ">山西</option>
+									<option value="陕西  陕西省 ">陕西</option>
+									<option value="新疆  新疆省 ">新疆</option>
+									<option value="内蒙古  内蒙古省 ">内蒙古</option>
+									<option value="云南  云南省 ">云南</option>
+									<option value="贵州  贵州省 ">贵州</option>
+									<option value="四川  四川省 ">四川</option>
+									<option value="甘肃  甘肃省 ">甘肃</option>
+									<option value="宁夏  宁夏省 ">宁夏</option>
+									<option value="青海  青海省 ">青海</option>
+									<option value="西藏  西藏省 ">西藏</option>
+									<option value="台湾  台湾省 ">台湾</option>
+								</optgroup>
+							</select>
+		</div>
+	</div>
+	<div class="portfolio-two-item full-bottom">
+		<div class="ui-field-contain">
+			<label class="search_label_name" for="select_tb_scope">指定筛选:</label>
+			<select [(ngModel)]="query_scope" id="query_scope" data-native-menu="false" data-mini="true">
+							    <option value="none" selected="selected">不限</option>
+							    <option value="shopname">店铺名称</option>
+							    <option value="nickname">旺旺名称</option>
+							    <option value="maincat">主营范围</option>
+							</select>
+		</div>
+	</div>
+	<div class="portfolio-two-item full-bottom">
+		<div class="ui-field-contain">
+			<label class="search_label_name" for="select_tb_shoptype">结果排序:</label>
+			<select [(ngModel)]="query_result_sort" id="query_result_sort" data-native-menu="false" data-mini="true">
+							   <option value="default">名称相关度</option>
+							   <option value="srnSort">卖家信誉</option>
+							   <option value="bbSaleSort">商品销量</option>
+							   <option value="bbSumSort">商品数量</option>
+							   <option value="jcxSort" selected="selected">集诚信分</option>
+							   <option value="ratSort">用户评分</option>
+							   <option value="masSort">描述相符</option>
+							   <option value="sasSort">服务态度</option>
+							   <option value="casSort">发货速度</option>							   
+							</select>
+		</div>
+	</div>
+	<div class="decoration hide-if-responsive"></div>
+</div>
+
+<div class="container">
+	<input type="submit" (click)="searchShop()" class="buttonWrap button button-green contactSubmitButton" id="queryShop" value="搜索">
+</div>
+
+<div padding *ngIf="queryResult != null && queryResult.luc_total > 20">
+	<ion-segment>
+		<ion-segment-button *ngIf="queryResult.luc_start > 0" value="prePage" (ionSelect)="previousShopSearchPage()">
+			上一页
+		</ion-segment-button>
+		<ion-segment-button value="thisPage">
+			{{Math.ceil((queryResult.luc_start+1)/20)}}/{{Math.ceil((queryResult.luc_total)/20)}}
+		</ion-segment-button>
+		<ion-segment-button *ngIf="queryResult.luc_start + 20 < queryResult.luc_total" value="nextPage" (ionSelect)="nextShopSearchPage()">
+			下一页
+		</ion-segment-button>
+	</ion-segment>
+</div>
+
+<div *ngIf="queryResult != null">
+	<ion-grid>
+		<ion-row class="queryResultRow" *ngFor="let shop of queryResult.shops; let i = index">
+			<ion-col width-20><img src="images/icons/{{toSTstring(shop.shopType)}}.ico" />&nbsp;{{queryResult.luc_start + i + 1}}</ion-col>
+			<ion-col width-60>{{shop.shopName}}</ion-col>
+			<ion-col width-20 (click)="openMoreModal(shop)">
+				<ion-icon name="more" class="iconMore"></ion-icon>
+			</ion-col>
+		</ion-row>
+	</ion-grid>
+
+</div>
+
+
+<div padding *ngIf="queryResult != null && queryResult.luc_total > 20">
+	<ion-segment>
+		<ion-segment-button *ngIf="queryResult.luc_start > 0" value="prePage" (ionSelect)="previousShopSearchPage()">
+			上一页
+		</ion-segment-button>
+		<ion-segment-button value="thisPage">
+			{{Math.ceil((queryResult.luc_start+1)/20)}}/{{Math.ceil((queryResult.luc_total)/20)}}
+		</ion-segment-button>
+		<ion-segment-button *ngIf="queryResult.luc_start + 20 < queryResult.luc_total" value="nextPage" (ionSelect)="nextShopSearchPage()">
+			下一页
+		</ion-segment-button>
+	</ion-segment>
+</div>
+
+</ion-content>

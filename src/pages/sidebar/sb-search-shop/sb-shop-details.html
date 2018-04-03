@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-title>
+            店铺详情
+        </ion-title>
+        <ion-buttons start>
+            <button ion-button (click)="dismiss()">
+                <span color="primary" showWhen="ios">关闭</span>
+                <ion-icon name="md-close" showWhen="android,windows"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+    <ion-list>
+        <ion-list-header style="color: limegreen;font-size: 16px; font-weight: bold;"> {{shop.shopName}}
+        </ion-list-header>
+        <ion-item>
+            <ion-label style="color: #ff8f20;font-weight: bold;">卖家昵称：</ion-label><ion-label>{{shop.nickName}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label style="color: #ff8f20;font-weight: bold;">地区：</ion-label><ion-label>{{shop.area}}</ion-label>
+        </ion-item>
+        <ion-item *ngIf="shop.rating != null">
+            <ion-label style="color: #ff8f20;font-weight: bold;">用户评分：</ion-label><ion-label>{{shop.rating.toFixed(2)}}</ion-label>
+        </ion-item>
+        <ion-item *ngIf="shop.jcx != null">
+            <ion-label style="color: #ff8f20;font-weight: bold;">集诚信分：</ion-label><ion-label>{{shop.jcx.toFixed(2)}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label style="color: #ff8f20;font-weight: bold;">卖家信誉 ：</ion-label><ion-label>{{shop.srn}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label style="color: #ff8f20;font-weight: bold;">商品数量：</ion-label><ion-label>{{shop.bbSum}}</ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label style="color: #ff8f20;font-weight: bold;">商品销量：</ion-label><ion-label>{{shop.bbSale}}</ion-label>
+        </ion-item>
+    </ion-list>
+
+</ion-content>

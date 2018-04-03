@@ -1,0 +1,60 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-buttons start>
+      <button menuToggle>
+        <ion-icon large name="menu"></ion-icon>
+      </button>
+    </ion-buttons>
+    <div class="topbar-logo"></div>
+    <ion-buttons end>
+      <button (click)="myMoreAction($event)">
+        <ion-icon large name="add"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div *ngIf="userSettings.user != null">
+    <ion-list>
+      <ion-item>
+        <ion-thumbnail item-left>
+          <img *ngIf="userSettings.user.avatar == null" class="personImg" src="assets/img/default_person.png">
+          <img *ngIf="userSettings.user.avatar != null" class="personImg" 
+              src="{{baseUrl}}/images/avatar/{{userSettings.user.avatar}}">
+        </ion-thumbnail>
+        <h2 style="color: blue;font-size: 22px;">{{userSettings.user.username}}</h2>
+        <p style="color: #048E04;"><br>集诚信分：{{userSettings.user.jpoints.toFixed(2)}}</p>
+      </ion-item>
+    </ion-list>
+
+    <button ion-button full (click)="logout()" >退出登录</button>
+  </div>
+
+  <div *ngIf="userSettings.user == null">
+    <h3>您还未登录，请登录！</h3>
+    <ion-list>
+      <ion-item>
+        <ion-label fixed>用户名：</ion-label>
+        <ion-input type="text" value="" [(ngModel)]="username"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label fixed>密码：</ion-label>
+        <ion-input type="password" [(ngModel)]="passwd"></ion-input>
+      </ion-item>
+    </ion-list>
+
+    <button ion-button full (click)="login(username, passwd)" >登录</button>
+  </div>
+
+  <button *ngIf="userSettings.user != null" style="margin-top: 30px;color: #FDE900;" ion-button full (click)="gotoInAppBrowser()" >进入App内置浏览器</button>
+
+  <button style="margin-top: 30px;" ion-button full (click)="gotoRealtimeChatRoom()" >进入集诚信实时聊天室</button>
+
+  <button style="margin-top: 30px;" ion-button full (click)="clearAllCachedData()" >清空本地缓存</button>
+
+
+</ion-content>

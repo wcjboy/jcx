@@ -1,0 +1,62 @@
+// http://ionicframework.com/docs/v2/theming/
+
+
+// App Global Sass
+// --------------------------------------------------
+// Put style rules here that you want to apply globally. These
+// styles are for the entire app and not just one component.
+// Additionally, this file can be also used as an entry point
+// to import other Sass files to be included in the output CSS.
+//
+// Shared Sass variables, which can be used to adjust Ionic's
+// default Sass variables, belong in "theme/variables.scss".
+//
+// To declare rules for a specific mode, create a child rule
+// for the .md, .ios, or .wp mode classes. The mode class is
+// automatically applied to the <body> element in the app.
+
+ion-nav, ion-tab, ion-tabs {
+    z-index: -1;
+}
+
+ion-card-header {
+    background-color: #3fd07c;
+    color: blue !important;
+}
+
+.sidebar-logo{
+    // background-image:url('/android_asset/www/assets/img/jcx_sb_logo.png');
+    background-image:url('../assets/img/jcx_sb_logo.png');
+    margin: 0px auto 0px auto;    
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+}
+
+.topbar-logo{
+    // background-image:url('/android_asset/www/assets/img/jcx_sb_logo.png');
+    background-image:url('../assets/img/jcx_sb_logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+}
+
+ion-buttons[start] {
+  order: 2;
+}
+
+ion-header ion-icon[large] {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: white;
+}
+ion-header ion-navbar .toolbar-background {
+    background-color: #f9bc65;
+}
+ion-header button {
+    background-color: transparent;
+}

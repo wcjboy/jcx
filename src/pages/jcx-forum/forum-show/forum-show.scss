@@ -1,0 +1,46 @@
+page-forum-show {
+    .topicTitle {
+        color: blue;
+        font-size: 16px;
+        // text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: normal;
+    }
+
+    .item-inner {
+        border-bottom: 1px solid #F77011 !important
+    }
+
+    .labelField {
+        padding-bottom: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        display: block;
+    }
+    .labelField span {
+        float: right;
+        opacity: .2;
+    }
+
+    .subjectField {
+        background-color: rgba(255,255,255,0.4);
+        font-size: 12px;
+        color: #666;
+        border: solid 1px #cacaca;
+        min-width: 100%;
+        display: block;
+        box-sizing: border-box;
+        height: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .topicSubmitButton {
+        line-height: 19px;
+        display: block;
+        height: 36px;
+        margin-right: 4px;
+        width: 100%;
+    }
+}
