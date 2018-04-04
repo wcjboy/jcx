@@ -23,7 +23,7 @@
     "@ionic-native/core": "4.5.3",
     "@ionic-native/in-app-browser": "^4.6.0",
     "@ionic-native/push": "^4.6.0",
-    "@ionic-native/splash-screen": "4.5.3",
+    "@ionic-native/splash-screen": "^4.6.0",
     "@ionic-native/status-bar": "4.5.3",
     "@ionic-native/zbar": "^4.6.0",
     "@ionic/storage": "^2.1.3",
@@ -31,6 +31,7 @@
     "cordova-plugin-cszbar": "^1.3.4",
     "cordova-plugin-device": "^2.0.1",
     "cordova-plugin-inappbrowser": "~1.5.0",
+    "cordova-plugin-ionic": "^3.1.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
     "cordova-plugin-ionic-webview": "^1.1.16",
     "cordova-plugin-splashscreen": "~4.0.0",
@@ -72,7 +73,15 @@
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-ionic-keyboard": {},
       "cordova-plugin-cszbar": {},
-      "cordova-sqlite-storage": {}
+      "cordova-sqlite-storage": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "8ed59ce9",
+        "CHANNEL_NAME": "Master",
+        "UPDATE_METHOD": "background",
+        "WARN_DEBUG": "true",
+        "UPDATE_API": "https://api.ionicjs.com",
+        "MAX_STORE": "2"
+      }
     },
     "platforms": [
       "android"
