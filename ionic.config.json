@@ -1,5 +1,5 @@
 {
-  "name": "jcx-app",
+  "name": "jcx",
   "app_id": "8ed59ce9",
   "gulpStartupTasks": [
     "sass",
