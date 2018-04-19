@@ -21,17 +21,23 @@
   
     <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>
   
-    <ion-grid>
-        <ion-row>
-            <input type="text" style="border: 1px solid green;padding: 6px; width:100%;
-            height: 35px; border-radius: 4px;" placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="keywords" >
-        </ion-row>
-        <ion-row>
-            <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;
-                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
-                <strong style="color: #f90;">搜索</strong>
-            </button>
-        </ion-row>
-    </ion-grid>
+  <ion-list>
+    <ion-item>
+      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;
+              border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
+          <strong style="color: #f90;">搜店铺</strong>
+      </button>      
+    </ion-item>
+    <ion-item></ion-item>
+    <ion-item>      
+      <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent;
+              border: 1px solid #ccc; border-radius: 4px; padding: 6px;">
+              <ion-icon name="camera">扫一扫</ion-icon>
+      </button>
+    </ion-item>    
+  </ion-list>
   
   </ion-content>
