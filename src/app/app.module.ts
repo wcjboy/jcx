@@ -11,7 +11,7 @@ import { HttpModule } from '@angular/http';
 
 import { JcxApp } from './app.component';
 
-import { TabsPage, JcxHomePage, JcxTradePage, JcxForumPage, JcxMePage, 
+import { TabsPage, JcxHomePage, JcxLitePage, JcxTradePage, JcxForumPage, JcxMePage, 
   SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
   JcxHelpPage, JcxAboutPage, JcxContactPage, SafeCssPipe, SafeHtmlPipe,
   ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,
@@ -23,7 +23,7 @@ import { JcxApi, UserSettings } from '../shared/shared';
 @NgModule({
   declarations: [
     JcxApp,
-    TabsPage, JcxHomePage, JcxTradePage, JcxForumPage, JcxMePage,
+    TabsPage, JcxHomePage, JcxLitePage, JcxTradePage, JcxForumPage, JcxMePage,
     SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
     JcxHelpPage, JcxAboutPage, JcxContactPage, SafeCssPipe, SafeHtmlPipe,
     ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,
@@ -38,7 +38,7 @@ import { JcxApi, UserSettings } from '../shared/shared';
   bootstrap: [IonicApp],
   entryComponents: [
     JcxApp,
-    TabsPage, JcxHomePage, JcxTradePage, JcxForumPage, JcxMePage,
+    TabsPage, JcxHomePage, JcxLitePage, JcxTradePage, JcxForumPage, JcxMePage,
     SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
     JcxHelpPage, JcxAboutPage, JcxContactPage, 
     ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,

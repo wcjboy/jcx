@@ -1,0 +1,17 @@
+page-jcx-lite {
+    .textEllipsis {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        line-height: 25px;
+        display: block;
+    }
+
+    div.shoptopic {width: 100%;white-space: nowrap;margin: 2px 0px 2px 0px;border-bottom: 1px solid blue;}
+    img.shoptopicLeft { display: inline-block; max-width: 15%;}
+    div.shoptopicRight { display: inline-block; max-width: 85%; vertical-align: top;}
+
+	div.topshop {width:100%; white-space: nowrap; margin: 4px 0px 4px 0px; border-bottom: 1px solid blue;}
+	img.topshopLeft {display: inline-block;max-width: 7%;}
+	div.topshopRight {display: inline-block; max-width: 93%; vertical-align: top;}
+}

@@ -1,7 +1,7 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Tabs, Events } from 'ionic-angular';
 
-import { JcxHomePage, JcxTradePage, JcxForumPage, JcxMePage } from '../pages';
+import { JcxHomePage, JcxLitePage, JcxTradePage, JcxForumPage, JcxMePage } from '../pages';
 import { UserSettings } from '../../shared/shared';
 
 @Component({
@@ -12,7 +12,7 @@ export class TabsPage {
 
   @ViewChild('myTabs') tabRef: Tabs;
 
-  homeRoot: any = JcxHomePage;
+  homeRoot: any = JcxLitePage; //JcxHomePage;
   tradeRoot: any = JcxTradePage;
   forumRoot: any = JcxForumPage;
   meRoot: any = JcxMePage;
