@@ -23,18 +23,24 @@
   
   <ion-list>
     <ion-item>
-      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……"></ion-textarea>
+      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">
+      </ion-textarea>
     </ion-item>
     <ion-item>
-      <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;
+      <button class="" (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;
               border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
           <strong style="color: #f90;">搜店铺</strong>
       </button>      
     </ion-item>
     <ion-item></ion-item>
     <ion-item>      
-      <button class="scan-camera" (click)="searchShops()"></button>
+      <button class="scan-camera" (click)="scan_shop()"></button>
     </ion-item>    
   </ion-list>
+
+  <div *ngIf="results">
+    <h2>格式：{{results.format}}</h2>
+    <h2>文本：{{results.text}}</h2>
+  </div>
   
   </ion-content>

@@ -8,11 +8,12 @@ page-jcx-lite {
     }
 
     .scan-camera{
-        background-image:url('../assets/img/jcx_scan_camera.png');
+        background-image:url('../assets/img/jcx_scan_camera-1.png');
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
-        width: 50px;
+        background-color: transparent;
+        width: 96px;
         height: 50px;
         display: block;
         margin: auto;

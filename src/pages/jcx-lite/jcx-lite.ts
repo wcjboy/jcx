@@ -2,6 +2,8 @@ import { Component, Pipe, PipeTransform } from '@angular/core';
 import { NavController, Events, PopoverController } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser'
 
+import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+
 import { PostsListPage, PopoverPage, SbSearchShopPage} from "../pages"
 import { UserSettings } from '../../shared/shared';
 
@@ -40,14 +42,17 @@ export class SafeHtmlPipe implements PipeTransform  {
 })
 export class JcxLitePage { 
 
-  public keywords: string;
+  results: any;
+
+  public taokouling: string;
 
   pages: Array<{ title: string, component: any }>;
 
   constructor(public navCtrl: NavController, private events: Events, public userSettings : UserSettings,
-    private popoverController: PopoverController) {
+    private popoverController: PopoverController, private barcodeScanner: BarcodeScanner) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
+    //this.taokouling = "default";
   }
 
 
@@ -77,12 +82,23 @@ myMoreAction(ev) {
     });
   }
 
-  searchShops() {
-    this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
+  search_shop() {
+    // this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
+    alert(this.taokouling);
   }
 
-  gotoShopPage(topShopForum) {
-    alert("开发中...");
+  scan_shop() {
+    /*
+    let barOptions = {
+    };
+    */
+
+    this.barcodeScanner.scan().then((barcodeData) => {
+      this.results = barcodeData;
+    }, (err) => {
+      // An error occurred
+      alert(`扫描有错：${err}`);
+    });
   }
 
   /*Runs when the page is about to enter and become the active page.*/

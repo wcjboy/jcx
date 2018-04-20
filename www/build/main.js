@@ -1207,8 +1207,9 @@ var JcxHomePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxLitePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1218,6 +1219,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1250,13 +1252,15 @@ export class SafeHtmlPipe implements PipeTransform  {
   Ionic pages and navigation.
 */
 var JcxLitePage = /** @class */ (function () {
-    function JcxLitePage(navCtrl, events, userSettings, popoverController) {
+    function JcxLitePage(navCtrl, events, userSettings, popoverController, barcodeScanner) {
         this.navCtrl = navCtrl;
         this.events = events;
         this.userSettings = userSettings;
         this.popoverController = popoverController;
+        this.barcodeScanner = barcodeScanner;
         console.log('JcxLitePage constructed.');
         this.pages = this.userSettings.pages;
+        //this.taokouling = "default";
     }
     /*Runs when the page has loaded. This event only happens once per page being created.
      If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
@@ -1271,19 +1275,30 @@ var JcxLitePage = /** @class */ (function () {
         topic.title = shopTopic.shopname;
         topic.postId = shopTopic.postid;
         console.log(topic.id);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["n" /* PostsListPage */], topic);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages__["n" /* PostsListPage */], topic);
     };
     JcxLitePage.prototype.myMoreAction = function (ev) {
-        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_2__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
+        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_3__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
         popover.present({
             ev: ev
         });
     };
-    JcxLitePage.prototype.searchShops = function () {
-        this.navCtrl.parent.parent.push(__WEBPACK_IMPORTED_MODULE_2__pages__["t" /* SbSearchShopPage */], { keywords: this.keywords });
+    JcxLitePage.prototype.search_shop = function () {
+        // this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
+        alert(this.taokouling);
     };
-    JcxLitePage.prototype.gotoShopPage = function (topShopForum) {
-        alert("开发中...");
+    JcxLitePage.prototype.scan_shop = function () {
+        /*
+        let barOptions = {
+        };
+        */
+        var _this = this;
+        this.barcodeScanner.scan().then(function (barcodeData) {
+            _this.results = barcodeData;
+        }, function (err) {
+            // An error occurred
+            alert("\u626B\u63CF\u6709\u9519\uFF1A" + err);
+        });
     };
     /*Runs when the page is about to enter and become the active page.*/
     JcxLitePage.prototype.ionViewWillEnter = function () {
@@ -1317,12 +1332,12 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……"></ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;\n\n              border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n          <strong style="color: #f90;">搜店铺</strong>\n\n      </button>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="searchShops()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
+            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n      </ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <button class="" (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n              border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n          <strong style="color: #f90;">搜店铺</strong>\n\n      </button>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n  <div *ngIf="results">\n\n    <h2>格式：{{results.format}}</h2>\n\n    <h2>文本：{{results.text}}</h2>\n\n  </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object])
     ], JcxLitePage);
     return JcxLitePage;
+    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
