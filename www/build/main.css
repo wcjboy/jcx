@@ -32169,6 +32169,17 @@ page-jcx-lite ion-icon {
   color: #f90;
 }
 
+page-jcx-lite .scan-camera {
+  background-image: url("../assets/img/jcx_scan_camera.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
 page-jcx-me .personImg {
   margin: auto;
 }
