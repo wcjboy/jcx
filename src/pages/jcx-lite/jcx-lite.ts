@@ -5,7 +5,7 @@ import { DomSanitizer } from '@angular/platform-browser'
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
 import { PostsListPage, PopoverPage, SbSearchShopPage} from "../pages"
-import { UserSettings } from '../../shared/shared';
+import { UserSettings, JcxApi } from '../../shared/shared';
 
 
 /*
@@ -42,49 +42,42 @@ export class SafeHtmlPipe implements PipeTransform  {
 })
 export class JcxLitePage { 
 
-  results: any;
+  results: any = null;
 
   public taokouling: string;
 
   pages: Array<{ title: string, component: any }>;
 
   constructor(public navCtrl: NavController, private events: Events, public userSettings : UserSettings,
-    private popoverController: PopoverController, private barcodeScanner: BarcodeScanner) {
+    private popoverController: PopoverController, private barcodeScanner: BarcodeScanner,
+    private jcxApi: JcxApi) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
     //this.taokouling = "default";
   }
 
-
-
-  /*Runs when the page has loaded. This event only happens once per page being created.
-   If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
-    The ionViewDidLoad event is good place to put your setup code for the page.
-  */
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad');
-  }
-
-  openTopic(shopTopic) {
-    let topic: any = {};
-    topic.id = shopTopic.topicid;
-    topic.title = shopTopic.shopname;
-    topic.postId = shopTopic.postid;
-    console.log(topic.id);
-    this.navCtrl.push(PostsListPage, topic);
-  }
-
-
-myMoreAction(ev) {
+  myMoreAction(ev) {
     let popover = this.popoverController.create(PopoverPage, { navCtrl: this.navCtrl });
     popover.present({
       ev: ev
     });
   }
 
+  // reset the textarea conent to empty
+  clear_shop() {
+    this.taokouling = null;
+  }
+
   search_shop() {
     // this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
     alert(this.taokouling);
+
+    // http://jichengxin.com/help.do
+    // http://m.tb.cn/h.Wx4HxQT
+    this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(data => {
+      console.log(data);
+      alert(data);
+    }).catch(error => { console.log(error); });
   }
 
   scan_shop() {
@@ -99,6 +92,14 @@ myMoreAction(ev) {
       // An error occurred
       alert(`扫描有错：${err}`);
     });
+  }
+
+  /*Runs when the page has loaded. This event only happens once per page being created.
+   If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+    The ionViewDidLoad event is good place to put your setup code for the page.
+  */
+  ionViewDidLoad() {
+    console.log('ionViewDidLoad');
   }
 
   /*Runs when the page is about to enter and become the active page.*/
@@ -138,10 +139,6 @@ myMoreAction(ev) {
   /* 	Runs before the view can leave. This can be used as a sort of "guard" in authenticated views
    where you need to check permissions before the view can leave */
   ionViewCanLeave() {
-
-  }
-
-  itemSelected(item) {
 
   }
 

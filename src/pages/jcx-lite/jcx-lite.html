@@ -27,10 +27,22 @@
       </ion-textarea>
     </ion-item>
     <ion-item>
-      <button class="" (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;
-              border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
-          <strong style="color: #f90;">搜店铺</strong>
-      </button>      
+      <ion-grid>
+        <ion-row>
+          <ion-col col-3>
+            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;
+                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>
+                <strong style="color: #f90;">清空</strong>
+            </button>
+          </ion-col>
+          <ion-col col-9>
+            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;
+                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>
+                <strong style="color: #f90;">搜店铺</strong>
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-grid>      
     </ion-item>
     <ion-item></ion-item>
     <ion-item>      

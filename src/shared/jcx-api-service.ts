@@ -45,6 +45,17 @@ export class JcxApi {
         return query.length ? query.substr(0, query.length - 1) : query;
     };
 
+    // get taobao baobei's web content via get method
+    getTaobaoBaobeiPage(url: string) {
+        return new Promise((resolve, reject) => {
+            this.http.get(url, this.options
+            ).subscribe(res =>
+                resolve(res.text()), (error) => {
+                    reject(error);
+                });
+        })
+    }
+
     // logout for current account
     logout(userid_: number) {
         let formObj = {
