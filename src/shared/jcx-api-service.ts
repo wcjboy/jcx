@@ -8,9 +8,11 @@ export class JcxApi {
     // public static baseUrl = 'http://192.168.1.88:8080';
     // public static baseUrl = 'http://192.168.43.149:8080';
     options: RequestOptions;
+    optionsTb: RequestOptions;
     constructor(private http: Http) {
         let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
         this.options = new RequestOptions({ headers: headers, withCredentials: true });
+        this.optionsTb = new RequestOptions({ headers: headers});
     }
 
 
@@ -48,7 +50,7 @@ export class JcxApi {
     // get taobao baobei's web content via get method
     getTaobaoBaobeiPage(url: string) {
         return new Promise((resolve, reject) => {
-            this.http.get(url, this.options
+            this.http.get(url, this.optionsTb
             ).subscribe(res =>
                 resolve(res.text()), (error) => {
                     reject(error);

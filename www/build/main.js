@@ -148,6 +148,7 @@ var JcxApi = /** @class */ (function () {
         this.http = http;
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
         this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers, withCredentials: true });
+        this.optionsTb = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
     }
     JcxApi_1 = JcxApi;
     //  how to use http.post to send form data in Ionic
@@ -185,7 +186,7 @@ var JcxApi = /** @class */ (function () {
     JcxApi.prototype.getTaobaoBaobeiPage = function (url) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            _this.http.get(url, _this.options).subscribe(function (res) {
+            _this.http.get(url, _this.optionsTb).subscribe(function (res) {
                 return resolve(res.text());
             }, function (error) {
                 reject(error);
@@ -1291,9 +1292,9 @@ var JcxLitePage = /** @class */ (function () {
         // http://jichengxin.com/help.do
         // http://m.tb.cn/h.Wx4HxQT
         this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(function (data) {
-            console.log(data);
-            alert(data);
-        }).catch(function (error) { console.log(error); });
+            console.log(JSON.stringify(data));
+            alert('ok');
+        }).catch(function (error) { console.log(JSON.stringify(error)); alert('error'); });
     };
     JcxLitePage.prototype.scan_shop = function () {
         /*

@@ -75,9 +75,9 @@ export class JcxLitePage {
     // http://jichengxin.com/help.do
     // http://m.tb.cn/h.Wx4HxQT
     this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(data => {
-      console.log(data);
-      alert(data);
-    }).catch(error => { console.log(error); alert(error);});
+      console.log(JSON.stringify(data));
+      alert('ok');
+    }).catch(error => { console.log(JSON.stringify(error)); alert('error');});
   }
 
   scan_shop() {
