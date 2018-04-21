@@ -77,7 +77,7 @@ export class JcxLitePage {
     this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(data => {
       console.log(data);
       alert(data);
-    }).catch(error => { console.log(error); });
+    }).catch(error => { console.log(error); alert(error);});
   }
 
   scan_shop() {
