@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions } from '@angular/http';
+// import { HTTP } from '@ionic-native/http';
 
 @Injectable()
 
@@ -11,8 +12,9 @@ export class JcxApi {
     optionsTb: RequestOptions;
     constructor(private http: Http) {
         let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
-        this.options = new RequestOptions({ headers: headers, withCredentials: true });
+        // this.options = new RequestOptions({ headers: headers, withCredentials: true });
         this.optionsTb = new RequestOptions({ headers: headers});
+        this.options = this.optionsTb;
     }
 
 
@@ -48,6 +50,12 @@ export class JcxApi {
     };
 
     // get taobao baobei's web content via get method
+    /*
+    getTaobaoBaobeiPage(url: string) {
+        return this.httpTb.get(url, {}, { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' }
+            );
+    }
+    */
     getTaobaoBaobeiPage(url: string) {
         return new Promise((resolve, reject) => {
             this.http.get(url, this.optionsTb

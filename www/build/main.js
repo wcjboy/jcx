@@ -64,21 +64,21 @@ webpackEmptyAsyncContext.id = 113;
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_native_jcx_native__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(290);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(291);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_13__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(292);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_search_shop_sb_search_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(293);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_shop_details__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(294);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(295);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_rank_list_sb_rank_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_jcx_help_jcx_help__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_jcx_help_jcx_help__ = __webpack_require__(296);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_jcx_help_jcx_help__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_about_jcx_about__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_about_jcx_about__ = __webpack_require__(297);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_about_jcx_about__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(298);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_contact_jcx_contact__["a"]; });
 // app root page
 
@@ -143,12 +143,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+// import { HTTP } from '@ionic-native/http';
 var JcxApi = /** @class */ (function () {
     function JcxApi(http) {
         this.http = http;
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
-        this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers, withCredentials: true });
+        // this.options = new RequestOptions({ headers: headers, withCredentials: true });
         this.optionsTb = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        this.options = this.optionsTb;
     }
     JcxApi_1 = JcxApi;
     //  how to use http.post to send form data in Ionic
@@ -183,6 +185,12 @@ var JcxApi = /** @class */ (function () {
     };
     ;
     // get taobao baobei's web content via get method
+    /*
+    getTaobaoBaobeiPage(url: string) {
+        return this.httpTb.get(url, {}, { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' }
+            );
+    }
+    */
     JcxApi.prototype.getTaobaoBaobeiPage = function (url) {
         var _this = this;
         return new Promise(function (resolve, reject) {
@@ -526,10 +534,10 @@ var JcxApi = /** @class */ (function () {
     JcxApi.baseUrl = 'http://jichengxin.com';
     JcxApi = JcxApi_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
     ], JcxApi);
     return JcxApi;
-    var JcxApi_1, _a;
+    var JcxApi_1;
 }());
 
 //# sourceMappingURL=jcx-api-service.js.map
@@ -1348,10 +1356,11 @@ var JcxLitePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n      </ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n  <div *ngIf="results">\n\n    <h2>格式：{{results.format}}</h2>\n\n    <h2>文本：{{results.text}}</h2>\n\n  </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]) === "function" && _f || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+            __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]])
     ], JcxLitePage);
     return JcxLitePage;
-    var _a, _b, _c, _d, _e, _f;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
@@ -2669,7 +2678,6 @@ var JcxNativePage = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxZbarPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_zbar__ = __webpack_require__(291);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2681,13 +2689,13 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-
+// import { ZBar } from '@ionic-native/zbar';
 // https://github.com/tjwoon/csZBar/blob/master/README.md
 // http://ionicframework.com/docs/v2/native/zbar/
 var JcxZbarPage = /** @class */ (function () {
-    function JcxZbarPage(navCtrl, zbar) {
+    // constructor(public navCtrl: NavController, private zbar: ZBar) { }
+    function JcxZbarPage(navCtrl) {
         this.navCtrl = navCtrl;
-        this.zbar = zbar;
     }
     JcxZbarPage.prototype.ionViewDidLoad = function () {
         console.log('Hello JcxZbarPage Page');
@@ -2703,18 +2711,19 @@ var JcxZbarPage = /** @class */ (function () {
     
     */
     JcxZbarPage.prototype.scan = function () {
-        var _this = this;
-        var zBarOptions = {
-            flash: "off",
-            drawSight: true
+        /*
+        let zBarOptions = {
+          flash: "off",
+          drawSight: true
         };
-        this.zbar.scan(zBarOptions).then(function (data) {
-            console.log(data);
-            _this.results = data;
-        }, function (err) {
-            // An error occurred
-            alert("\u626B\u63CF\u6709\u9519\uFF1A" + err);
+        this.zbar.scan(zBarOptions).then((data) => {
+          console.log(data);
+          this.results = data;
+        }, (err) => {
+          // An error occurred
+          alert(`扫描有错：${err}`);
         });
+        */
     };
     JcxZbarPage.prototype.reset = function () {
         this.results = null;
@@ -2723,7 +2732,7 @@ var JcxZbarPage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-jcx-zbar',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-zbar\jcx-zbar.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>扫描二维码</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button full color="primary" (click)="scan()" >扫描</button>\n  <button ion-button full color="secondary" (click)="reset()" style="margin-top: 30px;">重置</button>\n\n  <div *ngIf="results">\n    <h2>文本：{{results}}</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-zbar\jcx-zbar.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_zbar__["a" /* ZBar */]])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
     ], JcxZbarPage);
     return JcxZbarPage;
 }());
@@ -2732,7 +2741,7 @@ var JcxZbarPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 292:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2776,7 +2785,7 @@ var SbIneedCommentPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 293:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2967,7 +2976,7 @@ var SbSearchShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 294:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3009,7 +3018,7 @@ var SbShopDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3053,7 +3062,7 @@ var SbBrowseShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 296:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3097,7 +3106,7 @@ var SbRankListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 297:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3141,7 +3150,7 @@ var JcxHelpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 298:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3191,7 +3200,7 @@ var JcxAboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 299:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

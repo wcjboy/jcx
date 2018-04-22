@@ -1,5 +1,6 @@
 {
-  "name": "ionic-hello-world",
+  "name": "jcx",
+  "version": "1.0.0",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
   "private": true,
@@ -7,6 +8,9 @@
     "ionic_enable_lint": false
   },
   "scripts": {
+    "clean": "ionic-app-scripts clean",
+    "build": "ionic-app-scripts build",
+    "lint": "ionic-app-scripts lint",
     "ionic:build": "ionic-app-scripts build",
     "ionic:serve": "ionic-app-scripts serve"
   },
@@ -19,60 +23,44 @@
     "@angular/http": "5.2.9",
     "@angular/platform-browser": "5.2.9",
     "@angular/platform-browser-dynamic": "5.2.9",
-    "@ionic-native/barcode-scanner": "^4.6.0",
+    "@ionic-native/barcode-scanner": "^4.7.0",
     "@ionic-native/core": "4.5.3",
-    "@ionic-native/in-app-browser": "^4.6.0",
-    "@ionic-native/push": "^4.6.0",
-    "@ionic-native/splash-screen": "^4.6.0",
-    "@ionic-native/status-bar": "4.5.3",
-    "@ionic-native/zbar": "^4.6.0",
+    "@ionic-native/device": "^4.7.0",
+    "@ionic-native/in-app-browser": "^4.7.0",
+    "@ionic-native/push": "^4.7.0",
+    "@ionic-native/splash-screen": "^4.7.0",
+    "@ionic-native/sqlite": "^4.7.0",
+    "@ionic-native/status-bar": "^4.7.0",
     "@ionic/storage": "^2.1.3",
-    "cordova-plugin-cszbar": "^1.3.4",
-    "cordova-plugin-device": "^2.0.1",
-    "cordova-plugin-inappbrowser": "~1.5.0",
+    "cordova-android": "~6.4.0",
+    "cordova-plugin-device": "^2.0.2",
+    "cordova-plugin-file": "^6.0.1",
+    "cordova-plugin-inappbrowser": "^3.0.0",
     "cordova-plugin-ionic": "^3.1.3",
     "cordova-plugin-ionic-keyboard": "^2.0.5",
-    "cordova-plugin-ionic-webview": "^1.1.16",
-    "cordova-plugin-splashscreen": "~4.0.0",
-    "cordova-plugin-statusbar": "~2.2.0",
+    "cordova-plugin-ionic-webview": "^1.2.0",
+    "cordova-plugin-splashscreen": "^5.0.2",
+    "cordova-plugin-statusbar": "^2.4.2",
     "cordova-plugin-whitelist": "^1.3.3",
+    "cordova-sqlite-storage": "^2.3.1",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "lodash": "^4.17.2",
     "node-sass": "^4.8.3",
-    "phonegap-plugin-barcodescanner": "~6.0.4",
-    "phonegap-plugin-push": "~1.9.1",
+    "phonegap-plugin-barcodescanner": "^7.1.1",
+    "phonegap-plugin-push": "^2.0.0",
     "rxjs": "5.5.7",
     "sw-toolbox": "3.6.0",
     "zone.js": "0.8.20"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
+    "postcss": "6.0.14",
     "typescript": "~2.6.2"
   },
-  "cordovaPlugins": [
-    "cordova-plugin-whitelist",
-    "cordova-plugin-statusbar",
-    "cordova-plugin-device",
-    "cordova-plugin-console",
-    "ionic-plugin-keyboard",
-    "cordova-plugin-splashscreen"
-  ],
-  "cordovaPlatforms": [],
-  "description": "jcx-app: An Ionic project",
+  "description": "jcx: An Ionic project",
   "cordova": {
     "plugins": {
-      "cordova-plugin-statusbar": {},
-      "cordova-plugin-splashscreen": {},
-      "phonegap-plugin-push": {},
-      "cordova-plugin-inappbrowser": {},
-      "phonegap-plugin-barcodescanner": {},
-      "cordova-plugin-whitelist": {},
-      "cordova-plugin-device": {},
-      "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {},
-      "cordova-plugin-cszbar": {},
-      "cordova-sqlite-storage": {},
       "cordova-plugin-ionic": {
         "APP_ID": "8ed59ce9",
         "CHANNEL_NAME": "Master",
@@ -80,8 +68,20 @@
         "WARN_DEBUG": "true",
         "UPDATE_API": "https://api.ionicjs.com",
         "MAX_STORE": "2"
-      }
+      },
+      "cordova-plugin-device": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-inappbrowser": {},
+      "phonegap-plugin-barcodescanner": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-ionic-webview": {},
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-sqlite-storage": {},
+      "phonegap-plugin-push": {}
     },
-    "platforms": []
+    "platforms": [
+      "android"
+    ]
   }
 }

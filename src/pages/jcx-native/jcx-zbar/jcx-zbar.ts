@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { ZBar } from '@ionic-native/zbar';
+// import { ZBar } from '@ionic-native/zbar';
 
 // https://github.com/tjwoon/csZBar/blob/master/README.md
 // http://ionicframework.com/docs/v2/native/zbar/
@@ -15,7 +15,8 @@ export class JcxZbarPage {
 
   results: any;
 
-  constructor(public navCtrl: NavController, private zbar: ZBar) { }
+  // constructor(public navCtrl: NavController, private zbar: ZBar) { }
+  constructor(public navCtrl: NavController) { }
 
   ionViewDidLoad() {
     console.log('Hello JcxZbarPage Page');
@@ -33,6 +34,7 @@ export class JcxZbarPage {
 */
 
   scan() {
+    /*
     let zBarOptions = {
       flash: "off",
       drawSight: true
@@ -44,6 +46,7 @@ export class JcxZbarPage {
       // An error occurred
       alert(`扫描有错：${err}`);
     });
+    */
   }
 
   reset() {
