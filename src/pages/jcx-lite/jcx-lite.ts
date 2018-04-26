@@ -1,12 +1,13 @@
 import { Component, Pipe, PipeTransform } from '@angular/core';
-import { NavController, Events, PopoverController } from 'ionic-angular';
+import { NavController, Events, PopoverController, LoadingController, Loading } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser'
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 
-import { PostsListPage, PopoverPage, SbSearchShopPage} from "../pages"
+import { PostsListPage, PopoverPage, SbSearchShopPage, ShopGiPage} from "../pages"
 import { UserSettings, JcxApi } from '../../shared/shared';
 
+// "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
 
 /*
 
@@ -43,14 +44,20 @@ export class SafeHtmlPipe implements PipeTransform  {
 export class JcxLitePage { 
 
   results: any = null;
+  tburl: string = null;
+  shopId: string = null;
+  shopName: string = null;
+  shopType: string = null;
 
   public taokouling: string;
+
+  isDone: boolean = false;
 
   pages: Array<{ title: string, component: any }>;
 
   constructor(public navCtrl: NavController, private events: Events, public userSettings : UserSettings,
     private popoverController: PopoverController, private barcodeScanner: BarcodeScanner,
-    private jcxApi: JcxApi) {
+    private jcxApi: JcxApi, public loadingCtrl: LoadingController) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
     //this.taokouling = "default";
@@ -69,16 +76,131 @@ export class JcxLitePage {
   }
 
   search_shop() {
-    // this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
-    alert(this.taokouling);
-
-    // http://jichengxin.com/help.do
-    // http://m.tb.cn/h.Wx4HxQT
-    this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(data => {
-      console.log(JSON.stringify(data));
-      alert('ok');
-    }).catch(error => { console.log(JSON.stringify(error)); alert('error');});
+    if(this.taokouling == null) {
+      alert("请粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址。");
+      return;
+    }
+    this.search_shop_internal(this.taokouling);
   }
+
+  async search_shop_internal(input : string) {
+    this.isDone = false;
+    let loading = this.loadingCtrl.create({
+      content: '请稍候...'
+    }); 
+    loading.present();
+    var tbShortUrlRegExp = /\(?(?:(http|https|ftp):\/\/)?(?:((?:[^\W\s]|\.|-|[:]{1})+)@{1})?((?:www.)?(?:[^\W\s]|\.|-)+[\.][^\W\s]{2,4}|localhost(?=\/)|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(?::(\d*))?([\/]?[^\s\?]*[\/]{1})*(?:\/?([^\s\n\?\[\]\{\}\#]*(?:(?=\.)){1}|[^\s\n\?\[\]\{\}\.\#]*)?([\.]{1}[^\s\?\#]*)?)?(?:\?{1}([^\s\n\#\[\]]*))?([\#][^\s\n]*)?\)?/i;
+    var tbShortUrlMatch = input.match(tbShortUrlRegExp);
+    if(tbShortUrlMatch == null) {
+      // ￥VIdJ0srrZJL￥
+      var koulingRegExp = /￥(\w+)￥/i;
+      var koulingMatch = input.match(koulingRegExp);
+      if(koulingMatch == null) {
+        alert("既无淘宝地址，也无淘口令。");
+        this.isDone = true;
+      }else {
+        this.convertTaokoulingToUrl(koulingMatch[1]);
+      }
+    }else {
+      console.log("1");
+      this.jcxApi.getUrlContent(tbShortUrlMatch[0]).then(data => {
+        //console.log(data);
+        var dataStr = <string>data;
+        var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
+        var tburlMatch = dataStr.match(tburlRegExp);
+        if(tburlMatch != null) {
+          console.log(tburlMatch[1]);
+          this.tburl = tburlMatch[1];
+          this.findShopIdName(this.tburl);
+        }
+        console.log("2");   
+      }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1');this.isDone = true; });
+    }
+    console.log("6");
+    while (!this.isDone) {
+      await this.delay(100);
+    }
+   loading.dismiss();
+  }
+
+  convertTaokoulingToUrl(tkl: string) {
+    this.jcxApi.getUrlContent("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(data => {
+      //console.log(data);
+      var dataStr = <string>data;
+			var tburlRegExp = /"url":"([^"]*)"/i;
+      var tburlMatch = dataStr.match(tburlRegExp);
+      if(tburlMatch != null) {
+        this.tburl = tburlMatch[1].replace(/\\\//g, "/");
+        console.log(this.tburl);
+        this.findShopIdName(this.tburl);
+      }
+    }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-3'); this.isDone = true; });
+  }
+
+  findShopIdName(url: string) {
+    console.log("3");
+    this.shopId = null; this.shopName = null; this.shopType = null;
+    this.jcxApi.getUrlContentViaJcx(url).then(data  => {
+      var dataStr = <string>data; //JSON.stringify(data);
+      var shopIdNameRegExp = /var\s+g_config\s*=\s*{[\s\S]*shopId\s*:\s*['"]([^'"]*)['"][\s\S]*shopName\s*:\s*['"]([^'"]*)['"]/i;
+      var shopIdNameMatch = dataStr.match(shopIdNameRegExp);
+      if(shopIdNameMatch != null) {
+        this.shopId = shopIdNameMatch[1];
+        this.shopType = "tbshop";
+        this.shopName = this.unicodeToChar(shopIdNameMatch[2]);
+        this.results = this.shopId + " | " + this.shopName + " | " + this.shopType;
+        console.log(this.results);
+      }else {
+        this.shopType = "tmshop";
+        var re = /shopId=(\d+);/i;
+        var reMatch = dataStr.match(re);
+        if(reMatch != null) {
+          this.shopId = reMatch[1];
+        }
+        re = /<a\s+class="slogo-shopname"[^<>]*><strong>(.*)<\/strong><\/a>/i;
+        reMatch = dataStr.match(re);
+        if(reMatch != null) {
+          this.shopName = reMatch[1];
+        }
+        this.results = this.shopId + " | " + this.shopName + " | " + this.shopType;
+        console.log(this.results);
+      }
+      this.retrieveShopGI(this.shopType, this.shopName, this.shopId);      
+      console.log("4");
+    }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2');this.isDone = true;});
+    console.log("5");
+  }
+
+  retrieveShopGI(shoptype: string, shopname: string, shopid: string) {
+    console.log("4.1");
+    if(this.shopId == null || this.shopName == null || this.shopType == null) {
+      this.isDone = true;
+      return;
+    }
+    // obtain allCategories data
+    this.jcxApi.getShopGI(shoptype, shopname, shopid).then(data => {
+      console.log("4.2");
+      console.log(data);
+      this.isDone = true;
+      this.openShopGIPage(data);
+    }).catch((e) => {
+      console.log(e);
+      this.isDone = true;
+    });
+  }
+
+  // open shop general info page
+  openShopGIPage(data) {
+    this.navCtrl.push(ShopGiPage, data);
+    // console.log(this.navCtrl.parent);
+  }
+
+  unicodeToChar(text) {
+    return text.replace(/\\u[\dA-F]{4}/gi, 
+           function (match) {
+                return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
+           });
+ }
 
   scan_shop() {
     /*
@@ -87,11 +209,16 @@ export class JcxLitePage {
     */
 
     this.barcodeScanner.scan().then((barcodeData) => {
-      this.results = barcodeData;
+      // this.results = barcodeData.text + " | " + barcodeData.format;
+      this.search_shop_internal(barcodeData.text);
     }, (err) => {
       // An error occurred
       alert(`扫描有错：${err}`);
     });
+  }
+
+  delay(ms: number) {
+      return new Promise( resolve => setTimeout(resolve, ms) );
   }
 
   /*Runs when the page has loaded. This event only happens once per page being created.

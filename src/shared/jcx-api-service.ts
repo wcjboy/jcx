@@ -56,7 +56,9 @@ export class JcxApi {
             );
     }
     */
-    getTaobaoBaobeiPage(url: string) {
+
+    // get url conent directly
+    getUrlContent(url: string) {
         return new Promise((resolve, reject) => {
             this.http.get(url, this.optionsTb
             ).subscribe(res =>
@@ -64,6 +66,35 @@ export class JcxApi {
                     reject(error);
                 });
         })
+    }
+    
+    // get url conent via jichengxin backend server
+    getUrlContentViaJcx(url: string) {
+        var url_ = "http://jichengxin.com/mobile/externalHttpGet.do?mobileORpc=desktop&url="
+                    + encodeURIComponent(url);
+        return new Promise((resolve, reject) => {
+            this.http.get(url_, this.optionsTb
+            ).subscribe(res =>
+                resolve(res.text()), (error) => {
+                    reject(error);
+                });
+        })
+    }
+
+    // get the shop general info from jichengxin website
+    getShopGI(shoptype: string, shopname: string, shopid: string) {
+        let formObj = { shopId: shopid, shopName: shopname};
+        let formData = this.param(formObj);
+        let url = JcxApi.baseUrl + "/" + shoptype + "/ajaxgetShopGI.do";
+        return new Promise((resolve, reject) => {
+            this.http.post(url, formData, this.options
+            ).subscribe(res =>
+                resolve(res.json()), (error) => {
+                    // console.log('Error in Post');
+                    // console.log(error);
+                    reject(error);
+                });
+        });
     }
 
     // logout for current account

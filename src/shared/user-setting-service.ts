@@ -21,10 +21,10 @@ export class UserSettings {
   private pingTasker: any = null;
 
   public pages: Array<{ title: string, icon: string, component: any }> = [
-    { title: '我要评价', icon: 'text', component: SbIneedCommentPage },
+    // { title: '我要评价', icon: 'text', component: SbIneedCommentPage },
     { title: '搜索/排序网店', icon: 'search', component: SbSearchShopPage },
-    { title: '浏览分类网店', icon: 'browsers', component: SbBrowseShopPage },
-    { title: '排行榜/指数', icon: 'list', component: SbRankListPage },
+    // { title: '浏览分类网店', icon: 'browsers', component: SbBrowseShopPage },
+    // { title: '排行榜/指数', icon: 'list', component: SbRankListPage },
     { title: '帮助中心', icon: 'help', component: JcxHelpPage },
     { title: '关于', icon: 'information-circle', component: JcxAboutPage },
     { title: '联系我们', icon: 'mail', component: JcxContactPage }

@@ -36,53 +36,56 @@ webpackEmptyAsyncContext.id = 113;
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__ = __webpack_require__(277);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__ = __webpack_require__(279);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__ = __webpack_require__(280);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_forum_jcx_forum__ = __webpack_require__(281);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_3__jcx_forum_jcx_forum__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_forum_show_forum_show__ = __webpack_require__(282);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_4__jcx_forum_forum_show_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_posts_list_posts_list__ = __webpack_require__(283);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_5__jcx_forum_posts_list_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_trade_jcx_trade__ = __webpack_require__(284);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_6__jcx_trade_jcx_trade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(285);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_7__jcx_trade_trade_forum_show_trade_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(286);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_posts_list_trade_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_me_jcx_me__ = __webpack_require__(287);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_me_jcx_me__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_me_jcx_me__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(288);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_chat_jcx_chat__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_native_jcx_native__ = __webpack_require__(289);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_native_jcx_native__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(290);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(291);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_13__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(292);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_search_shop_sb_search_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(293);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_shop_details__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(294);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(295);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_rank_list_sb_rank_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_jcx_help_jcx_help__ = __webpack_require__(296);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_jcx_help_jcx_help__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_about_jcx_about__ = __webpack_require__(297);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_about_jcx_about__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(298);
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_contact_jcx_contact__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(299);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(281);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(282);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(283);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(284);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(285);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(286);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(287);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(288);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(289);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(290);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(291);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(292);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(293);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(294);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(295);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(296);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(297);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(298);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__["a"]; });
 // app root page
 
 // tab root pages
+
 
 
 
@@ -191,12 +194,42 @@ var JcxApi = /** @class */ (function () {
             );
     }
     */
-    JcxApi.prototype.getTaobaoBaobeiPage = function (url) {
+    // get url conent directly
+    JcxApi.prototype.getUrlContent = function (url) {
         var _this = this;
         return new Promise(function (resolve, reject) {
             _this.http.get(url, _this.optionsTb).subscribe(function (res) {
                 return resolve(res.text());
             }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // get url conent via jichengxin backend server
+    JcxApi.prototype.getUrlContentViaJcx = function (url) {
+        var _this = this;
+        var url_ = "http://jichengxin.com/mobile/externalHttpGet.do?mobileORpc=desktop&url="
+            + encodeURIComponent(url);
+        return new Promise(function (resolve, reject) {
+            _this.http.get(url_, _this.optionsTb).subscribe(function (res) {
+                return resolve(res.text());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // get the shop general info from jichengxin website
+    JcxApi.prototype.getShopGI = function (shoptype, shopname, shopid) {
+        var _this = this;
+        var formObj = { shopId: shopid, shopName: shopname };
+        var formData = this.param(formObj);
+        var url = JcxApi_1.baseUrl + "/" + shoptype + "/ajaxgetShopGI.do";
+        return new Promise(function (resolve, reject) {
+            _this.http.post(url, formData, _this.options).subscribe(function (res) {
+                return resolve(res.json());
+            }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
                 reject(error);
             });
         });
@@ -534,10 +567,10 @@ var JcxApi = /** @class */ (function () {
     JcxApi.baseUrl = 'http://jichengxin.com';
     JcxApi = JcxApi_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
     ], JcxApi);
     return JcxApi;
-    var JcxApi_1;
+    var JcxApi_1, _a;
 }());
 
 //# sourceMappingURL=jcx-api-service.js.map
@@ -599,11 +632,12 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* JcxApp */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["v" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["i" /* JcxMePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["s" /* SbRankListPage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["d" /* JcxContactPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["o" /* SafeCssPipe */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["p" /* SafeHtmlPipe */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["w" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["x" /* TradePostsListPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["u" /* SbShopDetailsPage */]
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["v" /* ShopGiPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__["a" /* BrowserModule */],
@@ -616,11 +650,12 @@ var AppModule = /** @class */ (function () {
             bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* IonicApp */]],
             entryComponents: [
                 __WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* JcxApp */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["v" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["i" /* JcxMePage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["s" /* SbRankListPage */],
                 __WEBPACK_IMPORTED_MODULE_9__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["d" /* JcxContactPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["w" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["x" /* TradePostsListPage */],
-                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["u" /* SbShopDetailsPage */]
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_9__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_pages__["v" /* ShopGiPage */]
             ],
             // providers: [UserSettings, JcxApi, Storage, { provide: ErrorHandler, useClass: IonicErrorHandler }]
             providers: [__WEBPACK_IMPORTED_MODULE_10__shared_shared__["b" /* UserSettings */], __WEBPACK_IMPORTED_MODULE_10__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicErrorHandler */] }]
@@ -664,7 +699,7 @@ var JcxApp = /** @class */ (function () {
         this.userSettings = userSettings;
         this.alertController = alertController;
         this.statusBar = statusBar;
-        this.rootPage = __WEBPACK_IMPORTED_MODULE_3__pages_pages__["v" /* TabsPage */];
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_3__pages_pages__["w" /* TabsPage */];
         this.pages = [];
         this.initializeApp();
     }
@@ -1239,11 +1274,47 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
 
 
 
 
 
+// "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
 /*
 
 @Pipe({ name: 'safeCss'})
@@ -1272,14 +1343,20 @@ export class SafeHtmlPipe implements PipeTransform  {
   Ionic pages and navigation.
 */
 var JcxLitePage = /** @class */ (function () {
-    function JcxLitePage(navCtrl, events, userSettings, popoverController, barcodeScanner, jcxApi) {
+    function JcxLitePage(navCtrl, events, userSettings, popoverController, barcodeScanner, jcxApi, loadingCtrl) {
         this.navCtrl = navCtrl;
         this.events = events;
         this.userSettings = userSettings;
         this.popoverController = popoverController;
         this.barcodeScanner = barcodeScanner;
         this.jcxApi = jcxApi;
+        this.loadingCtrl = loadingCtrl;
         this.results = null;
+        this.tburl = null;
+        this.shopId = null;
+        this.shopName = null;
+        this.shopType = null;
+        this.isDone = false;
         console.log('JcxLitePage constructed.');
         this.pages = this.userSettings.pages;
         //this.taokouling = "default";
@@ -1295,14 +1372,145 @@ var JcxLitePage = /** @class */ (function () {
         this.taokouling = null;
     };
     JcxLitePage.prototype.search_shop = function () {
-        // this.navCtrl.parent.parent.push(SbSearchShopPage, { keywords: this.keywords });
-        alert(this.taokouling);
-        // http://jichengxin.com/help.do
-        // http://m.tb.cn/h.Wx4HxQT
-        this.jcxApi.getTaobaoBaobeiPage("http://m.tb.cn/h.Wx4HxQT").then(function (data) {
-            console.log(JSON.stringify(data));
-            alert('ok');
-        }).catch(function (error) { console.log(JSON.stringify(error)); alert('error'); });
+        if (this.taokouling == null) {
+            alert("请粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址。");
+            return;
+        }
+        this.search_shop_internal(this.taokouling);
+    };
+    JcxLitePage.prototype.search_shop_internal = function (input) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            var loading, tbShortUrlRegExp, tbShortUrlMatch, koulingRegExp, koulingMatch;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        this.isDone = false;
+                        loading = this.loadingCtrl.create({
+                            content: '请稍候...'
+                        });
+                        loading.present();
+                        tbShortUrlRegExp = /\(?(?:(http|https|ftp):\/\/)?(?:((?:[^\W\s]|\.|-|[:]{1})+)@{1})?((?:www.)?(?:[^\W\s]|\.|-)+[\.][^\W\s]{2,4}|localhost(?=\/)|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(?::(\d*))?([\/]?[^\s\?]*[\/]{1})*(?:\/?([^\s\n\?\[\]\{\}\#]*(?:(?=\.)){1}|[^\s\n\?\[\]\{\}\.\#]*)?([\.]{1}[^\s\?\#]*)?)?(?:\?{1}([^\s\n\#\[\]]*))?([\#][^\s\n]*)?\)?/i;
+                        tbShortUrlMatch = input.match(tbShortUrlRegExp);
+                        if (tbShortUrlMatch == null) {
+                            koulingRegExp = /￥(\w+)￥/i;
+                            koulingMatch = input.match(koulingRegExp);
+                            if (koulingMatch == null) {
+                                alert("既无淘宝地址，也无淘口令。");
+                                this.isDone = true;
+                            }
+                            else {
+                                this.convertTaokoulingToUrl(koulingMatch[1]);
+                            }
+                        }
+                        else {
+                            console.log("1");
+                            this.jcxApi.getUrlContent(tbShortUrlMatch[0]).then(function (data) {
+                                //console.log(data);
+                                var dataStr = data;
+                                var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
+                                var tburlMatch = dataStr.match(tburlRegExp);
+                                if (tburlMatch != null) {
+                                    console.log(tburlMatch[1]);
+                                    _this.tburl = tburlMatch[1];
+                                    _this.findShopIdName(_this.tburl);
+                                }
+                                console.log("2");
+                            }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1'); _this.isDone = true; });
+                        }
+                        console.log("6");
+                        _a.label = 1;
+                    case 1:
+                        if (!!this.isDone) return [3 /*break*/, 3];
+                        return [4 /*yield*/, this.delay(100)];
+                    case 2:
+                        _a.sent();
+                        return [3 /*break*/, 1];
+                    case 3:
+                        loading.dismiss();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    JcxLitePage.prototype.convertTaokoulingToUrl = function (tkl) {
+        var _this = this;
+        this.jcxApi.getUrlContent("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(function (data) {
+            //console.log(data);
+            var dataStr = data;
+            var tburlRegExp = /"url":"([^"]*)"/i;
+            var tburlMatch = dataStr.match(tburlRegExp);
+            if (tburlMatch != null) {
+                _this.tburl = tburlMatch[1].replace(/\\\//g, "/");
+                console.log(_this.tburl);
+                _this.findShopIdName(_this.tburl);
+            }
+        }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-3'); _this.isDone = true; });
+    };
+    JcxLitePage.prototype.findShopIdName = function (url) {
+        var _this = this;
+        console.log("3");
+        this.shopId = null;
+        this.shopName = null;
+        this.shopType = null;
+        this.jcxApi.getUrlContentViaJcx(url).then(function (data) {
+            var dataStr = data; //JSON.stringify(data);
+            var shopIdNameRegExp = /var\s+g_config\s*=\s*{[\s\S]*shopId\s*:\s*['"]([^'"]*)['"][\s\S]*shopName\s*:\s*['"]([^'"]*)['"]/i;
+            var shopIdNameMatch = dataStr.match(shopIdNameRegExp);
+            if (shopIdNameMatch != null) {
+                _this.shopId = shopIdNameMatch[1];
+                _this.shopType = "tbshop";
+                _this.shopName = _this.unicodeToChar(shopIdNameMatch[2]);
+                _this.results = _this.shopId + " | " + _this.shopName + " | " + _this.shopType;
+                console.log(_this.results);
+            }
+            else {
+                _this.shopType = "tmshop";
+                var re = /shopId=(\d+);/i;
+                var reMatch = dataStr.match(re);
+                if (reMatch != null) {
+                    _this.shopId = reMatch[1];
+                }
+                re = /<a\s+class="slogo-shopname"[^<>]*><strong>(.*)<\/strong><\/a>/i;
+                reMatch = dataStr.match(re);
+                if (reMatch != null) {
+                    _this.shopName = reMatch[1];
+                }
+                _this.results = _this.shopId + " | " + _this.shopName + " | " + _this.shopType;
+                console.log(_this.results);
+            }
+            _this.retrieveShopGI(_this.shopType, _this.shopName, _this.shopId);
+            console.log("4");
+        }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2'); _this.isDone = true; });
+        console.log("5");
+    };
+    JcxLitePage.prototype.retrieveShopGI = function (shoptype, shopname, shopid) {
+        var _this = this;
+        console.log("4.1");
+        if (this.shopId == null || this.shopName == null || this.shopType == null) {
+            this.isDone = true;
+            return;
+        }
+        // obtain allCategories data
+        this.jcxApi.getShopGI(shoptype, shopname, shopid).then(function (data) {
+            console.log("4.2");
+            console.log(data);
+            _this.isDone = true;
+            _this.openShopGIPage(data);
+        }).catch(function (e) {
+            console.log(e);
+            _this.isDone = true;
+        });
+    };
+    // open shop general info page
+    JcxLitePage.prototype.openShopGIPage = function (data) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages__["v" /* ShopGiPage */], data);
+        // console.log(this.navCtrl.parent);
+    };
+    JcxLitePage.prototype.unicodeToChar = function (text) {
+        return text.replace(/\\u[\dA-F]{4}/gi, function (match) {
+            return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
+        });
     };
     JcxLitePage.prototype.scan_shop = function () {
         /*
@@ -1311,11 +1519,15 @@ var JcxLitePage = /** @class */ (function () {
         */
         var _this = this;
         this.barcodeScanner.scan().then(function (barcodeData) {
-            _this.results = barcodeData;
+            // this.results = barcodeData.text + " | " + barcodeData.format;
+            _this.search_shop_internal(barcodeData.text);
         }, function (err) {
             // An error occurred
             alert("\u626B\u63CF\u6709\u9519\uFF1A" + err);
         });
+    };
+    JcxLitePage.prototype.delay = function (ms) {
+        return new Promise(function (resolve) { return setTimeout(resolve, ms); });
     };
     /*Runs when the page has loaded. This event only happens once per page being created.
      If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
@@ -1354,13 +1566,12 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n      </ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n  <div *ngIf="results">\n\n    <h2>格式：{{results.format}}</h2>\n\n    <h2>文本：{{results.text}}</h2>\n\n  </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
+            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n      </ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
-            __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _g || Object])
     ], JcxLitePage);
     return JcxLitePage;
+    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
@@ -1907,7 +2118,7 @@ var JcxTradePage = /** @class */ (function () {
     }
     JcxTradePage.prototype.openTradeForum = function (forum) {
         console.log(forum.id);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["w" /* TradeForumShowPage */], forum);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["x" /* TradeForumShowPage */], forum);
         // console.log(this.navCtrl.parent);
         // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
     };
@@ -1923,7 +2134,7 @@ var JcxTradePage = /** @class */ (function () {
         topic.title = tradeImage.subject;
         topic.startNum = tradeImage.startNum;
         console.log(topic.id);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["x" /* TradePostsListPage */], topic);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["y" /* TradePostsListPage */], topic);
     };
     JcxTradePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
@@ -2068,7 +2279,7 @@ var TradeForumShowPage = /** @class */ (function () {
     };
     TradeForumShowPage.prototype.openTradeTopic = function (topic) {
         console.log(topic.id);
-        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["x" /* TradePostsListPage */], topic);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["y" /* TradePostsListPage */], topic);
         // console.log(this.navCtrl.parent);
         // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
     };
@@ -3241,6 +3452,80 @@ var JcxContactPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=jcx-contact.js.map
+
+/***/ }),
+
+/***/ 299:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopGiPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ShopGiPage = /** @class */ (function () {
+    function ShopGiPage(navCtrl, navParams, jcxapi, loadingController, userSettings) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxapi = jcxapi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.nicEditorDisplay = "none";
+        this.shopId = null;
+        this.shopType = null;
+        this.shopName = null;
+        var one = navParams.data;
+        if (one.tbshop != null) {
+            this.shopId = one.tbshop.shopId;
+            this.shopName = one.tbshop.shopName;
+            this.shopType = 'tbshop';
+        }
+        else if (one.tmshop != null) {
+            this.shopId = one.tmshop.shopId;
+            this.shopName = one.tmshop.shopName;
+            this.shopType = 'tmshop';
+        }
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl;
+        this.jq = jQuery;
+    }
+    /*Runs when the page is about to enter and become the active page.*/
+    ShopGiPage.prototype.ionViewWillEnter = function () {
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+    If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+    The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    ShopGiPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--shop-gi');
+        new nicEditor({
+            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
+            uploadURI: this.baseUrl + '/uploadNiceFile.do',
+            baseUrl: this.baseUrl
+        }).panelInstance('niceShopTextArea');
+    };
+    ShopGiPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <div [ngStyle]="{\'display\': nicEditorDisplay}" padding>\n\n        <label class="labelField">回复: </label>\n\n        <div class="niceDiv">\n\n          <textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceShopTextArea"></textarea>\n\n        </div>\n\n        <button ion-button full  >发送</button>\n\n      </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */]) === "function" && _e || Object])
+    ], ShopGiPage);
+    return ShopGiPage;
+    var _a, _b, _c, _d, _e;
+}());
+
+//# sourceMappingURL=shop-gi.js.map
 
 /***/ })
 

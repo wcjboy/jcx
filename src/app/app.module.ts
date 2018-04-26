@@ -15,7 +15,8 @@ import { TabsPage, JcxHomePage, JcxLitePage, JcxTradePage, JcxForumPage, JcxMePa
   SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
   JcxHelpPage, JcxAboutPage, JcxContactPage, SafeCssPipe, SafeHtmlPipe,
   ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,
-  JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage
+  JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage,
+  ShopGiPage
 } from '../pages/pages';
 
 import { JcxApi, UserSettings } from '../shared/shared';
@@ -27,7 +28,8 @@ import { JcxApi, UserSettings } from '../shared/shared';
     SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
     JcxHelpPage, JcxAboutPage, JcxContactPage, SafeCssPipe, SafeHtmlPipe,
     ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,
-    JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage
+    JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage,
+    ShopGiPage
   ],
   imports: [
   	BrowserModule,
@@ -42,7 +44,8 @@ import { JcxApi, UserSettings } from '../shared/shared';
     SbIneedCommentPage, SbSearchShopPage, SbBrowseShopPage, SbRankListPage, 
     JcxHelpPage, JcxAboutPage, JcxContactPage, 
     ForumShowPage, PostsListPage, TradeForumShowPage, TradePostsListPage,
-    JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage
+    JcxChatPage, JcxNativePage, PopoverPage, JcxZbarPage, SbShopDetailsPage,
+    ShopGiPage
   ],
   // providers: [UserSettings, JcxApi, Storage, { provide: ErrorHandler, useClass: IonicErrorHandler }]
   providers: [UserSettings, JcxApi, StatusBar, InAppBrowser, BarcodeScanner, { provide: ErrorHandler, useClass: IonicErrorHandler }]

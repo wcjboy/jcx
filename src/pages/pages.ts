@@ -4,6 +4,8 @@ export * from './tabs/tabs';
 // tab root pages
 export * from './jcx-home/jcx-home';
 export * from './jcx-lite/jcx-lite';
+export * from './jcx-lite/shop-gi/shop-gi';
+
 
 
 export * from './jcx-forum/jcx-forum';
