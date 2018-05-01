@@ -103,7 +103,7 @@ export class JcxLitePage {
       }
     }else {
       console.log("1");
-      this.jcxApi.getUrlContent(tbShortUrlMatch[0]).then(data => {
+      this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(data => {
         //console.log(data);
         var dataStr = <string>data;
         var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
@@ -124,7 +124,7 @@ export class JcxLitePage {
   }
 
   convertTaokoulingToUrl(tkl: string) {
-    this.jcxApi.getUrlContent("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(data => {
+    this.jcxApi.getUrlContentViaJcx("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(data => {
       //console.log(data);
       var dataStr = <string>data;
 			var tburlRegExp = /"url":"([^"]*)"/i;

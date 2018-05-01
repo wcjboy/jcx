@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { Http, Headers, RequestOptions } from '@angular/http';
-// import { HTTP } from '@ionic-native/http';
 
 @Injectable()
 
@@ -58,6 +57,7 @@ export class JcxApi {
     */
 
     // get url conent directly
+    /*
     getUrlContent(url: string) {
         return new Promise((resolve, reject) => {
             this.http.get(url, this.optionsNocredentials
@@ -67,6 +67,7 @@ export class JcxApi {
                 });
         })
     }
+    */
     
     // get url conent via jichengxin backend server
     getUrlContentViaJcx(url: string) {

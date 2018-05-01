@@ -146,7 +146,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
-// import { HTTP } from '@ionic-native/http';
 var JcxApi = /** @class */ (function () {
     function JcxApi(http) {
         this.http = http;
@@ -195,16 +194,17 @@ var JcxApi = /** @class */ (function () {
     }
     */
     // get url conent directly
-    JcxApi.prototype.getUrlContent = function (url) {
-        var _this = this;
-        return new Promise(function (resolve, reject) {
-            _this.http.get(url, _this.optionsNocredentials).subscribe(function (res) {
-                return resolve(res.text());
-            }, function (error) {
-                reject(error);
-            });
-        });
-    };
+    /*
+    getUrlContent(url: string) {
+        return new Promise((resolve, reject) => {
+            this.http.get(url, this.optionsNocredentials
+            ).subscribe(res =>
+                resolve(res.text()), (error) => {
+                    reject(error);
+                });
+        })
+    }
+    */
     // get url conent via jichengxin backend server
     JcxApi.prototype.getUrlContentViaJcx = function (url) {
         var _this = this;
@@ -1435,7 +1435,7 @@ var JcxLitePage = /** @class */ (function () {
                         }
                         else {
                             console.log("1");
-                            this.jcxApi.getUrlContent(tbShortUrlMatch[0]).then(function (data) {
+                            this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(function (data) {
                                 //console.log(data);
                                 var dataStr = data;
                                 var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
@@ -1465,7 +1465,7 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage.prototype.convertTaokoulingToUrl = function (tkl) {
         var _this = this;
-        this.jcxApi.getUrlContent("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(function (data) {
+        this.jcxApi.getUrlContentViaJcx("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(function (data) {
             //console.log(data);
             var dataStr = data;
             var tburlRegExp = /"url":"([^"]*)"/i;
@@ -1597,7 +1597,7 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item>\n\n     \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
+            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
