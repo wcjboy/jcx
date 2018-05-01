@@ -181,7 +181,12 @@ export class JcxLitePage {
     this.jcxApi.getShopGI(shoptype, shopname, shopid).then(data => {
       console.log("4.2");
       console.log(data);
+      let one : any = data;
       this.isDone = true;
+      if(one.tbshop == null && one.tmshop == null) {
+        alert("没有该店铺数据。" + shopid + " | " + shopname + " | " + shoptype);
+        return;
+      }
       this.openShopGIPage(data);
     }).catch((e) => {
       console.log(e);
