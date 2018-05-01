@@ -6,15 +6,15 @@ import { Http, Headers, RequestOptions } from '@angular/http';
 
 export class JcxApi {
     public static baseUrl = 'http://jichengxin.com';
-    // public static baseUrl = 'http://192.168.1.88:8080';
+    // public static baseUrl = 'http://192.168.1.3';
     // public static baseUrl = 'http://192.168.43.149:8080';
     options: RequestOptions;
-    optionsTb: RequestOptions;
+    optionsNocredentials: RequestOptions;
     constructor(private http: Http) {
         let headers = new Headers({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
-        // this.options = new RequestOptions({ headers: headers, withCredentials: true });
-        this.optionsTb = new RequestOptions({ headers: headers});
-        this.options = this.optionsTb;
+        this.options = new RequestOptions({ headers: headers, withCredentials: true });
+        this.optionsNocredentials = new RequestOptions({ headers: headers});
+        //this.options = this.optionsTb;
     }
 
 
@@ -60,7 +60,7 @@ export class JcxApi {
     // get url conent directly
     getUrlContent(url: string) {
         return new Promise((resolve, reject) => {
-            this.http.get(url, this.optionsTb
+            this.http.get(url, this.optionsNocredentials
             ).subscribe(res =>
                 resolve(res.text()), (error) => {
                     reject(error);
@@ -70,10 +70,10 @@ export class JcxApi {
     
     // get url conent via jichengxin backend server
     getUrlContentViaJcx(url: string) {
-        var url_ = "http://jichengxin.com/mobile/externalHttpGet.do?mobileORpc=desktop&url="
+        var url_ = JcxApi.baseUrl + "/mobile/externalHttpGet.do?mobileORpc=desktop&url="
                     + encodeURIComponent(url);
         return new Promise((resolve, reject) => {
-            this.http.get(url_, this.optionsTb
+            this.http.get(url_, this.optionsNocredentials
             ).subscribe(res =>
                 resolve(res.text()), (error) => {
                     reject(error);
@@ -90,6 +90,24 @@ export class JcxApi {
             this.http.post(url, formData, this.options
             ).subscribe(res =>
                 resolve(res.json()), (error) => {
+                    // console.log('Error in Post');
+                    // console.log(error);
+                    reject(error);
+                });
+        });
+    }
+
+    // send shop feedbacks 
+    sendShopAllComments(shopid: string, shoptype_: string, recommend_: string, score_: Number,
+        feedback_: string) {
+        let formObj = { shopId: shopid, shoptype: shoptype_, recommend: recommend_,
+            shopscore: score_, feedback: feedback_};
+        let formData = this.param(formObj);
+        let url = JcxApi.baseUrl + "/tbshop/ajaxShopAllComments.do";
+        return new Promise((resolve, reject) => {
+            this.http.post(url, formData, this.options
+            ).subscribe(res =>
+                {   console.log(res.text()); resolve(res.json());}, (error) => {
                     // console.log('Error in Post');
                     // console.log(error);
                     reject(error);

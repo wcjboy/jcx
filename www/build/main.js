@@ -31,7 +31,7 @@ webpackEmptyAsyncContext.id = 113;
 
 /***/ }),
 
-/***/ 14:
+/***/ 13:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -43,44 +43,44 @@ webpackEmptyAsyncContext.id = 113;
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__ = __webpack_require__(280);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(281);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(282);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(283);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(284);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(285);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(286);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(287);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(288);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(289);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(290);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(291);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(292);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(293);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(294);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(295);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(296);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(297);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(298);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(299);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__["a"]; });
 // app root page
 
@@ -151,9 +151,9 @@ var JcxApi = /** @class */ (function () {
     function JcxApi(http) {
         this.http = http;
         var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
-        // this.options = new RequestOptions({ headers: headers, withCredentials: true });
-        this.optionsTb = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
-        this.options = this.optionsTb;
+        this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers, withCredentials: true });
+        this.optionsNocredentials = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //this.options = this.optionsTb;
     }
     JcxApi_1 = JcxApi;
     //  how to use http.post to send form data in Ionic
@@ -198,7 +198,7 @@ var JcxApi = /** @class */ (function () {
     JcxApi.prototype.getUrlContent = function (url) {
         var _this = this;
         return new Promise(function (resolve, reject) {
-            _this.http.get(url, _this.optionsTb).subscribe(function (res) {
+            _this.http.get(url, _this.optionsNocredentials).subscribe(function (res) {
                 return resolve(res.text());
             }, function (error) {
                 reject(error);
@@ -208,10 +208,10 @@ var JcxApi = /** @class */ (function () {
     // get url conent via jichengxin backend server
     JcxApi.prototype.getUrlContentViaJcx = function (url) {
         var _this = this;
-        var url_ = "http://jichengxin.com/mobile/externalHttpGet.do?mobileORpc=desktop&url="
+        var url_ = JcxApi_1.baseUrl + "/mobile/externalHttpGet.do?mobileORpc=desktop&url="
             + encodeURIComponent(url);
         return new Promise(function (resolve, reject) {
-            _this.http.get(url_, _this.optionsTb).subscribe(function (res) {
+            _this.http.get(url_, _this.optionsNocredentials).subscribe(function (res) {
                 return resolve(res.text());
             }, function (error) {
                 reject(error);
@@ -228,6 +228,21 @@ var JcxApi = /** @class */ (function () {
             _this.http.post(url, formData, _this.options).subscribe(function (res) {
                 return resolve(res.json());
             }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // send shop feedbacks 
+    JcxApi.prototype.sendShopAllComments = function (shopid, shoptype_, recommend_, score_, feedback_) {
+        var _this = this;
+        var formObj = { shopId: shopid, shoptype: shoptype_, recommend: recommend_,
+            shopscore: score_, feedback: feedback_ };
+        var formData = this.param(formObj);
+        var url = JcxApi_1.baseUrl + "/tbshop/ajaxShopAllComments.do";
+        return new Promise(function (resolve, reject) {
+            _this.http.post(url, formData, _this.options).subscribe(function (res) { console.log(res.text()); resolve(res.json()); }, function (error) {
                 // console.log('Error in Post');
                 // console.log(error);
                 reject(error);
@@ -567,10 +582,10 @@ var JcxApi = /** @class */ (function () {
     JcxApi.baseUrl = 'http://jichengxin.com';
     JcxApi = JcxApi_1 = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]) === "function" && _a || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
     ], JcxApi);
     return JcxApi;
-    var JcxApi_1, _a;
+    var JcxApi_1;
 }());
 
 //# sourceMappingURL=jcx-api-service.js.map
@@ -605,7 +620,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_platform_browser__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_http__ = __webpack_require__(197);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_component__ = __webpack_require__(276);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -676,7 +691,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -808,7 +823,7 @@ var JcxApp = /** @class */ (function () {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -881,7 +896,7 @@ var TabsPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(196);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_pages__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -906,10 +921,10 @@ var UserSettings = /** @class */ (function () {
         this.allCategories = null;
         this.pingTasker = null;
         this.pages = [
-            { title: '我要评价', icon: 'text', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["r" /* SbIneedCommentPage */] },
+            // { title: '我要评价', icon: 'text', component: SbIneedCommentPage },
             { title: '搜索/排序网店', icon: 'search', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["t" /* SbSearchShopPage */] },
-            { title: '浏览分类网店', icon: 'browsers', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["q" /* SbBrowseShopPage */] },
-            { title: '排行榜/指数', icon: 'list', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["s" /* SbRankListPage */] },
+            // { title: '浏览分类网店', icon: 'browsers', component: SbBrowseShopPage },
+            // { title: '排行榜/指数', icon: 'list', component: SbRankListPage },
             { title: '帮助中心', icon: 'help', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["f" /* JcxHelpPage */] },
             { title: '关于', icon: 'information-circle', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["b" /* JcxAboutPage */] },
             { title: '联系我们', icon: 'mail', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["d" /* JcxContactPage */] }
@@ -1037,6 +1052,21 @@ var UserSettings = /** @class */ (function () {
         alert.present();
     };
     /*  modify the <img> src attributes value , which is retrieved from server
+      only for one input string
+    */
+    UserSettings.prototype.convertImgSrc = function (src) {
+        var ret = src;
+        if (src != null) {
+            if (src.startsWith("//")) {
+                ret = "http:" + src;
+            }
+            else if (src.startsWith("/")) {
+                ret = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + src;
+            }
+        }
+        return ret;
+    };
+    /*  modify the <img> src attributes value , which is retrieved from server
     */
     UserSettings.prototype.checkAllInOne_Data = function (data) {
         if (data != null) {
@@ -1123,7 +1153,7 @@ var UserSettings = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1263,7 +1293,7 @@ var JcxHomePage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1487,7 +1517,7 @@ var JcxLitePage = /** @class */ (function () {
     JcxLitePage.prototype.retrieveShopGI = function (shoptype, shopname, shopid) {
         var _this = this;
         console.log("4.1");
-        if (this.shopId == null || this.shopName == null || this.shopType == null) {
+        if (shopid == null || shopname == null || shoptype == null) {
             this.isDone = true;
             return;
         }
@@ -1513,13 +1543,14 @@ var JcxLitePage = /** @class */ (function () {
         });
     };
     JcxLitePage.prototype.scan_shop = function () {
+        // this.retrieveShopGI('tmshop', '星屿地球仪旗舰店', '57302185'); 
+        // return;
+        var _this = this;
         /*
         let barOptions = {
         };
         */
-        var _this = this;
         this.barcodeScanner.scan().then(function (barcodeData) {
-            // this.results = barcodeData.text + " | " + barcodeData.format;
             _this.search_shop_internal(barcodeData.text);
         }, function (err) {
             // An error occurred
@@ -1566,12 +1597,13 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n      </ion-textarea>\n\n    </ion-item>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid>      \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
+            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item>\n\n     \n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+            __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
     ], JcxLitePage);
     return JcxLitePage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
@@ -1582,10 +1614,646 @@ var JcxLitePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopGiPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ShopGiPage = /** @class */ (function () {
+    function ShopGiPage(navCtrl, navParams, jcxApi, loadingController, userSettings) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxApi = jcxApi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.nicEditorDisplay = "none";
+        this.shopId = null;
+        this.shopType = null;
+        this.shopName = null;
+        this.one = null;
+        this.shop = null;
+        this.shopTopic = null;
+        this.one = navParams.data;
+        if (this.one.tbshop != null) {
+            this.shopId = this.one.tbshop.shopId;
+            this.shopName = this.one.tbshop.shopName;
+            this.shopType = 'tbshop';
+            this.shop = this.one.tbshop;
+        }
+        else if (this.one.tmshop != null) {
+            this.shopId = this.one.tmshop.shopId;
+            this.shopName = this.one.tmshop.shopName;
+            this.shopType = 'tmshop';
+            this.shop = this.one.tmshop;
+        }
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl;
+        this.shopTopic = {};
+        this.jq = jQuery;
+    }
+    ShopGiPage.prototype.loadShopGI = function () {
+        var shop = this.shop;
+        var $ = jQuery;
+        //$('#forumPostsForThisShop').attr("onclick", ddd );
+        //$('#shopOwnerBBS').attr("onclick",  bbslink);
+        this.shopTopic.id = Number(shop.attrs.forumTopicNum);
+        this.shopTopic.title = '"' + this.shopName + '"';
+        console.log('loadShopGI enter!');
+        var jcxtmp = shop.jcx;
+        var shopDefLogo = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl + '/images/ty-logo.png';
+        var shopLink = "";
+        switch (this.shopType) {
+            case 'tbshop':
+            case 'tmshop':
+                shopLink = "http://shop.m.taobao.com/shop/shopIndex.htm?shop_id=" + shop.shopId;
+                break;
+        }
+        $("#tm_shopName_1").attr("href", shopLink);
+        $("#tm_shopName_2").attr("href", shopLink);
+        var shopname = $('<div/>').html(shop.shopName).text();
+        $("#shopName").text(shopname);
+        $("#tm_shopimg").attr("src", shop.attrs.shopImgLink == null ? shopDefLogo : this.userSettings.convertImgSrc(shop.attrs.shopImgLink));
+        // sale & num for products
+        if (jcxtmp < 0) {
+            $("#tm_info_sale").text('--');
+            $("#tm_info_sum").text('--');
+        }
+        else {
+            $("#tm_info_sale").text(shop.bbSale);
+            $("#tm_info_sum").text(shop.bbSum);
+        }
+        var maincat = shop.mainCat;
+        //maincat = maincat.replace(/target="_blank"/g, "");
+        //maincat = maincat.replace(/\/tbshop\/querykeyFromLink.do/g, "page-ns-search.html");
+        maincat = maincat.replace(/<\/a>/g, "");
+        maincat = maincat.replace(/<a[^>]*>/g, "");
+        $("#tm_main_cat").html(maincat);
+        var height = $("#tm_main_cat").height();
+        if (height > 80) {
+            $("#tm_main_cat").height(80);
+            $("#tm_main_cat").after('<a id="moreinfo" href="#" onclick="' + "jQuery('#tm_main_cat').height('auto'); jQuery('#moreinfo').remove(); return false;" + '" >»更多标签</a>');
+        }
+        switch (this.shopType) {
+            case 'tbshop':
+            case 'tmshop':
+                $("#tm_seller").text(shop.nickName);
+                $("#tm_area").text(shop.area);
+                $("#tm_service").text(shop.service);
+                $("#tm_service_div").show();
+                if (shop.shopAlias != undefined && shop.shopAlias != null) {
+                    $("#tm_shopalias").text(shop.shopAlias);
+                    $("#tm_shopalias_div").show();
+                }
+                // 4 products window
+                $("#tm_pHref_0").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg0));
+                $("#tm_pImg_0").attr("src", this.userSettings.convertImgSrc(shop.attrs.pImg0));
+                $("#tm_pHref_1").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg1));
+                $("#tm_pHref_2").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg2));
+                $("#tm_pHref_3").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg3));
+                // 店铺动态数据
+                $("#tm_mas").text(shop.mas);
+                $("#tm_sas").text(shop.sas);
+                $("#tm_cas").text(shop.cas);
+                if (shop.mg >= 0) {
+                    $("#tm_mg").text('高于 ' + shop.mg + '%');
+                    $("#tm_mg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_mg").text('低于 ' + (-shop.mg) + '%');
+                    $("#tm_mg").attr("class", "lowerThanPeer");
+                }
+                if (shop.sg >= 0) {
+                    $("#tm_sg").text('高于 ' + shop.sg + '%');
+                    $("#tm_sg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_sg").text('低于 ' + (-shop.sg) + '%');
+                    $("#tm_sg").attr("class", "lowerThanPeer");
+                }
+                if (shop.cg >= 0) {
+                    $("#tm_cg").text('高于 ' + shop.cg + '%');
+                    $("#tm_cg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_cg").text('低于 ' + (-shop.cg) + '%');
+                    $("#tm_cg").attr("class", "lowerThanPeer");
+                }
+                if (this.one.sgi.currentServicePos > 0) {
+                    $("#tm_service_rank_div").show();
+                    $("#gi-p-stat-jcx-current-service").html("“" + shop.service + "”类 第#" + this.one.sgi.currentServicePos + "/共" + this.one.sgi.currentServiceTotalShops);
+                }
+                if (this.one.sgi.currentRatingPos > 0) {
+                    $("#tm_rating_rank_div").show();
+                    $("#gi-p-stat-jcx-current-rating").html('“' + shop.service + "”类 第#" + this.one.sgi.currentRatingPos + "/共" + this.one.sgi.currentRatingTotalShops);
+                }
+                break;
+        }
+        if (jcxtmp < 0) {
+            $("#gi-p-stat-jcx").text('--');
+            $("#shopTrackCurves").hide();
+        }
+        else {
+            var strack = this.one.strack;
+            //line-chart part
+            //calculateJcxInShop(shop);
+            $("#flot-line-chart-head-0").text("商品销量");
+            $("#flot-line-chart-head-1").text("商品数量");
+            $("#flot-line-chart-head-2").text("卖家信誉");
+            $("#flot-line-chart-head-3").text("描述相符");
+            $("#flot-line-chart-head-4").text("服务态度");
+            $("#flot-line-chart-head-5").text("发货速度");
+            $("#flot-line-chart-head-6").text("集诚信分");
+            var stData = {
+                isnull: false,
+                bbSale: [],
+                bbSum: [],
+                srn: [],
+                mas: [],
+                sas: [],
+                cas: [],
+                jcx: []
+            };
+            /*
+            if(checkStrackNonEmpty(strack)) {
+              var remove = new Array();
+              stData.bbSale = removeSingularPointForBbsale(strack.bbSale, remove);
+              stData.bbSum = removeSingularPointForBbsum(strack.bbSum);
+              stData.srn = removeSingularPointForSrn(strack.srn, remove);
+              stData.mas = removeSingularPointForDynamicPoints(strack.mas, remove);
+              stData.sas = removeSingularPointForDynamicPoints(strack.sas, remove);
+              stData.cas = removeSingularPointForDynamicPoints(strack.cas, remove);
+              
+              if(remove.length > 0) {
+                stData.jcx = removeSingularPointForJcx(strack.jcx, remove);
+              } else {
+                stData.jcx = parseShopTrackString(strack.jcx);
+              }
+            } else {
+              stData.isnull = true;
+              var cur = new Date().getTime();
+              if(shop != undefined && shop != null) {
+                switch(shoptype) {
+                case  'tbshop' :
+                case 'tmshop' :
+                  stData.bbSale.push([cur, shop.bbSale]);
+                  stData.bbSum.push([cur, shop.bbSum]);
+                  stData.srn.push([cur, shop.srn]);
+                  stData.mas.push([cur, shop.mas]);
+                  stData.sas.push([cur, shop.sas]);
+                  stData.cas.push([cur, shop.cas]);
+                  stData.jcx.push([cur, jcxtmp]);
+                  break;
+                }
+              }
+            }
+            plotShopTrack(stData);
+            */
+            $("#gi-p-stat-jcx").html(this.checkJcxPosition(jcxtmp.toFixed(2), this.one.sgi.curPos, this.one.sgi.prePos));
+        }
+        $("#gi-p-stat-rating").html(this.display5star(this.one.sgi.ss.totalShopScore, this.one.sgi.ss.totalScoreNum));
+        $("#gi-p-stat-totalscorenum").text(this.one.sgi.ss.totalScoreNum);
+        if (this.one.sgi.ss.totalScoreNum > 0) {
+            $("#g_score5_num").text(this.one.sgi.numOfScore5);
+            $("#g_score5_fill").width(Math.round(100 * this.one.sgi.numOfScore5 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score4_num").text(this.one.sgi.numOfScore4);
+            $("#g_score4_fill").width(Math.round(100 * this.one.sgi.numOfScore4 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score3_num").text(this.one.sgi.numOfScore3);
+            $("#g_score3_fill").width(Math.round(100 * this.one.sgi.numOfScore3 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score2_num").text(this.one.sgi.numOfScore2);
+            $("#g_score2_fill").width(Math.round(100 * this.one.sgi.numOfScore2 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score1_num").text(this.one.sgi.numOfScore1);
+            $("#g_score1_fill").width(Math.round(100 * this.one.sgi.numOfScore1 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#jcxratings_chart").show();
+        }
+        $("#gi-p-stat-recommend").text(this.one.sgi.ss.recommendNum);
+        if (this.one.sgi.shopKb != null || this.one.sgi.shopKb != undefined) {
+            $("#gi-p-stat-koubei").text(this.one.sgi.shopKb.koubei);
+        }
+        $("#num-000").text(this.one.sgi.ss.recommendNum);
+        switch (this.one.sgi.sau.recommend) {
+            case -1:
+                $("#gi-p-000").removeClass("checkbox-three-checked");
+                break;
+            case 1:
+                $("#gi-p-000").addClass("checkbox-three-checked");
+                break;
+            default: $("#gi-p-000").removeClass("checkbox-three-checked");
+        }
+        if (this.one.sgi.sau.shopScore < 800) {
+            $('#rangeInput').rating('update', this.one.sgi.sau.shopScore);
+            $("#shopAllCommentsSubmit").text("更改");
+        }
+        else {
+            $("#rangeInput").val(0); // 888 对应 '未评分'--0
+        }
+        this.updateFeedbackNumbers(this.one.sgi.ss.feedbacks);
+        if (this.one.sgi.sau.feedback != undefined) {
+            //			优点：100
+            //			101 产品质量好，描述真实
+            this.one.sgi.sau.feedback.indexOf("101") < 0 ? $("#gi-p-101").removeClass("checkbox-three-checked") : $("#gi-p-101").addClass("checkbox-three-checked");
+            //			102 品牌真实，无假冒
+            this.one.sgi.sau.feedback.indexOf("102") < 0 ? $("#gi-p-102").removeClass("checkbox-three-checked") : $("#gi-p-102").addClass("checkbox-three-checked");
+            //			103 产品性价比高，质优价廉
+            this.one.sgi.sau.feedback.indexOf("103") < 0 ? $("#gi-p-103").removeClass("checkbox-three-checked") : $("#gi-p-103").addClass("checkbox-three-checked");
+            //			104 服务态度一流
+            this.one.sgi.sau.feedback.indexOf("104") < 0 ? $("#gi-p-104").removeClass("checkbox-three-checked") : $("#gi-p-104").addClass("checkbox-three-checked");
+            //			105 其产品/服务为独创
+            this.one.sgi.sau.feedback.indexOf("105") < 0 ? $("#gi-p-105").removeClass("checkbox-three-checked") : $("#gi-p-105").addClass("checkbox-three-checked");
+            //			106 其产品为优质地方特产
+            this.one.sgi.sau.feedback.indexOf("106") < 0 ? $("#gi-p-106").removeClass("checkbox-three-checked") : $("#gi-p-106").addClass("checkbox-three-checked");
+            //			107物流速度快
+            this.one.sgi.sau.feedback.indexOf("107") < 0 ? $("#gi-p-107").removeClass("checkbox-three-checked") : $("#gi-p-107").addClass("checkbox-three-checked");
+            //			108 价格便宜，但质量一般
+            this.one.sgi.sau.feedback.indexOf("108") < 0 ? $("#gi-p-108").removeClass("checkbox-three-checked") : $("#gi-p-108").addClass("checkbox-three-checked");
+            //			109 商品设计得好、外观好、版型剪裁好
+            this.one.sgi.sau.feedback.indexOf("109") < 0 ? $("#gi-p-109").removeClass("checkbox-three-checked") : $("#gi-p-109").addClass("checkbox-three-checked");
+            //		缺点：200
+            //			201 产品描述有虚假成分，货品与图片不一致
+            this.one.sgi.sau.feedback.indexOf("201") < 0 ? $("#gi-p-201").removeClass("checkbox-three-checked") : $("#gi-p-201").addClass("checkbox-three-checked");
+            //			202 曾经买到过假货
+            this.one.sgi.sau.feedback.indexOf("202") < 0 ? $("#gi-p-202").removeClass("checkbox-three-checked") : $("#gi-p-202").addClass("checkbox-three-checked");
+            //			203 服务态度恶劣
+            this.one.sgi.sau.feedback.indexOf("203") < 0 ? $("#gi-p-203").removeClass("checkbox-three-checked") : $("#gi-p-203").addClass("checkbox-three-checked");
+            //			204 与该店有未解决纠纷
+            this.one.sgi.sau.feedback.indexOf("204") < 0 ? $("#gi-p-204").removeClass("checkbox-three-checked") : $("#gi-p-204").addClass("checkbox-three-checked");
+            //			205 商品价格偏贵
+            this.one.sgi.sau.feedback.indexOf("205") < 0 ? $("#gi-p-205").removeClass("checkbox-three-checked") : $("#gi-p-205").addClass("checkbox-three-checked");
+            //			206 售后服务反应慢、低效，态度不好
+            this.one.sgi.sau.feedback.indexOf("206") < 0 ? $("#gi-p-206").removeClass("checkbox-three-checked") : $("#gi-p-206").addClass("checkbox-three-checked");
+            //			207 发货、物流慢
+            this.one.sgi.sau.feedback.indexOf("207") < 0 ? $("#gi-p-207").removeClass("checkbox-three-checked") : $("#gi-p-207").addClass("checkbox-three-checked");
+            //			208 商品质量不好，不满意
+            this.one.sgi.sau.feedback.indexOf("208") < 0 ? $("#gi-p-208").removeClass("checkbox-three-checked") : $("#gi-p-208").addClass("checkbox-three-checked");
+            //			209 商品不耐用，做工不好
+            this.one.sgi.sau.feedback.indexOf("209") < 0 ? $("#gi-p-209").removeClass("checkbox-three-checked") : $("#gi-p-209").addClass("checkbox-three-checked");
+            //		消费者情况：300
+            //			301 是该店的新客户，还会再买
+            this.one.sgi.sau.feedback.indexOf("301") < 0 ? $("#gi-p-301").removeClass("checkbox-three-checked") : $("#gi-p-301").addClass("checkbox-three-checked");
+            //			302 曾经是该店客户，不会再买
+            this.one.sgi.sau.feedback.indexOf("302") < 0 ? $("#gi-p-302").removeClass("checkbox-three-checked") : $("#gi-p-302").addClass("checkbox-three-checked");
+            //			303 不是该店客户
+            this.one.sgi.sau.feedback.indexOf("303") < 0 ? $("#gi-p-303").removeClass("checkbox-three-checked") : $("#gi-p-303").addClass("checkbox-three-checked");
+            //			304 是该店忠实客户，已经买过多次
+            this.one.sgi.sau.feedback.indexOf("304") < 0 ? $("#gi-p-304").removeClass("checkbox-three-checked") : $("#gi-p-304").addClass("checkbox-three-checked");
+        }
+    };
+    /*
+    * produce the position info for jcx scores
+    */
+    ShopGiPage.prototype.checkJcxPosition = function (jcx, curPos, prePos) {
+        var ret = jcx + '(' + curPos;
+        var p = prePos - curPos;
+        var minusP = -p;
+        if (p > 0) {
+            ret += '<span class="list-top-up" ><i class="fa fa-long-arrow-up"></i>' + p + '</span>';
+        }
+        else if (p < 0) {
+            ret += '<span class="list-top-down" ><i class="fa fa-long-arrow-down"></i>' + minusP + '</span>';
+        }
+        else {
+            ret += '<span class="list-top-flat" ><i class="fa fa-minus"></i></span>';
+        }
+        ret += ')';
+        return ret;
+    };
+    ShopGiPage.prototype.checkCommentUserList = function (shopid, shoptype) {
+        var $ = jQuery;
+        var shopid_ = shopid;
+        var shoptype_ = shoptype;
+        function successListener(one, textStatus) {
+            var startstr = 'Success:';
+            if (one.startsWith(startstr)) {
+                alert(one.substring(startstr.length));
+            }
+            else {
+                alert(one);
+            }
+        }
+        function errorListener(xhr, status, error) {
+            alert(status);
+        }
+        // JQuery ajax post method
+        var url_ = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl + '/checkCommentUserList.do';
+        $.ajax({
+            type: "POST",
+            url: url_,
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            success: successListener,
+            error: errorListener,
+            dataType: 'text',
+            data: {
+                shopid: shopid_,
+                shoptype: shoptype_
+            }
+        });
+        return false;
+    };
+    /*
+        * send shop feedbacks
+        */
+    ShopGiPage.prototype.sendShopAllComments = function (shopid, shoptype_) {
+        var _this = this;
+        var $ = jQuery;
+        if (this.userSettings.user == null) {
+            alert("您好，请先登录再评价，谢谢。");
+            return false;
+        }
+        var score_ = $('#rangeInput').val() == 0 ? 888 : $('#rangeInput').val();
+        var recommend_ = 'false';
+        if ($("#gi-p-000").hasClass("checkbox-three-checked")) {
+            recommend_ = 'true';
+        }
+        var feedback_ = '';
+        if ($("#gi-p-101").hasClass("checkbox-three-checked")) {
+            feedback_ += '101;';
+        }
+        if ($("#gi-p-102").hasClass("checkbox-three-checked")) {
+            feedback_ += '102;';
+        }
+        if ($("#gi-p-103").hasClass("checkbox-three-checked")) {
+            feedback_ += '103;';
+        }
+        if ($("#gi-p-104").hasClass("checkbox-three-checked")) {
+            feedback_ += '104;';
+        }
+        if ($("#gi-p-105").hasClass("checkbox-three-checked")) {
+            feedback_ += '105;';
+        }
+        if ($("#gi-p-106").hasClass("checkbox-three-checked")) {
+            feedback_ += '106;';
+        }
+        if ($("#gi-p-107").hasClass("checkbox-three-checked")) {
+            feedback_ += '107;';
+        }
+        if ($("#gi-p-108").hasClass("checkbox-three-checked")) {
+            feedback_ += '108;';
+        }
+        if ($("#gi-p-109").hasClass("checkbox-three-checked")) {
+            feedback_ += '109;';
+        }
+        if ($("#gi-p-201").hasClass("checkbox-three-checked")) {
+            feedback_ += '201;';
+        }
+        if ($("#gi-p-202").hasClass("checkbox-three-checked")) {
+            feedback_ += '202;';
+        }
+        if ($("#gi-p-203").hasClass("checkbox-three-checked")) {
+            feedback_ += '203;';
+        }
+        if ($("#gi-p-204").hasClass("checkbox-three-checked")) {
+            feedback_ += '204;';
+        }
+        if ($("#gi-p-205").hasClass("checkbox-three-checked")) {
+            feedback_ += '205;';
+        }
+        if ($("#gi-p-206").hasClass("checkbox-three-checked")) {
+            feedback_ += '206;';
+        }
+        if ($("#gi-p-207").hasClass("checkbox-three-checked")) {
+            feedback_ += '207;';
+        }
+        if ($("#gi-p-208").hasClass("checkbox-three-checked")) {
+            feedback_ += '208;';
+        }
+        if ($("#gi-p-209").hasClass("checkbox-three-checked")) {
+            feedback_ += '209;';
+        }
+        if ($("#gi-p-301").hasClass("checkbox-three-checked")) {
+            feedback_ += '301;';
+        }
+        if ($("#gi-p-302").hasClass("checkbox-three-checked")) {
+            feedback_ += '302;';
+        }
+        if ($("#gi-p-303").hasClass("checkbox-three-checked")) {
+            feedback_ += '303;';
+        }
+        if ($("#gi-p-304").hasClass("checkbox-three-checked")) {
+            feedback_ += '304;';
+        }
+        console.log(shopid + " " + shoptype_);
+        console.log(recommend_ + " " + score_);
+        console.log(feedback_);
+        var oldButtonText = $('#shopAllCommentsSubmit').text();
+        $('#shopAllCommentsSubmit').text(oldButtonText + "……");
+        // send all comments
+        this.jcxApi.sendShopAllComments(shopid, shoptype_, recommend_, score_, feedback_).then(function (data) {
+            console.log(data);
+            var ss = data;
+            if (ss.feedbacks === undefined || ss.feedbacks === null) {
+                alert("如已登录，则店铺评分不能为空，或者该店铺ID不合法。如未登录，请登录，再提交或更改！");
+                $('#shopAllCommentsSubmit').text(oldButtonText);
+            }
+            else {
+                _this.updateFeedbackNumbers(ss.feedbacks);
+                $("#gi-p-stat-rating").html(_this.display5star(ss.totalShopScore, ss.totalScoreNum));
+                $("#gi-p-stat-totalscorenum").text(ss.totalScoreNum);
+                $("#gi-p-stat-recommend").text(ss.recommendNum);
+                $("#num-000").text(ss.recommendNum);
+                alert("您好，您的评价提交成功，");
+                $('#shopAllCommentsSubmit').text("更改");
+            }
+        }).catch(function (e) {
+            console.log(e);
+            alert("您好，您的评价提交失败，请重新尝试，谢谢。");
+            $('#shopAllCommentsSubmit').text(oldButtonText);
+        });
+        return false;
+    };
+    ;
+    ShopGiPage.prototype.display5star = function (totalscore, num) {
+        var RATINGEMPTY = '<span class="ratingempty" ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></span>';
+        var fa_star_o = '<i class="fa fa-star-o"></i>';
+        var fa_star = '<i class="fa fa-star"></i>';
+        var fa_star_half_o = '<i class="fa fa-star-half-o"></i>';
+        var score;
+        if (num == 0 || undefined == num) {
+            return RATINGEMPTY;
+        }
+        else {
+            score = totalscore / num;
+        }
+        var text = '';
+        var color = "#ddd";
+        if (score < 1.5) {
+            color = "#d9534f"; // - label-danger
+        }
+        else if (score < 2.5) {
+            color = "#f0ad4e"; // - label-warning
+        }
+        else if (score < 3.5) {
+            color = "#5bc0de"; // - label-info
+        }
+        else if (score < 4.5) {
+            color = "#337ab7"; // - label-primary
+        }
+        else if (score <= 5.0) {
+            color = "#00FF00"; // #5cb85c - label-success
+        }
+        text += '<span style="color:' + color + ';font-size: 19px;" >';
+        for (var i = 0; i < 5; i++) {
+            if (score >= i + 1) {
+                text += fa_star;
+            }
+            else if (score >= i + 0.5) {
+                text += fa_star_half_o;
+            }
+            else {
+                text += fa_star_o;
+            }
+        }
+        text += '(' + score.toFixed(1) + ')' + '</span>';
+        return text;
+    };
+    ShopGiPage.prototype.updateFeedbackNumbers = function (feedbacks) {
+        var $ = jQuery;
+        if (feedbacks != undefined) {
+            //var myRegEx = /101\((\d+)\)/g;
+            //		优点：100
+            this.getFeedbackMatch('#num-101', '#gi-p-101', feedbacks, /101\((\d+)\);/g); //$('#num-101').text(getFeedbackMatch(feedbacks, /101\((\d+)\);/g));
+            this.getFeedbackMatch('#num-102', '#gi-p-102', feedbacks, /102\((\d+)\);/g);
+            this.getFeedbackMatch('#num-103', '#gi-p-103', feedbacks, /103\((\d+)\);/g);
+            this.getFeedbackMatch('#num-104', '#gi-p-104', feedbacks, /104\((\d+)\);/g);
+            this.getFeedbackMatch('#num-105', '#gi-p-105', feedbacks, /105\((\d+)\);/g);
+            this.getFeedbackMatch('#num-106', '#gi-p-106', feedbacks, /106\((\d+)\);/g);
+            this.getFeedbackMatch('#num-107', '#gi-p-107', feedbacks, /107\((\d+)\);/g);
+            this.getFeedbackMatch('#num-108', '#gi-p-108', feedbacks, /108\((\d+)\);/g);
+            this.getFeedbackMatch('#num-109', '#gi-p-109', feedbacks, /109\((\d+)\);/g);
+            //		缺点：200
+            this.getFeedbackMatch('#num-201', '#gi-p-201', feedbacks, /201\((\d+)\);/g); //$('#num-201').text(getFeedbackMatch(feedbacks, /201\((\d+)\);/g));
+            this.getFeedbackMatch('#num-202', '#gi-p-202', feedbacks, /202\((\d+)\);/g);
+            this.getFeedbackMatch('#num-203', '#gi-p-203', feedbacks, /203\((\d+)\);/g);
+            this.getFeedbackMatch('#num-204', '#gi-p-204', feedbacks, /204\((\d+)\);/g);
+            this.getFeedbackMatch('#num-205', '#gi-p-205', feedbacks, /205\((\d+)\);/g);
+            this.getFeedbackMatch('#num-206', '#gi-p-206', feedbacks, /206\((\d+)\);/g);
+            this.getFeedbackMatch('#num-207', '#gi-p-207', feedbacks, /207\((\d+)\);/g);
+            this.getFeedbackMatch('#num-208', '#gi-p-208', feedbacks, /208\((\d+)\);/g);
+            this.getFeedbackMatch('#num-209', '#gi-p-209', feedbacks, /209\((\d+)\);/g);
+            //		消费者情况：300
+            this.getFeedbackMatch('#num-301', '#gi-p-301', feedbacks, /301\((\d+)\);/g); //$('#num-301').text(getFeedbackMatch(feedbacks, /301\((\d+)\);/g));
+            this.getFeedbackMatch('#num-302', '#gi-p-302', feedbacks, /302\((\d+)\);/g);
+            this.getFeedbackMatch('#num-303', '#gi-p-303', feedbacks, /303\((\d+)\);/g);
+            this.getFeedbackMatch('#num-304', '#gi-p-304', feedbacks, /304\((\d+)\);/g);
+        }
+    };
+    ShopGiPage.prototype.getFeedbackMatch = function (numId, labelId, string, regex) {
+        var $ = jQuery;
+        var match = regex.exec(string);
+        if (match == null) {
+            $(numId).text('0');
+            // return '0';
+        }
+        else {
+            var num = match[1];
+            $(numId).text(num);
+            if (num != '0') {
+                $(labelId).css("font-weight", "bold");
+            }
+            // return match[1];
+        }
+    };
+    // open shop topic
+    ShopGiPage.prototype.openShopTopic = function () {
+        console.log(this.shopTopic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["n" /* PostsListPage */], this.shopTopic);
+    };
+    // toggle user comments
+    ShopGiPage.prototype.toggleUserComments = function () {
+        if (this.jq("#collapseHead").hasClass("collapsed")) {
+            // remove 'collapsed' class
+            this.jq("#collapseHead").removeClass("collapsed");
+            this.jq("#collapseBody").addClass("in");
+        }
+        else {
+            // add 'collapsed' class
+            this.jq("#collapseHead").addClass("collapsed");
+            this.jq("#collapseBody").removeClass("in");
+        }
+        return false;
+    };
+    /*Runs when the page is about to enter and become the active page.*/
+    ShopGiPage.prototype.ionViewWillEnter = function () {
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+    If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+    The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    ShopGiPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--shop-gi');
+        /*
+        new nicEditor({
+          buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
+          uploadURI: this.baseUrl + '/uploadNiceFile.do',
+          baseUrl: this.baseUrl
+        }).panelInstance('niceShopTextArea');
+        */
+        var $ = jQuery;
+        $('#tooltip1').click(function () {
+            $('#tooltip2text').hide();
+            $('#tooltip3text').hide();
+            $('#tooltip1text').toggle();
+        });
+        $('#tooltip2').click(function () {
+            $('#tooltip1text').hide();
+            $('#tooltip3text').hide();
+            $('#tooltip2text').toggle();
+        });
+        $('#tooltip3').click(function () {
+            $('#tooltip1text').hide();
+            $('#tooltip2text').hide();
+            $('#tooltip3text').toggle();
+        });
+        if (this.shop == null) {
+            alert("没有店铺ID，请检查再试。");
+            return;
+        }
+        $('.checkbox-one').click(function () {
+            $(this).toggleClass('checkbox-one-checked');
+            return false;
+        });
+        $('.checkbox-two').click(function () {
+            $(this).toggleClass('checkbox-two-checked');
+            return false;
+        });
+        $('.checkbox-three').click(function () {
+            $(this).toggleClass('checkbox-three-checked');
+            return false;
+        });
+        this.loadShopGI();
+    };
+    ShopGiPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n\n\n    <div *ngIf="one == null">\n\n        <h2>没有输入店铺ID，请检查。</h2>\n\n    </div>\n\n    <div *ngIf="one != null">\n\n\n\n      <!-- Content Heading -->\n\n      <div style="padding: 10px;background-color: rgb(39, 174, 96);text-align:center;" >\n\n          <h4 style="color:white; font-size: 17px;">\n\n            集诚信分：<i id="tooltip3" class="fa fa-question-circle" style="cursor: pointer;color: white;"></i>&nbsp;<strong id="gi-p-stat-jcx">数据加载中……</strong>\n\n            &nbsp;&nbsp;<span id="shopName"></span>\n\n          </h4>\n\n      </div>\n\n            \n\n      <div class="container-fluid">\n\n        <ion-grid>\n\n\n\n          <ion-row>\n\n            <ion-col col-3>\n\n              <!-- class="responsive-image" -->\n\n              <a id="tm_shopName_1" href="" title="" target="_blank">\n\n                  <img id="tm_shopimg" src="" onerror="" class="img-responsive"/> \n\n                </a>\n\n            </ion-col>\n\n            <ion-col col-9>\n\n              <div class="shop-info">\n\n                  <span class="info-sale">销量：<strong id="tm_info_sale"></strong></span>\n\n                  <span class="info-sum">共<strong id="tm_info_sum"></strong>件商品</span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>卖家昵称：</strong><span id="tm_seller"></span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>所在地区：</strong><span id="tm_area"></span>\n\n                </div>\n\n                <div class="shop-info" id="tm_service_div" style="display: none;"> \n\n                  <strong>当前主营：</strong><span id="tm_service"></span>\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <div id="tooltip1text" style="display:none;background-color: yellow;">用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。</div>\n\n            <div id="tooltip2text" style="display:none;background-color: yellow;">口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。</div>\n\n            <div id="tooltip3text" style="display:none;background-color: yellow;">集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。</div>\n\n            <ion-col col-7>\n\n                <div class="ns-jcx-rating" id="gi-p-stat-rating">\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                      </div>&nbsp;<i id="tooltip1" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>\n\n                <div style="clear: both;"> \n\n                  评分人数:<strong id="gi-p-stat-totalscorenum">0</strong><a href="#" \n\n                  (click)="checkCommentUserList(shopId, shopType)" style="display: inline;float: right;">查看</a>	\n\n                </div>				    	\n\n            </ion-col>\n\n            <ion-col col-5>\n\n              <div class=""> \n\n                  口碑分&nbsp;<i id="tooltip2" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>:<strong id="gi-p-stat-koubei">暂无</strong>	\n\n                </div>\n\n                <div class=""> \n\n                  推荐数:<strong id="gi-p-stat-recommend">0</strong>	\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row id="jcxratings_chart" style="display: none;">\n\n            <ion-col col-12>\n\n              <ul class="ratings_chart">\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score5_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score5_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">挺好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score4_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score4_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">还可以</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score3_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score3_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">不好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score2_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score2_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很差</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score1_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score1_num"></span>\n\n                </li>\n\n              </ul>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row style="display: none;" id="tm_service_rank_div">\n\n            <ion-col col-5><strong>主营排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-service"></ion-col>\n\n          </ion-row>\n\n          <ion-row class="row" style="display: none;" id="tm_rating_rank_div">\n\n            <ion-col col-5><strong>用户排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-rating"></ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <ion-col col-12>\n\n              <label>产品标签:</label>\n\n              <span id="tm_main_cat" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n            <ion-col col-12 id="tm_shopalias_div" style="display: none;">\n\n              <label>店铺曾用名:</label>\n\n              <span id="tm_shopalias" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>          \n\n          \n\n          <div id="dynamicShopScores">\n\n            <table class="table table-condensed">\n\n                  <thead>\n\n                    <tr><th>店铺动态评分</th><th>与同行业相比</th></tr>  				\n\n                  </thead>\n\n                   <tbody>\n\n                <tr><td><strong>描述相符：</strong><span id="tm_mas">4.93</span></td><td><p style="margin: 0px" id="tm_mg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>服务态度：</strong><span id="tm_sas">4.88</span></td><td><p style="margin: 0px" id="tm_sg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>发货速度：</strong><span id="tm_cas">4.89</span></td><td><p style="margin: 0px" id="tm_cg" class="higherThanPeer"></p></td></tr>\n\n              </tbody>\n\n               </table>\n\n          </div>   		  \n\n          \n\n          <div class="shopGiDecoration"></div>\n\n          \n\n          <div class="panel panel-default" >\n\n            <div class="panel-heading">\n\n              <h4 class="panel-title">\n\n                <a class="sign-toggle" id="collapseHead" href="#" (click)="toggleUserComments()">\n\n                  <img src="images/lists/plus_48.png" class="sign-img large-plus">\n\n                  <img src="images/lists/delete_48.png" class="sign-img large-delete">\n\n                                展开/收起当前用户评价\n\n                </a>\n\n              </h4>\n\n            </div>\n\n            <div id="collapseBody" class="panel-collapse collapse in">\n\n              <div class="panel-body">\n\n                <form id="gi-p-feedback-form" role="form" (submit)="sendShopAllComments(shopId, shopType)">\n\n                    <div>\n\n                       <label for="fader" >店铺评分：</label>						\n\n                      <input id="rangeInput" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="md">	\n\n                    </div>\n\n                    <div>\n\n                      <a href="#" id="gi-p-000" class="checkbox checkbox-three">推荐该店铺(<span id="num-000">0</span>)</a>	\n\n                    </div>\n\n                    <div>\n\n                      <label>优点：</label>\n\n                      <a href="#" id="gi-p-101" class="checkbox checkbox-three">产品质量好，描述真实(<span id="num-101">0</span>)</a>\n\n                      <a href="#" id="gi-p-102" class="checkbox checkbox-three">品牌真实，无假冒(<span id="num-102">0</span>)</a>\n\n                      <a href="#" id="gi-p-103" class="checkbox checkbox-three">产品性价比高，质优价廉(<span id="num-103">0</span>)</a>\n\n                      <a href="#" id="gi-p-104" class="checkbox checkbox-three">服务态度一流(<span id="num-104">0</span>)</a>\n\n                      <a href="#" id="gi-p-105" class="checkbox checkbox-three">其产品/服务为独创(<span id="num-105">0</span>)</a>\n\n                      <a href="#" id="gi-p-106" class="checkbox checkbox-three">其产品为优质地方特产(<span id="num-106">0</span>)</a>		    				\n\n                      <a href="#" id="gi-p-107" class="checkbox checkbox-three">物流速度快(<span id="num-107">0</span>)</a>\n\n                      <a href="#" id="gi-p-108" class="checkbox checkbox-three">价格便宜，但质量一般(<span id="num-108">0</span>)</a>\n\n                      <a href="#" id="gi-p-109" class="checkbox checkbox-three">商品设计得好、外观好、版型剪裁好(<span id="num-109">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>缺点：</label>\n\n                      <a href="#" id="gi-p-201" class="checkbox checkbox-three">产品描述有虚假成分，货品与图片不一致(<span id="num-201">0</span>)</a>\n\n                      <a href="#" id="gi-p-202" class="checkbox checkbox-three">曾经买到过假货(<span id="num-202">0</span>)</a>\n\n                      <a href="#" id="gi-p-203" class="checkbox checkbox-three">服务态度恶劣(<span id="num-203">0</span>)</a>\n\n                      <a href="#" id="gi-p-204" class="checkbox checkbox-three">与该店有未解决纠纷(<span id="num-204">0</span>)</a>\n\n                      <a href="#" id="gi-p-205" class="checkbox checkbox-three">商品价格偏贵(<span id="num-205">0</span>)</a>\n\n                      <a href="#" id="gi-p-206" class="checkbox checkbox-three">售后服务反应慢、低效，态度不好(<span id="num-206">0</span>)</a>\n\n                      <a href="#" id="gi-p-207" class="checkbox checkbox-three">发货、物流慢(<span id="num-207">0</span>)</a>\n\n                      <a href="#" id="gi-p-208" class="checkbox checkbox-three">商品质量不好，不满意(<span id="num-208">0</span>)</a>\n\n                      <a href="#" id="gi-p-209" class="checkbox checkbox-three">商品不耐用，做工不好(<span id="num-209">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>消费者情况：</label>\n\n                      <a href="#" id="gi-p-304" class="checkbox checkbox-three">是该店忠实客户，已经买过多次(<span id="num-304">0</span>)</a>	\n\n                      <a href="#" id="gi-p-301" class="checkbox checkbox-three">是该店的新客户，还会再买(<span id="num-301">0</span>)</a>	\n\n                      <a href="#" id="gi-p-302" class="checkbox checkbox-three">曾经是该店客户，不会再买(<span id="num-302">0</span>)</a>	\n\n                      <a href="#" id="gi-p-303" class="checkbox checkbox-three">不是该店客户(<span id="num-303">0</span>)</a>	\n\n                    </div>\n\n                    <div><button type="submit" class="btn btn-success" id="shopAllCommentsSubmit">提交</button></div>											\n\n                </form>						\n\n              </div>\n\n          </div>\n\n        </div>\n\n          \n\n        <a id="forumPostsForThisShop" href="#" (click)="openShopTopic()" style="text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;">进入店铺社区-查看详细评价</a>\n\n      \n\n        </ion-grid>\n\n\n\n      </div> <!-- container-fluid -->\n\n  \n\n\n\n    </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]])
+    ], ShopGiPage);
+    return ShopGiPage;
+}());
+
+//# sourceMappingURL=shop-gi.js.map
+
+/***/ }),
+
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxForumPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1681,14 +2349,14 @@ var JcxForumPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForumShowPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1892,7 +2560,7 @@ var ForumShowPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 283:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1900,7 +2568,7 @@ var ForumShowPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2082,14 +2750,14 @@ var PostsListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 284:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxTradePage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2150,14 +2818,14 @@ var JcxTradePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 285:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TradeForumShowPage; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -2361,7 +3029,7 @@ var TradeForumShowPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 286:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2369,7 +3037,7 @@ var TradeForumShowPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2547,7 +3215,7 @@ var TradePostsListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 287:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2557,7 +3225,7 @@ var TradePostsListPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2689,7 +3357,7 @@ var JcxMePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 288:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2793,7 +3461,7 @@ var JcxChatPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2882,7 +3550,7 @@ var JcxNativePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2952,7 +3620,7 @@ var JcxZbarPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 291:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2996,7 +3664,7 @@ var SbIneedCommentPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3004,7 +3672,7 @@ var SbIneedCommentPage = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3187,7 +3855,7 @@ var SbSearchShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 293:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3229,7 +3897,7 @@ var SbShopDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 294:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3273,7 +3941,7 @@ var SbBrowseShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3317,7 +3985,7 @@ var SbRankListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 296:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3361,7 +4029,7 @@ var JcxHelpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 297:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3411,7 +4079,7 @@ var JcxAboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 298:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3452,80 +4120,6 @@ var JcxContactPage = /** @class */ (function () {
 }());
 
 //# sourceMappingURL=jcx-contact.js.map
-
-/***/ }),
-
-/***/ 299:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopGiPage; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-var ShopGiPage = /** @class */ (function () {
-    function ShopGiPage(navCtrl, navParams, jcxapi, loadingController, userSettings) {
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.jcxapi = jcxapi;
-        this.loadingController = loadingController;
-        this.userSettings = userSettings;
-        this.nicEditorDisplay = "none";
-        this.shopId = null;
-        this.shopType = null;
-        this.shopName = null;
-        var one = navParams.data;
-        if (one.tbshop != null) {
-            this.shopId = one.tbshop.shopId;
-            this.shopName = one.tbshop.shopName;
-            this.shopType = 'tbshop';
-        }
-        else if (one.tmshop != null) {
-            this.shopId = one.tmshop.shopId;
-            this.shopName = one.tmshop.shopName;
-            this.shopType = 'tmshop';
-        }
-        this.baseUrl = __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl;
-        this.jq = jQuery;
-    }
-    /*Runs when the page is about to enter and become the active page.*/
-    ShopGiPage.prototype.ionViewWillEnter = function () {
-    };
-    /*Runs when the page has loaded. This event only happens once per page being created.
-    If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
-    The ionViewDidLoad event is good place to put your setup code for the page.
-    */
-    ShopGiPage.prototype.ionViewDidLoad = function () {
-        console.log('ionViewDidLoad--shop-gi');
-        new nicEditor({
-            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
-            uploadURI: this.baseUrl + '/uploadNiceFile.do',
-            baseUrl: this.baseUrl
-        }).panelInstance('niceShopTextArea');
-    };
-    ShopGiPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <div [ngStyle]="{\'display\': nicEditorDisplay}" padding>\n\n        <label class="labelField">回复: </label>\n\n        <div class="niceDiv">\n\n          <textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceShopTextArea"></textarea>\n\n        </div>\n\n        <button ion-button full  >发送</button>\n\n      </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
-        }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */]) === "function" && _e || Object])
-    ], ShopGiPage);
-    return ShopGiPage;
-    var _a, _b, _c, _d, _e;
-}());
-
-//# sourceMappingURL=shop-gi.js.map
 
 /***/ })
 

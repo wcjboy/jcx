@@ -173,7 +173,7 @@ export class JcxLitePage {
 
   retrieveShopGI(shoptype: string, shopname: string, shopid: string) {
     console.log("4.1");
-    if(this.shopId == null || this.shopName == null || this.shopType == null) {
+    if(shopid == null || shopname == null || shoptype == null) {
       this.isDone = true;
       return;
     }
@@ -203,13 +203,15 @@ export class JcxLitePage {
  }
 
   scan_shop() {
+    // this.retrieveShopGI('tmshop', '星屿地球仪旗舰店', '57302185'); 
+    // return;
+
     /*
     let barOptions = {
     };
     */
 
     this.barcodeScanner.scan().then((barcodeData) => {
-      // this.results = barcodeData.text + " | " + barcodeData.format;
       this.search_shop_internal(barcodeData.text);
     }, (err) => {
       // An error occurred

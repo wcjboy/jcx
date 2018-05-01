@@ -8,13 +8,215 @@
   
   
   <ion-content>
-  
-    <div [ngStyle]="{'display': nicEditorDisplay}" padding>
-        <label class="labelField">回复: </label>
-        <div class="niceDiv">
-          <textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceShopTextArea"></textarea>
-        </div>
-        <button ion-button full  >发送</button>
+
+    <div *ngIf="one == null">
+        <h2>没有输入店铺ID，请检查。</h2>
+    </div>
+    <div *ngIf="one != null">
+
+      <!-- Content Heading -->
+      <div style="padding: 10px;background-color: rgb(39, 174, 96);text-align:center;" >
+          <h4 style="color:white; font-size: 17px;">
+            集诚信分：<i id="tooltip3" class="fa fa-question-circle" style="cursor: pointer;color: white;"></i>&nbsp;<strong id="gi-p-stat-jcx">数据加载中……</strong>
+            &nbsp;&nbsp;<span id="shopName"></span>
+          </h4>
       </div>
+            
+      <div class="container-fluid">
+        <ion-grid>
+
+          <ion-row>
+            <ion-col col-3>
+              <!-- class="responsive-image" -->
+              <a id="tm_shopName_1" href="" title="" target="_blank">
+                  <img id="tm_shopimg" src="" onerror="" class="img-responsive"/> 
+                </a>
+            </ion-col>
+            <ion-col col-9>
+              <div class="shop-info">
+                  <span class="info-sale">销量：<strong id="tm_info_sale"></strong></span>
+                  <span class="info-sum">共<strong id="tm_info_sum"></strong>件商品</span>
+                </div>
+                <div class="shop-info"> 
+                  <strong>卖家昵称：</strong><span id="tm_seller"></span>
+                </div>
+                <div class="shop-info"> 
+                  <strong>所在地区：</strong><span id="tm_area"></span>
+                </div>
+                <div class="shop-info" id="tm_service_div" style="display: none;"> 
+                  <strong>当前主营：</strong><span id="tm_service"></span>
+                </div>
+            </ion-col>
+          </ion-row>
+          <div class="shopGiDecoration"></div>
+          <ion-row>
+            <div id="tooltip1text" style="display:none;background-color: yellow;">用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。</div>
+            <div id="tooltip2text" style="display:none;background-color: yellow;">口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。</div>
+            <div id="tooltip3text" style="display:none;background-color: yellow;">集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。</div>
+            <ion-col col-7>
+                <div class="ns-jcx-rating" id="gi-p-stat-rating">
+                        <label class = "empty"></label>
+                        <label class = "empty"></label>
+                        <label class = "empty"></label>	                	
+                        <label class = "empty"></label>
+                        <label class = "empty"></label>	                	
+                      </div>&nbsp;<i id="tooltip1" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>
+                <div style="clear: both;"> 
+                  评分人数:<strong id="gi-p-stat-totalscorenum">0</strong><a href="#" 
+                  (click)="checkCommentUserList(shopId, shopType)" style="display: inline;float: right;">查看</a>	
+                </div>				    	
+            </ion-col>
+            <ion-col col-5>
+              <div class=""> 
+                  口碑分&nbsp;<i id="tooltip2" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>:<strong id="gi-p-stat-koubei">暂无</strong>	
+                </div>
+                <div class=""> 
+                  推荐数:<strong id="gi-p-stat-recommend">0</strong>	
+                </div>
+            </ion-col>
+          </ion-row>
+          <ion-row id="jcxratings_chart" style="display: none;">
+            <ion-col col-12>
+              <ul class="ratings_chart">
+                <li class="chart_row">
+                  <span class="row_label row_cell">很好</span>
+                  <span class="row_bar row_cell">
+                    <span class="bar"><span class="fill" id="g_score5_fill"></span></span>
+                  </span>
+                  <span class="row_count row_cell" id="g_score5_num"></span>
+                </li>
+                <li class="chart_row">
+                  <span class="row_label row_cell">挺好</span>
+                  <span class="row_bar row_cell">
+                    <span class="bar"><span class="fill" id="g_score4_fill"></span></span>
+                  </span>
+                  <span class="row_count row_cell" id="g_score4_num"></span>
+                </li>
+                <li class="chart_row">
+                  <span class="row_label row_cell">还可以</span>
+                  <span class="row_bar row_cell">
+                    <span class="bar"><span class="fill" id="g_score3_fill"></span></span>
+                  </span>
+                  <span class="row_count row_cell" id="g_score3_num"></span>
+                </li>
+                <li class="chart_row">
+                  <span class="row_label row_cell">不好</span>
+                  <span class="row_bar row_cell">
+                    <span class="bar"><span class="fill" id="g_score2_fill"></span></span>
+                  </span>
+                  <span class="row_count row_cell" id="g_score2_num"></span>
+                </li>
+                <li class="chart_row">
+                  <span class="row_label row_cell">很差</span>
+                  <span class="row_bar row_cell">
+                    <span class="bar"><span class="fill" id="g_score1_fill"></span></span>
+                  </span>
+                  <span class="row_count row_cell" id="g_score1_num"></span>
+                </li>
+              </ul>
+            </ion-col>
+          </ion-row>
+          <div class="shopGiDecoration"></div>
+          <ion-row style="display: none;" id="tm_service_rank_div">
+            <ion-col col-5><strong>主营排名：</strong></ion-col>
+            <ion-col col-7 id="gi-p-stat-jcx-current-service"></ion-col>
+          </ion-row>
+          <ion-row class="row" style="display: none;" id="tm_rating_rank_div">
+            <ion-col col-5><strong>用户排名：</strong></ion-col>
+            <ion-col col-7 id="gi-p-stat-jcx-current-rating"></ion-col>
+          </ion-row>
+          <div class="shopGiDecoration"></div>
+          <ion-row>
+            <ion-col col-12>
+              <label>产品标签:</label>
+              <span id="tm_main_cat" style="overflow: hidden;display: block;"></span>
+            </ion-col>
+            <ion-col col-12 id="tm_shopalias_div" style="display: none;">
+              <label>店铺曾用名:</label>
+              <span id="tm_shopalias" style="overflow: hidden;display: block;"></span>
+            </ion-col>
+          </ion-row>
+          <div class="shopGiDecoration"></div>          
+          
+          <div id="dynamicShopScores">
+            <table class="table table-condensed">
+                  <thead>
+                    <tr><th>店铺动态评分</th><th>与同行业相比</th></tr>  				
+                  </thead>
+                   <tbody>
+                <tr><td><strong>描述相符：</strong><span id="tm_mas">4.93</span></td><td><p style="margin: 0px" id="tm_mg" class="higherThanPeer"></p></td></tr>
+                <tr><td><strong>服务态度：</strong><span id="tm_sas">4.88</span></td><td><p style="margin: 0px" id="tm_sg" class="higherThanPeer"></p></td></tr>
+                <tr><td><strong>发货速度：</strong><span id="tm_cas">4.89</span></td><td><p style="margin: 0px" id="tm_cg" class="higherThanPeer"></p></td></tr>
+              </tbody>
+               </table>
+          </div>   		  
+          
+          <div class="shopGiDecoration"></div>
+          
+          <div class="panel panel-default" >
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a class="sign-toggle" id="collapseHead" href="#" (click)="toggleUserComments()">
+                  <img src="images/lists/plus_48.png" class="sign-img large-plus">
+                  <img src="images/lists/delete_48.png" class="sign-img large-delete">
+                                展开/收起当前用户评价
+                </a>
+              </h4>
+            </div>
+            <div id="collapseBody" class="panel-collapse collapse in">
+              <div class="panel-body">
+                <form id="gi-p-feedback-form" role="form" (submit)="sendShopAllComments(shopId, shopType)">
+                    <div>
+                       <label for="fader" >店铺评分：</label>						
+                      <input id="rangeInput" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="md">	
+                    </div>
+                    <div>
+                      <a href="#" id="gi-p-000" class="checkbox checkbox-three">推荐该店铺(<span id="num-000">0</span>)</a>	
+                    </div>
+                    <div>
+                      <label>优点：</label>
+                      <a href="#" id="gi-p-101" class="checkbox checkbox-three">产品质量好，描述真实(<span id="num-101">0</span>)</a>
+                      <a href="#" id="gi-p-102" class="checkbox checkbox-three">品牌真实，无假冒(<span id="num-102">0</span>)</a>
+                      <a href="#" id="gi-p-103" class="checkbox checkbox-three">产品性价比高，质优价廉(<span id="num-103">0</span>)</a>
+                      <a href="#" id="gi-p-104" class="checkbox checkbox-three">服务态度一流(<span id="num-104">0</span>)</a>
+                      <a href="#" id="gi-p-105" class="checkbox checkbox-three">其产品/服务为独创(<span id="num-105">0</span>)</a>
+                      <a href="#" id="gi-p-106" class="checkbox checkbox-three">其产品为优质地方特产(<span id="num-106">0</span>)</a>		    				
+                      <a href="#" id="gi-p-107" class="checkbox checkbox-three">物流速度快(<span id="num-107">0</span>)</a>
+                      <a href="#" id="gi-p-108" class="checkbox checkbox-three">价格便宜，但质量一般(<span id="num-108">0</span>)</a>
+                      <a href="#" id="gi-p-109" class="checkbox checkbox-three">商品设计得好、外观好、版型剪裁好(<span id="num-109">0</span>)</a>
+                    </div>
+                    <div>
+                      <label>缺点：</label>
+                      <a href="#" id="gi-p-201" class="checkbox checkbox-three">产品描述有虚假成分，货品与图片不一致(<span id="num-201">0</span>)</a>
+                      <a href="#" id="gi-p-202" class="checkbox checkbox-three">曾经买到过假货(<span id="num-202">0</span>)</a>
+                      <a href="#" id="gi-p-203" class="checkbox checkbox-three">服务态度恶劣(<span id="num-203">0</span>)</a>
+                      <a href="#" id="gi-p-204" class="checkbox checkbox-three">与该店有未解决纠纷(<span id="num-204">0</span>)</a>
+                      <a href="#" id="gi-p-205" class="checkbox checkbox-three">商品价格偏贵(<span id="num-205">0</span>)</a>
+                      <a href="#" id="gi-p-206" class="checkbox checkbox-three">售后服务反应慢、低效，态度不好(<span id="num-206">0</span>)</a>
+                      <a href="#" id="gi-p-207" class="checkbox checkbox-three">发货、物流慢(<span id="num-207">0</span>)</a>
+                      <a href="#" id="gi-p-208" class="checkbox checkbox-three">商品质量不好，不满意(<span id="num-208">0</span>)</a>
+                      <a href="#" id="gi-p-209" class="checkbox checkbox-three">商品不耐用，做工不好(<span id="num-209">0</span>)</a>
+                    </div>
+                    <div>
+                      <label>消费者情况：</label>
+                      <a href="#" id="gi-p-304" class="checkbox checkbox-three">是该店忠实客户，已经买过多次(<span id="num-304">0</span>)</a>	
+                      <a href="#" id="gi-p-301" class="checkbox checkbox-three">是该店的新客户，还会再买(<span id="num-301">0</span>)</a>	
+                      <a href="#" id="gi-p-302" class="checkbox checkbox-three">曾经是该店客户，不会再买(<span id="num-302">0</span>)</a>	
+                      <a href="#" id="gi-p-303" class="checkbox checkbox-three">不是该店客户(<span id="num-303">0</span>)</a>	
+                    </div>
+                    <div><button type="submit" class="btn btn-success" id="shopAllCommentsSubmit">提交</button></div>											
+                </form>						
+              </div>
+          </div>
+        </div>
+          
+        <a id="forumPostsForThisShop" href="#" (click)="openShopTopic()" style="text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;">进入店铺社区-查看详细评价</a>
+      
+        </ion-grid>
+
+      </div> <!-- container-fluid -->
+  
+
+    </div>
   
   </ion-content>

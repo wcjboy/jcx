@@ -19,15 +19,17 @@
   
   <ion-content>
   
-    <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>
+    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>
   
   <ion-list>
     <ion-item>
-      <ion-textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">
-      </ion-textarea>
-    </ion-item>
-    <ion-item>
       <ion-grid>
+        <ion-row>
+            <ion-col col-12>
+                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">
+                </textarea> 
+            </ion-col>
+        </ion-row>
         <ion-row>
           <ion-col col-3>
             <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;
@@ -42,7 +44,11 @@
             </button>
           </ion-col>
         </ion-row>
-      </ion-grid>      
+      </ion-grid> 
+
+    </ion-item>
+    <ion-item>
+     
     </ion-item>
     <ion-item></ion-item>
     <ion-item>      

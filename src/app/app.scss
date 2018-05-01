@@ -60,3 +60,72 @@ ion-header ion-navbar .toolbar-background {
 ion-header button {
     background-color: transparent;
 }
+
+
+
+/*	11. Radio and Checkboxe */ 
+
+.checkbox-one{
+	background-image:url(../assets/img/ui/checkbox1.png);
+	background-size:16px 18px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:0px 1px;
+	margin-bottom:10px;
+}
+
+.checkbox-one-checked{
+	background-image:url(../assets/img/ui/checkbox1c.png);
+}
+
+.checkbox-two{
+	background-image:url(../assets/img/ui/checkbox2.png);
+	background-size:16px 18px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:0px 1px;
+	margin-bottom:10px;
+}
+
+.checkbox-two-checked{
+	background-image:url(../assets/img/ui/checkbox2c.png);
+}
+
+.checkbox-three{
+	background-image:url(../assets/img/ui/checkbox3.png);
+	background-size:16px 16px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:0px 2px;
+	margin-bottom:10px;
+}
+
+.checkbox-three-checked{
+	background-image:url(../assets/img/ui/checkbox3c2.png);
+}
+
+.radio-one{
+	background-image:url(../assets/img/ui/radio1.png);
+	background-size:16px 18px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:0px 1px;
+	margin-bottom:10px;
+}
+
+.radio-one-checked{
+	background-image:url(../assets/img/ui/radio1c.png);
+}
+
+.radio-two{
+	background-image:url(../assets/img/ui/radio2.png);
+	background-size:16px 18px;
+	background-repeat:no-repeat;
+	padding-left:30px;
+	background-position:0px 1px;
+	margin-bottom:10px;
+}
+
+.radio-two-checked{
+	background-image:url(../assets/img/ui/radio2c.png);
+}

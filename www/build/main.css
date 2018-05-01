@@ -31960,6 +31960,72 @@ ion-header button {
   background-color: transparent;
 }
 
+/*	11. Radio and Checkboxe */
+.checkbox-one {
+  background-image: url(../assets/img/ui/checkbox1.png);
+  background-size: 16px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 0px 1px;
+  margin-bottom: 10px;
+}
+
+.checkbox-one-checked {
+  background-image: url(../assets/img/ui/checkbox1c.png);
+}
+
+.checkbox-two {
+  background-image: url(../assets/img/ui/checkbox2.png);
+  background-size: 16px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 0px 1px;
+  margin-bottom: 10px;
+}
+
+.checkbox-two-checked {
+  background-image: url(../assets/img/ui/checkbox2c.png);
+}
+
+.checkbox-three {
+  background-image: url(../assets/img/ui/checkbox3.png);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 0px 2px;
+  margin-bottom: 10px;
+}
+
+.checkbox-three-checked {
+  background-image: url(../assets/img/ui/checkbox3c2.png);
+}
+
+.radio-one {
+  background-image: url(../assets/img/ui/radio1.png);
+  background-size: 16px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 0px 1px;
+  margin-bottom: 10px;
+}
+
+.radio-one-checked {
+  background-image: url(../assets/img/ui/radio1c.png);
+}
+
+.radio-two {
+  background-image: url(../assets/img/ui/radio2.png);
+  background-size: 16px 18px;
+  background-repeat: no-repeat;
+  padding-left: 30px;
+  background-position: 0px 1px;
+  margin-bottom: 10px;
+}
+
+.radio-two-checked {
+  background-image: url(../assets/img/ui/radio2c.png);
+}
+
 page-jcx-forum .slider-wrapper {
   width: 100%;
   height: auto;
@@ -32161,10 +32227,15 @@ page-jcx-home div.topshopRight {
 }
 
 page-jcx-lite textarea {
+  border-color: green;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px 10px 0px 0px;
   height: 200px;
+  width: 100%;
 }
 
-page-jcx-lite ion-icon {
+page-jcx-lite x ion-icon {
   font-size: 3em;
   color: #f90;
 }
@@ -32179,6 +32250,405 @@ page-jcx-lite .scan-camera {
   height: 50px;
   display: block;
   margin: auto;
+}
+
+page-shop-gi {
+  /* collapse related effects */
+  /* five star rating related css */
+  /* user rating table display */
+  /* page-ns-shop-gi.html */
+  /* hot search tag display*/
+}
+
+page-shop-gi .shopGiDecoration {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: block;
+  clear: both;
+}
+
+page-shop-gi .table {
+  margin-bottom: 35px;
+}
+
+page-shop-gi p.higherThanPeer {
+  color: red;
+}
+
+page-shop-gi p.lowerThanPeer {
+  color: green;
+}
+
+page-shop-gi .table {
+  width: 100%;
+  margin-bottom: 35px;
+  max-width: 100%;
+}
+
+page-shop-gi table {
+  background-color: transparent;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+page-shop-gi th {
+  text-align: left;
+}
+
+page-shop-gi .table > caption + thead > tr:first-child > td, page-shop-gi .table > caption + thead > tr:first-child > th, page-shop-gi .table > colgroup + thead > tr:first-child > td, page-shop-gi .table > colgroup + thead > tr:first-child > th, page-shop-gi .table > thead:first-child > tr:first-child > td, page-shop-gi .table > thead:first-child > tr:first-child > th {
+  border-top: 0;
+}
+
+page-shop-gi .table-condensed > tbody > tr > td, page-shop-gi .table-condensed > tbody > tr > th, page-shop-gi .table-condensed > tfoot > tr > td, page-shop-gi .table-condensed > tfoot > tr > th, page-shop-gi .table-condensed > thead > tr > td, page-shop-gi .table-condensed > thead > tr > th {
+  padding: 5px;
+}
+
+page-shop-gi .table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+page-shop-gi .table > tbody > tr > td, page-shop-gi .table > tbody > tr > th, page-shop-gi .table > tfoot > tr > td, page-shop-gi .table > tfoot > tr > th, page-shop-gi .table > thead > tr > td, page-shop-gi .table > thead > tr > th {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+page-shop-gi .panel-default {
+  border-color: #ddd;
+}
+
+page-shop-gi .panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+page-shop-gi .panel-default > .panel-heading {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+page-shop-gi .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+page-shop-gi .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  color: inherit;
+}
+
+page-shop-gi .panel-title > .small, page-shop-gi .panel-title > .small > a, page-shop-gi .panel-title > a, page-shop-gi .panel-title > small, page-shop-gi .panel-title > small > a {
+  color: inherit;
+}
+
+page-shop-gi .collapse.in {
+  display: block;
+}
+
+page-shop-gi .collapse {
+  display: none;
+}
+
+page-shop-gi .panel-default > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #ddd;
+}
+
+page-shop-gi .panel-body {
+  padding: 15px;
+}
+
+page-shop-gi .panel-body:after, page-shop-gi .panel-body:before {
+  display: table;
+  content: " ";
+}
+
+page-shop-gi label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+page-shop-gi .checkbox, page-shop-gi .radio {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+page-shop-gi a {
+  text-decoration: none;
+}
+
+page-shop-gi .btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+page-shop-gi .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+page-shop-gi .sign-toggle .fa-minus, page-shop-gi .sign-toggle.collapsed .fa-plus {
+  display: inline-block;
+}
+
+page-shop-gi .sign-toggle.collapsed .fa-minus, page-shop-gi .sign-toggle .fa-plus {
+  display: none;
+}
+
+page-shop-gi .sign-toggle .large-delete, page-shop-gi .sign-toggle.collapsed .large-plus {
+  display: inline-block;
+}
+
+page-shop-gi .sign-toggle.collapsed .large-delete, page-shop-gi .sign-toggle .large-plus {
+  display: none;
+}
+
+page-shop-gi .sign-img {
+  height: 12px;
+  width: 12px;
+}
+
+page-shop-gi .ns-jcx-rating {
+  border: none;
+  float: left;
+  font-size: 18px;
+}
+
+page-shop-gi .ratings_chart {
+  display: table;
+  width: 100%;
+}
+
+page-shop-gi .ratings_chart .chart_row {
+  display: table-row;
+  white-space: nowrap;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+page-shop-gi .ratings_chart .row_cell {
+  display: table-cell;
+  padding-bottom: 3px;
+}
+
+page-shop-gi .ratings_chart .row_label {
+  padding-right: 11px;
+  color: #27ae60;
+}
+
+page-shop-gi .ratings_chart .row_bar {
+  width: 100%;
+}
+
+page-shop-gi .ratings_chart .bar {
+  display: inline-block;
+  position: relative;
+  top: 3px;
+  width: 100%;
+  height: 12px;
+  background: #e5e5e5;
+  vertical-align: top;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+page-shop-gi .ratings_chart .fill {
+  display: inline-block;
+  background: #27ae60;
+  height: 12px;
+  position: absolute;
+}
+
+page-shop-gi .ratings_chart .row_count {
+  padding-left: 11px;
+  vertical-align: top;
+  color: #27ae60;
+  text-align: right;
+}
+
+page-shop-gi #flot-line-chart div {
+  overflow: visible !important;
+}
+
+page-shop-gi .shopGiDecoration {
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin-top: 5px;
+  margin-bottom: 15px;
+  display: block;
+  clear: both;
+}
+
+page-shop-gi .shop-info {
+  font-size: small;
+}
+
+page-shop-gi .flot-chart {
+  display: block;
+  height: 150px;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+page-shop-gi .flot-chart-content {
+  width: 100%;
+  height: 100%;
+}
+
+page-shop-gi .shoptrackone {
+  /* margin-left: auto;
+        margin-right: auto; */
+  text-align: center;
+}
+
+page-shop-gi .hotSearchTag0 {
+  font-size: 15px;
+  color: #74430B;
+}
+
+page-shop-gi .hotSearchTag1 {
+  font-size: 16px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag2 {
+  font-size: 17px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag3 {
+  font-size: 18px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag4 {
+  font-size: 19px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag5 {
+  font-size: 20px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag6 {
+  font-size: 21px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag7 {
+  font-size: 22px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag8 {
+  font-size: 23px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag9 {
+  font-size: 24px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag10 {
+  font-size: 25px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag11 {
+  font-size: 26px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag12 {
+  font-size: 27px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag13 {
+  font-size: 28px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag14 {
+  font-size: 29px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag15 {
+  font-size: 30px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag16 {
+  font-size: 31px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag17 {
+  font-size: 32px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag18 {
+  font-size: 33px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag19 {
+  font-size: 34px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag20 {
+  font-size: 35px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag21 {
+  font-size: 36px;
+  color: #0000ff;
+}
+
+page-shop-gi .hotSearchTag22 {
+  font-size: 37px;
+  color: #0000ff;
 }
 
 page-jcx-me .personImg {

@@ -175,6 +175,21 @@ export class UserSettings {
   }
 
   /*  modify the <img> src attributes value , which is retrieved from server
+    only for one input string
+  */
+ convertImgSrc(src: string): string {
+   let ret = src;
+  if (src != null) {
+    if (src.startsWith("//")) {
+      ret = "http:" + src;
+    } else if (src.startsWith("/")) {
+      ret = JcxApi.baseUrl + src;
+    }
+  }
+  return ret;
+}
+
+  /*  modify the <img> src attributes value , which is retrieved from server
   */
   checkAllInOne_Data(data: any): any {
     if (data != null) {
