@@ -1434,7 +1434,6 @@ var JcxLitePage = /** @class */ (function () {
                             }
                         }
                         else {
-                            console.log("1");
                             this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(function (data) {
                                 //console.log(data);
                                 var dataStr = data;
@@ -1445,10 +1444,8 @@ var JcxLitePage = /** @class */ (function () {
                                     _this.tburl = tburlMatch[1];
                                     _this.findShopIdName(_this.tburl);
                                 }
-                                console.log("2");
                             }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1'); _this.isDone = true; });
                         }
-                        console.log("6");
                         _a.label = 1;
                     case 1:
                         if (!!this.isDone) return [3 /*break*/, 3];
@@ -1479,7 +1476,6 @@ var JcxLitePage = /** @class */ (function () {
     };
     JcxLitePage.prototype.findShopIdName = function (url) {
         var _this = this;
-        console.log("3");
         this.shopId = null;
         this.shopName = null;
         this.shopType = null;
@@ -1510,21 +1506,16 @@ var JcxLitePage = /** @class */ (function () {
                 console.log(_this.results);
             }
             _this.retrieveShopGI(_this.shopType, _this.shopName, _this.shopId);
-            console.log("4");
         }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2'); _this.isDone = true; });
-        console.log("5");
     };
     JcxLitePage.prototype.retrieveShopGI = function (shoptype, shopname, shopid) {
         var _this = this;
-        console.log("4.1");
         if (shopid == null || shopname == null || shoptype == null) {
             this.isDone = true;
             return;
         }
         // obtain allCategories data
         this.jcxApi.getShopGI(shoptype, shopname, shopid).then(function (data) {
-            console.log("4.2");
-            console.log(data);
             var one = data;
             _this.isDone = true;
             if (one.tbshop == null && one.tmshop == null) {
@@ -1604,10 +1595,11 @@ var JcxLitePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n\n\n<!--\n\n  <div *ngIf="results">\n\n    <h2>结果：{{results}}</h2>\n\n  </div>\n\n-->\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _g || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+            __WEBPACK_IMPORTED_MODULE_4__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
     ], JcxLitePage);
     return JcxLitePage;
-    var _a, _b, _c, _d, _e, _f, _g;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
@@ -2053,7 +2045,7 @@ var ShopGiPage = /** @class */ (function () {
         $('#shopAllCommentsSubmit').text(oldButtonText + "……");
         // send all comments
         this.jcxApi.sendShopAllComments(shopid, shoptype_, recommend_, score_, feedback_).then(function (data) {
-            console.log(data);
+            // console.log(data);
             var ss = data;
             if (ss.feedbacks === undefined || ss.feedbacks === null) {
                 alert("如已登录，则店铺评分不能为空，或者该店铺ID不合法。如未登录，请登录，再提交或更改！");

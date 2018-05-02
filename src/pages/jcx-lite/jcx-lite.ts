@@ -102,7 +102,6 @@ export class JcxLitePage {
         this.convertTaokoulingToUrl(koulingMatch[1]);
       }
     }else {
-      console.log("1");
       this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(data => {
         //console.log(data);
         var dataStr = <string>data;
@@ -112,11 +111,9 @@ export class JcxLitePage {
           console.log(tburlMatch[1]);
           this.tburl = tburlMatch[1];
           this.findShopIdName(this.tburl);
-        }
-        console.log("2");   
+        }   
       }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1');this.isDone = true; });
     }
-    console.log("6");
     while (!this.isDone) {
       await this.delay(100);
     }
@@ -138,7 +135,6 @@ export class JcxLitePage {
   }
 
   findShopIdName(url: string) {
-    console.log("3");
     this.shopId = null; this.shopName = null; this.shopType = null;
     this.jcxApi.getUrlContentViaJcx(url).then(data  => {
       var dataStr = <string>data; //JSON.stringify(data);
@@ -166,21 +162,16 @@ export class JcxLitePage {
         console.log(this.results);
       }
       this.retrieveShopGI(this.shopType, this.shopName, this.shopId);      
-      console.log("4");
     }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2');this.isDone = true;});
-    console.log("5");
   }
 
   retrieveShopGI(shoptype: string, shopname: string, shopid: string) {
-    console.log("4.1");
     if(shopid == null || shopname == null || shoptype == null) {
       this.isDone = true;
       return;
     }
     // obtain allCategories data
     this.jcxApi.getShopGI(shoptype, shopname, shopid).then(data => {
-      console.log("4.2");
-      console.log(data);
       let one : any = data;
       this.isDone = true;
       if(one.tbshop == null && one.tmshop == null) {

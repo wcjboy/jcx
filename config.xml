@@ -17,7 +17,7 @@
     <preference name="SplashMaintainAspectRatio" value="true" />
     <preference name="FadeSplashScreenDuration" value="300" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="SplashScreen" value="screen" />
+    <preference name="SplashScreen" value="assets/img/screen.png" />
     <preference name="SplashScreenDelay" value="3000" />
     <platform name="android">
         <allow-intent href="market:*" />
@@ -96,4 +96,5 @@
     <plugin name="phonegap-plugin-push" spec="^2.0.0" />
     <plugin name="im.ltdev.cordova.UserAgent" spec="~1.0.1" />
     <engine name="android" spec="~6.4.0" />
+    <engine name="browser" spec="~5.0.3" />
 </widget>

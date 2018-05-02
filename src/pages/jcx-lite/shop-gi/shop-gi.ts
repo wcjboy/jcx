@@ -400,13 +400,14 @@ export class ShopGiPage {
       console.log(shopid + " " + shoptype_);
       console.log(recommend_ + " " + score_);
       console.log(feedback_);
+      
 			var oldButtonText = $('#shopAllCommentsSubmit').text();
 			$('#shopAllCommentsSubmit').text(oldButtonText + "……");
 
       // send all comments
       this.jcxApi.sendShopAllComments(shopid, shoptype_, recommend_, score_,
         feedback_).then(data => {
-          console.log(data);
+          // console.log(data);
           let ss: any = data;
           if(ss.feedbacks === undefined || ss.feedbacks === null) {
             alert("如已登录，则店铺评分不能为空，或者该店铺ID不合法。如未登录，请登录，再提交或更改！");
