@@ -24,6 +24,7 @@
     "@angular/platform-browser": "5.2.9",
     "@angular/platform-browser-dynamic": "5.2.9",
     "@ionic-native/barcode-scanner": "^4.7.0",
+    "@ionic-native/clipboard": "^4.7.0",
     "@ionic-native/core": "4.5.3",
     "@ionic-native/device": "^4.7.0",
     "@ionic-native/in-app-browser": "^4.7.0",
@@ -33,6 +34,8 @@
     "@ionic-native/status-bar": "^4.7.0",
     "@ionic/storage": "^2.1.3",
     "cordova-android": "~6.4.0",
+    "cordova-browser": "~5.0.3",
+    "cordova-clipboard": "^1.2.1",
     "cordova-plugin-device": "^2.0.2",
     "cordova-plugin-inappbrowser": "^3.0.0",
     "cordova-plugin-ionic": "^3.1.3",
@@ -43,6 +46,7 @@
     "cordova-plugin-useragent": "^1.0.6",
     "cordova-plugin-whitelist": "^1.3.3",
     "cordova-sqlite-storage": "^2.3.1",
+    "im.ltdev.cordova.UserAgent": "~1.0.1",
     "ionic-angular": "3.9.2",
     "ionicons": "3.0.0",
     "lodash": "^4.17.2",
@@ -51,9 +55,7 @@
     "phonegap-plugin-push": "^2.0.0",
     "rxjs": "5.5.7",
     "sw-toolbox": "3.6.0",
-    "zone.js": "0.8.20",
-    "im.ltdev.cordova.UserAgent": "~1.0.1",
-    "cordova-browser": "~5.0.3"
+    "zone.js": "0.8.20"
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.8",
@@ -81,7 +83,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-sqlite-storage": {},
       "phonegap-plugin-push": {},
-      "im.ltdev.cordova.UserAgent": {}
+      "im.ltdev.cordova.UserAgent": {},
+      "cordova-clipboard": {}
     },
     "platforms": [
       "android",

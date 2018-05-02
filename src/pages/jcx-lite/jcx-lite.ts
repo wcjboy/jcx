@@ -1,8 +1,11 @@
 import { Component, Pipe, PipeTransform } from '@angular/core';
 import { NavController, Events, PopoverController, LoadingController, Loading } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser'
+import { Platform } from 'ionic-angular';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { Clipboard } from '@ionic-native/clipboard';
+
 
 import { PostsListPage, PopoverPage, SbSearchShopPage, ShopGiPage} from "../pages"
 import { UserSettings, JcxApi } from '../../shared/shared';
@@ -57,10 +60,33 @@ export class JcxLitePage {
 
   constructor(public navCtrl: NavController, private events: Events, public userSettings : UserSettings,
     private popoverController: PopoverController, private barcodeScanner: BarcodeScanner,
-    private jcxApi: JcxApi, public loadingCtrl: LoadingController) {
+    private jcxApi: JcxApi, public loadingCtrl: LoadingController, 
+    private clipboard: Clipboard, public platform: Platform) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
     //this.taokouling = "default";
+
+    platform.ready().then(() => {
+      if (platform.is('cordova')){
+        //Subscribe on pause
+        this.platform.pause.subscribe(() => {
+          //Hello pause
+        });
+        //Subscribe on resume
+        this.platform.resume.subscribe(() => {
+          //---- resume start
+          this.clipboard.paste().then(
+            (resolve: string) => {
+              console.log(resolve);
+             },
+             (reject: string) => {
+               console.log('Error: ' + reject);
+             }
+           );
+           //---- resume end
+        });
+       }
+    });
   }
 
   myMoreAction(ev) {

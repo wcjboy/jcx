@@ -5,6 +5,7 @@ import { IonicStorageModule } from '@ionic/storage';
 // import { Storage } from '@ionic/storage';
 import { InAppBrowser } from '@ionic-native/in-app-browser';
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
+import { Clipboard } from '@ionic-native/clipboard';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpModule } from '@angular/http';
@@ -48,6 +49,6 @@ import { JcxApi, UserSettings } from '../shared/shared';
     ShopGiPage
   ],
   // providers: [UserSettings, JcxApi, Storage, { provide: ErrorHandler, useClass: IonicErrorHandler }]
-  providers: [UserSettings, JcxApi, StatusBar, InAppBrowser, BarcodeScanner, { provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [UserSettings, JcxApi, StatusBar, InAppBrowser, BarcodeScanner, Clipboard, { provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
 export class AppModule { }
