@@ -1,1 +1,4180 @@
-webpackJsonp([0],{149:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=149},172:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=172},195:function(l,n,u){"use strict";function t(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,10,"button",[["class","item item-block"],["ion-item",""],["menuClose",""],["style","color: #387ef5;"]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,6).close()&&t}if("click"===n){t=!1!==e.openPage(l.context.$implicit)&&t}return t},Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,4,{contentLabel:0}),Wl._18(603979776,5,{_buttons:1}),Wl._18(603979776,6,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),Wl.Y(6,16384,null,0,Wn.a,[$n.a],{menuClose:[0,"menuClose"]},null),(l()(),Wl._20(-1,2,["\n          "])),(l()(),Wl.Z(8,0,null,2,1,"ion-icon",[["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(9,147456,[[6,4]],0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(10,2,["  ","\n        "]))],function(l,n){l(n,6,0,"");l(n,9,0,Wl._2(1,"",n.context.$implicit.icon,""))},function(l,n){l(n,8,0,Wl._11(n,9)._hidden);l(n,10,0,n.context.$implicit.title)})}function e(l){return Wl._22(0,[Wl._18(402653184,1,{nav:0}),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(2,0,null,null,35,"ion-menu",[["role","navigation"]],null,null,null,Bn.b,Bn.a)),Wl._16(6144,null,Gn.a,null,[Xn.a]),Wl.Y(4,245760,null,2,Xn.a,[$n.a,Wl.j,Ln.a,Jn.a,Wl.z,Kn.a,Qn.l,lu.a,nu.a],{content:[0,"content"]},null),Wl._18(335544320,2,{menuContent:0}),Wl._18(335544320,3,{menuNav:0}),(l()(),Wl._20(-1,0,["\n  "])),(l()(),Wl.Z(8,0,null,0,8,"ion-header",[],null,null,null,null,null)),Wl.Y(9,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(11,0,null,null,4,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,eu.b,eu.a)),Wl.Y(12,49152,null,0,au.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n      "])),(l()(),Wl.Z(14,0,null,3,0,"div",[["class","sidebar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,0,["\n\n  "])),(l()(),Wl.Z(18,0,null,0,18,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(19,4374528,[[2,4]],0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n      "])),(l()(),Wl.Z(21,0,null,1,14,"ion-list",[],null,null,null,null,null)),Wl.Y(22,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.U(16777216,null,null,1,null,t)),Wl.Y(25,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n  \n        "])),(l()(),Wl.Z(27,0,null,null,7,"button",[["class","item-block item item-md"],["menuToggle",""],["style","color: #387ef5;"]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,28).toggle()&&t}return t},null,null)),Wl.Y(28,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(29,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,7,{_buttons:1}),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(32,0,null,null,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(33,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,1,["\n    "])),(l()(),Wl._20(-1,0,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(40,0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,hu.b,hu.a)),Wl._16(6144,null,Gn.a,null,[fu.a]),Wl.Y(42,4374528,[[1,4],["content",4]],0,fu.a,[[2,tu.a],[2,su.a],nu.a,Ln.a,Jn.a,Wl.j,Wl.u,Wl.z,Wl.i,Qn.l,mu.a,[2,bu.a],lu.a,Wl.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null)],function(l,n){var u=n.component;l(n,4,0,Wl._11(n,42));l(n,25,0,u.pages);l(n,28,0,"");l(n,33,0,"close");l(n,42,0,"false",u.rootPage)},function(l,n){l(n,11,0,Wl._11(n,12)._sbPadding);l(n,18,0,Wl._11(n,19).statusbarPadding,Wl._11(n,19)._hasRefresher);l(n,27,0,Wl._11(n,28).isHidden);l(n,32,0,Wl._11(n,33)._hidden)})}function a(l){return Wl._22(0,[Wl._18(402653184,1,{tabRef:0}),(l()(),Wl.Z(1,0,null,null,15,"ion-tabs",[["selectedIndex","0"]],null,null,null,Yu.b,Yu.a)),Wl._16(6144,null,Gn.a,null,[ju.a]),Wl.Y(3,4374528,[[1,4],["myTabs",4]],0,ju.a,[[2,su.a],[2,tu.a],nu.a,Ln.a,Wl.j,Jn.a,Wl.z,bu.a,Kn.a],{selectedIndex:[0,"selectedIndex"]},null),(l()(),Wl._20(-1,0,["\n  "])),(l()(),Wl.Z(5,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","home"],["tabTitle","首页"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,xu.b,xu.a)),Wl.Y(6,245760,null,0,Pu.a,[ju.a,nu.a,Ln.a,Jn.a,Wl.j,Wl.u,Wl.z,Wl.i,Wl.g,Qn.l,mu.a,[2,bu.a],lu.a,Wl.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),Wl._20(-1,0,["\n  "])),(l()(),Wl.Z(8,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","cart"],["tabTitle","交易"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,xu.b,xu.a)),Wl.Y(9,245760,null,0,Pu.a,[ju.a,nu.a,Ln.a,Jn.a,Wl.j,Wl.u,Wl.z,Wl.i,Wl.g,Qn.l,mu.a,[2,bu.a],lu.a,Wl.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),Wl._20(-1,0,["\n  "])),(l()(),Wl.Z(11,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","chatbubbles"],["tabTitle","论坛"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,xu.b,xu.a)),Wl.Y(12,245760,null,0,Pu.a,[ju.a,nu.a,Ln.a,Jn.a,Wl.j,Wl.u,Wl.z,Wl.i,Wl.g,Qn.l,mu.a,[2,bu.a],lu.a,Wl.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),Wl._20(-1,0,["\n  "])),(l()(),Wl.Z(14,0,null,0,1,"ion-tab",[["role","tabpanel"],["tabIcon","contact"],["tabTitle","我"]],[[1,"id",0],[1,"aria-labelledby",0]],null,null,xu.b,xu.a)),Wl.Y(15,245760,null,0,Pu.a,[ju.a,nu.a,Ln.a,Jn.a,Wl.j,Wl.u,Wl.z,Wl.i,Wl.g,Qn.l,mu.a,[2,bu.a],lu.a,Wl.k],{root:[0,"root"],tabTitle:[1,"tabTitle"],tabIcon:[2,"tabIcon"]},null),(l()(),Wl._20(-1,0,["\n"]))],function(l,n){var u=n.component;l(n,3,0,"0");l(n,6,0,u.homeRoot,"首页","home");l(n,9,0,u.tradeRoot,"交易","cart");l(n,12,0,u.forumRoot,"论坛","chatbubbles");l(n,15,0,u.meRoot,"我","contact")},function(l,n){l(n,5,0,Wl._11(n,6)._tabId,Wl._11(n,6)._btnId);l(n,8,0,Wl._11(n,9)._tabId,Wl._11(n,9)._btnId);l(n,11,0,Wl._11(n,12)._tabId,Wl._11(n,12)._btnId);l(n,14,0,Wl._11(n,15)._tabId,Wl._11(n,15)._btnId)})}function o(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,14,"div",[["class","shoptopic"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openTopic(l.context.$implicit)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(2,0,null,null,0,"img",[["class","shoptopicLeft"]],[[8,"src",4]],null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(4,0,null,null,9,"div",[["class","shoptopicRight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(6,0,null,null,2,"a",[["class","textEllipsis"],["href","#"]],[[8,"innerHTML",1]],null,null,null,null)),Wl._15(7,1),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(10,0,null,null,2,"ion-label",[["style","margin: 0px 8px 0px 0;"]],null,null,null,null,null)),Wl.Y(11,16384,null,0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(12,null,["",""])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,2,0,Wl._2(1,"",n.context.$implicit.logo,""));l(n,6,0,Wl._21(n,6,0,l(n,7,0,Wl._11(n.parent.parent,0),n.context.$implicit.lpuShopScoreStarRating+n.context.$implicit.shopname)));l(n,12,0,n.context.$implicit.textAbbr)})}function i(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,o)),Wl.Y(3,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n"]))],function(l,n){l(n,3,0,n.component.userSettings.allinone.recentShopTopics)},null)}function s(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,10,"div",[["class","topshop"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.gotoShopPage(l.context.$implicit)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(2,0,null,null,0,"img",[["class","topshopLeft"]],[[8,"src",4]],null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(4,0,null,null,5,"div",[["class","topshopRight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(6,0,null,null,2,"a",[["class","textEllipsis"],["href","#"]],[[8,"innerHTML",1]],null,null,null,null)),Wl._15(7,1),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "]))],null,function(l,n){l(n,2,0,Wl._2(1,"",n.context.$implicit.logo,""));l(n,6,0,Wl._21(n,6,0,l(n,7,0,Wl._11(n.parent.parent,0),n.context.$implicit.shopScoreStarRating+n.context.$implicit.shopName)))})}function c(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,s)),Wl.Y(3,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "]))],function(l,n){l(n,3,0,n.component.userSettings.allinone.topShopForums)},null)}function r(l){return Wl._22(0,[Wl._13(0,nn,[Vl.c]),(l()(),Wl.Z(1,0,null,null,33,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,29,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,1,12,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(8,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(11,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,12).toggle()&&t}return t},null,null)),Wl.Y(12,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(13,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(16,0,null,null,1,"ion-icon",[["large",""],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(17,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(21,0,null,3,0,"div",[["class","topbar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(23,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),Wl.Y(24,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,3,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(27,0,null,null,4,"button",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.myMoreAction(u)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(29,0,null,null,1,"ion-icon",[["large",""],["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(30,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(36,0,null,null,65,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(37,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(39,0,null,1,1,"h4",[["style","text-align: center; font-weight: 800;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信 -- 独立第三方电商评价体系"])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.Z(42,0,null,1,28,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(43,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(45,0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(46,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(48,0,null,null,9,"ion-col",[["class","col"],["width-75",""]],null,null,null,null,null)),Wl.Y(49,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(51,0,null,null,5,"input",[["placeholder","网店关键字搜索……"],["style","border: 1px solid green;padding: 6px; width:100%;\n    height: 35px; border-radius: 4px;"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==Wl._11(l,52)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,52).onTouched()&&t}if("compositionstart"===n){t=!1!==Wl._11(l,52)._compositionStart()&&t}if("compositionend"===n){t=!1!==Wl._11(l,52)._compositionEnd(u.target.value)&&t}if("ngModelChange"===n){t=!1!==(e.keywords=u)&&t}return t},null,null)),Wl.Y(52,16384,null,0,zu.c,[Wl.A,Wl.j,[2,zu.a]],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.c]),Wl.Y(54,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(56,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(59,0,null,null,9,"ion-col",[["class","col"],["width-25",""]],null,null,null,null,null)),Wl.Y(60,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(62,0,null,null,5,"button",[["class",""],["style","width: 100%; background-color: transparent; height: 35px;\n      border: 1px solid #ccc; border-radius: 4px; padding: 6px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.searchShops()&&t}return t},null,null)),(l()(),Wl.Z(63,0,null,null,0,"i",[["class","fa fa-search"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(65,0,null,null,1,"strong",[["style","color: #f90;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["搜索"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.Z(72,0,null,1,13,"ion-card",[],null,null,null,null,null)),Wl.Y(73,16384,null,0,Uu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(75,0,null,null,2,"ion-card-header",[],null,null,null,null,null)),Wl.Y(76,16384,null,0,Mu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n    最新店铺评价\n  "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(79,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),Wl.Y(80,16384,null,0,Nu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.U(16777216,null,null,1,null,i)),Wl.Y(83,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.Z(87,0,null,1,13,"ion-card",[],null,null,null,null,null)),Wl.Y(88,16384,null,0,Uu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(90,0,null,null,2,"ion-card-header",[],null,null,null,null,null)),Wl.Y(91,16384,null,0,Mu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n    最新热门店铺\n  "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl.Z(94,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),Wl.Y(95,16384,null,0,Nu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.U(16777216,null,null,1,null,c)),Wl.Y(98,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,12,0,"");l(n,17,0,"menu");l(n,30,0,"add");l(n,54,0,u.keywords);l(n,83,0,null!=u.userSettings.allinone);l(n,98,0,null!=u.userSettings.allinone)},function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,11,0,Wl._11(n,12).isHidden);l(n,16,0,Wl._11(n,17)._hidden);l(n,29,0,Wl._11(n,30)._hidden);l(n,36,0,Wl._11(n,37).statusbarPadding,Wl._11(n,37)._hasRefresher);l(n,51,0,Wl._11(n,56).ngClassUntouched,Wl._11(n,56).ngClassTouched,Wl._11(n,56).ngClassPristine,Wl._11(n,56).ngClassDirty,Wl._11(n,56).ngClassValid,Wl._11(n,56).ngClassInvalid,Wl._11(n,56).ngClassPending)})}function _(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,33,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(3,0,null,null,29,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n      "])),(l()(),Wl.Z(6,0,null,1,12,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(7,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(10,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,11).toggle()&&t}return t},null,null)),Wl.Y(11,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(12,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(15,0,null,null,1,"ion-icon",[["large",""],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(16,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,3,["\n      "])),(l()(),Wl.Z(20,0,null,3,0,"div",[["class","topbar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n      "])),(l()(),Wl.Z(22,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),Wl.Y(23,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,3,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(26,0,null,null,4,"button",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.myMoreAction(u)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(28,0,null,null,1,"ion-icon",[["large",""],["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(29,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl._20(-1,null,["\n  \n  "])),(l()(),Wl._20(-1,null,["\n  \n  \n  "])),(l()(),Wl.Z(35,0,null,null,80,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(36,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  \n    "])),(l()(),Wl.Z(38,0,null,1,1,"h4",[["style","text-align: center; font-weight: 800; color: yellowgreen;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信 -- 独立第三方电商评价体系"])),(l()(),Wl._20(-1,1,["\n  \n  "])),(l()(),Wl.Z(41,0,null,1,73,"ion-list",[],null,null,null,null,null)),Wl.Y(42,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(44,0,null,null,52,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(45,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,4,{contentLabel:0}),Wl._18(603979776,5,{_buttons:1}),Wl._18(603979776,6,{_icons:1}),Wl.Y(49,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n      "])),(l()(),Wl.Z(51,0,null,2,44,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(52,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(54,0,null,null,14,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(55,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(57,0,null,null,10,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),Wl.Y(58,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(60,0,null,null,6,"textarea",[["placeholder","粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==Wl._11(l,61)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,61).onTouched()&&t}if("compositionstart"===n){t=!1!==Wl._11(l,61)._compositionStart()&&t}if("compositionend"===n){t=!1!==Wl._11(l,61)._compositionEnd(u.target.value)&&t}if("ngModelChange"===n){t=!1!==(e.textinput=u)&&t}return t},null,null)),Wl.Y(61,16384,null,0,zu.c,[Wl.A,Wl.j,[2,zu.a]],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.c]),Wl.Y(63,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(65,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["                "])),(l()(),Wl._20(-1,null,[" \n            "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(70,0,null,null,24,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(71,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(73,0,null,null,9,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),Wl.Y(74,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(76,0,null,null,5,"button",[["style","width: 100%; background-color: transparent; height: 35px;\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.clear_shop()&&t}return t},null,null)),(l()(),Wl.Z(77,0,null,null,0,"i",[["class","fa fa-eraser"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(79,0,null,null,1,"strong",[["style","color: #f90;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["清空"])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(84,0,null,null,9,"ion-col",[["class","col"],["col-9",""]],null,null,null,null,null)),Wl.Y(85,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(87,0,null,null,5,"button",[["style","width: 100%; background-color: transparent; height: 35px;\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.search_shop()&&t}return t},null,null)),(l()(),Wl.Z(88,0,null,null,0,"i",[["class","fa fa-search"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(90,0,null,null,1,"strong",[["style","color: #f90;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["搜店铺"])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,2,[" \n\n    "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(98,0,null,null,5,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(99,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,7,{contentLabel:0}),Wl._18(603979776,8,{_buttons:1}),Wl._18(603979776,9,{_icons:1}),Wl.Y(103,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(105,0,null,null,8,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(106,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,10,{contentLabel:0}),Wl._18(603979776,11,{_buttons:1}),Wl._18(603979776,12,{_icons:1}),Wl.Y(110,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["      \n      "])),(l()(),Wl.Z(112,0,null,2,0,"button",[["class","scan-camera"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.scan_shop()&&t}return t},null,null)),(l()(),Wl._20(-1,2,["\n    "])),(l()(),Wl._20(-1,null,["    \n  "])),(l()(),Wl._20(-1,1,["\n  \n  "]))],function(l,n){var u=n.component;l(n,11,0,"");l(n,16,0,"menu");l(n,29,0,"add");l(n,63,0,u.textinput)},function(l,n){l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,10,0,Wl._11(n,11).isHidden);l(n,15,0,Wl._11(n,16)._hidden);l(n,28,0,Wl._11(n,29)._hidden);l(n,35,0,Wl._11(n,36).statusbarPadding,Wl._11(n,36)._hasRefresher);l(n,60,0,Wl._11(n,65).ngClassUntouched,Wl._11(n,65).ngClassTouched,Wl._11(n,65).ngClassPristine,Wl._11(n,65).ngClassDirty,Wl._11(n,65).ngClassValid,Wl._11(n,65).ngClassInvalid,Wl._11(n,65).ngClassPending)})}function p(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,21,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,4,{contentLabel:0}),Wl._18(603979776,5,{_buttons:1}),Wl._18(603979776,6,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,0,4,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),Wl.Y(8,16384,null,0,Vu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(10,0,null,null,0,"img",[["class","tradeImg"]],[[8,"src",4]],null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(13,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(14,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(16,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(17,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(19,0,null,4,1,"button",[["clear",""],["item-right",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openTradeTopic(l.context.$implicit)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["查看"])),(l()(),Wl._20(-1,2,["\n      "]))],null,function(l,n){l(n,10,0,Wl._2(1,"",n.context.$implicit.imgSrc,""));l(n,14,0,n.context.$implicit.subject);l(n,17,0,n.context.$implicit.postTime)})}function g(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,p)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.userSettings.allinone.tiList)},null)}function d(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["*"]))],null,null)}function h(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["*"]))],null,null)}function f(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["【最新】"]))],null,null)}function m(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,19,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openTradeForum(l.context.$implicit)&&t}return t},Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,10,{contentLabel:0}),Wl._18(603979776,11,{_buttons:1}),Wl._18(603979776,12,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(7,0,null,0,2,"div",[["class","forumicon"],["item-left",""]],null,null,null,null,null)),Wl.Y(8,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(9,{"background-position":0}),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(11,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(12,null,["",""])),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(14,0,null,2,4,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.U(16777216,null,null,1,null,f)),Wl.Y(17,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(18,null,[" ","\n            "])),(l()(),Wl._20(-1,2,["\n          "]))],function(l,n){l(n,8,0,l(n,9,0,36*(0-n.context.$implicit.forumIconPos)+"px 0px"));l(n,17,0,n.context.$implicit.isNew)},function(l,n){l(n,12,0,n.context.$implicit.name);l(n,18,0,null==n.context.$implicit.lpi?n.context.$implicit.description:n.context.$implicit.lpi.topicTitle)})}function b(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,7,{contentLabel:0}),Wl._18(603979776,8,{_buttons:1}),Wl._18(603979776,9,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,2,7,"div",[["class","categoryName"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,d)),Wl.Y(10,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(11,null,[" ","\n          "])),(l()(),Wl.U(16777216,null,null,1,null,h)),Wl.Y(13,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(16,0,null,2,5,"ion-list",[],null,null,null,null,null)),Wl.Y(17,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,m)),Wl.Y(20,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n      "]))],function(l,n){l(n,10,0,n.context.$implicit.isNew);l(n,13,0,n.context.$implicit.isNew);l(n,20,0,n.context.$implicit.forums)},function(l,n){l(n,11,0,n.context.$implicit.name)})}function v(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,b)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.userSettings.getAllTradeCategories())},null)}function Z(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,33,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(3,0,null,null,29,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(6,0,null,1,12,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(7,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(10,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,11).toggle()&&t}return t},null,null)),Wl.Y(11,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(12,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(15,0,null,null,1,"ion-icon",[["large",""],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(16,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(20,0,null,3,0,"div",[["class","topbar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(22,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),Wl.Y(23,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,3,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(26,0,null,null,4,"button",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.myMoreAction(u)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(28,0,null,null,1,"ion-icon",[["large",""],["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(29,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(35,0,null,null,11,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(36,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(38,0,null,1,1,"h4",[["style","text-align: center; font-weight: 800;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信 -- 物物交易"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,g)),Wl.Y(42,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,v)),Wl.Y(45,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,11,0,"");l(n,16,0,"menu");l(n,29,0,"add");l(n,42,0,null!=u.userSettings.allinone);l(n,45,0,null!=u.userSettings.allCategories)},function(l,n){l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,10,0,Wl._11(n,11).isHidden);l(n,15,0,Wl._11(n,16)._hidden);l(n,28,0,Wl._11(n,29)._hidden);l(n,35,0,Wl._11(n,36).statusbarPadding,Wl._11(n,36)._hasRefresher)})}function y(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,59,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(2,0,null,null,56,"ion-slides",[],null,null,null,Hu.b,Hu.a)),Wl.Y(3,1228800,null,0,Bu.a,[Ln.a,Jn.a,Wl.u,[2,tu.a],Wl.j,Wl.z],{autoplay:[0,"autoplay"],initialSlide:[1,"initialSlide"],loop:[2,"loop"]},null),(l()(),Wl._20(-1,0,["\n          "])),(l()(),Wl.Z(5,0,null,0,16,"ion-slide",[],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openTopic(e.userSettings.allinone.pi1)&&t}return t},Gu.b,Gu.a)),Wl.Y(6,180224,null,0,Xu.a,[Wl.j,Wl.z,Bu.a],null,null),(l()(),Wl._20(-1,0,["\n            "])),(l()(),Wl.Z(8,0,null,0,12,"div",[["class","slider-wrapper"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(10,0,null,null,6,"div",[["class","slide-item"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(12,0,null,null,3,"div",[["class","imgMiddleCenterBackground2"]],null,null,null,null,null)),Wl.Y(13,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(14,{height:0,"background-image":1}),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(18,0,null,null,1,"div",[["class","pi-desc"]],null,null,null,null,null)),(l()(),Wl._20(19,null,["",""])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,0,["\n          "])),(l()(),Wl._20(-1,0,["\n          \n          "])),(l()(),Wl.Z(23,0,null,0,16,"ion-slide",[],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openTopic(e.userSettings.allinone.pi2)&&t}return t},Gu.b,Gu.a)),Wl.Y(24,180224,null,0,Xu.a,[Wl.j,Wl.z,Bu.a],null,null),(l()(),Wl._20(-1,0,["\n            "])),(l()(),Wl.Z(26,0,null,0,12,"div",[["class","slider-wrapper"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(28,0,null,null,6,"div",[["class","slide-item"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(30,0,null,null,3,"div",[["class","imgMiddleCenterBackground2"]],null,null,null,null,null)),Wl.Y(31,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(32,{height:0,"background-image":1}),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(36,0,null,null,1,"div",[["class","pi-desc"]],null,null,null,null,null)),(l()(),Wl._20(37,null,["",""])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,0,["\n          "])),(l()(),Wl._20(-1,0,["\n\n          "])),(l()(),Wl.Z(41,0,null,0,16,"ion-slide",[],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.openTopic(e.userSettings.allinone.pi3)&&t}return t},Gu.b,Gu.a)),Wl.Y(42,180224,null,0,Xu.a,[Wl.j,Wl.z,Bu.a],null,null),(l()(),Wl._20(-1,0,["\n            "])),(l()(),Wl.Z(44,0,null,0,12,"div",[["class","slider-wrapper"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(46,0,null,null,6,"div",[["class","slide-item"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(48,0,null,null,3,"div",[["class","imgMiddleCenterBackground2"]],null,null,null,null,null)),Wl.Y(49,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(50,{height:0,"background-image":1}),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(54,0,null,null,1,"div",[["class","pi-desc"]],null,null,null,null,null)),(l()(),Wl._20(55,null,["",""])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,0,["\n          "])),(l()(),Wl._20(-1,0,["\n        "])),(l()(),Wl._20(-1,null,["\n      "]))],function(l,n){var u=n.component;l(n,3,0,4e3,0,!0);l(n,13,0,l(n,14,0,u.slideHeight+"px","url("+u.userSettings.allinone.pi1.imgSrc+")"));l(n,31,0,l(n,32,0,u.slideHeight+"px","url("+u.userSettings.allinone.pi2.imgSrc+")"));l(n,49,0,l(n,50,0,u.slideHeight+"px","url("+u.userSettings.allinone.pi3.imgSrc+")"))},function(l,n){var u=n.component;l(n,19,0,u.userSettings.allinone.pi1.subject);l(n,37,0,u.userSettings.allinone.pi2.subject);l(n,55,0,u.userSettings.allinone.pi3.subject)})}function k(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["*"]))],null,null)}function Y(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["*"]))],null,null)}function j(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"span",[["style","color:#F96E02"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["【最新】"]))],null,null)}function x(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,19,"ion-item",[["class","item item-block"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openForum(l.context.$implicit)&&t}return t},Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,7,{contentLabel:0}),Wl._18(603979776,8,{_buttons:1}),Wl._18(603979776,9,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(7,0,null,0,2,"div",[["class","forumicon"],["item-left",""]],null,null,null,null,null)),Wl.Y(8,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(9,{"background-position":0}),(l()(),Wl._20(-1,2,[" \n            "])),(l()(),Wl.Z(11,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(12,null,["",""])),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(14,0,null,2,4,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.U(16777216,null,null,1,null,j)),Wl.Y(17,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(18,null,["\n              ","\n            "])),(l()(),Wl._20(-1,2,["\n          "]))],function(l,n){l(n,8,0,l(n,9,0,36*(0-n.context.$implicit.forumIconPos)+"px 0px"));l(n,17,0,n.context.$implicit.isNew)},function(l,n){l(n,12,0,n.context.$implicit.name);l(n,18,0,null==n.context.$implicit.lpi?n.context.$implicit.description:n.context.$implicit.lpi.topicTitle)})}function P(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,22,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,4,{contentLabel:0}),Wl._18(603979776,5,{_buttons:1}),Wl._18(603979776,6,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,2,7,"div",[["class","categoryName"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,k)),Wl.Y(10,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(11,null,["\n          ","\n          "])),(l()(),Wl.U(16777216,null,null,1,null,Y)),Wl.Y(13,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(16,0,null,2,5,"ion-list",[],null,null,null,null,null)),Wl.Y(17,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,x)),Wl.Y(20,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n      "]))],function(l,n){l(n,10,0,n.context.$implicit.isNew);l(n,13,0,n.context.$implicit.isNew);l(n,20,0,n.context.$implicit.forums)},function(l,n){l(n,11,0,n.context.$implicit.name)})}function S(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,P)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.userSettings.getAllNonTradeCategories())},null)}function C(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,33,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(3,0,null,null,29,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(6,0,null,1,12,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(7,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(10,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,11).toggle()&&t}return t},null,null)),Wl.Y(11,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(12,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(15,0,null,null,1,"ion-icon",[["large",""],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(16,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(20,0,null,3,0,"div",[["class","topbar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(22,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),Wl.Y(23,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,3,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(26,0,null,null,4,"button",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.myMoreAction(u)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(28,0,null,null,1,"ion-icon",[["large",""],["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(29,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(35,0,null,null,24,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(36,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(38,0,null,1,1,"h4",[["style","text-align: center; font-weight: 800;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信 -- 网购社区"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(42,0,null,1,13,"ion-card",[],null,null,null,null,null)),Wl.Y(43,16384,null,0,Uu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(45,0,null,null,2,"ion-card-header",[],null,null,null,null,null)),Wl.Y(46,16384,null,0,Mu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n      最新论坛图片\n    "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(49,0,null,null,5,"ion-card-content",[],null,null,null,null,null)),Wl.Y(50,16384,null,0,Nu.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,y)),Wl.Y(53,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,S)),Wl.Y(58,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,11,0,"");l(n,16,0,"menu");l(n,29,0,"add");l(n,53,0,null!=u.userSettings.allinone);l(n,58,0,null!=u.userSettings.allCategories)},function(l,n){l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,10,0,Wl._11(n,11).isHidden);l(n,15,0,Wl._11(n,16)._hidden);l(n,28,0,Wl._11(n,29)._hidden);l(n,35,0,Wl._11(n,36).statusbarPadding,Wl._11(n,36)._hasRefresher)})}function w(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(1,0,null,null,12,"ion-list",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(4,0,null,null,8,"button",[["class","item item-block"],["color","primary"],["ion-item",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.gotoScanPage()&&t}return t},Dn.b,Dn.a)),Wl.Y(5,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],{color:[0,"color"]},null),Wl._18(335544320,1,{contentLabel:0}),Wl._18(603979776,2,{_buttons:1}),Wl._18(603979776,3,{_icons:1}),Wl.Y(9,16384,null,0,Vn.a,[],null,null),(l()(),Wl.Z(10,0,null,2,1,"ion-icon",[["name","qr-scanner"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(11,147456,[[3,4]],0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,2,["  扫一扫"])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,5,0,"primary");l(n,11,0,"qr-scanner")},function(l,n){l(n,10,0,Wl._11(n,11)._hidden)})}function I(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,0,"img",[["class","personImg"],["src","assets/img/default_person.png"]],null,null,null,null,null))],null,null)}function A(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,0,"img",[["class","personImg"]],[[8,"src",4]],null,null,null,null))],null,function(l,n){var u=n.component;l(n,0,0,Wl._2(2,"",u.baseUrl,"/images/avatar/",u.userSettings.user.avatar,""))})}function T(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,34,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,27,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(5,0,null,null,23,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(6,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,4,{contentLabel:0}),Wl._18(603979776,5,{_buttons:1}),Wl._18(603979776,6,{_icons:1}),Wl.Y(10,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(12,0,null,0,8,"ion-thumbnail",[["item-left",""]],null,null,null,null,null)),Wl.Y(13,16384,null,0,Vu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,I)),Wl.Y(16,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.U(16777216,null,null,1,null,A)),Wl.Y(19,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(22,0,null,2,1,"h2",[["style","color: blue;font-size: 22px;"]],null,null,null,null,null)),(l()(),Wl._20(23,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(25,0,null,2,2,"p",[["style","color: #048E04;"]],null,null,null,null,null)),(l()(),Wl.Z(26,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl._20(27,null,["集诚信分：",""])),(l()(),Wl._20(-1,2,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(31,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.logout()&&t}return t},lt.b,lt.a)),Wl.Y(32,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["退出登录"])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,16,0,null==u.userSettings.user.avatar);l(n,19,0,null!=u.userSettings.user.avatar);l(n,32,0,"")},function(l,n){var u=n.component;l(n,23,0,u.userSettings.user.username);l(n,27,0,u.userSettings.user.jpoints.toFixed(2))})}function F(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,48,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["您还未登录，请登录！"])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(5,0,null,null,38,"ion-list",[],null,null,null,null,null)),Wl.Y(6,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(8,0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(9,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,7,{contentLabel:0}),Wl._18(603979776,8,{_buttons:1}),Wl._18(603979776,9,{_icons:1}),Wl.Y(13,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(15,0,null,1,2,"ion-label",[["fixed",""]],null,null,null,null,null)),Wl.Y(16,16384,[[7,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,""],[8,null]],null,null),(l()(),Wl._20(-1,null,["用户名："])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(19,0,null,3,4,"ion-input",[["type","text"],["value",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.username=u)&&t}return t},nt.b,nt.a)),Wl.Y(20,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(22,16384,null,0,zu.h,[zu.g],null,null),Wl.Y(23,5423104,null,0,ut.a,[Ln.a,Jn.a,Rn.a,nu.a,Wl.j,Wl.z,[2,iu.a],[2,En.a],[2,zu.g],lu.a],{value:[0,"value"],type:[1,"type"]},null),(l()(),Wl._20(-1,2,["\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(26,0,null,null,16,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(27,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,10,{contentLabel:0}),Wl._18(603979776,11,{_buttons:1}),Wl._18(603979776,12,{_icons:1}),Wl.Y(31,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(33,0,null,1,2,"ion-label",[["fixed",""]],null,null,null,null,null)),Wl.Y(34,16384,[[10,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,""],[8,null]],null,null),(l()(),Wl._20(-1,null,["密码："])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(37,0,null,3,4,"ion-input",[["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"]],function(l,n,u){var t=!0;if("ngModelChange"===n){t=!1!==(l.component.passwd=u)&&t}return t},nt.b,nt.a)),Wl.Y(38,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(40,16384,null,0,zu.h,[zu.g],null,null),Wl.Y(41,5423104,null,0,ut.a,[Ln.a,Jn.a,Rn.a,nu.a,Wl.j,Wl.z,[2,iu.a],[2,En.a],[2,zu.g],lu.a],{type:[0,"type"]},null),(l()(),Wl._20(-1,2,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(45,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.login(e.username,e.passwd)&&t}return t},lt.b,lt.a)),Wl.Y(46,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["登录"])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,20,0,u.username);l(n,23,0,"","text");l(n,38,0,u.passwd);l(n,41,0,"password");l(n,46,0,"")},function(l,n){l(n,19,0,Wl._11(n,22).ngClassUntouched,Wl._11(n,22).ngClassTouched,Wl._11(n,22).ngClassPristine,Wl._11(n,22).ngClassDirty,Wl._11(n,22).ngClassValid,Wl._11(n,22).ngClassInvalid,Wl._11(n,22).ngClassPending);l(n,37,0,Wl._11(n,40).ngClassUntouched,Wl._11(n,40).ngClassTouched,Wl._11(n,40).ngClassPristine,Wl._11(n,40).ngClassDirty,Wl._11(n,40).ngClassValid,Wl._11(n,40).ngClassInvalid,Wl._11(n,40).ngClassPending)})}function z(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"button",[["full",""],["ion-button",""],["style","margin-top: 30px;color: #FDE900;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.gotoInAppBrowser()&&t}return t},lt.b,lt.a)),Wl.Y(1,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["进入App内置浏览器"]))],function(l,n){l(n,1,0,"")},null)}function U(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,33,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(3,0,null,null,29,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(6,0,null,1,12,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(7,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(10,0,null,null,7,"button",[["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,11).toggle()&&t}return t},null,null)),Wl.Y(11,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(12,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(15,0,null,null,1,"ion-icon",[["large",""],["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(16,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(20,0,null,3,0,"div",[["class","topbar-logo"]],null,null,null,null,null)),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(22,0,null,2,9,"ion-buttons",[["end",""]],null,null,null,null,null)),Wl.Y(23,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,3,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(26,0,null,null,4,"button",[],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.myMoreAction(u)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(28,0,null,null,1,"ion-icon",[["large",""],["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(29,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(35,0,null,null,19,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(36,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.U(16777216,null,1,1,null,T)),Wl.Y(39,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,F)),Wl.Y(42,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,z)),Wl.Y(45,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(47,0,null,1,2,"button",[["full",""],["ion-button",""],["style","margin-top: 30px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.gotoRealtimeChatRoom()&&t}return t},lt.b,lt.a)),Wl.Y(48,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["进入集诚信实时聊天室"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(51,0,null,1,2,"button",[["full",""],["ion-button",""],["style","margin-top: 30px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.clearAllCachedData()&&t}return t},lt.b,lt.a)),Wl.Y(52,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["清空本地缓存"])),(l()(),Wl._20(-1,1,["\n\n\n"]))],function(l,n){var u=n.component;l(n,11,0,"");l(n,16,0,"menu");l(n,29,0,"add");l(n,39,0,null!=u.userSettings.user);l(n,42,0,null==u.userSettings.user);l(n,45,0,null!=u.userSettings.user);l(n,48,0,"");l(n,52,0,"")},function(l,n){l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,10,0,Wl._11(n,11).isHidden);l(n,15,0,Wl._11(n,16)._hidden);l(n,28,0,Wl._11(n,29)._hidden);l(n,35,0,Wl._11(n,36).statusbarPadding,Wl._11(n,36)._hasRefresher)})}function M(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["我要评价"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,5,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl.Z(16,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["你好，这里是INeedComment页面。"])),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher)})}function N(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousShopSearchPage()&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n\t\t\t上一页\n\t\t"]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function q(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextShopSearchPage()&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n\t\t\t下一页\n\t\t"]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function D(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.U(16777216,null,null,1,null,N)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n\t\t\t","/","\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.U(16777216,null,null,1,null,q)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,7,0,u.queryResult.luc_start>0);l(n,10,0,"thisPage");l(n,14,0,u.queryResult.luc_start+20<u.queryResult.luc_total)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.Math.ceil((u.queryResult.luc_start+1)/20),u.Math.ceil(u.queryResult.luc_total/20))})}function E(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,18,"ion-row",[["class","queryResultRow row"]],null,null,null,null,null)),Wl.Y(1,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(3,0,null,null,3,"ion-col",[["class","col"],["width-20",""]],null,null,null,null,null)),Wl.Y(4,16384,null,0,Fu.a,[],null,null),(l()(),Wl.Z(5,0,null,null,0,"img",[],[[8,"src",4]],null,null,null,null)),(l()(),Wl._20(6,null,[" ",""])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(8,0,null,null,2,"ion-col",[["class","col"],["width-60",""]],null,null,null,null,null)),Wl.Y(9,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(10,null,["",""])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(12,0,null,null,5,"ion-col",[["class","col"],["width-20",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openMoreModal(l.context.$implicit)&&t}return t},null,null)),Wl.Y(13,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n\t\t\t\t"])),(l()(),Wl.Z(15,0,null,null,1,"ion-icon",[["class","iconMore"],["name","more"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(16,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"]))],function(l,n){l(n,16,0,"more")},function(l,n){var u=n.component;l(n,5,0,Wl._2(1,"images/icons/",u.toSTstring(n.context.$implicit.shopType),".ico"));l(n,6,0,u.queryResult.luc_start+n.context.index+1);l(n,10,0,n.context.$implicit.shopName);l(n,15,0,Wl._11(n,16)._hidden)})}function R(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(2,0,null,null,5,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(3,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.U(16777216,null,null,1,null,E)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n\n"]))],function(l,n){l(n,6,0,n.component.queryResult.shops)},null)}function L(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousShopSearchPage()&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[2,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n\t\t\t上一页\n\t\t"]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function O(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextShopSearchPage()&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[2,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n\t\t\t下一页\n\t\t"]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function V(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,2,{_buttons:1}),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.U(16777216,null,null,1,null,L)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[2,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n\t\t\t","/","\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.U(16777216,null,null,1,null,O)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,7,0,u.queryResult.luc_start>0);l(n,10,0,"thisPage");l(n,14,0,u.queryResult.luc_start+20<u.queryResult.luc_total)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.Math.ceil((u.queryResult.luc_start+1)/20),u.Math.ceil(u.queryResult.luc_total/20))})}function W(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n\t"])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n\t\t"])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["搜索/排序网店"])),(l()(),Wl._20(-1,3,["\n\t"])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,516,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n\t"])),(l()(),Wl.Z(16,0,null,1,4,"div",[["class","container large-title no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(18,0,null,null,1,"h3",[["style","text-align: center;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["请输入关键字搜索网店。"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,1,["\n\t"])),(l()(),Wl.Z(22,0,null,1,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(24,0,null,null,5,"input",[["class","contactField requiredField"],["id","query_keywords"],["placeholder","关键字"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==Wl._11(l,25)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,25).onTouched()&&t}if("compositionstart"===n){t=!1!==Wl._11(l,25)._compositionStart()&&t}if("compositionend"===n){t=!1!==Wl._11(l,25)._compositionEnd(u.target.value)&&t}if("ngModelChange"===n){t=!1!==(e.query_keywords=u)&&t}return t},null,null)),Wl.Y(25,16384,null,0,zu.c,[Wl.A,Wl.j,[2,zu.a]],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.c]),Wl.Y(27,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(29,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl.Z(32,0,null,1,482,"div",[["class","portfolio-two"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(34,0,null,null,40,"div",[["class","portfolio-two-item full-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(36,0,null,null,37,"div",[["class","ui-field-contain"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(38,0,null,null,1,"label",[["class","search_label_name"],["for","select_tb_shoptype"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["店铺类型:"])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(41,0,null,null,31,"select",[["data-mini","true"],["data-native-menu","false"],["id","query_shoptype"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"change"],[null,"blur"]],function(l,n,u){var t=!0,e=l.component;if("change"===n){t=!1!==Wl._11(l,42).onChange(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,42).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.query_shoptype=u)&&t}if("change"===n){t=!1!==e.selectShopType(u)&&t}return t},null,null)),Wl.Y(42,16384,null,0,zu.n,[Wl.A,Wl.j],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.n]),Wl.Y(44,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(46,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(48,0,null,null,3,"option",[["selected","selected"],["value","none"]],null,null,null,null,null)),Wl.Y(49,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(50,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["不限"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(53,0,null,null,3,"option",[["value","tbshop"]],null,null,null,null,null)),Wl.Y(54,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(55,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["淘宝"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(58,0,null,null,3,"option",[["value","tmshop"]],null,null,null,null,null)),Wl.Y(59,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(60,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["天猫"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(63,0,null,null,3,"option",[["value","jdshop"]],null,null,null,null,null)),Wl.Y(64,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(65,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["京东"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(68,0,null,null,3,"option",[["value","tyshop"]],null,null,null,null,null)),Wl.Y(69,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(70,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["其它"])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(76,0,null,null,336,"div",[["class","portfolio-two-item full-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(78,0,null,null,333,"div",[["class","ui-field-contain"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(80,0,null,null,1,"label",[["class","search_label_name"],["for","select_tb_area"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["所在地区:"])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(83,0,null,null,327,"select",[["data-mini","true"],["data-native-menu","false"],["id","query_shoparea"],["tabindex","-1"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"change"],[null,"blur"]],function(l,n,u){var t=!0,e=l.component;if("change"===n){t=!1!==Wl._11(l,84).onChange(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,84).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.query_shoparea=u)&&t}return t},null,null)),Wl.Y(84,16384,null,0,zu.n,[Wl.A,Wl.j],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.n]),Wl.Y(86,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(88,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(90,0,null,null,3,"option",[["selected","selected"],["value","none"]],null,null,null,null,null)),Wl.Y(91,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(92,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["所有地区"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t  \t"])),(l()(),Wl.Z(95,0,null,null,171,"optgroup",[["label","城市"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(97,0,null,null,3,"option",[["value","北京  北京市"]],null,null,null,null,null)),Wl.Y(98,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(99,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["北京"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(102,0,null,null,3,"option",[["value","上海  上海市"]],null,null,null,null,null)),Wl.Y(103,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(104,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["上海"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(107,0,null,null,3,"option",[["value","重庆  重庆市"]],null,null,null,null,null)),Wl.Y(108,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(109,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["重庆"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(112,0,null,null,3,"option",[["value","天津  天津市"]],null,null,null,null,null)),Wl.Y(113,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(114,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["天津"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(117,0,null,null,3,"option",[["value","深圳  深圳市 "]],null,null,null,null,null)),Wl.Y(118,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(119,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["深圳"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(122,0,null,null,3,"option",[["value","广州  广州市 "]],null,null,null,null,null)),Wl.Y(123,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(124,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["广州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(127,0,null,null,3,"option",[["value","杭州  杭州市 "]],null,null,null,null,null)),Wl.Y(128,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(129,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["杭州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(132,0,null,null,3,"option",[["value","温州  温州市 "]],null,null,null,null,null)),Wl.Y(133,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(134,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["温州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(137,0,null,null,3,"option",[["value","宁波  宁波市 "]],null,null,null,null,null)),Wl.Y(138,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(139,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["宁波"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(142,0,null,null,3,"option",[["value","南京  南京市 "]],null,null,null,null,null)),Wl.Y(143,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(144,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["南京"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(147,0,null,null,3,"option",[["value","苏州  苏州市 "]],null,null,null,null,null)),Wl.Y(148,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(149,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["苏州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(152,0,null,null,3,"option",[["value","济南  济南市 "]],null,null,null,null,null)),Wl.Y(153,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(154,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["济南"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(157,0,null,null,3,"option",[["value","青岛  青岛市 "]],null,null,null,null,null)),Wl.Y(158,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(159,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["青岛"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(162,0,null,null,3,"option",[["value","大连  大连市 "]],null,null,null,null,null)),Wl.Y(163,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(164,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["大连"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(167,0,null,null,3,"option",[["value","无锡  无锡市 "]],null,null,null,null,null)),Wl.Y(168,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(169,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["无锡"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(172,0,null,null,3,"option",[["value","合肥  合肥市 "]],null,null,null,null,null)),Wl.Y(173,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(174,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["合肥"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(177,0,null,null,3,"option",[["value","长沙  长沙市 "]],null,null,null,null,null)),Wl.Y(178,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(179,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["长沙"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(182,0,null,null,3,"option",[["value","武汉  武汉市 "]],null,null,null,null,null)),Wl.Y(183,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(184,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["武汉"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(187,0,null,null,3,"option",[["value","郑州  郑州市 "]],null,null,null,null,null)),Wl.Y(188,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(189,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["郑州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(192,0,null,null,3,"option",[["value","石家庄  石家庄市 "]],null,null,null,null,null)),Wl.Y(193,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(194,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["石家庄"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(197,0,null,null,3,"option",[["value","成都  成都市 "]],null,null,null,null,null)),Wl.Y(198,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(199,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["成都"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(202,0,null,null,3,"option",[["value","西安  西安市 "]],null,null,null,null,null)),Wl.Y(203,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(204,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["西安"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(207,0,null,null,3,"option",[["value","昆明  昆明市 "]],null,null,null,null,null)),Wl.Y(208,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(209,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["昆明"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(212,0,null,null,3,"option",[["value","南宁  南宁市 "]],null,null,null,null,null)),Wl.Y(213,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(214,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["南宁"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(217,0,null,null,3,"option",[["value","福州  福州市 "]],null,null,null,null,null)),Wl.Y(218,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(219,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["福州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(222,0,null,null,3,"option",[["value","厦门  厦门市 "]],null,null,null,null,null)),Wl.Y(223,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(224,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["厦门"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(227,0,null,null,3,"option",[["value","南昌  南昌市 "]],null,null,null,null,null)),Wl.Y(228,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(229,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["南昌"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(232,0,null,null,3,"option",[["value","东莞  东莞市 "]],null,null,null,null,null)),Wl.Y(233,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(234,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["东莞"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(237,0,null,null,3,"option",[["value","沈阳  沈阳市 "]],null,null,null,null,null)),Wl.Y(238,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(239,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["沈阳"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(242,0,null,null,3,"option",[["value","长春  长春市 "]],null,null,null,null,null)),Wl.Y(243,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(244,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["长春"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(247,0,null,null,3,"option",[["value","哈尔滨  哈尔滨市 "]],null,null,null,null,null)),Wl.Y(248,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(249,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["哈尔滨"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(252,0,null,null,3,"option",[["value","拉萨  拉萨市 "]],null,null,null,null,null)),Wl.Y(253,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(254,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["拉萨"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(257,0,null,null,3,"option",[["value","香港  香港市 "]],null,null,null,null,null)),Wl.Y(258,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(259,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["香港 "])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(262,0,null,null,3,"option",[["value","澳门  澳门市 "]],null,null,null,null,null)),Wl.Y(263,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(264,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["澳门"])),(l()(),Wl._20(-1,null,["\t\t\t\t\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(268,0,null,null,141,"optgroup",[["label","省/地区"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\t\t\t\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(270,0,null,null,3,"option",[["value","河北  河北省 "]],null,null,null,null,null)),Wl.Y(271,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(272,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["河北"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(275,0,null,null,3,"option",[["value","河南  河南省 "]],null,null,null,null,null)),Wl.Y(276,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(277,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["河南"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(280,0,null,null,3,"option",[["value","湖北  湖北省 "]],null,null,null,null,null)),Wl.Y(281,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(282,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["湖北"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(285,0,null,null,3,"option",[["value","湖南  湖南省 "]],null,null,null,null,null)),Wl.Y(286,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(287,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["湖南"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(290,0,null,null,3,"option",[["value","福建  福建省 "]],null,null,null,null,null)),Wl.Y(291,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(292,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["福建"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(295,0,null,null,3,"option",[["value","江苏  江苏省 "]],null,null,null,null,null)),Wl.Y(296,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(297,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["江苏"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(300,0,null,null,3,"option",[["value","江西  江西省 "]],null,null,null,null,null)),Wl.Y(301,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(302,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["江西"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(305,0,null,null,3,"option",[["value","广东  广东省 "]],null,null,null,null,null)),Wl.Y(306,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(307,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["广东"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(310,0,null,null,3,"option",[["value","广西  广西省 "]],null,null,null,null,null)),Wl.Y(311,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(312,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["广西"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(315,0,null,null,3,"option",[["value","海南  海南省 "]],null,null,null,null,null)),Wl.Y(316,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(317,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["海南"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(320,0,null,null,3,"option",[["value","浙江  浙江省 "]],null,null,null,null,null)),Wl.Y(321,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(322,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["浙江"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(325,0,null,null,3,"option",[["value","安徽  安徽省 "]],null,null,null,null,null)),Wl.Y(326,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(327,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["安徽"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(330,0,null,null,3,"option",[["value","吉林  吉林省 "]],null,null,null,null,null)),Wl.Y(331,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(332,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["吉林"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(335,0,null,null,3,"option",[["value","辽宁  辽宁省 "]],null,null,null,null,null)),Wl.Y(336,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(337,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["辽宁"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(340,0,null,null,3,"option",[["value","黑龙江  黑龙江省 "]],null,null,null,null,null)),Wl.Y(341,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(342,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["黑龙江"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(345,0,null,null,3,"option",[["value","山东  山东省 "]],null,null,null,null,null)),Wl.Y(346,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(347,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["山东"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(350,0,null,null,3,"option",[["value","山西  山西省 "]],null,null,null,null,null)),Wl.Y(351,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(352,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["山西"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(355,0,null,null,3,"option",[["value","陕西  陕西省 "]],null,null,null,null,null)),Wl.Y(356,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(357,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["陕西"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(360,0,null,null,3,"option",[["value","新疆  新疆省 "]],null,null,null,null,null)),Wl.Y(361,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(362,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["新疆"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(365,0,null,null,3,"option",[["value","内蒙古  内蒙古省 "]],null,null,null,null,null)),Wl.Y(366,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(367,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["内蒙古"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(370,0,null,null,3,"option",[["value","云南  云南省 "]],null,null,null,null,null)),Wl.Y(371,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(372,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["云南"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(375,0,null,null,3,"option",[["value","贵州  贵州省 "]],null,null,null,null,null)),Wl.Y(376,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(377,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["贵州"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(380,0,null,null,3,"option",[["value","四川  四川省 "]],null,null,null,null,null)),Wl.Y(381,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(382,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["四川"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(385,0,null,null,3,"option",[["value","甘肃  甘肃省 "]],null,null,null,null,null)),Wl.Y(386,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(387,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["甘肃"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(390,0,null,null,3,"option",[["value","宁夏  宁夏省 "]],null,null,null,null,null)),Wl.Y(391,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(392,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["宁夏"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(395,0,null,null,3,"option",[["value","青海  青海省 "]],null,null,null,null,null)),Wl.Y(396,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(397,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["青海"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(400,0,null,null,3,"option",[["value","西藏  西藏省 "]],null,null,null,null,null)),Wl.Y(401,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(402,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["西藏"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(405,0,null,null,3,"option",[["value","台湾  台湾省 "]],null,null,null,null,null)),Wl.Y(406,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(407,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["台湾"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(414,0,null,null,35,"div",[["class","portfolio-two-item full-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(416,0,null,null,32,"div",[["class","ui-field-contain"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(418,0,null,null,1,"label",[["class","search_label_name"],["for","select_tb_scope"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["指定筛选:"])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(421,0,null,null,26,"select",[["data-mini","true"],["data-native-menu","false"],["id","query_scope"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"change"],[null,"blur"]],function(l,n,u){var t=!0,e=l.component;if("change"===n){t=!1!==Wl._11(l,422).onChange(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,422).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.query_scope=u)&&t}return t},null,null)),Wl.Y(422,16384,null,0,zu.n,[Wl.A,Wl.j],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.n]),Wl.Y(424,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(426,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(428,0,null,null,3,"option",[["selected","selected"],["value","none"]],null,null,null,null,null)),Wl.Y(429,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(430,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["不限"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(433,0,null,null,3,"option",[["value","shopname"]],null,null,null,null,null)),Wl.Y(434,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(435,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["店铺名称"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(438,0,null,null,3,"option",[["value","nickname"]],null,null,null,null,null)),Wl.Y(439,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(440,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["旺旺名称"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t    "])),(l()(),Wl.Z(443,0,null,null,3,"option",[["value","maincat"]],null,null,null,null,null)),Wl.Y(444,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(445,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["主营范围"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(451,0,null,null,60,"div",[["class","portfolio-two-item full-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(453,0,null,null,57,"div",[["class","ui-field-contain"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(455,0,null,null,1,"label",[["class","search_label_name"],["for","select_tb_shoptype"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["结果排序:"])),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(458,0,null,null,51,"select",[["data-mini","true"],["data-native-menu","false"],["id","query_result_sort"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"change"],[null,"blur"]],function(l,n,u){var t=!0,e=l.component;if("change"===n){t=!1!==Wl._11(l,459).onChange(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,459).onTouched()&&t}if("ngModelChange"===n){t=!1!==(e.query_result_sort=u)&&t}return t},null,null)),Wl.Y(459,16384,null,0,zu.n,[Wl.A,Wl.j],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.n]),Wl.Y(461,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(463,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(465,0,null,null,3,"option",[["value","default"]],null,null,null,null,null)),Wl.Y(466,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(467,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["名称相关度"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(470,0,null,null,3,"option",[["value","srnSort"]],null,null,null,null,null)),Wl.Y(471,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(472,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["卖家信誉"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(475,0,null,null,3,"option",[["value","bbSaleSort"]],null,null,null,null,null)),Wl.Y(476,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(477,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["商品销量"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(480,0,null,null,3,"option",[["value","bbSumSort"]],null,null,null,null,null)),Wl.Y(481,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(482,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["商品数量"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(485,0,null,null,3,"option",[["selected","selected"],["value","jcxSort"]],null,null,null,null,null)),Wl.Y(486,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(487,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["集诚信分"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(490,0,null,null,3,"option",[["value","ratSort"]],null,null,null,null,null)),Wl.Y(491,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(492,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["用户评分"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(495,0,null,null,3,"option",[["value","masSort"]],null,null,null,null,null)),Wl.Y(496,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(497,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["描述相符"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(500,0,null,null,3,"option",[["value","sasSort"]],null,null,null,null,null)),Wl.Y(501,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(502,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["服务态度"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t   "])),(l()(),Wl.Z(505,0,null,null,3,"option",[["value","casSort"]],null,null,null,null,null)),Wl.Y(506,147456,null,0,zu.l,[Wl.j,Wl.A,[2,zu.n]],{value:[0,"value"]},null),Wl.Y(507,147456,null,0,zu.r,[Wl.j,Wl.A,[8,null]],{value:[0,"value"]},null),(l()(),Wl._20(-1,null,["发货速度"])),(l()(),Wl._20(-1,null,["\t\t\t\t\t\t\t   \n\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(513,0,null,null,0,"div",[["class","decoration hide-if-responsive"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.Z(516,0,null,1,3,"div",[["class","container"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl.Z(518,0,null,null,0,"input",[["class","buttonWrap button button-green contactSubmitButton"],["id","queryShop"],["type","submit"],["value","搜索"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.searchShop()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.U(16777216,null,1,1,null,D)),Wl.Y(522,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl.U(16777216,null,1,1,null,R)),Wl.Y(525,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n\n"])),(l()(),Wl.U(16777216,null,1,1,null,V)),Wl.Y(528,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,27,0,u.query_keywords);l(n,44,0,u.query_shoptype);l(n,49,0,"none");l(n,50,0,"none");l(n,54,0,"tbshop");l(n,55,0,"tbshop");l(n,59,0,"tmshop");l(n,60,0,"tmshop");l(n,64,0,"jdshop");l(n,65,0,"jdshop");l(n,69,0,"tyshop");l(n,70,0,"tyshop");l(n,86,0,u.query_shoparea);l(n,91,0,"none");l(n,92,0,"none");l(n,98,0,"北京  北京市");l(n,99,0,"北京  北京市");l(n,103,0,"上海  上海市");l(n,104,0,"上海  上海市");l(n,108,0,"重庆  重庆市");l(n,109,0,"重庆  重庆市");l(n,113,0,"天津  天津市");l(n,114,0,"天津  天津市");l(n,118,0,"深圳  深圳市 ");l(n,119,0,"深圳  深圳市 ");l(n,123,0,"广州  广州市 ");l(n,124,0,"广州  广州市 ");l(n,128,0,"杭州  杭州市 ");l(n,129,0,"杭州  杭州市 ");l(n,133,0,"温州  温州市 ");l(n,134,0,"温州  温州市 ");l(n,138,0,"宁波  宁波市 ");l(n,139,0,"宁波  宁波市 ");l(n,143,0,"南京  南京市 ");l(n,144,0,"南京  南京市 ");l(n,148,0,"苏州  苏州市 ");l(n,149,0,"苏州  苏州市 ");l(n,153,0,"济南  济南市 ");l(n,154,0,"济南  济南市 ");l(n,158,0,"青岛  青岛市 ");l(n,159,0,"青岛  青岛市 ");l(n,163,0,"大连  大连市 ");l(n,164,0,"大连  大连市 ");l(n,168,0,"无锡  无锡市 ");l(n,169,0,"无锡  无锡市 ");l(n,173,0,"合肥  合肥市 ");l(n,174,0,"合肥  合肥市 ");l(n,178,0,"长沙  长沙市 ");l(n,179,0,"长沙  长沙市 ");l(n,183,0,"武汉  武汉市 ");l(n,184,0,"武汉  武汉市 ");l(n,188,0,"郑州  郑州市 ");l(n,189,0,"郑州  郑州市 ");l(n,193,0,"石家庄  石家庄市 ");l(n,194,0,"石家庄  石家庄市 ");l(n,198,0,"成都  成都市 ");l(n,199,0,"成都  成都市 ");l(n,203,0,"西安  西安市 ");l(n,204,0,"西安  西安市 ");l(n,208,0,"昆明  昆明市 ");l(n,209,0,"昆明  昆明市 ");l(n,213,0,"南宁  南宁市 ");l(n,214,0,"南宁  南宁市 ");l(n,218,0,"福州  福州市 ");l(n,219,0,"福州  福州市 ");l(n,223,0,"厦门  厦门市 ");l(n,224,0,"厦门  厦门市 ");l(n,228,0,"南昌  南昌市 ");l(n,229,0,"南昌  南昌市 ");l(n,233,0,"东莞  东莞市 ");l(n,234,0,"东莞  东莞市 ");l(n,238,0,"沈阳  沈阳市 ");l(n,239,0,"沈阳  沈阳市 ");l(n,243,0,"长春  长春市 ");l(n,244,0,"长春  长春市 ");l(n,248,0,"哈尔滨  哈尔滨市 ");l(n,249,0,"哈尔滨  哈尔滨市 ");l(n,253,0,"拉萨  拉萨市 ");l(n,254,0,"拉萨  拉萨市 ");l(n,258,0,"香港  香港市 ");l(n,259,0,"香港  香港市 ");l(n,263,0,"澳门  澳门市 ");l(n,264,0,"澳门  澳门市 ");l(n,271,0,"河北  河北省 ");l(n,272,0,"河北  河北省 ");l(n,276,0,"河南  河南省 ");l(n,277,0,"河南  河南省 ");l(n,281,0,"湖北  湖北省 ");l(n,282,0,"湖北  湖北省 ");l(n,286,0,"湖南  湖南省 ");l(n,287,0,"湖南  湖南省 ");l(n,291,0,"福建  福建省 ");l(n,292,0,"福建  福建省 ");l(n,296,0,"江苏  江苏省 ");l(n,297,0,"江苏  江苏省 ");l(n,301,0,"江西  江西省 ");l(n,302,0,"江西  江西省 ");l(n,306,0,"广东  广东省 ");l(n,307,0,"广东  广东省 ");l(n,311,0,"广西  广西省 ");l(n,312,0,"广西  广西省 ");l(n,316,0,"海南  海南省 ");l(n,317,0,"海南  海南省 ");l(n,321,0,"浙江  浙江省 ");l(n,322,0,"浙江  浙江省 ");l(n,326,0,"安徽  安徽省 ");l(n,327,0,"安徽  安徽省 ");l(n,331,0,"吉林  吉林省 ");l(n,332,0,"吉林  吉林省 ");l(n,336,0,"辽宁  辽宁省 ");l(n,337,0,"辽宁  辽宁省 ");l(n,341,0,"黑龙江  黑龙江省 ");l(n,342,0,"黑龙江  黑龙江省 ");l(n,346,0,"山东  山东省 ");l(n,347,0,"山东  山东省 ");l(n,351,0,"山西  山西省 ");l(n,352,0,"山西  山西省 ");l(n,356,0,"陕西  陕西省 ");l(n,357,0,"陕西  陕西省 ");l(n,361,0,"新疆  新疆省 ");l(n,362,0,"新疆  新疆省 ");l(n,366,0,"内蒙古  内蒙古省 ");l(n,367,0,"内蒙古  内蒙古省 ");l(n,371,0,"云南  云南省 ");l(n,372,0,"云南  云南省 ");l(n,376,0,"贵州  贵州省 ");l(n,377,0,"贵州  贵州省 ");l(n,381,0,"四川  四川省 ");l(n,382,0,"四川  四川省 ");l(n,386,0,"甘肃  甘肃省 ");l(n,387,0,"甘肃  甘肃省 ");l(n,391,0,"宁夏  宁夏省 ");l(n,392,0,"宁夏  宁夏省 ");l(n,396,0,"青海  青海省 ");l(n,397,0,"青海  青海省 ");l(n,401,0,"西藏  西藏省 ");l(n,402,0,"西藏  西藏省 ");l(n,406,0,"台湾  台湾省 ");l(n,407,0,"台湾  台湾省 ");l(n,424,0,u.query_scope);l(n,429,0,"none");l(n,430,0,"none");l(n,434,0,"shopname");l(n,435,0,"shopname");l(n,439,0,"nickname");l(n,440,0,"nickname");l(n,444,0,"maincat");l(n,445,0,"maincat");l(n,461,0,u.query_result_sort);l(n,466,0,"default");l(n,467,0,"default");l(n,471,0,"srnSort");l(n,472,0,"srnSort");l(n,476,0,"bbSaleSort");l(n,477,0,"bbSaleSort");l(n,481,0,"bbSumSort");l(n,482,0,"bbSumSort");l(n,486,0,"jcxSort");l(n,487,0,"jcxSort");l(n,491,0,"ratSort");l(n,492,0,"ratSort");l(n,496,0,"masSort");l(n,497,0,"masSort");l(n,501,0,"sasSort");l(n,502,0,"sasSort");l(n,506,0,"casSort");l(n,507,0,"casSort");l(n,522,0,null!=u.queryResult&&u.queryResult.luc_total>20);l(n,525,0,null!=u.queryResult);l(n,528,0,null!=u.queryResult&&u.queryResult.luc_total>20)},function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher);l(n,24,0,Wl._11(n,29).ngClassUntouched,Wl._11(n,29).ngClassTouched,Wl._11(n,29).ngClassPristine,Wl._11(n,29).ngClassDirty,Wl._11(n,29).ngClassValid,Wl._11(n,29).ngClassInvalid,Wl._11(n,29).ngClassPending);l(n,41,0,Wl._11(n,46).ngClassUntouched,Wl._11(n,46).ngClassTouched,Wl._11(n,46).ngClassPristine,Wl._11(n,46).ngClassDirty,Wl._11(n,46).ngClassValid,Wl._11(n,46).ngClassInvalid,Wl._11(n,46).ngClassPending);l(n,83,0,Wl._11(n,88).ngClassUntouched,Wl._11(n,88).ngClassTouched,Wl._11(n,88).ngClassPristine,Wl._11(n,88).ngClassDirty,Wl._11(n,88).ngClassValid,Wl._11(n,88).ngClassInvalid,Wl._11(n,88).ngClassPending);l(n,421,0,Wl._11(n,426).ngClassUntouched,Wl._11(n,426).ngClassTouched,Wl._11(n,426).ngClassPristine,Wl._11(n,426).ngClassDirty,Wl._11(n,426).ngClassValid,Wl._11(n,426).ngClassInvalid,Wl._11(n,426).ngClassPending);l(n,458,0,Wl._11(n,463).ngClassUntouched,Wl._11(n,463).ngClassTouched,Wl._11(n,463).ngClassPristine,Wl._11(n,463).ngClassDirty,Wl._11(n,463).ngClassValid,Wl._11(n,463).ngClassInvalid,Wl._11(n,463).ngClassPending)})}function $(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["浏览分类网店"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,5,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl.Z(16,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["你好，这里是Browse页面。"])),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher)})}function H(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["排行榜/指数"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,5,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl.Z(16,0,null,1,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["你好，这里是Rank页面。"])),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher)})}function B(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["帮助中心"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,491,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n\t        "])),(l()(),Wl.Z(16,0,null,1,487,"div",[["class","content"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl.Z(18,0,null,null,18,"div",[["class","container no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(20,0,null,null,4,"h3",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["欢迎来到"])),(l()(),Wl.Z(22,0,null,null,1,"span",[["class","highlight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["帮助中心"])),(l()(),Wl._20(-1,null,["！"])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(26,0,null,null,9,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t这是一些常见问题，希望能够帮到您。如果您还有更多问题，请进入\n\t\t\t\t\t\t"])),(l()(),Wl.Z(28,0,null,null,6,"a",[["href","forum-home.html"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t"])),(l()(),Wl.Z(30,0,null,null,0,"img",[["class","bounce-left imgInline15"],["src","images/lists/right_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t"])),(l()(),Wl.Z(32,0,null,null,1,"span",[["class","highlight"],["style","padding-left: 10px"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["网购社区"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t同我们交流。 \n\t                "])),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl._20(-1,null,["\n\t            \n\t\t       \t"])),(l()(),Wl.Z(38,0,null,null,462,"section",[["class","panel-group accordion"],["id","accordion"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t       \t\t"])),(l()(),Wl.Z(40,0,null,null,1,"h2",[["class","hidden"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["问与答"])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(43,0,null,null,36,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(45,0,null,null,13,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(47,0,null,null,10,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        \t"])),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(50,0,null,null,6,"a",[["class","sign-toggle"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse1"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(53,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(55,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何在集诚信注册用户？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(60,0,null,null,18,"div",[["class","panel-collapse collapse in"],["id","collapse1"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(62,0,null,null,15,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        \t"])),(l()(),Wl.Z(64,0,null,null,10,"ol",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(66,0,null,null,3,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["通过网站注册。点击屏幕左上方"])),(l()(),Wl.Z(68,0,null,null,0,"i",[["class","fa fa-navicon"],["style","background-color: #F9BC65;color: white;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["图标。 点击“注册”按钮，填入相应信息。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(71,0,null,null,2,"li",[],null,null,null,null,null)),(l()(),Wl.Z(72,0,null,null,1,"span",[["style","line-height: 1.5rem; font-size: 14.4px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["通过微信注册。当您通过微信第一次打开其他人分享的集诚信网站链接时，会出现确认信息，如图，点击“确认登录”即可完成注册。您的初始用户名为“#”+“微信用户名”。您可以在菜单选项的“个人中心”-> “编辑我的资料”中修改用户名。注：用户名修改只适用于微信注册用户，并且只能修改一次。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(76,0,null,null,0,"img",[["src","images/faq/weixinLoginConfirm.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(81,0,null,null,20,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(83,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(85,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(87,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse2"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(89,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(91,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何验证店主身份？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(96,0,null,null,4,"div",[["class","panel-collapse collapse"],["id","collapse2"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(98,0,null,null,1,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t可以通过淘宝旺旺进行验证，一旦通过，店主就可以给自己的店铺发布新闻！\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(103,0,null,null,20,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(105,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(107,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(109,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse3"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(111,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(113,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何查询我想找的店铺？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(118,0,null,null,4,"div",[["class","panel-collapse collapse"],["id","collapse3"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(120,0,null,null,1,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t很容易，只需要将该店铺的名称或旺旺名称输入搜索框即可。在“搜索/排序网店”界面，有更多的选项来获得您所想找的店铺。\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(125,0,null,null,23,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(127,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(129,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(131,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse4"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(133,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(135,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何联系我们？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(140,0,null,null,7,"div",[["class","panel-collapse collapse"],["id","collapse4"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(142,0,null,null,4,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t发邮件到\n\t                            \t"])),(l()(),Wl.Z(144,0,null,null,1,"a",[["href","mailto:info@jichengxin.com?Subject=咨询"],["target","_top"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["info@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n\t                            \t我们会尽快回复您的！\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t               \t"])),(l()(),Wl.Z(150,0,null,null,36,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(152,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(154,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(156,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse5"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(158,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(160,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t大、中、小店铺是如何划分的？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(165,0,null,null,20,"div",[["class","panel-collapse collapse"],["id","collapse5"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(167,0,null,null,17,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(169,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(170,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["大、中、小店铺是按照集诚信分来划分的："])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(173,0,null,null,10,"ul",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(175,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["大店铺：集诚信分35～100"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(178,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["中店铺：集诚信分20～35"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(181,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["小店铺：集诚信分0～20"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(188,0,null,null,61,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(190,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(192,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(194,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse6"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(196,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(198,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t集诚信分是如何计算的？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(203,0,null,null,45,"div",[["class","panel-collapse collapse"],["id","collapse6"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(205,0,null,null,42,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(207,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(208,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信分是个综合计算的结果，它的大小和以下信息相关："])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(211,0,null,null,31,"ul",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(213,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["电商平台"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(216,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品评分"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(219,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["服务评分"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(222,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["物流评分"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(225,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品销量"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(228,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品数量"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(231,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["历史信誉"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(234,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["主营类别"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(237,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["用户评价"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(240,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["等等"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t一般集诚信分后面会显示总排名和排名变化，如 \n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(244,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(245,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信分：81.48(10↑14)"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(251,0,null,null,28,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(253,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(255,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(257,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse7"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(259,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(261,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t店铺数据是如何更新的？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(266,0,null,null,12,"div",[["class","panel-collapse collapse"],["id","collapse7"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(268,0,null,null,9,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(270,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(271,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["店铺数据的更新时间会在首页和网店排行榜页面上显示："])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(274,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(275,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["一般重要店铺会每日更新，次要店铺会每周更新，其余的店铺会每月更新。"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(281,0,null,null,38,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(283,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(285,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(287,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse8"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(289,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(291,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \tVIP用户有何特权？如何申请？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(296,0,null,null,22,"div",[["class","panel-collapse collapse"],["id","collapse8"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(298,0,null,null,19,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(300,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(301,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["普通用户只可以查看60天的店铺历史数据，只能获得500条搜索结果。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(304,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(305,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["而VIP用户可以查看180天的店铺历史数据，且能获得5000条搜索结果。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(308,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Wl.Z(309,0,null,null,3,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["欢迎申请VIP用户，将您的申请发送到如下邮箱: "])),(l()(),Wl.Z(311,0,null,null,1,"a",[["href","mailto:info@jichengxin.com"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["info@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(314,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),Wl.Z(315,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["请在邮件里包含您的用户名和邮箱地址等信息。"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                \n\t                "])),(l()(),Wl.Z(321,0,null,null,35,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(323,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(325,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(327,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse9"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(329,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(331,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t手机/微信访问集诚信网站时，如何调出菜单？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(336,0,null,null,19,"div",[["class","panel-collapse collapse"],["id","collapse9"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(338,0,null,null,16,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(340,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["有两种方式"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(343,0,null,null,10,"ol",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t  "])),(l()(),Wl.Z(345,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["向右滑动屏幕；"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t  "])),(l()(),Wl.Z(348,0,null,null,4,"li",[],null,null,null,null,null)),(l()(),Wl.Z(349,0,null,null,1,"span",[["style","line-height: 1.5rem; font-size: 14.4px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["点击屏幕左上方"])),(l()(),Wl.Z(351,0,null,null,0,"i",[["class","fa fa-navicon"],["style","background-color: #F9BC65;color: white;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["图标。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(358,0,null,null,51,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(360,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(362,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(364,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse10"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(366,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(368,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何登录网站？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(373,0,null,null,35,"div",[["class","panel-collapse collapse"],["id","collapse10"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(375,0,null,null,32,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(377,0,null,null,3,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["通过网站注册的用户，点击屏幕左上方"])),(l()(),Wl.Z(379,0,null,null,0,"i",[["class","fa fa-navicon"],["style","background-color: #F9BC65;color: white;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["图标。 点击“登录”，输入用户名和密码。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(382,0,null,null,1,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["通过微信注册的用户，有以下三种方式登录："])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(385,0,null,null,13,"ol",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t  "])),(l()(),Wl.Z(387,0,null,null,4,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["在电脑上，打开"])),(l()(),Wl.Z(389,0,null,null,1,"a",[["href","http://www.jichengxin.com"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["http://www.jichengxin.com"])),(l()(),Wl._20(-1,null,["，点击“登录”，用微信扫描登录页面二维码。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t  "])),(l()(),Wl.Z(393,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["在手机上，打开微信，然后打开任意一篇来自集诚信网站的文章。"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t  "])),(l()(),Wl.Z(396,0,null,null,1,"li",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["在手机上，打开微信，然后打开集诚信公众号（jichengxin-com），从屏幕下端选择“访问网站”-> “进入集诚信”，通过识别途中二维码或点击“阅读原文”，如图："])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(400,0,null,null,0,"img",[["src","images/faq/weixinPublicId.jpg"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(402,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["微信扫描电脑版主页"])),(l()(),Wl.Z(404,0,null,null,1,"a",[["href","http://www.jichengxin.com"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["http://www.jichengxin.com"])),(l()(),Wl._20(-1,null,["左侧下方的“微信扫码立刻参与互动”，也可以在手机上立即注册或进入网站。"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(411,0,null,null,28,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(413,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(415,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(417,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse11"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(419,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(421,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何在社区论坛发表文章？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(426,0,null,null,12,"div",[["class","panel-collapse collapse"],["id","collapse11"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(428,0,null,null,9,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(430,0,null,null,6,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["点击屏幕右上方"])),(l()(),Wl.Z(432,0,null,null,0,"i",[["class","fa fa-commenting-o"],["style","background-color: #F9BC65;color: white;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["图标, 进入“网购社区”（"])),(l()(),Wl.Z(434,0,null,null,1,"a",[["href","forum-home.html"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["论坛首页"])),(l()(),Wl._20(-1,null,["），选择您想发表文章的版面，点击“发表新主题”。"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(441,0,null,null,32,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(443,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(445,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(447,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse12"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(449,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(451,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t如何找到我以前发的帖子？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(456,0,null,null,16,"div",[["class","panel-collapse collapse"],["id","collapse12"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(458,0,null,null,13,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(460,0,null,null,10,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["在菜单中选择“"])),(l()(),Wl.Z(462,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["个人中心"])),(l()(),Wl._20(-1,null,["”-> “"])),(l()(),Wl.Z(465,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["我的全部帖子"])),(l()(),Wl._20(-1,null,["”或者“"])),(l()(),Wl.Z(468,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["我的全部主题贴"])),(l()(),Wl._20(-1,null,["”"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(475,0,null,null,24,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(477,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(479,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(481,0,null,null,5,"a",[["class","sign-toggle collapsed"],["data-parent","#accordion"],["data-toggle","collapse"],["href","#collapse13"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(483,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                            \t"])),(l()(),Wl.Z(485,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                \t 如何在文章中插入图片、音频、视频等内容？\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(490,0,null,null,8,"div",[["class","panel-collapse collapse"],["id","collapse13"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(492,0,null,null,5,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t在文章编辑界面点击\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(494,0,null,null,0,"div",[["style",'width: 36px; display:inline-block; height: 36px; overflow: hidden; zoom: 1; background-image: url("nice/nicEditorIcons-large-m.png"); background-position: -612px 0px;']],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t或\n\t\t\t\t\t\t\t\t"])),(l()(),Wl.Z(496,0,null,null,0,"div",[["style",'width: 36px; display:inline-block; height: 36px; overflow: hidden; zoom: 1; background-image: url("nice/nicEditorIcons-large-m.png"); background-position: -792px 0px;']],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t\t\t\t\t\t可插入图片的网址或本地图片。微信/手机版目前不支持插入音视频。\n\t                        "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t\n\t            "])),(l()(),Wl._20(-1,null,["\n\t            \n\t            "])),(l()(),Wl.Z(502,0,null,null,0,"div",[["class","decoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t        "])),(l()(),Wl._20(-1,1,["\n\n\n\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher)})}function G(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,20,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,9).toggle()&&t}return t},lt.b,lt.a)),Wl.Y(8,1097728,[[1,4]],0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],null,null),Wl.Y(9,1064960,null,0,_u.a,[$n.a,[2,tu.a],[2,pu.a],[2,gu.a]],{menuToggle:[0,"menuToggle"]},null),Wl.Y(10,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,0,["\n      "])),(l()(),Wl.Z(13,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),Wl.Y(14,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),(l()(),Wl._20(-1,0,["\n    "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(17,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(18,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["关于集诚信"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(23,0,null,null,41,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(24,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n\n  "])),(l()(),Wl.Z(26,0,null,1,13,"div",[["class","container no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(28,0,null,null,4,"h3",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["欢迎来到"])),(l()(),Wl.Z(30,0,null,null,1,"span",[["class","highlight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信"])),(l()(),Wl._20(-1,null,["！"])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(34,0,null,null,4,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      如果您从网上购物，如果您是"])),(l()(),Wl.Z(36,0,null,null,1,"span",[["class","highlight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["网上消费者"])),(l()(),Wl._20(-1,null,["，欢迎您访问我们的网站。 请在这里搜索、比较、查找您想要查找的网店的信息。 我们为不同电商平台的网店提供一个独有的集诚信评分。 集诚信分可以成为您选择网店的一个参考依据。\n      同时请您留下您对您常去的网店的评价。 无论是正面的还是反面的评价； 都会帮助其他的消费者； 同时也帮助给网店的经营者。 请积极参与我们的网上购物者社区。 您的留言和评价， 将成为帮助电子商务健康发展、不断提高、良性循环的宝贵资源。\n    "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(41,0,null,1,10,"div",[["class","container no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(43,0,null,null,7,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      如果您是"])),(l()(),Wl.Z(45,0,null,null,1,"span",[["class","highlight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["网店的经营者"])),(l()(),Wl._20(-1,null,["，欢迎您来到电商评级/网购社区。 我们是独立于所有电商平台的第三方网站。 我们的网站将为您永久保存您的网店经营记录。 无论您现在在哪一个电商平台，\n      无论您将来是否建立自己独立的营销网站， 我们都将忠实独立地记录您的发展轨迹， 保护您辛苦积累的无形资产。 同时，我们将为您提供展示产品、推广服务的机会和平台。 我们将为您提供新的客户源。 我们将为您的网店崭露头角提供机会。 我们将为您建立属于您自己的“百年老店”提供帮助。\n      请联系我们：\n      "])),(l()(),Wl.Z(48,0,null,null,1,"a",[["href","mailto:info@jichengxin.com?Subject=咨询"],["target","_top"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["info@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(53,0,null,1,10,"div",[["class","container no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(55,0,null,null,7,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      集诚信\n      "])),(l()(),Wl.Z(57,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl.Z(58,0,null,null,1,"span",[["class","highlight"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["独立，中立，客观，诚信"])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(61,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["为建立电子商务诚信的商业环境、优胜劣汰的有机发展生态而努力！\n    "])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n\n\n"]))],function(l,n){l(n,9,0,"");l(n,14,0,"menu")},function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,7,0,Wl._11(n,9).isHidden);l(n,13,0,Wl._11(n,14)._hidden);l(n,23,0,Wl._11(n,24).statusbarPadding,Wl._11(n,24)._hasRefresher)})}function X(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["联系我们"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,118,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n\t       \t"])),(l()(),Wl.Z(16,0,null,1,0,"img",[["class","responsive-image"],["src","images/guiyang-jcx.jpg"],["style","height:125px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,1,["\n\t        \n\t\n\t        "])),(l()(),Wl.Z(18,0,null,1,112,"div",[["class","content"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl.Z(20,0,null,null,0,"div",[["class","decoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl.Z(22,0,null,null,55,"div",[["class","one-half-responsive"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(24,0,null,null,1,"h4",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["欢迎您与我们联系，请在下面输入您的信息。"])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(27,0,null,null,49,"div",[["class","container no-bottom"],["style","width: 100%;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(29,0,null,null,46,"div",[["class","contact-form no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \t\n\t                        "])),(l()(),Wl.Z(31,0,null,null,43,"form",[["action",""],["class","contactForm"],["id","contactForm"],["method","post"],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0;if("submit"===n){t=!1!==Wl._11(l,33).onSubmit(u)&&t}if("reset"===n){t=!1!==Wl._11(l,33).onReset()&&t}return t},null,null)),Wl.Y(32,16384,null,0,zu.p,[],null,null),Wl.Y(33,4210688,null,0,zu.j,[[8,null],[8,null]],null,null),Wl._16(2048,null,zu.b,null,[zu.j]),Wl.Y(35,16384,null,0,zu.i,[zu.b],null,null),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl.Z(37,0,null,null,36,"fieldset",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["  \n\t                                "])),(l()(),Wl.Z(39,0,null,null,8,"div",[["class","formFieldWrap"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(41,0,null,null,3,"label",[["class","contactNameField"],["for","contactNameField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["名字:"])),(l()(),Wl.Z(43,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(46,0,null,null,0,"input",[["class","contactField requiredField"],["id","contactNameField"],["name","contactNameField"],["type","text"],["value",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl.Z(49,0,null,null,8,"div",[["class","formFieldWrap"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(51,0,null,null,3,"label",[["class","contactEmailField"],["for","contactEmailField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["电子邮箱: "])),(l()(),Wl.Z(53,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(56,0,null,null,0,"input",[["class","contactField requiredField requiredEmailField"],["id","contactEmailField"],["name","contactEmailField"],["type","text"],["value",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl.Z(59,0,null,null,8,"div",[["class","formTextareaWrap"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(61,0,null,null,3,"label",[["class","contactMessageTextarea"],["for","contactMessageTextarea"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["内容: "])),(l()(),Wl.Z(63,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(66,0,null,null,0,"textarea",[["class","contactTextarea requiredField"],["id","contactMessageTextarea"],["name","contactMessageTextarea"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl.Z(69,0,null,null,3,"div",[["class","formSubmitButtonErrorsWrap"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                    "])),(l()(),Wl.Z(71,0,null,null,0,"input",[["class","buttonWrap button button-green contactSubmitButton"],["data-formId","contactForm"],["id","contactSubmitButton"],["type","submit"],["value","发送"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                                "])),(l()(),Wl._20(-1,null,["\n\t                            "])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl._20(-1,null,["       \n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl.Z(79,0,null,null,0,"div",[["class","decoration hide-if-responsive"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t            "])),(l()(),Wl.Z(81,0,null,null,48,"div",[["class","one-half-responsive last-column"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl.Z(83,0,null,null,45,"div",[["class","container no-bottom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(85,0,null,null,1,"h4",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["联系方式"])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(88,0,null,null,5,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(90,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["公司名称"])),(l()(),Wl.Z(92,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                       \t 贵阳集诚信网络科技有限公司\n\t                    "])),(l()(),Wl._20(-1,null,["\t                    \n\t                    "])),(l()(),Wl.Z(95,0,null,null,5,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(97,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["公司地址"])),(l()(),Wl.Z(99,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                       \t 贵州省贵阳市观山湖区阳关大道28号西部研发基地\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl.Z(102,0,null,null,25,"p",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(104,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["联系信息:"])),(l()(),Wl.Z(106,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(108,0,null,null,2,"a",[["class","contact-mail"],["href","#"]],null,null,null,null,null)),(l()(),Wl.Z(109,0,null,null,0,"i",[["class","fa fa-envelope"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["产品信息: info@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(112,0,null,null,2,"a",[["class","contact-mail"],["href","#"]],null,null,null,null,null)),(l()(),Wl.Z(113,0,null,null,0,"i",[["class","fa fa-envelope"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["技术支持: support@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(116,0,null,null,2,"a",[["class","contact-mail"],["href","#"]],null,null,null,null,null)),(l()(),Wl.Z(117,0,null,null,0,"i",[["class","fa fa-envelope"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["用户反馈: feedback@jichengxin.com"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(120,0,null,null,2,"a",[["class","contact-facebook"],["href","#"]],null,null,null,null,null)),(l()(),Wl.Z(121,0,null,null,0,"i",[["class","fa fa-weixin"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["微信公众号: jichengxin-com"])),(l()(),Wl._20(-1,null,["\n\t                        "])),(l()(),Wl.Z(124,0,null,null,2,"a",[["class","contact-twitter"],["href","#"]],null,null,null,null,null)),(l()(),Wl.Z(125,0,null,null,0,"i",[["class","fa fa-weibo"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["微博: 集诚信20150808"])),(l()(),Wl._20(-1,null,["\n\t                    "])),(l()(),Wl._20(-1,null,["\n\t                "])),(l()(),Wl._20(-1,null,["            \n\t            "])),(l()(),Wl._20(-1,null,["\n\t        "])),(l()(),Wl._20(-1,1,["\n\n"])),(l()(),Wl._20(-1,null,["\n"]))],null,function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher);l(n,31,0,Wl._11(n,35).ngClassUntouched,Wl._11(n,35).ngClassTouched,Wl._11(n,35).ngClassPristine,Wl._11(n,35).ngClassDirty,Wl._11(n,35).ngClassValid,Wl._11(n,35).ngClassInvalid,Wl._11(n,35).ngClassPending)})}function J(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function K(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function Q(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,J)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,K)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.forumPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.forumPage.totalPages>u.forumPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.forumPage.thisPage,u.forumPage.totalPages)})}function ll(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,10,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,2,{contentLabel:0}),Wl._18(603979776,3,{_buttons:1}),Wl._18(603979776,4,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(8,0,null,2,1,"div",[["class","topicTitle"]],[[8,"innerHTML",1]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openTopic(l.context.$implicit)&&t}return t},null,null)),Wl._15(9,1),(l()(),Wl._20(-1,2,["\n      "]))],null,function(l,n){l(n,8,0,Wl._21(n,8,0,l(n,9,0,Wl._11(n.parent.parent,0),n.context.$implicit.oneTitle)))})}function nl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,ll)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.forumPage.topics)},null)}function ul(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function tl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function el(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,5,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,ul)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,tl)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.forumPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.forumPage.totalPages>u.forumPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.forumPage.thisPage,u.forumPage.totalPages)})}function al(l){return Wl._22(0,[Wl._13(0,nn,[Vl.c]),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(2,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(5,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(6,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(8,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(9,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(10,0,["",""])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(14,0,null,null,65,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(15,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(17,0,null,1,7,"div",[],null,null,null,null,null)),Wl.Y(18,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(19,{display:0}),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(21,0,null,null,2,"button",[["full",""],["id","openNewTopic"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){e.jq("#newTopic").slideDown();t=!1!==e.jq("#openNewTopic").slideUp()&&t}return t},lt.b,lt.a)),Wl.Y(22,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["发表新主题"])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(26,0,null,1,43,"div",[["id","newTopic"],["style","margin: 5px; display: none;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(28,0,null,null,3,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["主题："])),(l()(),Wl.Z(30,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(33,0,null,null,5,"input",[["class","subjectField"],["id","subjectField"],["type","text"],["value",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==Wl._11(l,34)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,34).onTouched()&&t}if("compositionstart"===n){t=!1!==Wl._11(l,34)._compositionStart()&&t}if("compositionend"===n){t=!1!==Wl._11(l,34)._compositionEnd(u.target.value)&&t}if("ngModelChange"===n){t=!1!==(e.subjectField=u)&&t}return t},null,null)),Wl.Y(34,16384,null,0,zu.c,[Wl.A,Wl.j,[2,zu.a]],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.c]),Wl.Y(36,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(38,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(40,0,null,null,3,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["内容: "])),(l()(),Wl.Z(42,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(45,0,null,null,3,"div",[["class","niceDiv"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(47,0,null,null,0,"textarea",[["class","subjectTextarea"],["id","niceTopicTextArea"],["style","width: 100%; height: 200px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["  \t\t\t\t\n  \t"])),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(50,0,null,null,18,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(51,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(53,0,null,null,14,"ion-row",[["class","row"],["style","margin-top: 5px;"]],null,null,null,null,null)),Wl.Y(54,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(56,0,null,null,4,"ion-col",[["class","col"],["width-50",""]],null,null,null,null,null)),Wl.Y(57,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(59,0,null,null,0,"input",[["class","topicSubmitButton"],["style","background-color:#99CC33;"],["type","submit"],["value","发送"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.sendNewTopic()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(62,0,null,null,4,"ion-col",[["class","col"],["width-50",""]],null,null,null,null,null)),Wl.Y(63,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(65,0,null,null,0,"input",[["class","topicSubmitButton"],["style","background-color:#FF9933;"],["type","submit"],["value","取消"]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){e.jq("#newTopic").slideUp();t=!1!==e.jq("#openNewTopic").slideDown()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,Q)),Wl.Y(72,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,nl)),Wl.Y(75,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,el)),Wl.Y(78,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,18,0,l(n,19,0,u.nicEditorDisplay));l(n,22,0,"");l(n,36,0,u.subjectField);l(n,72,0,null!=u.forumPage&&u.forumPage.totalPages>1);l(n,75,0,null!=u.forumPage&&null!=u.forumPage.topics);l(n,78,0,null!=u.forumPage&&u.forumPage.totalPages>1)},function(l,n){var u=n.component;l(n,5,0,Wl._11(n,6)._hidden,Wl._11(n,6)._sbPadding);l(n,10,0,u.forumName);l(n,14,0,Wl._11(n,15).statusbarPadding,Wl._11(n,15)._hasRefresher);l(n,33,0,Wl._11(n,38).ngClassUntouched,Wl._11(n,38).ngClassTouched,Wl._11(n,38).ngClassPristine,Wl._11(n,38).ngClassDirty,Wl._11(n,38).ngClassValid,Wl._11(n,38).ngClassInvalid,Wl._11(n,38).ngClassPending)})}function ol(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function il(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function sl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,ol)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,il)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.topicPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.topicPage.totalPages>u.topicPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.topicPage.thisPage,u.topicPage.totalPages)})}function cl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,2,{contentLabel:0}),Wl._18(603979776,3,{_buttons:1}),Wl._18(603979776,4,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,2,1,"div",[["class","postText"]],[[8,"innerHTML",1]],null,null,null,null)),Wl._15(8,1),(l()(),Wl._20(-1,2,["\n      "]))],null,function(l,n){l(n,7,0,Wl._21(n,7,0,l(n,8,0,Wl._11(n.parent.parent,0),n.context.$implicit.longtext)))})}function rl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,cl)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.topicPage.posts)},null)}function _l(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function pl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function gl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,5,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,_l)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,pl)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.topicPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.topicPage.totalPages>u.topicPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.topicPage.thisPage,u.topicPage.totalPages)})}function dl(l){return Wl._22(0,[Wl._13(0,nn,[Vl.c]),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(2,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(5,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(6,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(8,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(9,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(10,0,["",""])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(14,0,null,null,28,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(15,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,sl)),Wl.Y(18,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,rl)),Wl.Y(21,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,gl)),Wl.Y(24,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(26,0,null,1,15,"div",[["padding",""]],null,null,null,null,null)),Wl.Y(27,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(28,{display:0}),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(30,0,null,null,1,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["回复: "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(33,0,null,null,3,"div",[["class","niceDiv"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(35,0,null,null,0,"textarea",[["class","subjectTextarea"],["id","niceTextArea"],["style","width: 100%; height: 200px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(38,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.sendNewReply()&&t}return t},lt.b,lt.a)),Wl.Y(39,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["发送"])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,18,0,null!=u.topicPage&&u.topicPage.totalPages>1);l(n,21,0,null!=u.topicPage&&null!=u.topicPage.posts);l(n,24,0,null!=u.topicPage&&u.topicPage.totalPages>1);l(n,27,0,l(n,28,0,u.nicEditorDisplay));l(n,39,0,"")},function(l,n){var u=n.component;l(n,5,0,Wl._11(n,6)._hidden,Wl._11(n,6)._sbPadding);l(n,10,0,u.topic.title);l(n,14,0,Wl._11(n,15).statusbarPadding,Wl._11(n,15)._hasRefresher)})}function hl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function fl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function ml(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,hl)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,fl)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.forumPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.forumPage.totalPages>u.forumPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.forumPage.thisPage,u.forumPage.totalPages)})}function bl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,2,{contentLabel:0}),Wl._18(603979776,3,{_buttons:1}),Wl._18(603979776,4,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,2,1,"div",[["class","topicTitle"]],[[8,"innerHTML",1]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openTradeTopic(l.context.$implicit)&&t}return t},null,null)),Wl._15(8,1),(l()(),Wl._20(-1,2,["\n      "]))],null,function(l,n){l(n,7,0,Wl._21(n,7,0,l(n,8,0,Wl._11(n.parent.parent,0),n.context.$implicit.oneTitle)))})}function vl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,bl)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.forumPage.topics)},null)}function Zl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function yl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.forumPage.thisPage,e.forumPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function kl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,5,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,Zl)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,yl)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.forumPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.forumPage.totalPages>u.forumPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.forumPage.thisPage,u.forumPage.totalPages)})}function Yl(l){return Wl._22(0,[Wl._13(0,nn,[Vl.c]),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(2,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(5,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(6,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(8,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(9,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(10,0,["",""])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(14,0,null,null,65,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(15,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(17,0,null,1,7,"div",[],null,null,null,null,null)),Wl.Y(18,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(19,{display:0}),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(21,0,null,null,2,"button",[["full",""],["id","openNewTradeTopic"],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){e.jq("#newTradeTopic").slideDown();t=!1!==e.jq("#openNewTradeTopic").slideUp()&&t}return t},lt.b,lt.a)),Wl.Y(22,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["发表新主题"])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(26,0,null,1,43,"div",[["id","newTradeTopic"],["style","margin: 5px; display: none;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(28,0,null,null,3,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["主题："])),(l()(),Wl.Z(30,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(33,0,null,null,5,"input",[["class","subjectField"],["type","text"],["value",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"input"],[null,"blur"],[null,"compositionstart"],[null,"compositionend"]],function(l,n,u){var t=!0,e=l.component;if("input"===n){t=!1!==Wl._11(l,34)._handleInput(u.target.value)&&t}if("blur"===n){t=!1!==Wl._11(l,34).onTouched()&&t}if("compositionstart"===n){t=!1!==Wl._11(l,34)._compositionStart()&&t}if("compositionend"===n){t=!1!==Wl._11(l,34)._compositionEnd(u.target.value)&&t}if("ngModelChange"===n){t=!1!==(e.subjectField=u)&&t}return t},null,null)),Wl.Y(34,16384,null,0,zu.c,[Wl.A,Wl.j,[2,zu.a]],null,null),Wl._16(1024,null,zu.f,function(l){return[l]},[zu.c]),Wl.Y(36,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[2,zu.f]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(38,16384,null,0,zu.h,[zu.g],null,null),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(40,0,null,null,3,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["内容: "])),(l()(),Wl.Z(42,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["（必填）"])),(l()(),Wl._20(-1,null,["\n\t\t"])),(l()(),Wl.Z(45,0,null,null,3,"div",[["class","niceDiv"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\t\t\t"])),(l()(),Wl.Z(47,0,null,null,0,"textarea",[["class","subjectTextarea"],["id","niceTradeTopicTextArea"],["style","width: 100%; height: 200px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["  \t\t\t\t\n  \t"])),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(50,0,null,null,18,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(51,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(53,0,null,null,14,"ion-row",[["class","row"],["style","margin-top: 5px;"]],null,null,null,null,null)),Wl.Y(54,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(56,0,null,null,4,"ion-col",[["class","col"],["width-50",""]],null,null,null,null,null)),Wl.Y(57,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(59,0,null,null,0,"input",[["class","topicSubmitButton"],["style","background-color:#99CC33;"],["type","submit"],["value","发送"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.sendNewTradeTopic()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(62,0,null,null,4,"ion-col",[["class","col"],["width-50",""]],null,null,null,null,null)),Wl.Y(63,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(65,0,null,null,0,"input",[["class","topicSubmitButton"],["style","background-color:#FF9933;"],["type","submit"],["value","取消"]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){e.jq("#newTradeTopic").slideUp();t=!1!==e.jq("#openNewTradeTopic").slideDown()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n\t"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,ml)),Wl.Y(72,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,vl)),Wl.Y(75,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,kl)),Wl.Y(78,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,18,0,l(n,19,0,u.nicEditorDisplay));l(n,22,0,"");l(n,36,0,u.subjectField);l(n,72,0,null!=u.forumPage&&u.forumPage.totalPages>1);l(n,75,0,null!=u.forumPage&&null!=u.forumPage.topics);l(n,78,0,null!=u.forumPage&&u.forumPage.totalPages>1)},function(l,n){var u=n.component;l(n,5,0,Wl._11(n,6)._hidden,Wl._11(n,6)._sbPadding);l(n,10,0,u.forumName);l(n,14,0,Wl._11(n,15).statusbarPadding,Wl._11(n,15)._hasRefresher);l(n,33,0,Wl._11(n,38).ngClassUntouched,Wl._11(n,38).ngClassTouched,Wl._11(n,38).ngClassPristine,Wl._11(n,38).ngClassDirty,Wl._11(n,38).ngClassValid,Wl._11(n,38).ngClassInvalid,Wl._11(n,38).ngClassPending)})}function jl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function xl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function Pl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,jl)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[1,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,xl)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.topicPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.topicPage.totalPages>u.topicPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.topicPage.thisPage,u.topicPage.totalPages)})}function Sl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,2,{contentLabel:0}),Wl._18(603979776,3,{_buttons:1}),Wl._18(603979776,4,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl.Z(7,0,null,2,1,"div",[["class","postText"]],[[8,"innerHTML",1]],null,null,null,null)),Wl._15(8,1),(l()(),Wl._20(-1,2,["\n      "]))],null,function(l,n){l(n,7,0,Wl._21(n,7,0,l(n,8,0,Wl._11(n.parent.parent,0),n.context.$implicit.longtext)))})}function Cl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,8,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,5,"ion-list",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,Sl)),Wl.Y(6,802816,null,0,ru.h,[Wl.I,Wl.F,Wl.p],{ngForOf:[0,"ngForOf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){l(n,6,0,n.component.topicPage.posts)},null)}function wl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","prePage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.previousPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        上一页\n      "]))],function(l,n){l(n,1,0,"prePage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function Il(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","nextPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"ionSelect"],[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==Wl._11(l,1).onClick()&&t}if("ionSelect"===n){t=!1!==e.nextPage(e.topicPage.thisPage,e.topicPage.recordsPerPage)&&t}return t},_t.b,_t.a)),Wl.Y(1,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},{ionSelect:"ionSelect"}),(l()(),Wl._20(-1,0,["\n        下一页\n      "]))],function(l,n){l(n,1,0,"nextPage")},function(l,n){l(n,0,0,Wl._11(n,1)._disabled,Wl._11(n,1).isActive,Wl._11(n,1).isActive)})}function Al(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,16,"div",[["padding",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,13,"ion-segment",[],[[2,"segment-disabled",null]],null,null,null,null)),Wl.Y(3,1196032,null,1,gt.a,[Ln.a,Wl.j,Wl.z,[2,zu.g]],null,null),Wl._18(603979776,5,{_buttons:1}),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,wl)),Wl.Y(7,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(9,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","thisPage"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==Wl._11(l,10).onClick()&&t}return t},_t.b,_t.a)),Wl.Y(10,114688,[[5,4]],0,pt.a,[],{value:[0,"value"]},null),(l()(),Wl._20(11,0,["\n        ","/","\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.U(16777216,null,null,1,null,Il)),Wl.Y(14,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n  "]))],function(l,n){var u=n.component;l(n,7,0,u.topicPage.thisPage>1);l(n,10,0,"thisPage");l(n,14,0,u.topicPage.totalPages>u.topicPage.thisPage)},function(l,n){var u=n.component;l(n,2,0,Wl._11(n,3)._disabled);l(n,9,0,Wl._11(n,10)._disabled,Wl._11(n,10).isActive,Wl._11(n,10).isActive);l(n,11,0,u.topicPage.thisPage,u.topicPage.totalPages)})}function Tl(l){return Wl._22(0,[Wl._13(0,nn,[Vl.c]),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(2,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(3,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(5,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(6,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(8,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(9,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(10,0,["",""])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(14,0,null,null,28,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(15,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,Pl)),Wl.Y(18,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,Cl)),Wl.Y(21,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,Al)),Wl.Y(24,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.Z(26,0,null,1,15,"div",[["padding",""]],null,null,null,null,null)),Wl.Y(27,278528,null,0,ru.l,[Wl.q,Wl.j,Wl.A],{ngStyle:[0,"ngStyle"]},null),Wl._14(28,{display:0}),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(30,0,null,null,1,"label",[["class","labelField"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["回复: "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(33,0,null,null,3,"div",[["class","niceDiv"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(35,0,null,null,0,"textarea",[["class","subjectTextarea"],["id","niceTradeTextArea"],["style","width: 100%; height: 200px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(38,0,null,null,2,"button",[["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.sendNewTradeReply()&&t}return t},lt.b,lt.a)),Wl.Y(39,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{full:[0,"full"]},null),(l()(),Wl._20(-1,0,["发送"])),(l()(),Wl._20(-1,null,["\n  "])),(l()(),Wl._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,18,0,null!=u.topicPage&&u.topicPage.totalPages>1);l(n,21,0,null!=u.topicPage&&null!=u.topicPage.posts);l(n,24,0,null!=u.topicPage&&u.topicPage.totalPages>1);l(n,27,0,l(n,28,0,u.nicEditorDisplay));l(n,39,0,"")},function(l,n){var u=n.component;l(n,5,0,Wl._11(n,6)._hidden,Wl._11(n,6)._sbPadding);l(n,10,0,u.topic.title);l(n,14,0,Wl._11(n,15).statusbarPadding,Wl._11(n,15)._hasRefresher)})}function Fl(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["集诚信聊天室"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,16,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n    "])),(l()(),Wl.Z(16,0,null,1,1,"h3",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["欢迎进入集诚信聊天室"])),(l()(),Wl._20(-1,1,["\n    "])),(l()(),Wl.Z(19,0,null,1,4,"ion-input",[["class","chatinput"],["full",""],["placeholder","键入内容，按回车发送"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngModelChange"],[null,"keydown"]],function(l,n,u){var t=!0,e=l.component;if("ngModelChange"===n){t=!1!==(e.message=u)&&t}if("keydown"===n){t=!1!==e.sendMessage(u)&&t}return t},nt.b,nt.a)),Wl.Y(20,671744,null,0,zu.k,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),Wl._16(2048,null,zu.g,null,[zu.k]),Wl.Y(22,16384,null,0,zu.h,[zu.g],null,null),Wl.Y(23,5423104,null,0,ut.a,[Ln.a,Jn.a,Rn.a,nu.a,Wl.j,Wl.z,[2,iu.a],[2,En.a],[2,zu.g],lu.a],{type:[0,"type"],placeholder:[1,"placeholder"]},null),(l()(),Wl._20(-1,1,["\n\n    "])),(l()(),Wl.Z(25,0,null,1,3,"div",[["id","chatroom-container"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(27,0,null,null,0,"div",[["id","chatroom"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],function(l,n){l(n,20,0,n.component.message);l(n,23,0,"text","键入内容，按回车发送")},function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher);l(n,19,0,Wl._11(n,22).ngClassUntouched,Wl._11(n,22).ngClassTouched,Wl._11(n,22).ngClassPristine,Wl._11(n,22).ngClassDirty,Wl._11(n,22).ngClassValid,Wl._11(n,22).ngClassInvalid,Wl._11(n,22).ngClassPending)})}function zl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,11,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(3,null,["格式：",""])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(5,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(6,null,["文本：",""])),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(8,0,null,null,2,"button",[["color","primary"],["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.lookup()&&t}return t},lt.b,lt.a)),Wl.Y(9,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),Wl._20(-1,0,["查看"])),(l()(),Wl._20(-1,null,["\n\n  "]))],function(l,n){l(n,9,0,"primary","")},function(l,n){var u=n.component;l(n,3,0,u.results.format);l(n,6,0,u.results.text)})}function Ul(l){return Wl._22(0,[(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl.Z(1,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(2,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(4,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(5,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(7,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(8,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["扫一扫"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(13,0,null,null,13,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(14,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(16,0,null,1,2,"button",[["color","primary"],["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.scan()&&t}return t},lt.b,lt.a)),Wl.Y(17,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),Wl._20(-1,0,["扫描"])),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(20,0,null,1,2,"button",[["color","secondary"],["full",""],["ion-button",""],["style","margin-top: 30px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.reset()&&t}return t},lt.b,lt.a)),Wl.Y(21,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),Wl._20(-1,0,["重置"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,zl)),Wl.Y(25,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,17,0,"primary","");l(n,21,0,"secondary","");l(n,25,0,u.results)},function(l,n){l(n,4,0,Wl._11(n,5)._hidden,Wl._11(n,5)._sbPadding);l(n,13,0,Wl._11(n,14).statusbarPadding,Wl._11(n,14)._hasRefresher)})}function Ml(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(2,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(3,null,["文本：",""])),(l()(),Wl._20(-1,null,["\n  "]))],null,function(l,n){l(n,3,0,n.component.results)})}function Nl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n  "])),(l()(),Wl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl.Z(6,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(7,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["扫描二维码"])),(l()(),Wl._20(-1,3,["\n  "])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl._20(-1,null,["\n\n\n"])),(l()(),Wl.Z(12,0,null,null,13,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(13,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(15,0,null,1,2,"button",[["color","primary"],["full",""],["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.scan()&&t}return t},lt.b,lt.a)),Wl.Y(16,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),Wl._20(-1,0,["扫描"])),(l()(),Wl._20(-1,1,["\n  "])),(l()(),Wl.Z(19,0,null,1,2,"button",[["color","secondary"],["full",""],["ion-button",""],["style","margin-top: 30px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.reset()&&t}return t},lt.b,lt.a)),Wl.Y(20,1097728,null,0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],{color:[0,"color"],full:[1,"full"]},null),(l()(),Wl._20(-1,0,["重置"])),(l()(),Wl._20(-1,1,["\n\n  "])),(l()(),Wl.U(16777216,null,1,1,null,Ml)),Wl.Y(24,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n"])),(l()(),Wl._20(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,16,0,"primary","");l(n,20,0,"secondary","");l(n,24,0,u.results)},function(l,n){l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,12,0,Wl._11(n,13).statusbarPadding,Wl._11(n,13)._hasRefresher)})}function ql(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,11,{contentLabel:0}),Wl._18(603979776,12,{_buttons:1}),Wl._18(603979776,13,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(7,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(8,16384,[[11,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["用户评分："])),(l()(),Wl.Z(10,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(11,16384,[[11,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(12,null,["",""])),(l()(),Wl._20(-1,2,["\n        "]))],null,function(l,n){l(n,12,0,n.component.shop.rating.toFixed(2))})}function Dl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(1,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,14,{contentLabel:0}),Wl._18(603979776,15,{_buttons:1}),Wl._18(603979776,16,{_icons:1}),Wl.Y(5,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(7,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(8,16384,[[14,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["集诚信分："])),(l()(),Wl.Z(10,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(11,16384,[[14,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(12,null,["",""])),(l()(),Wl._20(-1,2,["\n        "]))],null,function(l,n){l(n,12,0,n.component.shop.jcx.toFixed(2))})}function El(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,27,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl.Z(3,0,null,null,23,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,eu.b,eu.a)),Wl.Y(4,49152,null,0,au.a,[Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n        "])),(l()(),Wl.Z(6,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(7,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(-1,0,["\n            店铺详情\n        "])),(l()(),Wl._20(-1,3,["\n        "])),(l()(),Wl.Z(10,0,null,1,15,"ion-buttons",[["start",""]],null,null,null,null,null)),Wl.Y(11,16384,null,1,du.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),Wl._18(603979776,1,{_buttons:1}),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(14,0,null,null,10,"button",[["ion-button",""]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.dismiss()&&t}return t},lt.b,lt.a)),Wl.Y(15,1097728,[[1,4]],0,pu.a,[[8,""],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,0,["\n                "])),(l()(),Wl.Z(17,0,null,0,2,"span",[["color","primary"],["showWhen","ios"]],[[2,"hidden-show-when",null]],null,null,null,null)),Wl.Y(18,147456,null,0,Rt.a,[[8,"ios"],Jn.a,Wl.u],null,null),(l()(),Wl._20(-1,null,["关闭"])),(l()(),Wl._20(-1,0,["\n                "])),(l()(),Wl.Z(21,0,null,0,2,"ion-icon",[["name","md-close"],["role","img"],["showWhen","android,windows"]],[[2,"hide",null],[2,"hidden-show-when",null]],null,null,null,null)),Wl.Y(22,147456,null,0,Hn.a,[Ln.a,Wl.j,Wl.z],{name:[0,"name"]},null),Wl.Y(23,147456,null,0,Rt.a,[[8,"android,windows"],Jn.a,Wl.u],null,null),(l()(),Wl._20(-1,0,["\n            "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl._20(-1,null,["\n"])),(l()(),Wl._20(-1,null,["\n\n"])),(l()(),Wl.Z(29,0,null,null,95,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(30,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n\n    "])),(l()(),Wl.Z(32,0,null,1,91,"ion-list",[],null,null,null,null,null)),Wl.Y(33,16384,null,0,cu.a,[Ln.a,Wl.j,Wl.z,Jn.a,Qn.l,lu.a],null,null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(35,0,null,null,6,"ion-list-header",[["class","item"],["style","color: limegreen;font-size: 16px; font-weight: bold;"]],null,null,null,Dn.b,Dn.a)),Wl.Y(36,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,2,{contentLabel:0}),Wl._18(603979776,3,{_buttons:1}),Wl._18(603979776,4,{_icons:1}),Wl.Y(40,16384,null,0,Lt.a,[Ln.a,Wl.z,Wl.j,[8,null]],null,null),(l()(),Wl._20(41,2,[" ","\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(43,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(44,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,5,{contentLabel:0}),Wl._18(603979776,6,{_buttons:1}),Wl._18(603979776,7,{_icons:1}),Wl.Y(48,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(50,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(51,16384,[[5,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["卖家昵称："])),(l()(),Wl.Z(53,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(54,16384,[[5,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(55,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(58,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(59,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,8,{contentLabel:0}),Wl._18(603979776,9,{_buttons:1}),Wl._18(603979776,10,{_icons:1}),Wl.Y(63,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(65,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(66,16384,[[8,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["地区："])),(l()(),Wl.Z(68,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(69,16384,[[8,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(70,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.U(16777216,null,null,1,null,ql)),Wl.Y(74,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.U(16777216,null,null,1,null,Dl)),Wl.Y(77,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(79,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(80,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,17,{contentLabel:0}),Wl._18(603979776,18,{_buttons:1}),Wl._18(603979776,19,{_icons:1}),Wl.Y(84,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(86,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(87,16384,[[17,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["卖家信誉 ："])),(l()(),Wl.Z(89,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(90,16384,[[17,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(91,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(94,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(95,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,20,{contentLabel:0}),Wl._18(603979776,21,{_buttons:1}),Wl._18(603979776,22,{_icons:1}),Wl.Y(99,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(101,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(102,16384,[[20,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["商品数量："])),(l()(),Wl.Z(104,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(105,16384,[[20,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(106,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(109,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Dn.b,Dn.a)),Wl.Y(110,1097728,null,3,En.a,[Rn.a,Ln.a,Wl.j,Wl.z,[2,On.a]],null,null),Wl._18(335544320,23,{contentLabel:0}),Wl._18(603979776,24,{_buttons:1}),Wl._18(603979776,25,{_icons:1}),Wl.Y(114,16384,null,0,Vn.a,[],null,null),(l()(),Wl._20(-1,2,["\n            "])),(l()(),Wl.Z(116,0,null,1,2,"ion-label",[["style","color: #ff8f20;font-weight: bold;"]],null,null,null,null,null)),Wl.Y(117,16384,[[23,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(-1,null,["商品销量："])),(l()(),Wl.Z(119,0,null,1,2,"ion-label",[],null,null,null,null,null)),Wl.Y(120,16384,[[23,4]],0,wu.a,[Ln.a,Wl.j,Wl.z,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),Wl._20(121,null,["",""])),(l()(),Wl._20(-1,2,["\n        "])),(l()(),Wl._20(-1,null,["\n    "])),(l()(),Wl._20(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,22,0,"md-close");l(n,74,0,null!=u.shop.rating);l(n,77,0,null!=u.shop.jcx)},function(l,n){var u=n.component;l(n,3,0,Wl._11(n,4)._sbPadding);l(n,17,0,!Wl._11(n,18).isMatch);l(n,21,0,Wl._11(n,22)._hidden,!Wl._11(n,23).isMatch);l(n,29,0,Wl._11(n,30).statusbarPadding,Wl._11(n,30)._hasRefresher);l(n,41,0,u.shop.shopName);l(n,55,0,u.shop.nickName);l(n,70,0,u.shop.area);l(n,91,0,u.shop.srn);l(n,106,0,u.shop.bbSum);l(n,121,0,u.shop.bbSale)})}function Rl(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(2,0,null,null,1,"h2",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["没有输入店铺ID，请检查。"])),(l()(),Wl._20(-1,null,["\n    "]))],null,null)}function Ll(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,517,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n\n      "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl.Z(3,0,null,null,11,"div",[["style","padding: 10px;background-color: rgb(39, 174, 96);text-align:center;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(5,0,null,null,8,"h4",[["style","color:white; font-size: 17px;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n            集诚信分："])),(l()(),Wl.Z(7,0,null,null,0,"i",[["class","fa fa-question-circle"],["id","tooltip3"],["style","cursor: pointer;color: white;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" "])),(l()(),Wl.Z(9,0,null,null,1,"strong",[["id","gi-p-stat-jcx"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["数据加载中……"])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(12,0,null,null,0,"span",[["id","shopName"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n      "])),(l()(),Wl._20(-1,null,["\n            \n      "])),(l()(),Wl.Z(16,0,null,null,499,"div",[["class","container-fluid"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl.Z(18,0,null,null,496,"ion-grid",[["class","grid"]],null,null,null,null,null)),Wl.Y(19,16384,null,0,Au.a,[],null,null),(l()(),Wl._20(-1,null,["\n\n          "])),(l()(),Wl.Z(21,0,null,null,49,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(22,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(24,0,null,null,8,"ion-col",[["class","col"],["col-3",""]],null,null,null,null,null)),Wl.Y(25,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(28,0,null,null,3,"a",[["href",""],["id","tm_shopName_1"],["target","_blank"],["title",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(30,0,null,null,0,"img",[["class","img-responsive"],["id","tm_shopimg"],["onerror",""],["src",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(34,0,null,null,35,"ion-col",[["class","col"],["col-9",""]],null,null,null,null,null)),Wl.Y(35,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(37,0,null,null,10,"div",[["class","shop-info"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(39,0,null,null,2,"span",[["class","info-sale"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["销量："])),(l()(),Wl.Z(41,0,null,null,0,"strong",[["id","tm_info_sale"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(43,0,null,null,3,"span",[["class","info-sum"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["共"])),(l()(),Wl.Z(45,0,null,null,0,"strong",[["id","tm_info_sum"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["件商品"])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(49,0,null,null,5,"div",[["class","shop-info"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  "])),(l()(),Wl.Z(51,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["卖家昵称："])),(l()(),Wl.Z(53,0,null,null,0,"span",[["id","tm_seller"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(56,0,null,null,5,"div",[["class","shop-info"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  "])),(l()(),Wl.Z(58,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["所在地区："])),(l()(),Wl.Z(60,0,null,null,0,"span",[["id","tm_area"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(63,0,null,null,5,"div",[["class","shop-info"],["id","tm_service_div"],["style","display: none;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  "])),(l()(),Wl.Z(65,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["当前主营："])),(l()(),Wl.Z(67,0,null,null,0,"span",[["id","tm_service"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(72,0,null,null,0,"div",[["class","shopGiDecoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(74,0,null,null,56,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(75,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(77,0,null,null,1,"div",[["id","tooltip1text"],["style","display:none;background-color: yellow;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。"])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(80,0,null,null,1,"div",[["id","tooltip2text"],["style","display:none;background-color: yellow;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。"])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(83,0,null,null,1,"div",[["id","tooltip3text"],["style","display:none;background-color: yellow;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。"])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(86,0,null,null,25,"ion-col",[["class","col"],["col-7",""]],null,null,null,null,null)),Wl.Y(87,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(89,0,null,null,11,"div",[["class","ns-jcx-rating"],["id","gi-p-stat-rating"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                        "])),(l()(),Wl.Z(91,0,null,null,0,"label",[["class","empty"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                        "])),(l()(),Wl.Z(93,0,null,null,0,"label",[["class","empty"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                        "])),(l()(),Wl.Z(95,0,null,null,0,"label",[["class","empty"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\t                \t\n                        "])),(l()(),Wl.Z(97,0,null,null,0,"label",[["class","empty"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                        "])),(l()(),Wl.Z(99,0,null,null,0,"label",[["class","empty"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\t                \t\n                      "])),(l()(),Wl._20(-1,null,[" "])),(l()(),Wl.Z(102,0,null,null,0,"i",[["class","fa fa-question-circle"],["id","tooltip1"],["style","cursor: pointer;color: blue;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(104,0,null,null,6,"div",[["style","clear: both;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  评分人数:"])),(l()(),Wl.Z(106,0,null,null,1,"strong",[["id","gi-p-stat-totalscorenum"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl.Z(108,0,null,null,1,"a",[["href","#"],["style","display: inline;float: right;"]],null,[[null,"click"]],function(l,n,u){var t=!0,e=l.component;if("click"===n){t=!1!==e.checkCommentUserList(e.shopId,e.shopType)&&t}return t},null,null)),(l()(),Wl._20(-1,null,["查看"])),(l()(),Wl._20(-1,null,["\t\n                "])),(l()(),Wl._20(-1,null,["\t\t\t\t    \t\n            "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(113,0,null,null,16,"ion-col",[["class","col"],["col-5",""]],null,null,null,null,null)),Wl.Y(114,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(116,0,null,null,6,"div",[["class",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  口碑分 "])),(l()(),Wl.Z(118,0,null,null,0,"i",[["class","fa fa-question-circle"],["id","tooltip2"],["style","cursor: pointer;color: blue;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[":"])),(l()(),Wl.Z(120,0,null,null,1,"strong",[["id","gi-p-stat-koubei"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["暂无"])),(l()(),Wl._20(-1,null,["\t\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(124,0,null,null,4,"div",[["class",""]],null,null,null,null,null)),(l()(),Wl._20(-1,null,[" \n                  推荐数:"])),(l()(),Wl.Z(126,0,null,null,1,"strong",[["id","gi-p-stat-recommend"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,["\t\n                "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(132,0,null,null,79,"ion-row",[["class","row"],["id","jcxratings_chart"],["style","display: none;"]],null,null,null,null,null)),Wl.Y(133,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(135,0,null,null,75,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),Wl.Y(136,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(138,0,null,null,71,"ul",[["class","ratings_chart"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(140,0,null,null,12,"li",[["class","chart_row"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(142,0,null,null,1,"span",[["class","row_label row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["很好"])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(145,0,null,null,4,"span",[["class","row_bar row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(147,0,null,null,1,"span",[["class","bar"]],null,null,null,null,null)),(l()(),Wl.Z(148,0,null,null,0,"span",[["class","fill"],["id","g_score5_fill"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(151,0,null,null,0,"span",[["class","row_count row_cell"],["id","g_score5_num"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(154,0,null,null,12,"li",[["class","chart_row"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(156,0,null,null,1,"span",[["class","row_label row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["挺好"])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(159,0,null,null,4,"span",[["class","row_bar row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(161,0,null,null,1,"span",[["class","bar"]],null,null,null,null,null)),(l()(),Wl.Z(162,0,null,null,0,"span",[["class","fill"],["id","g_score4_fill"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(165,0,null,null,0,"span",[["class","row_count row_cell"],["id","g_score4_num"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(168,0,null,null,12,"li",[["class","chart_row"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(170,0,null,null,1,"span",[["class","row_label row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["还可以"])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(173,0,null,null,4,"span",[["class","row_bar row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(175,0,null,null,1,"span",[["class","bar"]],null,null,null,null,null)),(l()(),Wl.Z(176,0,null,null,0,"span",[["class","fill"],["id","g_score3_fill"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(179,0,null,null,0,"span",[["class","row_count row_cell"],["id","g_score3_num"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(182,0,null,null,12,"li",[["class","chart_row"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(184,0,null,null,1,"span",[["class","row_label row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["不好"])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(187,0,null,null,4,"span",[["class","row_bar row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(189,0,null,null,1,"span",[["class","bar"]],null,null,null,null,null)),(l()(),Wl.Z(190,0,null,null,0,"span",[["class","fill"],["id","g_score2_fill"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(193,0,null,null,0,"span",[["class","row_count row_cell"],["id","g_score2_num"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(196,0,null,null,12,"li",[["class","chart_row"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(198,0,null,null,1,"span",[["class","row_label row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["很差"])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(201,0,null,null,4,"span",[["class","row_bar row_cell"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(203,0,null,null,1,"span",[["class","bar"]],null,null,null,null,null)),(l()(),Wl.Z(204,0,null,null,0,"span",[["class","fill"],["id","g_score1_fill"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(207,0,null,null,0,"span",[["class","row_count row_cell"],["id","g_score1_num"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(213,0,null,null,0,"div",[["class","shopGiDecoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(215,0,null,null,10,"ion-row",[["class","row"],["id","tm_service_rank_div"],["style","display: none;"]],null,null,null,null,null)),Wl.Y(216,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(218,0,null,null,3,"ion-col",[["class","col"],["col-5",""]],null,null,null,null,null)),Wl.Y(219,16384,null,0,Fu.a,[],null,null),(l()(),Wl.Z(220,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["主营排名："])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(223,0,null,null,1,"ion-col",[["class","col"],["col-7",""],["id","gi-p-stat-jcx-current-service"]],null,null,null,null,null)),Wl.Y(224,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(227,0,null,null,10,"ion-row",[["class","row row"],["id","tm_rating_rank_div"],["style","display: none;"]],null,null,null,null,null)),Wl.Y(228,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(230,0,null,null,3,"ion-col",[["class","col"],["col-5",""]],null,null,null,null,null)),Wl.Y(231,16384,null,0,Fu.a,[],null,null),(l()(),Wl.Z(232,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["用户排名："])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(235,0,null,null,1,"ion-col",[["class","col"],["col-7",""],["id","gi-p-stat-jcx-current-rating"]],null,null,null,null,null)),Wl.Y(236,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(239,0,null,null,0,"div",[["class","shopGiDecoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(241,0,null,null,20,"ion-row",[["class","row"]],null,null,null,null,null)),Wl.Y(242,16384,null,0,Tu.a,[],null,null),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(244,0,null,null,7,"ion-col",[["class","col"],["col-12",""]],null,null,null,null,null)),Wl.Y(245,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(247,0,null,null,1,"label",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["产品标签:"])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(250,0,null,null,0,"span",[["id","tm_main_cat"],["style","overflow: hidden;display: block;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(253,0,null,null,7,"ion-col",[["class","col"],["col-12",""],["id","tm_shopalias_div"],["style","display: none;"]],null,null,null,null,null)),Wl.Y(254,16384,null,0,Fu.a,[],null,null),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(256,0,null,null,1,"label",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["店铺曾用名:"])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(259,0,null,null,0,"span",[["id","tm_shopalias"],["style","overflow: hidden;display: block;"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl.Z(263,0,null,null,0,"div",[["class","shopGiDecoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["          \n          \n          "])),(l()(),Wl.Z(265,0,null,null,43,"div",[["id","dynamicShopScores"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(267,0,null,null,40,"table",[["class","table table-condensed"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(269,0,null,null,7,"thead",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(271,0,null,null,4,"tr",[],null,null,null,null,null)),(l()(),Wl.Z(272,0,null,null,1,"th",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["店铺动态评分"])),(l()(),Wl.Z(274,0,null,null,1,"th",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["与同行业相比"])),(l()(),Wl._20(-1,null,["  \t\t\t\t\n                  "])),(l()(),Wl._20(-1,null,["\n                   "])),(l()(),Wl.Z(278,0,null,null,28,"tbody",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(280,0,null,null,7,"tr",[],null,null,null,null,null)),(l()(),Wl.Z(281,0,null,null,4,"td",[],null,null,null,null,null)),(l()(),Wl.Z(282,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["描述相符："])),(l()(),Wl.Z(284,0,null,null,1,"span",[["id","tm_mas"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["4.93"])),(l()(),Wl.Z(286,0,null,null,1,"td",[],null,null,null,null,null)),(l()(),Wl.Z(287,0,null,null,0,"p",[["class","higherThanPeer"],["id","tm_mg"],["style","margin: 0px"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(289,0,null,null,7,"tr",[],null,null,null,null,null)),(l()(),Wl.Z(290,0,null,null,4,"td",[],null,null,null,null,null)),(l()(),Wl.Z(291,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["服务态度："])),(l()(),Wl.Z(293,0,null,null,1,"span",[["id","tm_sas"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["4.88"])),(l()(),Wl.Z(295,0,null,null,1,"td",[],null,null,null,null,null)),(l()(),Wl.Z(296,0,null,null,0,"p",[["class","higherThanPeer"],["id","tm_sg"],["style","margin: 0px"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(298,0,null,null,7,"tr",[],null,null,null,null,null)),(l()(),Wl.Z(299,0,null,null,4,"td",[],null,null,null,null,null)),(l()(),Wl.Z(300,0,null,null,1,"strong",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["发货速度："])),(l()(),Wl.Z(302,0,null,null,1,"span",[["id","tm_cas"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["4.89"])),(l()(),Wl.Z(304,0,null,null,1,"td",[],null,null,null,null,null)),(l()(),Wl.Z(305,0,null,null,0,"p",[["class","higherThanPeer"],["id","tm_cg"],["style","margin: 0px"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n               "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["   \t\t  \n          \n          "])),(l()(),Wl.Z(310,0,null,null,0,"div",[["class","shopGiDecoration"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n          \n          "])),(l()(),Wl.Z(312,0,null,null,198,"div",[["class","panel panel-default"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(314,0,null,null,11,"div",[["class","panel-heading"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(316,0,null,null,8,"h4",[["class","panel-title"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(318,0,null,null,5,"a",[["class","sign-toggle"],["href","#"],["id","collapseHead"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.toggleUserComments()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(320,0,null,null,0,"img",[["class","sign-img large-plus"],["src","images/lists/plus_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                  "])),(l()(),Wl.Z(322,0,null,null,0,"img",[["class","sign-img large-delete"],["src","images/lists/delete_48.png"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                                展开/收起当前用户评价\n                "])),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl._20(-1,null,["\n            "])),(l()(),Wl.Z(327,0,null,null,182,"div",[["class","panel-collapse collapse in"],["id","collapseBody"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n              "])),(l()(),Wl.Z(329,0,null,null,179,"div",[["class","panel-body"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                "])),(l()(),Wl.Z(331,0,null,null,176,"form",[["id","gi-p-feedback-form"],["novalidate",""],["role","form"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"submit"],[null,"reset"]],function(l,n,u){var t=!0,e=l.component;if("submit"===n){t=!1!==Wl._11(l,333).onSubmit(u)&&t}if("reset"===n){t=!1!==Wl._11(l,333).onReset()&&t}if("submit"===n){t=!1!==e.sendShopAllComments(e.shopId,e.shopType)&&t}return t},null,null)),Wl.Y(332,16384,null,0,zu.p,[],null,null),Wl.Y(333,4210688,null,0,zu.j,[[8,null],[8,null]],null,null),Wl._16(2048,null,zu.b,null,[zu.j]),Wl.Y(335,16384,null,0,zu.i,[zu.b],null,null),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(337,0,null,null,6,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                       "])),(l()(),Wl.Z(339,0,null,null,1,"label",[["for","fader"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["店铺评分："])),(l()(),Wl._20(-1,null,["\t\t\t\t\t\t\n                      "])),(l()(),Wl.Z(342,0,null,null,0,"input",[["class","rating"],["data-size","md"],["id","rangeInput"],["max","5"],["min","0"],["step","0.5"],["type","number"],["value","0"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\t\n                    "])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(345,0,null,null,7,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(347,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-000"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["推荐该店铺("])),(l()(),Wl.Z(349,0,null,null,1,"span",[["id","num-000"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\n                    "])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(354,0,null,null,58,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(356,0,null,null,1,"label",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["优点："])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(359,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-101"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["产品质量好，描述真实("])),(l()(),Wl.Z(361,0,null,null,1,"span",[["id","num-101"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(365,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-102"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["品牌真实，无假冒("])),(l()(),Wl.Z(367,0,null,null,1,"span",[["id","num-102"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(371,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-103"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["产品性价比高，质优价廉("])),(l()(),Wl.Z(373,0,null,null,1,"span",[["id","num-103"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(377,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-104"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["服务态度一流("])),(l()(),Wl.Z(379,0,null,null,1,"span",[["id","num-104"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(383,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-105"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["其产品/服务为独创("])),(l()(),Wl.Z(385,0,null,null,1,"span",[["id","num-105"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(389,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-106"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["其产品为优质地方特产("])),(l()(),Wl.Z(391,0,null,null,1,"span",[["id","num-106"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\t    \t\t\t\t\n                      "])),(l()(),Wl.Z(395,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-107"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["物流速度快("])),(l()(),Wl.Z(397,0,null,null,1,"span",[["id","num-107"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(401,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-108"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["价格便宜，但质量一般("])),(l()(),Wl.Z(403,0,null,null,1,"span",[["id","num-108"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(407,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-109"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品设计得好、外观好、版型剪裁好("])),(l()(),Wl.Z(409,0,null,null,1,"span",[["id","num-109"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(414,0,null,null,58,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(416,0,null,null,1,"label",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["缺点："])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(419,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-201"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["产品描述有虚假成分，货品与图片不一致("])),(l()(),Wl.Z(421,0,null,null,1,"span",[["id","num-201"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(425,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-202"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["曾经买到过假货("])),(l()(),Wl.Z(427,0,null,null,1,"span",[["id","num-202"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(431,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-203"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["服务态度恶劣("])),(l()(),Wl.Z(433,0,null,null,1,"span",[["id","num-203"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(437,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-204"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["与该店有未解决纠纷("])),(l()(),Wl.Z(439,0,null,null,1,"span",[["id","num-204"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(443,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-205"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品价格偏贵("])),(l()(),Wl.Z(445,0,null,null,1,"span",[["id","num-205"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(449,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-206"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["售后服务反应慢、低效，态度不好("])),(l()(),Wl.Z(451,0,null,null,1,"span",[["id","num-206"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(455,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-207"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["发货、物流慢("])),(l()(),Wl.Z(457,0,null,null,1,"span",[["id","num-207"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(461,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-208"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品质量不好，不满意("])),(l()(),Wl.Z(463,0,null,null,1,"span",[["id","num-208"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(467,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-209"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["商品不耐用，做工不好("])),(l()(),Wl.Z(469,0,null,null,1,"span",[["id","num-209"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(474,0,null,null,28,"div",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(476,0,null,null,1,"label",[],null,null,null,null,null)),(l()(),Wl._20(-1,null,["消费者情况："])),(l()(),Wl._20(-1,null,["\n                      "])),(l()(),Wl.Z(479,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-304"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["是该店忠实客户，已经买过多次("])),(l()(),Wl.Z(481,0,null,null,1,"span",[["id","num-304"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\n                      "])),(l()(),Wl.Z(485,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-301"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["是该店的新客户，还会再买("])),(l()(),Wl.Z(487,0,null,null,1,"span",[["id","num-301"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\n                      "])),(l()(),Wl.Z(491,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-302"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["曾经是该店客户，不会再买("])),(l()(),Wl.Z(493,0,null,null,1,"span",[["id","num-302"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\n                      "])),(l()(),Wl.Z(497,0,null,null,4,"a",[["class","checkbox checkbox-three"],["href","#"],["id","gi-p-303"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["不是该店客户("])),(l()(),Wl.Z(499,0,null,null,1,"span",[["id","num-303"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["0"])),(l()(),Wl._20(-1,null,[")"])),(l()(),Wl._20(-1,null,["\t\n                    "])),(l()(),Wl._20(-1,null,["\n                    "])),(l()(),Wl.Z(504,0,null,null,2,"div",[],null,null,null,null,null)),(l()(),Wl.Z(505,0,null,null,1,"button",[["class","btn btn-success"],["id","shopAllCommentsSubmit"],["type","submit"]],null,null,null,null,null)),(l()(),Wl._20(-1,null,["提交"])),(l()(),Wl._20(-1,null,["\t\t\t\t\t\t\t\t\t\t\t\n                "])),(l()(),Wl._20(-1,null,["\t\t\t\t\t\t\n              "])),(l()(),Wl._20(-1,null,["\n          "])),(l()(),Wl._20(-1,null,["\n        "])),(l()(),Wl._20(-1,null,["\n          \n        "])),(l()(),Wl.Z(512,0,null,null,1,"a",[["href","#"],["id","forumPostsForThisShop"],["style","text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;"]],null,[[null,"click"]],function(l,n,u){var t=!0;if("click"===n){t=!1!==l.component.openShopTopic()&&t}return t},null,null)),(l()(),Wl._20(-1,null,["进入店铺社区-查看详细评价"])),(l()(),Wl._20(-1,null,["\n      \n        "])),(l()(),Wl._20(-1,null,["\n\n      "])),(l()(),Wl._20(-1,null,[" "])),(l()(),Wl._20(-1,null,["\n  \n\n    "]))],null,function(l,n){l(n,331,0,Wl._11(n,335).ngClassUntouched,Wl._11(n,335).ngClassTouched,Wl._11(n,335).ngClassPristine,Wl._11(n,335).ngClassDirty,Wl._11(n,335).ngClassValid,Wl._11(n,335).ngClassInvalid,Wl._11(n,335).ngClassPending)})}function Ol(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,10,"ion-header",[],null,null,null,null,null)),Wl.Y(1,16384,null,0,uu.a,[Ln.a,Wl.j,Wl.z,[2,tu.a]],null,null),(l()(),Wl._20(-1,null,["\n\n    "])),(l()(),Wl.Z(3,0,null,null,6,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Iu.b,Iu.a)),Wl.Y(4,49152,null,0,gu.a,[nu.a,[2,tu.a],[2,su.a],Ln.a,Wl.j,Wl.z],null,null),(l()(),Wl._20(-1,3,["\n      "])),(l()(),Wl.Z(6,0,null,3,2,"ion-title",[],null,null,null,it.b,it.a)),Wl.Y(7,49152,null,0,st.a,[Ln.a,Wl.j,Wl.z,[2,au.a],[2,gu.a]],null,null),(l()(),Wl._20(8,0,["",""])),(l()(),Wl._20(-1,3,["\n    "])),(l()(),Wl._20(-1,null,["\n  \n  "])),(l()(),Wl._20(-1,null,["\n  \n  \n  "])),(l()(),Wl.Z(12,0,null,null,8,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ou.b,ou.a)),Wl.Y(13,4374528,null,0,iu.a,[Ln.a,Jn.a,lu.a,Wl.j,Wl.z,nu.a,Kn.a,Wl.u,[2,tu.a],[2,su.a]],null,null),(l()(),Wl._20(-1,1,["\n\n    "])),(l()(),Wl.U(16777216,null,1,1,null,Rl)),Wl.Y(16,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n    "])),(l()(),Wl.U(16777216,null,1,1,null,Ll)),Wl.Y(19,16384,null,0,ru.i,[Wl.I,Wl.F],{ngIf:[0,"ngIf"]},null),(l()(),Wl._20(-1,1,["\n  \n  "]))],function(l,n){var u=n.component;l(n,16,0,null==u.one);l(n,19,0,null!=u.one)},function(l,n){var u=n.component;l(n,3,0,Wl._11(n,4)._hidden,Wl._11(n,4)._sbPadding);l(n,8,0,u.shopName);l(n,12,0,Wl._11(n,13).statusbarPadding,Wl._11(n,13)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var Vl=u(34),Wl=u(0),$l=(u(2),u(19),u(104)),Hl=u(139),Bl=u(66),Gl=u(67),Xl=u(106),Jl=u(140),Kl=function(){function l(l){this.http=l;var n=new Jl.d({"Content-Type":"application/x-www-form-urlencoded; charset=utf-8"});this.options=new Jl.g({headers:n,withCredentials:!0}),this.optionsNocredentials=new Jl.g({headers:n})}return n=l,l.prototype.param=function(l){var n,u,t,e,a,o="";for(n in l)if((u=l[n])instanceof Array)for(a=0;a<u.length;++a)(e={})[n+"["+a+"]"]=u[a],o+=this.param(e)+"&";else if(u instanceof Object)for(t in u)(e={})[n+"["+t+"]"]=u[t],o+=this.param(e)+"&";else void 0!==u&&null!==u&&(o+=encodeURIComponent(n)+"="+encodeURIComponent(u)+"&");return o.length?o.substr(0,o.length-1):o},l.prototype.getUrlContentViaJcx=function(l){var u=this,t=n.baseUrl+"/mobile/externalHttpGet.do?mobileORpc=desktop&url="+encodeURIComponent(l);return new Promise(function(l,n){u.http.get(t,u.optionsNocredentials).subscribe(function(n){return l(n.text())},function(l){n(l)})})},l.prototype.getShopGI=function(l,u,t){var e=this,a=this.param({shopId:t,shopName:u}),o=n.baseUrl+"/"+l+"/ajaxgetShopGI.do";return new Promise(function(l,n){e.http.post(o,a,e.options).subscribe(function(n){return l(n.json())},function(l){n(l)})})},l.prototype.sendShopAllComments=function(l,u,t,e,a){var o=this,i=this.param({shopId:l,shoptype:u,recommend:t,shopscore:e,feedback:a}),s=n.baseUrl+"/tbshop/ajaxShopAllComments.do";return new Promise(function(l,n){o.http.post(s,i,o.options).subscribe(function(n){console.log(n.text()),l(n.json())},function(l){n(l)})})},l.prototype.logout=function(l){var u=this,t=this.param({isapp:"true",module:"user"});return new Promise(function(l,e){u.http.post(n.baseUrl+"/jforum.page",t,u.options).subscribe(function(n){var u={validateStatus:"Invalid"};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}l(u)},function(l){e(l)})})},l.prototype.sendNewTopic=function(l,u,t){var e=this,a=this.param({isapp:"true",action:"insertSave",module:"posts",preview:"0",is_wysiwyg:"1",OWASP_CSRFTOKEN:"",forum_id:l,start:"",subject:u,message:t,poll_label:"",poll_option:"",poll_option_1:"",poll_length:0,poll_option_count:1});return new Promise(function(l,u){e.http.post(n.baseUrl+"/jforum.page",a,e.options).subscribe(function(n){var u={errorMessage:"有错！"};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}l(u)},function(l){u(l)})})},l.prototype.sendNewReply=function(l,u,t,e){var a=this,o=this.param({isapp:"true",action:"insertSave",module:"posts",is_wysiwyg:"1",quick:"1",OWASP_CSRFTOKEN:"",forum_id:l,topic_id:u,start:t,message:e});return new Promise(function(l,u){a.http.post(n.baseUrl+"/jforum.page",o,a.options).subscribe(function(n){var u={errorMessage:"有错！"};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}l(u)},function(l){u(l)})})},l.prototype.login=function(l,u){var t=this,e=this.param({isapp:"true",module:"user",action:"validateLogin",OWASP_CSRFTOKEN:"",username:l,password:u,redirect:"",autologin:"on",login:"登入"});return new Promise(function(l,u){t.http.post(n.baseUrl+"/jforum.page",e,t.options).subscribe(function(n){var u={validateStatus:"Invalid"};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}l(u)},function(l){u(l)})})},l.prototype.getForumList=function(){var l=this,u=this.param({isapp:"true"});return new Promise(function(t,e){l.http.post(n.baseUrl+"/forums/list.page",u,l.options).subscribe(function(l){return t(l.json())},function(l){e(l)})})},l.prototype.getTopicsInForum=function(l,u){var t=this,e=this.param({isapp:"true"});return new Promise(function(a,o){t.http.post(n.baseUrl+"/forums/show/"+u+"/"+l+".page",e,t.options).subscribe(function(n){var u={topics:[],recordsPerPage:20,thisPage:0,totalPages:0,forumId:l};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}a(u)},function(l){o(l)})})},l.prototype.getPostsInTopic=function(l,u,t){var e=this,a=this.param({isapp:"true"});return null!=t?n.baseUrl+"/posts/preList/"+l+"/"+t+".page":n.baseUrl+"/posts/list/"+u+"/"+l+".page",new Promise(function(t,o){e.http.post(n.baseUrl+"/posts/list/"+u+"/"+l+".page",a,e.options).subscribe(function(l){var n=[];try{n=l.json()}catch(l){console.log("Error in json"),console.log(l)}t(n)},function(l){o(l)})})},l.prototype.getMobileHomeData=function(){var l=this,u=this.param({});return new Promise(function(t,e){l.http.post(n.baseUrl+"/mobile/ajaxloadAllInOneJcx.do",u,l.options).subscribe(function(l){return t(l.json())},function(l){e(l)})})},l.prototype.getShortTimeFormat=function(l){return null!=l?l.substr(5,2)+"-"+l.substr(8,2)+l.substr(10,6):""},l.prototype.newShopSearch=function(l,u,t,e,a){var o=this,i=this.param({query_keywords:l,query_shoptype:u,query_shoparea:t,query_scope:e,query_result_sort:a,query_type:"search"});return new Promise(function(l,u){o.http.post(n.baseUrl+"/mobile/ajaxqueryShops.do",i,o.options).subscribe(function(n){var u={validateStatus:"Invalid"};try{u=n.json()}catch(l){console.log("Error in json"),console.log(l)}l(u)},function(l){u(l)})})},l.prototype.previousShopSearchPage=function(){var l=this,u=this.param({});return new Promise(function(t,e){l.http.post(n.baseUrl+"/mobile/ajaxloadPrevSearch.do",u,l.options).subscribe(function(l){var n={validateStatus:"Invalid"};try{n=l.json()}catch(l){console.log("Error in json"),console.log(l)}t(n)},function(l){e(l)})})},l.prototype.nextShopSearchPage=function(){var l=this,u=this.param({});return new Promise(function(t,e){l.http.post(n.baseUrl+"/mobile/ajaxloadNextSearch.do",u,l.options).subscribe(function(l){var n={validateStatus:"Invalid"};try{n=l.json()}catch(l){console.log("Error in json"),console.log(l)}t(n)},function(l){e(l)})})},l.baseUrl="http://jichengxin.com",l;var n}(),Ql=function(){function l(l,n,u){var t=this;this.storage=l,this.jcxApi=n,this.alertController=u,this.allinone=null,this.allCategories=null,this.pingTasker=null,this.pages=[{title:"搜索/排序网店",icon:"search",component:Zn},{title:"帮助中心",icon:"help",component:jn},{title:"关于",icon:"information-circle",component:xn},{title:"联系我们",icon:"mail",component:Pn}],this.user=null,this.query_criteria=null,this.queryResult=null,console.log("UserSettings is constructed."),l.get("allinone").then(function(l){null!=l&&(t.allinone=l,console.log("allinone is loaded from storage!"))}).catch(function(l){console.log(l)}),l.get("allCategories").then(function(l){null!=l&&(t.allCategories=t.checkNewInAllCategories(l),console.log("allCategories is loaded from storage!"))}).catch(function(l){console.log(l)}),l.get("jcxuser").then(function(l){if(null!=l){var n=l;console.log("user info is loaded from storage!"),n.username&&n.passwd&&t.jcxApi.login(n.username,n.passwd).then(function(l){var u=l;"Ok"==u.validateStatus?(u.user.passwd=n.passwd,t.user=u.user,console.log("Relogin ok!")):t.user=null}).catch(function(l){console.log(l)})}}).catch(function(l){console.log(l)}),this.pingTask(),this.scheduleTask()}return n=l,l.prototype.stopScheduleTask=function(){null!=this.pingTasker&&clearInterval(this.pingTasker)},l.prototype.scheduleTask=function(){var l=this;this.pingTasker=setInterval(function(){l.pingTask()},n.UPDATE_INTERVAL)},l.prototype.pingTask=function(){var l=this;this.jcxApi.getMobileHomeData().then(function(n){l.allinone=l.checkAllInOne_Data(n),l.storage.set("allinone",l.allinone),console.log("pingTask of allinone is done!")}).catch(function(l){console.log(l)}),this.jcxApi.getForumList().then(function(n){l.allCategories=l.checkNewInAllCategories(n),l.storage.set("allCategories",l.allCategories),console.log("pingTask of allCategories is done!")}).catch(function(l){console.log(l)})},l.prototype.setKeyVal=function(l,n){this.storage.set(l,n).then(function(l){}).catch(function(l){console.log(l)})},l.prototype.clearAllKeyVal=function(){this.storage.clear().then(function(l){}).catch(function(l){console.log(l)})},l.prototype.getAllNonTradeCategories=function(){return this.allCategories.filter(function(l){return l.id!=n.TRADE_CATEGORY_ID})},l.prototype.getAllTradeCategories=function(){return this.allCategories.filter(function(l){return l.id==n.TRADE_CATEGORY_ID})},l.prototype.checkNewInAllCategories=function(l){if(null==l)return l;for(var u=Date.now(),t=0;t<l.length;t++){l[t].isNew=!1;for(var e=0;e<l[t].forums.length;e++)null!=l[t].forums[e].lpi&&null!=l[t].forums[e].lpi.postTimeMillis&&u-l[t].forums[e].lpi.postTimeMillis<n.LATEST_DAYS_MS?(l[t].forums[e].isNew=!0,l[t].isNew=!0):l[t].forums[e].isNew=!1}return l},l.prototype.showAlert=function(l,n){this.alertController.create({title:l,subTitle:n,buttons:["好"]}).present()},l.prototype.convertImgSrc=function(l){var n=l;return null!=l&&(l.startsWith("//")?n="http:"+l:l.startsWith("/")&&(n=Kl.baseUrl+l)),n},l.prototype.checkAllInOne_Data=function(l){if(null!=l){for(var n=0;n<l.recentShopTopics.length;n++){(u=l.recentShopTopics[n]).logo.startsWith("//")?l.recentShopTopics[n].logo="http:"+l.recentShopTopics[n].logo:u.logo.startsWith("/")&&(l.recentShopTopics[n].logo=l.recentShopTopics[n].logo.substr(1))}for(n=0;n<l.topShopForums.length;n++){(u=l.topShopForums[n]).logo.startsWith("//")?l.topShopForums[n].logo="http:"+l.topShopForums[n].logo:u.logo.startsWith("/")&&(l.topShopForums[n].logo=l.topShopForums[n].logo.substr(1))}for(n=0;n<l.tiList.length;n++){var u;(u=l.tiList[n]).imgSrc.startsWith("//")?l.tiList[n].imgSrc="http:"+l.tiList[n].imgSrc:u.imgSrc.startsWith("/")&&(l.tiList[n].imgSrc=Kl.baseUrl+l.tiList[n].imgSrc)}null!=l.pi1&&null!=l.pi1.imgSrc&&(l.pi1.imgSrc.startsWith("//")?l.pi1.imgSrc="http:"+l.pi1.imgSrc:l.pi1.imgSrc.startsWith("/")&&(l.pi1.imgSrc=Kl.baseUrl+l.pi1.imgSrc)),null!=l.pi2&&null!=l.pi2.imgSrc&&(l.pi2.imgSrc.startsWith("//")?l.pi2.imgSrc="http:"+l.pi2.imgSrc:l.pi2.imgSrc.startsWith("/")&&(l.pi2.imgSrc=Kl.baseUrl+l.pi2.imgSrc)),null!=l.pi3&&null!=l.pi3.imgSrc&&(l.pi3.imgSrc.startsWith("//")?l.pi3.imgSrc="http:"+l.pi3.imgSrc:l.pi3.imgSrc.startsWith("/")&&(l.pi3.imgSrc=Kl.baseUrl+l.pi3.imgSrc))}return l},l.UPDATE_INTERVAL=6e5,l.LATEST_DAYS_MS=2592e5,l.TRADE_CATEGORY_ID=14,l;var n}(),ln=function(){function l(l,n,u){this.navCtrl=l,this.events=n,this.userSettings=u,this.homeRoot=an,this.tradeRoot=_n,this.forumRoot=sn,this.meRoot=hn}return l.prototype.ionViewDidEnter=function(){switch(console.log("Tab ionViewWillEnter: "+this.tabRef.selectedIndex),this.tabRef.selectedIndex){case 0:this.events.publish("HomePage",this.userSettings.pages);break;case 1:this.events.publish("TradePage",this.userSettings.pages);break;case 2:this.events.publish("ForumPage",this.userSettings.pages);break;case 3:this.events.publish("MePage",this.userSettings.pages)}},l}(),nn=function(){function l(l){this.sanitized=l}return l.prototype.transform=function(l){return this.sanitized.bypassSecurityTrustHtml(l)},l}(),un=function(){function l(l,n,u,t){this.navCtrl=l,this.events=n,this.userSettings=u,this.popoverController=t,console.log("JcsHomePage constructed."),this.pages=this.userSettings.pages}return l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad")},l.prototype.openTopic=function(l){var n={};n.id=l.topicid,n.title=l.shopname,n.postId=l.postid,console.log(n.id),this.navCtrl.push(rn,n)},l.prototype.myMoreAction=function(l){this.popoverController.create(dn,{navCtrl:this.navCtrl}).present({ev:l})},l.prototype.searchShops=function(){this.navCtrl.parent.parent.push(Zn,{keywords:this.keywords})},l.prototype.gotoShopPage=function(l){alert("开发中...")},l.prototype.ionViewWillEnter=function(){console.log("ionViewWillEnter"),this.events.publish("HomePage",this.pages)},l.prototype.ionViewDidEnter=function(){},l.prototype.ionViewWillLeave=function(){},l.prototype.ionViewDidLeave=function(){},l.prototype.ionViewWillUnload=function(){},l.prototype.ionViewCanEnter=function(){},l.prototype.ionViewCanLeave=function(){},l.prototype.itemSelected=function(l){},l}(),tn=this&&this.__awaiter||function(l,n,u,t){return new(u||(u=Promise))(function(e,a){function o(l){try{s(t.next(l))}catch(l){a(l)}}function i(l){try{s(t.throw(l))}catch(l){a(l)}}function s(l){l.done?e(l.value):new u(function(n){n(l.value)}).then(o,i)}s((t=t.apply(l,n||[])).next())})},en=this&&this.__generator||function(l,n){function u(u){return function(o){return function(u){if(t)throw new TypeError("Generator is already executing.");for(;i;)try{if(t=1,e&&(a=e[2&u[0]?"return":u[0]?"throw":"next"])&&!(a=a.call(e,u[1])).done)return a;switch(e=0,a&&(u=[0,a.value]),u[0]){case 0:case 1:a=u;break;case 4:return i.label++,{value:u[1],done:!1};case 5:i.label++,e=u[1],u=[0];continue;case 7:u=i.ops.pop(),i.trys.pop();continue;default:if(a=i.trys,!(a=a.length>0&&a[a.length-1])&&(6===u[0]||2===u[0])){i=0;continue}if(3===u[0]&&(!a||u[1]>a[0]&&u[1]<a[3])){i.label=u[1];break}if(6===u[0]&&i.label<a[1]){i.label=a[1],a=u;break}if(a&&i.label<a[2]){i.label=a[2],i.ops.push(u);break}a[2]&&i.ops.pop(),i.trys.pop();continue}u=n.call(l,i)}catch(l){u=[6,l],e=0}finally{t=a=0}if(5&u[0])throw u[1];return{value:u[0]?u[1]:void 0,done:!0}}([u,o])}}var t,e,a,o,i={label:0,sent:function(){if(1&a[0])throw a[1];return a[1]},trys:[],ops:[]};return o={next:u(0),throw:u(1),return:u(2)},"function"==typeof Symbol&&(o[Symbol.iterator]=function(){return this}),o},an=function(){function l(l,n,u,t,e,a,o,i,s){var c=this;this.navCtrl=l,this.events=n,this.userSettings=u,this.popoverController=t,this.barcodeScanner=e,this.jcxApi=a,this.loadingCtrl=o,this.clipboard=i,this.platform=s,this.tburl=null,this.shopId=null,this.shopName=null,this.shopType=null,this.isDone=!1,console.log("JcxLitePage constructed."),this.pages=this.userSettings.pages,s.ready().then(function(){s.is("cordova")&&(c.platform.pause.subscribe(function(){}),c.platform.resume.subscribe(function(){c.clipboard.paste().then(function(l){console.log(l);null!=l.match(/￥(\w+)￥/i)&&(c.textinput=l,c.clipboard.copy(""),c.navCtrl.parent.select(0),c.search_shop())},function(l){console.log("Error: "+l)})}))})}return l.prototype.myMoreAction=function(l){this.popoverController.create(dn,{navCtrl:this.navCtrl}).present({ev:l})},l.prototype.clear_shop=function(){this.textinput=null},l.prototype.search_shop=function(){null!=this.textinput?this.search_shop_internal(this.textinput):alert("请粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址。")},l.prototype.search_shop_internal=function(l){return tn(this,void 0,void 0,function(){var n,u,t,e,a=this;return en(this,function(o){switch(o.label){case 0:this.isDone=!1,(n=this.loadingCtrl.create({content:"请稍候..."})).present(),null==(u=l.match(/\(?(?:(http|https|ftp):\/\/)?(?:((?:[^\W\s]|\.|-|[:]{1})+)@{1})?((?:www.)?(?:[^\W\s]|\.|-)+[\.][^\W\s]{2,4}|localhost(?=\/)|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(?::(\d*))?([\/]?[^\s\?]*[\/]{1})*(?:\/?([^\s\n\?\[\]\{\}\#]*(?:(?=\.)){1}|[^\s\n\?\[\]\{\}\.\#]*)?([\.]{1}[^\s\?\#]*)?)?(?:\?{1}([^\s\n\#\[\]]*))?([\#][^\s\n]*)?\)?/i))?null==(t=l.match(/￥(\w+)￥/i))?(alert("既无淘宝地址，也无淘口令。"),this.isDone=!0):this.convertTaokoulingToUrl(t[1]):(e=u[0]).indexOf("//m.tb.cn/")<0?(console.log(e),this.tburl=e,this.findShopIdName(this.tburl)):this.jcxApi.getUrlContentViaJcx(u[0]).then(function(l){var n=l.match(/var\s+url\s*=\s*['"]([^'"]*)['"]/i);null!=n&&(console.log(n[1]),a.tburl=n[1],a.findShopIdName(a.tburl))}).catch(function(l){console.log(JSON.stringify(l)),alert("获取店铺ID失败-1"),a.isDone=!0}),o.label=1;case 1:return this.isDone?[3,3]:[4,this.delay(100)];case 2:return o.sent(),[3,1];case 3:return n.dismiss(),[2]}})})},l.prototype.convertTaokoulingToUrl=function(l){var n=this;this.jcxApi.getUrlContentViaJcx("http://api.w4.org.cn/api/detkl.php?tkl="+l).then(function(l){var u=l.match(/"url":"([^"]*)"/i);null!=u&&(n.tburl=u[1].replace(/\\\//g,"/"),console.log(n.tburl),n.findShopIdName(n.tburl))}).catch(function(l){console.log(JSON.stringify(l)),alert("获取店铺ID失败-3"),n.isDone=!0})},l.prototype.findShopIdName=function(l){var n=this;this.shopId=null,this.shopName=null,this.shopType=null,this.jcxApi.getUrlContentViaJcx(l).then(function(l){var u=l,t=u.match(/var\s+g_config\s*=\s*{[\s\S]*shopId\s*:\s*['"]([^'"]*)['"][\s\S]*shopName\s*:\s*['"]([^'"]*)['"]/i);if(null!=t)n.shopId=t[1],n.shopType="tbshop",n.shopName=n.unicodeToChar(t[2]),console.log(n.shopId+" | "+n.shopName+" | "+n.shopType);else{n.shopType="tmshop";var e=/shopId=(\d+);/i,a=u.match(e);null!=a&&(n.shopId=a[1]),null!=(a=u.match(e=/<a\s+class="slogo-shopname"[^<>]*><strong>(.*)<\/strong><\/a>/i))&&(n.shopName=a[1]),console.log(n.shopId+" | "+n.shopName+" | "+n.shopType)}n.retrieveShopGI(n.shopType,n.shopName,n.shopId)}).catch(function(l){console.log(JSON.stringify(l)),alert("获取店铺ID失败-2"),n.isDone=!0})},l.prototype.retrieveShopGI=function(l,n,u){var t=this;null!=u&&null!=n&&null!=l?this.jcxApi.getShopGI(l,n,u).then(function(e){var a=e;t.isDone=!0,null!=a.tbshop||null!=a.tmshop?t.openShopGIPage(e):alert("没有该店铺数据。"+u+" | "+n+" | "+l)}).catch(function(l){console.log(l),t.isDone=!0}):this.isDone=!0},l.prototype.openShopGIPage=function(l){this.navCtrl.push(on,l)},l.prototype.unicodeToChar=function(l){return l.replace(/\\u[\dA-F]{4}/gi,function(l){return String.fromCharCode(parseInt(l.replace(/\\u/g,""),16))})},l.prototype.scan_shop=function(){var l=this;this.barcodeScanner.scan().then(function(n){l.search_shop_internal(n.text)},function(l){alert("扫描有错："+l)})},l.prototype.delay=function(l){return new Promise(function(n){return setTimeout(n,l)})},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad")},l.prototype.ionViewWillEnter=function(){console.log("ionViewWillEnter"),this.events.publish("HomePage",this.pages)},l.prototype.ionViewDidEnter=function(){},l.prototype.ionViewWillLeave=function(){},l.prototype.ionViewDidLeave=function(){},l.prototype.ionViewWillUnload=function(){},l.prototype.ionViewCanEnter=function(){},l.prototype.ionViewCanLeave=function(){},l}(),on=function(){function l(l,n,u,t,e){this.navCtrl=l,this.navParams=n,this.jcxApi=u,this.loadingController=t,this.userSettings=e,this.nicEditorDisplay="none",this.shopId=null,this.shopType=null,this.shopName=null,this.one=null,this.shop=null,this.shopTopic=null,this.one=n.data,null!=this.one.tbshop?(this.shopId=this.one.tbshop.shopId,this.shopName=this.one.tbshop.shopName,this.shopType="tbshop",this.shop=this.one.tbshop):null!=this.one.tmshop&&(this.shopId=this.one.tmshop.shopId,this.shopName=this.one.tmshop.shopName,this.shopType="tmshop",this.shop=this.one.tmshop),this.baseUrl=Kl.baseUrl,this.shopTopic={},this.jq=jQuery}return l.prototype.loadShopGI=function(){var l=this.shop,n=jQuery;this.shopTopic.id=Number(l.attrs.forumTopicNum),this.shopTopic.title='"'+this.shopName+'"',console.log("loadShopGI enter!");var u=l.jcx,t=Kl.baseUrl+"/images/ty-logo.png",e="";switch(this.shopType){case"tbshop":case"tmshop":e="http://shop.m.taobao.com/shop/shopIndex.htm?shop_id="+l.shopId}n("#tm_shopName_1").attr("href",e),n("#tm_shopName_2").attr("href",e);var a=n("<div/>").html(l.shopName).text();n("#shopName").text(a),n("#tm_shopimg").attr("src",null==l.attrs.shopImgLink?t:this.userSettings.convertImgSrc(l.attrs.shopImgLink)),u<0?(n("#tm_info_sale").text("--"),n("#tm_info_sum").text("--")):(n("#tm_info_sale").text(l.bbSale),n("#tm_info_sum").text(l.bbSum));var o=l.mainCat;o=(o=o.replace(/<\/a>/g,"")).replace(/<a[^>]*>/g,""),n("#tm_main_cat").html(o);switch(n("#tm_main_cat").height()>80&&(n("#tm_main_cat").height(80),n("#tm_main_cat").after('<a id="moreinfo" href="#" onclick="'+"jQuery('#tm_main_cat').height('auto'); jQuery('#moreinfo').remove(); return false;\" >»更多标签</a>")),this.shopType){case"tbshop":case"tmshop":n("#tm_seller").text(l.nickName),n("#tm_area").text(l.area),n("#tm_service").text(l.service),n("#tm_service_div").show(),void 0!=l.shopAlias&&null!=l.shopAlias&&(n("#tm_shopalias").text(l.shopAlias),n("#tm_shopalias_div").show()),n("#tm_pHref_0").attr("href",this.userSettings.convertImgSrc(l.attrs.pImg0)),n("#tm_pImg_0").attr("src",this.userSettings.convertImgSrc(l.attrs.pImg0)),n("#tm_pHref_1").attr("href",this.userSettings.convertImgSrc(l.attrs.pImg1)),n("#tm_pHref_2").attr("href",this.userSettings.convertImgSrc(l.attrs.pImg2)),n("#tm_pHref_3").attr("href",this.userSettings.convertImgSrc(l.attrs.pImg3)),n("#tm_mas").text(l.mas),n("#tm_sas").text(l.sas),n("#tm_cas").text(l.cas),l.mg>=0?(n("#tm_mg").text("高于 "+l.mg+"%"),n("#tm_mg").attr("class","higherThanPeer")):(n("#tm_mg").text("低于 "+-l.mg+"%"),n("#tm_mg").attr("class","lowerThanPeer")),l.sg>=0?(n("#tm_sg").text("高于 "+l.sg+"%"),n("#tm_sg").attr("class","higherThanPeer")):(n("#tm_sg").text("低于 "+-l.sg+"%"),n("#tm_sg").attr("class","lowerThanPeer")),l.cg>=0?(n("#tm_cg").text("高于 "+l.cg+"%"),n("#tm_cg").attr("class","higherThanPeer")):(n("#tm_cg").text("低于 "+-l.cg+"%"),n("#tm_cg").attr("class","lowerThanPeer")),this.one.sgi.currentServicePos>0&&(n("#tm_service_rank_div").show(),n("#gi-p-stat-jcx-current-service").html("“"+l.service+"”类 第#"+this.one.sgi.currentServicePos+"/共"+this.one.sgi.currentServiceTotalShops)),this.one.sgi.currentRatingPos>0&&(n("#tm_rating_rank_div").show(),n("#gi-p-stat-jcx-current-rating").html("“"+l.service+"”类 第#"+this.one.sgi.currentRatingPos+"/共"+this.one.sgi.currentRatingTotalShops))}if(u<0)n("#gi-p-stat-jcx").text("--"),n("#shopTrackCurves").hide();else{n("#flot-line-chart-head-0").text("商品销量"),n("#flot-line-chart-head-1").text("商品数量"),n("#flot-line-chart-head-2").text("卖家信誉"),n("#flot-line-chart-head-3").text("描述相符"),n("#flot-line-chart-head-4").text("服务态度"),n("#flot-line-chart-head-5").text("发货速度"),n("#flot-line-chart-head-6").text("集诚信分");n("#gi-p-stat-jcx").html(this.checkJcxPosition(u.toFixed(2),this.one.sgi.curPos,this.one.sgi.prePos))}switch(n("#gi-p-stat-rating").html(this.display5star(this.one.sgi.ss.totalShopScore,this.one.sgi.ss.totalScoreNum)),n("#gi-p-stat-totalscorenum").text(this.one.sgi.ss.totalScoreNum),this.one.sgi.ss.totalScoreNum>0&&(n("#g_score5_num").text(this.one.sgi.numOfScore5),n("#g_score5_fill").width(Math.round(100*this.one.sgi.numOfScore5/this.one.sgi.ss.totalScoreNum)+"%"),n("#g_score4_num").text(this.one.sgi.numOfScore4),n("#g_score4_fill").width(Math.round(100*this.one.sgi.numOfScore4/this.one.sgi.ss.totalScoreNum)+"%"),n("#g_score3_num").text(this.one.sgi.numOfScore3),n("#g_score3_fill").width(Math.round(100*this.one.sgi.numOfScore3/this.one.sgi.ss.totalScoreNum)+"%"),n("#g_score2_num").text(this.one.sgi.numOfScore2),n("#g_score2_fill").width(Math.round(100*this.one.sgi.numOfScore2/this.one.sgi.ss.totalScoreNum)+"%"),n("#g_score1_num").text(this.one.sgi.numOfScore1),n("#g_score1_fill").width(Math.round(100*this.one.sgi.numOfScore1/this.one.sgi.ss.totalScoreNum)+"%"),n("#jcxratings_chart").show()),n("#gi-p-stat-recommend").text(this.one.sgi.ss.recommendNum),null==this.one.sgi.shopKb&&void 0==this.one.sgi.shopKb||n("#gi-p-stat-koubei").text(this.one.sgi.shopKb.koubei),n("#num-000").text(this.one.sgi.ss.recommendNum),this.one.sgi.sau.recommend){case-1:n("#gi-p-000").removeClass("checkbox-three-checked");break;case 1:n("#gi-p-000").addClass("checkbox-three-checked");break;default:n("#gi-p-000").removeClass("checkbox-three-checked")}this.one.sgi.sau.shopScore<800?(n("#rangeInput").rating("update",this.one.sgi.sau.shopScore),n("#shopAllCommentsSubmit").text("更改")):n("#rangeInput").val(0),this.updateFeedbackNumbers(this.one.sgi.ss.feedbacks),void 0!=this.one.sgi.sau.feedback&&(this.one.sgi.sau.feedback.indexOf("101")<0?n("#gi-p-101").removeClass("checkbox-three-checked"):n("#gi-p-101").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("102")<0?n("#gi-p-102").removeClass("checkbox-three-checked"):n("#gi-p-102").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("103")<0?n("#gi-p-103").removeClass("checkbox-three-checked"):n("#gi-p-103").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("104")<0?n("#gi-p-104").removeClass("checkbox-three-checked"):n("#gi-p-104").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("105")<0?n("#gi-p-105").removeClass("checkbox-three-checked"):n("#gi-p-105").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("106")<0?n("#gi-p-106").removeClass("checkbox-three-checked"):n("#gi-p-106").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("107")<0?n("#gi-p-107").removeClass("checkbox-three-checked"):n("#gi-p-107").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("108")<0?n("#gi-p-108").removeClass("checkbox-three-checked"):n("#gi-p-108").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("109")<0?n("#gi-p-109").removeClass("checkbox-three-checked"):n("#gi-p-109").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("201")<0?n("#gi-p-201").removeClass("checkbox-three-checked"):n("#gi-p-201").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("202")<0?n("#gi-p-202").removeClass("checkbox-three-checked"):n("#gi-p-202").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("203")<0?n("#gi-p-203").removeClass("checkbox-three-checked"):n("#gi-p-203").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("204")<0?n("#gi-p-204").removeClass("checkbox-three-checked"):n("#gi-p-204").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("205")<0?n("#gi-p-205").removeClass("checkbox-three-checked"):n("#gi-p-205").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("206")<0?n("#gi-p-206").removeClass("checkbox-three-checked"):n("#gi-p-206").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("207")<0?n("#gi-p-207").removeClass("checkbox-three-checked"):n("#gi-p-207").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("208")<0?n("#gi-p-208").removeClass("checkbox-three-checked"):n("#gi-p-208").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("209")<0?n("#gi-p-209").removeClass("checkbox-three-checked"):n("#gi-p-209").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("301")<0?n("#gi-p-301").removeClass("checkbox-three-checked"):n("#gi-p-301").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("302")<0?n("#gi-p-302").removeClass("checkbox-three-checked"):n("#gi-p-302").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("303")<0?n("#gi-p-303").removeClass("checkbox-three-checked"):n("#gi-p-303").addClass("checkbox-three-checked"),this.one.sgi.sau.feedback.indexOf("304")<0?n("#gi-p-304").removeClass("checkbox-three-checked"):n("#gi-p-304").addClass("checkbox-three-checked"))},l.prototype.checkJcxPosition=function(l,n,u){var t=l+"("+n,e=u-n;return t+=e>0?'<span class="list-top-up" ><i class="fa fa-long-arrow-up"></i>'+e+"</span>":e<0?'<span class="list-top-down" ><i class="fa fa-long-arrow-down"></i>'+-e+"</span>":'<span class="list-top-flat" ><i class="fa fa-minus"></i></span>',t+=")"},l.prototype.checkCommentUserList=function(l,n){return jQuery.ajax({type:"POST",url:Kl.baseUrl+"/checkCommentUserList.do",contentType:"application/x-www-form-urlencoded; charset=utf-8",success:function(l,n){l.startsWith("Success:")?alert(l.substring("Success:".length)):alert(l)},error:function(l,n,u){alert(n)},dataType:"text",data:{shopid:l,shoptype:n}}),!1},l.prototype.sendShopAllComments=function(l,n){var u=this,t=jQuery;if(null==this.userSettings.user)return alert("您好，请先登录再评价，谢谢。"),!1;var e=0==t("#rangeInput").val()?888:t("#rangeInput").val(),a="false";t("#gi-p-000").hasClass("checkbox-three-checked")&&(a="true");var o="";t("#gi-p-101").hasClass("checkbox-three-checked")&&(o+="101;"),t("#gi-p-102").hasClass("checkbox-three-checked")&&(o+="102;"),t("#gi-p-103").hasClass("checkbox-three-checked")&&(o+="103;"),t("#gi-p-104").hasClass("checkbox-three-checked")&&(o+="104;"),t("#gi-p-105").hasClass("checkbox-three-checked")&&(o+="105;"),t("#gi-p-106").hasClass("checkbox-three-checked")&&(o+="106;"),t("#gi-p-107").hasClass("checkbox-three-checked")&&(o+="107;"),t("#gi-p-108").hasClass("checkbox-three-checked")&&(o+="108;"),t("#gi-p-109").hasClass("checkbox-three-checked")&&(o+="109;"),t("#gi-p-201").hasClass("checkbox-three-checked")&&(o+="201;"),t("#gi-p-202").hasClass("checkbox-three-checked")&&(o+="202;"),t("#gi-p-203").hasClass("checkbox-three-checked")&&(o+="203;"),t("#gi-p-204").hasClass("checkbox-three-checked")&&(o+="204;"),t("#gi-p-205").hasClass("checkbox-three-checked")&&(o+="205;"),t("#gi-p-206").hasClass("checkbox-three-checked")&&(o+="206;"),t("#gi-p-207").hasClass("checkbox-three-checked")&&(o+="207;"),t("#gi-p-208").hasClass("checkbox-three-checked")&&(o+="208;"),t("#gi-p-209").hasClass("checkbox-three-checked")&&(o+="209;"),t("#gi-p-301").hasClass("checkbox-three-checked")&&(o+="301;"),t("#gi-p-302").hasClass("checkbox-three-checked")&&(o+="302;"),t("#gi-p-303").hasClass("checkbox-three-checked")&&(o+="303;"),t("#gi-p-304").hasClass("checkbox-three-checked")&&(o+="304;"),console.log(l+" "+n),console.log(a+" "+e),console.log(o);var i=t("#shopAllCommentsSubmit").text();return t("#shopAllCommentsSubmit").text(i+"……"),this.jcxApi.sendShopAllComments(l,n,a,e,o).then(function(l){var n=l;void 0===n.feedbacks||null===n.feedbacks?(alert("如已登录，则店铺评分不能为空，或者该店铺ID不合法。如未登录，请登录，再提交或更改！"),t("#shopAllCommentsSubmit").text(i)):(u.updateFeedbackNumbers(n.feedbacks),t("#gi-p-stat-rating").html(u.display5star(n.totalShopScore,n.totalScoreNum)),t("#gi-p-stat-totalscorenum").text(n.totalScoreNum),t("#gi-p-stat-recommend").text(n.recommendNum),t("#num-000").text(n.recommendNum),alert("您好，您的评价提交成功，"),t("#shopAllCommentsSubmit").text("更改"))}).catch(function(l){console.log(l),alert("您好，您的评价提交失败，请重新尝试，谢谢。"),t("#shopAllCommentsSubmit").text(i)}),!1},l.prototype.display5star=function(l,n){var u;if(0==n||void 0==n)return'<span class="ratingempty" ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></span>';var t="",e="#ddd";(u=l/n)<1.5?e="#d9534f":u<2.5?e="#f0ad4e":u<3.5?e="#5bc0de":u<4.5?e="#337ab7":u<=5&&(e="#00FF00"),t+='<span style="color:'+e+';font-size: 19px;" >';for(var a=0;a<5;a++)t+=u>=a+1?'<i class="fa fa-star"></i>':u>=a+.5?'<i class="fa fa-star-half-o"></i>':'<i class="fa fa-star-o"></i>';return t+="("+u.toFixed(1)+")</span>"},l.prototype.updateFeedbackNumbers=function(l){jQuery;void 0!=l&&(this.getFeedbackMatch("#num-101","#gi-p-101",l,/101\((\d+)\);/g),this.getFeedbackMatch("#num-102","#gi-p-102",l,/102\((\d+)\);/g),this.getFeedbackMatch("#num-103","#gi-p-103",l,/103\((\d+)\);/g),this.getFeedbackMatch("#num-104","#gi-p-104",l,/104\((\d+)\);/g),this.getFeedbackMatch("#num-105","#gi-p-105",l,/105\((\d+)\);/g),this.getFeedbackMatch("#num-106","#gi-p-106",l,/106\((\d+)\);/g),this.getFeedbackMatch("#num-107","#gi-p-107",l,/107\((\d+)\);/g),this.getFeedbackMatch("#num-108","#gi-p-108",l,/108\((\d+)\);/g),this.getFeedbackMatch("#num-109","#gi-p-109",l,/109\((\d+)\);/g),this.getFeedbackMatch("#num-201","#gi-p-201",l,/201\((\d+)\);/g),this.getFeedbackMatch("#num-202","#gi-p-202",l,/202\((\d+)\);/g),this.getFeedbackMatch("#num-203","#gi-p-203",l,/203\((\d+)\);/g),this.getFeedbackMatch("#num-204","#gi-p-204",l,/204\((\d+)\);/g),this.getFeedbackMatch("#num-205","#gi-p-205",l,/205\((\d+)\);/g),this.getFeedbackMatch("#num-206","#gi-p-206",l,/206\((\d+)\);/g),this.getFeedbackMatch("#num-207","#gi-p-207",l,/207\((\d+)\);/g),this.getFeedbackMatch("#num-208","#gi-p-208",l,/208\((\d+)\);/g),this.getFeedbackMatch("#num-209","#gi-p-209",l,/209\((\d+)\);/g),this.getFeedbackMatch("#num-301","#gi-p-301",l,/301\((\d+)\);/g),this.getFeedbackMatch("#num-302","#gi-p-302",l,/302\((\d+)\);/g),this.getFeedbackMatch("#num-303","#gi-p-303",l,/303\((\d+)\);/g),this.getFeedbackMatch("#num-304","#gi-p-304",l,/304\((\d+)\);/g))},l.prototype.getFeedbackMatch=function(l,n,u,t){var e=jQuery,a=t.exec(u);if(null==a)e(l).text("0");else{var o=a[1];e(l).text(o),"0"!=o&&e(n).css("font-weight","bold")}},l.prototype.openShopTopic=function(){console.log(this.shopTopic.id),this.navCtrl.push(rn,this.shopTopic)},l.prototype.toggleUserComments=function(){return this.jq("#collapseHead").hasClass("collapsed")?(this.jq("#collapseHead").removeClass("collapsed"),this.jq("#collapseBody").addClass("in")):(this.jq("#collapseHead").addClass("collapsed"),this.jq("#collapseBody").removeClass("in")),!1},l.prototype.ionViewWillEnter=function(){},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad--shop-gi");var l=jQuery;l("#tooltip1").click(function(){l("#tooltip2text").hide(),l("#tooltip3text").hide(),l("#tooltip1text").toggle()}),l("#tooltip2").click(function(){l("#tooltip1text").hide(),l("#tooltip3text").hide(),l("#tooltip2text").toggle()}),l("#tooltip3").click(function(){l("#tooltip1text").hide(),l("#tooltip2text").hide(),l("#tooltip3text").toggle()}),null!=this.shop?(l(".checkbox-one").click(function(){return l(this).toggleClass("checkbox-one-checked"),!1}),l(".checkbox-two").click(function(){return l(this).toggleClass("checkbox-two-checked"),!1}),l(".checkbox-three").click(function(){return l(this).toggleClass("checkbox-three-checked"),!1}),this.loadShopGI()):alert("没有店铺ID，请检查再试。")},l}(),sn=function(){function l(l,n,u,t,e,a){var o=this;this.navCtrl=l,this.userSettings=n,this.platform=u,this.jcxApi=t,this.loadingController=e,this.popoverController=a,this.slideHeight=230,this.mySlideOptions={autoplay:4e3,initialSlide:0,loop:!0},u.ready().then(function(l){console.log("Width: "+u.width()),o.slideHeight=.6*u.width()})}return l.prototype.ionViewWillEnter=function(){},l.prototype.openForum=function(l){console.log(l.id),this.navCtrl.push(cn,l)},l.prototype.openTopic=function(l){var n={};n.id=l.topicId,n.title=l.subject,n.startNum=l.startNum,console.log(n.id),this.navCtrl.push(rn,n)},l.prototype.myMoreAction=function(l){this.popoverController.create(dn,{navCtrl:this.navCtrl}).present({ev:l})},l}(),cn=function(){function l(l,n,u,t,e){this.navCtrl=l,this.navParams=n,this.jcxapi=u,this.loadingController=t,this.userSettings=e,this.forumPage=null,this.nicEditorDisplay="none",this.pagesMap=new Map,this.subjectField="";var a=n.data;this.forumId=a.id,this.forumName=a.name,this.baseUrl=Kl.baseUrl,this.jq=jQuery,console.log(this.forumId+":"+this.forumName)}return n=l,l.prototype.ionViewWillEnter=function(){var l=this;if(this.nicEditorDisplay=null==this.userSettings.user?"none":"",null==this.forumPage){var n=this.loadingController.create({content:"加载..."});n.present().then(function(){l.jcxapi.getTopicsInForum(l.forumId,0).then(function(u){l.forumPage=l.transformForumData(u),l.pagesMap.set(l.forumPage.thisPage,l.forumPage),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})}},l.prototype.previousPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l-1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getTopicsInForum(u.forumId,(l-2)*n).then(function(l){u.forumPage=u.transformForumData(l),u.pagesMap.set(u.forumPage.thisPage,u.forumPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.forumPage=this.pagesMap.get(l-1)},l.prototype.nextPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l+1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getTopicsInForum(u.forumId,l*n).then(function(l){u.forumPage=u.transformForumData(l),u.pagesMap.set(u.forumPage.thisPage,u.forumPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.forumPage=this.pagesMap.get(l+1)},l.prototype.transformForumData=function(l){if(null==l)return l;for(var u,t=0;t<l.topics.length;t++){switch(u="",l.topics[t].type){case n.TYPE_ANNOUNCE:u+='<span style="color:#F96E02">【公告】</span>';break;case n.TYPE_STICKY:u+='<span style="color:#F96E02">【置顶】</span>';break;case n.TYPE_DIGEST:u+='<span style="color:#F96E02">【精品】</span>';break;case n.TYPE_SOLDOUT:u+='<span style="color:#F96E02">【售完】</span>'}u+=l.topics[t].title,u+='<span style="color:limegreen;">&nbsp;&nbsp;'+this.jcxapi.getShortTimeFormat(l.topics[t].lastPostTime)+"</span>",l.topics[t].oneTitle=u}return l},l.prototype.openTopic=function(l){console.log(l.id),this.navCtrl.push(rn,l)},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad--forum-show"),new nicEditor({buttonList:["bold","italic","underline","image","upload","emoji"],uploadURI:this.baseUrl+"/uploadNiceFile.do",baseUrl:this.baseUrl}).panelInstance("niceTopicTextArea")},l.prototype.sendNewTopic=function(){var l=this;if(null==this.userSettings.user)alert("您未登录，请到个人中心登录"),this.navCtrl.push(hn);else{if(0==this.subjectField.replace(/^\s*|\s*$/g,"").length)return alert("主题不能为空！"),!1;var n,u=new nicEditors.findEditor("niceTopicTextArea");if(0==(n=u.getContent()).replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g,"").replace(/^\s*|\s*$/g,"").length)return alert("内容不能为空！"),!1;n=n.replace(/src="nice\//g,'src="/nice/').replace(/url\(nice/g,"url(/nice");var t=this.loadingController.create({content:"发送..."});t.present().then(function(){l.jcxapi.sendNewTopic(l.forumId,l.subjectField,n).then(function(n){var e=n;null!=e.errorMessage?alert(e.errorMessage):(alert("发表新主题成功！"),u.setContent(""),l.subjectField="",l.forumPage=null,l.pagesMap.clear(),l.jq("#newTopic").slideUp(),l.jq("#openNewTopic").slideDown(),l.ionViewWillEnter()),t.dismiss()}).catch(function(l){alert(l),console.log(l),t.dismiss()})})}},l.TYPE_NORMAL=0,l.TYPE_STICKY=1,l.TYPE_ANNOUNCE=2,l.TYPE_DIGEST=3,l.TYPE_SOLDOUT=-5,l.STATUS_UNLOCKED=0,l.STATUS_LOCKED=1,l;var n}(),rn=function(){function l(l,n,u,t,e){this.navCtrl=l,this.userSettings=n,this.navParams=u,this.jcxapi=t,this.loadingController=e,this.topicPage=null,this.pagesMap=new Map,this.nicEditorDisplay="none",this.neId="niceTextArea",this.topic=u.data,this.baseUrl=Kl.baseUrl,null==this.topic.startNum&&(this.topic.startNum=0),null==this.topic.postId&&(this.topic.postId=null),console.log(this.topic.id+":"+this.topic.title)}return l.prototype.ionViewWillEnter=function(){var l=this;if(this.nicEditorDisplay=null==this.userSettings.user?"none":"",null==this.topicPage){var n=this.loadingController.create({content:"加载..."});n.present().then(function(){l.jcxapi.getPostsInTopic(l.topic.id,l.topic.startNum,l.topic.postId).then(function(u){l.topicPage=l.transformTopicData(u),l.pagesMap.set(l.topicPage.thisPage,l.topicPage),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})}},l.prototype.previousPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l-1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getPostsInTopic(u.topic.id,(l-2)*n,null).then(function(l){u.topicPage=u.transformTopicData(l),u.pagesMap.set(u.topicPage.thisPage,u.topicPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.topicPage=this.pagesMap.get(l-1)},l.prototype.nextPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l+1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getPostsInTopic(u.topic.id,l*n,null).then(function(l){u.topicPage=u.transformTopicData(l),u.pagesMap.set(u.topicPage.thisPage,u.topicPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.topicPage=this.pagesMap.get(l+1)},l.prototype.transformTopicData=function(l){if(null==l)return l;for(var n=0;n<l.posts.length;n++)l.posts[n].text=l.posts[n].text.replace(/src="\/upload/g,'src="'+Kl.baseUrl+"/upload").replace(/src="\/\//g,'src="http://').replace(/src="\/nice\//g,'src="nice/').replace(/url\(\/nice/g,"url(nice"),l.posts[n].longtext='<b style="color:blue;">'+l.posts[n].postUsername+'</b><span style="color:limegreen;">&nbsp;&nbsp;'+this.jcxapi.getShortTimeFormat(l.posts[n].formattedTime)+"</span><br>"+l.posts[n].text;this.topic.forumId=l.forumId;var u=new Array;for(n=0;n<l.userList.length;n++)u.push([l.userList[n].id,l.userList[n].username]);return neUserListMapObj[this.neId]=u,l},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad--post-list"),new nicEditor({buttonList:["bold","italic","underline","image","upload","emoji","atmoumou"],uploadURI:this.baseUrl+"/uploadNiceFile.do",baseUrl:this.baseUrl}).panelInstance(this.neId)},l.prototype.sendNewReply=function(){var l=this;if(null==this.userSettings.user)alert("您未登录，请到个人中心登录"),this.navCtrl.push(hn);else{var n,u=new nicEditors.findEditor(this.neId);if(0==(n=u.getContent()).replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g,"").replace(/^\s*|\s*$/g,"").length)return alert("内容不能为空！"),!1;n=n.replace(/src="nice\//g,'src="/nice/').replace(/url\(nice/g,"url(/nice");var t=this.loadingController.create({content:"发送..."});t.present().then(function(){l.jcxapi.sendNewReply(l.topic.forumId,l.topic.id,l.topic.startNum,n).then(function(n){var e=n;null!=e.errorMessage?alert(e.errorMessage):(l.topicPage=l.transformTopicData(n),l.pagesMap.set(l.topicPage.thisPage,l.topicPage),u.setContent("")),t.dismiss()}).catch(function(l){alert(l),console.log(l),t.dismiss()})})}},l}(),_n=function(){function l(l,n,u){this.navCtrl=l,this.userSettings=n,this.popoverController=u}return l.prototype.openTradeForum=function(l){console.log(l.id),this.navCtrl.push(pn,l)},l.prototype.myMoreAction=function(l){this.popoverController.create(dn,{navCtrl:this.navCtrl}).present({ev:l})},l.prototype.openTradeTopic=function(l){var n={};n.id=l.topicId,n.title=l.subject,n.startNum=l.startNum,console.log(n.id),this.navCtrl.push(gn,n)},l}(),pn=function(){function l(l,n,u,t,e){this.navCtrl=l,this.navParams=n,this.jcxapi=u,this.loadingController=t,this.userSettings=e,this.forumPage=null,this.nicEditorDisplay="none",this.pagesMap=new Map,this.subjectField="";var a=n.data;this.forumId=a.id,this.forumName=a.name,this.baseUrl=Kl.baseUrl,this.jq=jQuery,console.log(this.forumId+":"+this.forumName)}return n=l,l.prototype.ionViewWillEnter=function(){var l=this;if(this.nicEditorDisplay=null==this.userSettings.user?"none":"",null==this.forumPage){var n=this.loadingController.create({content:"加载..."});n.present().then(function(){l.jcxapi.getTopicsInForum(l.forumId,0).then(function(u){l.forumPage=l.transformForumData(u),l.pagesMap.set(l.forumPage.thisPage,l.forumPage),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})}},l.prototype.previousPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l-1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getTopicsInForum(u.forumId,(l-2)*n).then(function(l){u.forumPage=u.transformForumData(l),u.pagesMap.set(u.forumPage.thisPage,u.forumPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.forumPage=this.pagesMap.get(l-1)},l.prototype.nextPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l+1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getTopicsInForum(u.forumId,l*n).then(function(l){u.forumPage=u.transformForumData(l),u.pagesMap.set(u.forumPage.thisPage,u.forumPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.forumPage=this.pagesMap.get(l+1)},l.prototype.transformForumData=function(l){if(null==l)return l;for(var u,t=0;t<l.topics.length;t++){switch(u="",l.topics[t].type){case n.TYPE_ANNOUNCE:u+='<span style="color:#F96E02">【公告】</span>';break;case n.TYPE_STICKY:u+='<span style="color:#F96E02">【置顶】</span>';break;case n.TYPE_DIGEST:u+='<span style="color:#F96E02">【精品】</span>';break;case n.TYPE_SOLDOUT:u+='<span style="color:#F96E02">【售完】</span>'}u+=l.topics[t].title,u+='<span style="color:limegreen;">&nbsp;&nbsp;'+this.jcxapi.getShortTimeFormat(l.topics[t].lastPostTime)+"</span>",l.topics[t].oneTitle=u}return l},l.prototype.openTradeTopic=function(l){console.log(l.id),this.navCtrl.push(gn,l)},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad--trade-forum-show"),new nicEditor({buttonList:["bold","italic","underline","image","upload","emoji"],uploadURI:this.baseUrl+"/uploadNiceFile.do",baseUrl:this.baseUrl}).panelInstance("niceTradeTopicTextArea")},l.prototype.sendNewTradeTopic=function(){var l=this;if(null==this.userSettings.user)alert("您未登录，请到个人中心登录"),this.navCtrl.push(hn);else{if(0==this.subjectField.replace(/^\s*|\s*$/g,"").length)return alert("主题不能为空！"),!1;var n,u=new nicEditors.findEditor("niceTradeTopicTextArea");if(0==(n=u.getContent()).replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g,"").replace(/^\s*|\s*$/g,"").length)return alert("内容不能为空！"),!1;n=n.replace(/src="nice\//g,'src="/nice/').replace(/url\(nice/g,"url(/nice");var t=this.loadingController.create({content:"发送..."});t.present().then(function(){l.jcxapi.sendNewTopic(l.forumId,l.subjectField,n).then(function(n){var e=n;null!=e.errorMessage?alert(e.errorMessage):(alert("发表新主题成功！"),u.setContent(""),l.subjectField="",l.forumPage=null,l.pagesMap.clear(),l.jq("#newTradeTopic").slideUp(),l.jq("#openNewTradeTopic").slideDown(),l.ionViewWillEnter()),t.dismiss()}).catch(function(l){alert(l),console.log(l),t.dismiss()})})}},l.TYPE_NORMAL=0,l.TYPE_STICKY=1,l.TYPE_ANNOUNCE=2,l.TYPE_DIGEST=3,l.TYPE_SOLDOUT=-5,l.STATUS_UNLOCKED=0,l.STATUS_LOCKED=1,l;var n}(),gn=function(){function l(l,n,u,t,e){this.navCtrl=l,this.userSettings=n,this.navParams=u,this.jcxapi=t,this.loadingController=e,this.topicPage=null,this.pagesMap=new Map,this.nicEditorDisplay="none",this.neId="niceTradeTextArea",this.topic=u.data,this.baseUrl=Kl.baseUrl,null==this.topic.startNum&&(this.topic.startNum=0),null==this.topic.postId&&(this.topic.postId=null),console.log(this.topic.id+":"+this.topic.title)}return l.prototype.ionViewWillEnter=function(){var l=this;if(this.nicEditorDisplay=null==this.userSettings.user?"none":"",null==this.topicPage){var n=this.loadingController.create({content:"加载..."});n.present().then(function(){l.jcxapi.getPostsInTopic(l.topic.id,l.topic.startNum,l.topic.postId).then(function(u){l.topicPage=l.transformTopicData(u),l.pagesMap.set(l.topicPage.thisPage,l.topicPage),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})}},l.prototype.previousPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l-1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getPostsInTopic(u.topic.id,(l-2)*n,null).then(function(l){u.topicPage=u.transformTopicData(l),u.pagesMap.set(u.topicPage.thisPage,u.topicPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.topicPage=this.pagesMap.get(l-1)},l.prototype.nextPage=function(l,n){var u=this;if(void 0==this.pagesMap.get(l+1)){var t=this.loadingController.create({content:"加载..."});t.present().then(function(){u.jcxapi.getPostsInTopic(u.topic.id,l*n,null).then(function(l){u.topicPage=u.transformTopicData(l),u.pagesMap.set(u.topicPage.thisPage,u.topicPage),t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})}else this.topicPage=this.pagesMap.get(l+1)},l.prototype.transformTopicData=function(l){if(null==l)return l;for(var n=0;n<l.posts.length;n++)l.posts[n].text=l.posts[n].text.replace(/src="\/upload/g,'src="'+Kl.baseUrl+"/upload").replace(/src="\/\//g,'src="http://').replace(/src="\/nice\//g,'src="nice/').replace(/url\(\/nice/g,"url(nice"),l.posts[n].longtext='<b style="color:blue;">'+l.posts[n].postUsername+'</b><span style="color:limegreen;">&nbsp;&nbsp;'+this.jcxapi.getShortTimeFormat(l.posts[n].formattedTime)+"</span><br>"+l.posts[n].text;this.topic.forumId=l.forumId;var u=new Array;for(n=0;n<l.userList.length;n++)u.push([l.userList[n].id,l.userList[n].username]);return neUserListMapObj[this.neId]=u,l},l.prototype.ionViewDidLoad=function(){console.log("ionViewDidLoad--trade-post-list"),new nicEditor({buttonList:["bold","italic","underline","image","upload","emoji","atmoumou"],uploadURI:this.baseUrl+"/uploadNiceFile.do",baseUrl:this.baseUrl}).panelInstance(this.neId)},l.prototype.sendNewTradeReply=function(){var l=this;if(null==this.userSettings.user)alert("您未登录，请到个人中心登录"),this.navCtrl.push(hn);else{var n,u=new nicEditors.findEditor(this.neId);if(0==(n=u.getContent()).replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g,"").replace(/^\s*|\s*$/g,"").length)return alert("内容不能为空！"),!1;n=n.replace(/src="nice\//g,'src="/nice/').replace(/url\(nice/g,"url(/nice");var t=this.loadingController.create({content:"发送..."});t.present().then(function(){l.jcxapi.sendNewReply(l.topic.forumId,l.topic.id,l.topic.startNum,n).then(function(n){var e=n;null!=e.errorMessage?alert(e.errorMessage):(l.topicPage=l.transformTopicData(n),l.pagesMap.set(l.topicPage.thisPage,l.topicPage),u.setContent("")),t.dismiss()}).catch(function(l){alert(l),console.log(l),t.dismiss()})})}},l}(),dn=function(){function l(l,n,u){this.navCtrl=l,this.viewController=n,this.navParams=u,this.parentNavCtrl=null,this.parentNavCtrl=u.data.navCtrl}return l.prototype.ionViewDidLoad=function(){console.log("PopoverPage Page loaded.")},l.prototype.gotoScanPage=function(){this.navCtrl.push(mn),this.viewController.dismiss()},l}(),hn=function(){function l(l,n,u,t,e,a){this.navCtrl=l,this.userSettings=n,this.jcxApi=u,this.loadingController=t,this.popoverController=e,this.iab=a,this.baseUrl=Kl.baseUrl}return l.prototype.ionViewDidLoad=function(){console.log("Hello JcxMePage Page")},l.prototype.myMoreAction=function(l){this.popoverController.create(dn,{navCtrl:this.navCtrl}).present({ev:l})},l.prototype.gotoRealtimeChatRoom=function(){this.navCtrl.push(fn)},l.prototype.logout=function(){this.userSettings.user=null},l.prototype.login=function(l,n){var u=this;console.log("login: "+l+" , "+n);var t=this.loadingController.create({content:"登录..."});t.present().then(function(){u.jcxApi.login(l,n).then(function(l){if(u.loginRes=l,"Ok"==u.loginRes.validateStatus){u.loginRes.user.passwd=n,u.userSettings.user=u.loginRes.user;var e={};e.username=u.userSettings.user.username,e.passwd=u.userSettings.user.passwd,u.userSettings.setKeyVal("jcxuser",e),u.userSettings.showAlert("确认消息","登录成功！")}t.dismiss()}).catch(function(l){console.log(l),t.dismiss()})})},l.prototype.clearAllCachedData=function(){this.userSettings.clearAllKeyVal()},l.prototype.gotoInAppBrowser=function(){this.iab.create("http://jichengxin.com/mobile/index.html?mobileORpc=mobile","_blank")},l}(),fn=function(){function l(l,n,u){this.navCtrl=l,this.userSettings=n,this.jcxapi=u,this.Chat={},this.isOpen=!1,this.message=null}return l.prototype.sendMessage=function(l){this.isOpen&&null!=this.message&&""!=this.message&&13==l.keyCode&&(this.Chat.socket.send(this.message),this.message=null)},l.prototype.ionViewDidLoad=function(){var l=this;console.log("Hello JcxChatPage Page"),this.Chat={},this.Chat.socket=null,this.Chat.connect=function(n){"WebSocket"in window?(l.Chat.socket=new WebSocket(n),console.log("WebSocket is supported."),l.Chat.socket.onopen=function(){console.log("Info: WebSocket connection opened."),l.isOpen=!0},l.Chat.socket.onclose=function(){console.log("Info: WebSocket closed."),l.isOpen=!1},l.Chat.socket.onmessage=function(l){console.log(l.data);var n=document.getElementById("chatroom"),u=document.createElement("p");for(u.style.wordWrap="break-word",u.innerHTML=l.data,n.appendChild(u);n.childNodes.length>25;)n.removeChild(n.firstChild);n.scrollTop=n.scrollHeight}):console.log("Error: WebSocket is not supported by this browser.")},this.Chat.initialize=function(){var n=1;null!=l.userSettings.user&&(n=l.userSettings.user.id),l.Chat.connect("ws://"+Kl.baseUrl.substr("http://".length)+"/websocket/chat/"+n)},this.Chat.initialize()},l.prototype.ionViewWillUnload=function(){console.log("close websocket"),this.Chat.socket.close()},l}(),mn=function(){function l(l,n,u){this.navCtrl=l,this.iab=n,this.barcodeScanner=u}return l.prototype.ionViewDidLoad=function(){console.log("Hello JcxNativePage Page")},l.prototype.scan=function(){var l=this;this.barcodeScanner.scan().then(function(n){l.results=n},function(l){alert("扫描有错："+l)})},l.prototype.reset=function(){this.results=null},l.prototype.lookup=function(){var l=this.results.text;l.startsWith("http")||(l="http://www.upcindex.com/"+l);this.iab.create(l,"_blank")},l}(),bn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello JcxZbarPage Page")},l.prototype.scan=function(){},l.prototype.reset=function(){this.results=null},l}(),vn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello SbIneedCommentPage Page")},l}(),Zn=function(){function l(l,n,u,t,e,a){this.navCtrl=l,this.navParams=n,this.jcxApi=u,this.loadingController=t,this.userSettings=e,this.modalController=a,this.query_shoptype="none",this.query_shoparea="none",this.query_scope="none",this.query_result_sort="jcxSort",this.queryResult=null,this.Math=window.Math;var o=n.data;null!=o.keywords&&""!=o.keywords.replace(/^\s+|\s+$/g,"")?(this.query_keywords=o.keywords,this.searchShop()):this.restoreDataFromUsersetting()}return l.prototype.ionViewDidLoad=function(){console.log("Hello SbSearchShopPage Page")},l.prototype.selectShopType=function(l){var n=jQuery;console.log(l.target.value),"jdshop"==l.target.value||"tyshop"==l.target.value?(n('select[name^="query_shoparea"] option:selected').attr("selected",null),n('select[name^="query_shoparea"] option[value="none"]').attr("selected","selected"),n("#query_shoparea").prop("disabled","disabled")):n("#query_shoparea").prop("disabled",!1)},l.prototype.searchShop=function(){var l=this;if(null!=this.query_keywords&&""!=this.query_keywords.replace(/^\s+|\s+$/g,"")){var n=this.loadingController.create({content:"查询..."});n.present().then(function(){l.jcxApi.newShopSearch(l.query_keywords,l.query_shoptype,l.query_shoparea,l.query_scope,l.query_result_sort).then(function(u){l.queryResult=u,""!=l.queryResult.err?alert(l.queryResult.err):l.storeData2Usersetting(),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})}else alert("查询关键字不能为空。")},l.prototype.previousShopSearchPage=function(){var l=this,n=this.loadingController.create({content:"上..."});n.present().then(function(){l.jcxApi.previousShopSearchPage().then(function(u){l.queryResult=u,""!=l.queryResult.err?alert(l.queryResult.err):l.storeData2Usersetting(),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})},l.prototype.nextShopSearchPage=function(){var l=this,n=this.loadingController.create({content:"下..."});n.present().then(function(){l.jcxApi.nextShopSearchPage().then(function(u){l.queryResult=u,""!=l.queryResult.err?alert(l.queryResult.err):l.storeData2Usersetting(),n.dismiss()}).catch(function(l){console.log(l),n.dismiss()})})},l.prototype.storeData2Usersetting=function(){this.userSettings.queryResult=this.queryResult;var l={};l.query_keywords=this.query_keywords,l.query_shoptype=this.query_shoptype,l.query_shoparea=this.query_shoparea,l.query_scope=this.query_scope,l.query_result_sort=this.query_result_sort,this.userSettings.query_criteria=l},l.prototype.restoreDataFromUsersetting=function(){this.queryResult=this.userSettings.queryResult,null!=this.userSettings.query_criteria&&(this.query_keywords=this.userSettings.query_criteria.query_keywords,this.query_shoptype=this.userSettings.query_criteria.query_shoptype,this.query_shoparea=this.userSettings.query_criteria.query_shoparea,this.query_scope=this.userSettings.query_criteria.query_scope,this.query_result_sort=this.userSettings.query_criteria.query_result_sort)},l.prototype.toSTstring=function(l){var n="tbshop";switch(l){case 0:n="tbshop";break;case 1:n="tmshop";break;case 2:n="jdshop";break;default:case 3:n="tyshop"}return n},l.prototype.openMoreModal=function(l){this.modalController.create(yn,l).present()},l}(),yn=function(){function l(l,n){this.navParams=l,this.viewController=n,this.shop=l.data}return l.prototype.dismiss=function(){this.viewController.dismiss()},l}(),kn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello SbBrowseShopPage Page")},l}(),Yn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello SbRankListPage Page")},l}(),jn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello JcxHelpPage Page")},l}(),xn=function(){function l(l,n,u){this.navCtrl=l,this.events=n,this.userSettings=u}return l.prototype.ionViewWillEnter=function(){console.log("About ionViewWillEnter")},l}(),Pn=function(){function l(l){this.navCtrl=l}return l.prototype.ionViewDidLoad=function(){console.log("Hello JcxContactPage Page")},l}(),Sn=function(){function l(l,n,u,t,e){this.platform=l,this.events=n,this.userSettings=u,this.alertController=t,this.statusBar=e,this.rootPage=ln,this.pages=[],this.initializeApp()}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.pages=l.userSettings.pages,l.events.subscribe("HomePage",function(n){return l.pages=n}),l.events.subscribe("TradePage",function(n){return l.pages=n}),l.events.subscribe("ForumPage",function(n){return l.pages=n}),l.events.subscribe("MePage",function(n){return l.pages=n})})},l.prototype.openPage=function(l){this.nav.push(l.component)},l}(),Cn=function(){return function(){}}(),wn=u(69),In=u(231),An=u(232),Tn=u(233),Fn=u(234),zn=u(235),Un=u(236),Mn=u(237),Nn=u(238),qn=u(239),Dn=u(39),En=u(21),Rn=u(18),Ln=u(1),On=u(33),Vn=u(37),Wn=u(122),$n=u(28),Hn=u(30),Bn=u(240),Gn=u(42),Xn=u(91),Jn=u(3),Kn=u(13),Qn=u(8),lu=u(7),nu=u(6),uu=u(22),tu=u(5),eu=u(193),au=u(15),ou=u(23),iu=u(11),su=u(9),cu=u(36),ru=u(10),_u=u(45),pu=u(17),gu=u(14),du=u(43),hu=u(241),fu=u(74),mu=u(40),bu=u(27),vu=u(56),Zu=u(81),yu=Wl.X({encapsulation:2,styles:[],data:{}}),ku=Wl.V("ng-component",Sn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"ng-component",[],null,null,null,e,yu)),Wl.Y(1,49152,null,0,Sn,[Jn.a,vu.a,Ql,Zu.a,$l.a],null,null)],null,null)},{},{},[]),Yu=u(242),ju=u(65),xu=u(243),Pu=u(99),Su=Wl.X({encapsulation:2,styles:[],data:{}}),Cu=Wl.V("page-tabs",ln,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-tabs",[],null,null,null,a,Su)),Wl.Y(1,49152,null,0,ln,[su.a,vu.a,Ql],null,null)],null,null)},{},{},[]),wu=u(50),Iu=u(24),Au=u(53),Tu=u(54),Fu=u(52),zu=u(20),Uu=u(82),Mu=u(84),Nu=u(83),qu=u(55),Du=Wl.X({encapsulation:2,styles:[],data:{}}),Eu=Wl.V("page-jcx-home",un,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-home",[],null,null,null,r,Du)),Wl.Y(1,49152,null,0,un,[su.a,vu.a,Ql,qu.a],null,null)],null,null)},{},{},[]),Ru=u(38),Lu=Wl.X({encapsulation:2,styles:[],data:{}}),Ou=Wl.V("page-jcx-lite",an,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-lite",[],null,null,null,_,Lu)),Wl.Y(1,49152,null,0,an,[su.a,vu.a,Ql,qu.a,Gl.a,Kl,Ru.a,Xl.a,Jn.a],null,null)],null,null)},{},{},[]),Vu=u(103),Wu=Wl.X({encapsulation:2,styles:[],data:{}}),$u=Wl.V("page-jcx-trade",_n,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-trade",[],null,null,null,Z,Wu)),Wl.Y(1,49152,null,0,_n,[su.a,Ql,qu.a],null,null)],null,null)},{},{},[]),Hu=u(244),Bu=u(64),Gu=u(245),Xu=u(97),Ju=Wl.X({encapsulation:2,styles:[],data:{}}),Ku=Wl.V("page-jcx-forum",sn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-forum",[],null,null,null,C,Ju)),Wl.Y(1,49152,null,0,sn,[su.a,Ql,Jn.a,Kl,Ru.a,qu.a],null,null)],null,null)},{},{},[]),Qu=u(16),lt=u(31),nt=u(194),ut=u(73),tt=Wl.X({encapsulation:2,styles:[],data:{}}),et=Wl.V("ng-component",dn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"ng-component",[],null,null,null,w,tt)),Wl.Y(1,49152,null,0,dn,[su.a,tu.a,Qu.a],null,null)],null,null)},{},{},[]),at=Wl.X({encapsulation:2,styles:[],data:{}}),ot=Wl.V("page-jcx-me",hn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-me",[],null,null,null,U,at)),Wl.Y(1,49152,null,0,hn,[su.a,Ql,Kl,Ru.a,qu.a,Bl.a],null,null)],null,null)},{},{},[]),it=u(32),st=u(25),ct=Wl.X({encapsulation:2,styles:[],data:{}}),rt=Wl.V("page-sb-ineed-comment",vn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-sb-ineed-comment",[],null,null,null,M,ct)),Wl.Y(1,49152,null,0,vn,[su.a],null,null)],null,null)},{},{},[]),_t=u(76),pt=u(46),gt=u(59),dt=u(93),ht=Wl.X({encapsulation:2,styles:[],data:{}}),ft=Wl.V("page-sb-search-shop",Zn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-sb-search-shop",[],null,null,null,W,ht)),Wl.Y(1,49152,null,0,Zn,[su.a,Qu.a,Kl,Ru.a,Ql,dt.a],null,null)],null,null)},{},{},[]),mt=Wl.X({encapsulation:2,styles:[],data:{}}),bt=Wl.V("page-sb-browse-shop",kn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-sb-browse-shop",[],null,null,null,$,mt)),Wl.Y(1,49152,null,0,kn,[su.a],null,null)],null,null)},{},{},[]),vt=Wl.X({encapsulation:2,styles:[],data:{}}),Zt=Wl.V("page-sb-rank-list",Yn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-sb-rank-list",[],null,null,null,H,vt)),Wl.Y(1,49152,null,0,Yn,[su.a],null,null)],null,null)},{},{},[]),yt=Wl.X({encapsulation:2,styles:[],data:{}}),kt=Wl.V("page-jcx-help",jn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-help",[],null,null,null,B,yt)),Wl.Y(1,49152,null,0,jn,[su.a],null,null)],null,null)},{},{},[]),Yt=Wl.X({encapsulation:2,styles:[],data:{}}),jt=Wl.V("page-jcx-about",xn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-about",[],null,null,null,G,Yt)),Wl.Y(1,49152,null,0,xn,[su.a,vu.a,Ql],null,null)],null,null)},{},{},[]),xt=Wl.X({encapsulation:2,styles:[],data:{}}),Pt=Wl.V("page-jcx-contact",Pn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-contact",[],null,null,null,X,xt)),Wl.Y(1,49152,null,0,Pn,[su.a],null,null)],null,null)},{},{},[]),St=Wl.X({encapsulation:2,styles:[],data:{}}),Ct=Wl.V("page-forum-show",cn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-forum-show",[],null,null,null,al,St)),Wl.Y(1,49152,null,0,cn,[su.a,Qu.a,Kl,Ru.a,Ql],null,null)],null,null)},{},{},[]),wt=Wl.X({encapsulation:2,styles:[],data:{}}),It=Wl.V("page-posts-list",rn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-posts-list",[],null,null,null,dl,wt)),Wl.Y(1,49152,null,0,rn,[su.a,Ql,Qu.a,Kl,Ru.a],null,null)],null,null)},{},{},[]),At=Wl.X({encapsulation:2,styles:[],data:{}}),Tt=Wl.V("page-trade-forum-show",pn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-trade-forum-show",[],null,null,null,Yl,At)),Wl.Y(1,49152,null,0,pn,[su.a,Qu.a,Kl,Ru.a,Ql],null,null)],null,null)},{},{},[]),Ft=Wl.X({encapsulation:2,styles:[],data:{}}),zt=Wl.V("page-trade-posts-list",gn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-trade-posts-list",[],null,null,null,Tl,Ft)),Wl.Y(1,49152,null,0,gn,[su.a,Ql,Qu.a,Kl,Ru.a],null,null)],null,null)},{},{},[]),Ut=Wl.X({encapsulation:2,styles:[],data:{}}),Mt=Wl.V("page-jcx-chat",fn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-chat",[],null,null,null,Fl,Ut)),Wl.Y(1,49152,null,0,fn,[su.a,Ql,Kl],null,null)],null,null)},{},{},[]),Nt=Wl.X({encapsulation:2,styles:[],data:{}}),qt=Wl.V("page-jcx-native",mn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-native",[],null,null,null,Ul,Nt)),Wl.Y(1,49152,null,0,mn,[su.a,Bl.a,Gl.a],null,null)],null,null)},{},{},[]),Dt=Wl.X({encapsulation:2,styles:[],data:{}}),Et=Wl.V("page-jcx-zbar",bn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-jcx-zbar",[],null,null,null,Nl,Dt)),Wl.Y(1,49152,null,0,bn,[su.a],null,null)],null,null)},{},{},[]),Rt=u(129),Lt=u(89),Ot=Wl.X({encapsulation:2,styles:[],data:{}}),Vt=Wl.V("page-sb-shop-details",yn,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-sb-shop-details",[],null,null,null,El,Ot)),Wl.Y(1,49152,null,0,yn,[Qu.a,tu.a],null,null)],null,null)},{},{},[]),Wt=Wl.X({encapsulation:2,styles:[],data:{}}),$t=Wl.V("page-shop-gi",on,function(l){return Wl._22(0,[(l()(),Wl.Z(0,0,null,null,1,"page-shop-gi",[],null,null,null,Ol,Wt)),Wl.Y(1,49152,null,0,on,[su.a,Qu.a,Kl,Ru.a,Ql],null,null)],null,null)},{},{},[]),Ht=u(138),Bt=u(116),Gt=u(51),Xt=u(190),Jt=u(71),Kt=u(63),Qt=u(85),le=u(135),ne=u(131),ue=u(192),te=u(189),ee=u(136),ae=u(123),oe=u(137),ie=Wl.W(Cn,[wn.b],function(l){return Wl._7([Wl._8(512,Wl.i,Wl.S,[[8,[In.a,An.a,Tn.a,Fn.a,zn.a,Un.a,Mn.a,Nn.a,qn.a,ku,Cu,Eu,Ou,$u,Ku,ot,rt,ft,bt,Zt,kt,jt,Pt,Ct,It,Tt,zt,Mt,qt,et,Et,Vt,$t]],[3,Wl.i],Wl.s]),Wl._8(5120,Wl.r,Wl._17,[[3,Wl.r]]),Wl._8(4608,ru.k,ru.j,[Wl.r,[2,ru.s]]),Wl._8(5120,Wl.b,Wl._1,[]),Wl._8(5120,Wl.p,Wl._9,[]),Wl._8(5120,Wl.q,Wl._12,[]),Wl._8(4608,Vl.c,Vl.q,[ru.c]),Wl._8(6144,Wl.D,null,[Vl.c]),Wl._8(4608,Vl.f,Ht.a,[]),Wl._8(5120,Vl.d,function(l,n,u,t,e){return[new Vl.k(l,n),new Vl.o(u),new Vl.n(t,e)]},[ru.c,Wl.u,ru.c,ru.c,Vl.f]),Wl._8(4608,Vl.e,Vl.e,[Vl.d,Wl.u]),Wl._8(135680,Vl.m,Vl.m,[ru.c]),Wl._8(4608,Vl.l,Vl.l,[Vl.e,Vl.m]),Wl._8(6144,Wl.B,null,[Vl.l]),Wl._8(6144,Vl.p,null,[Vl.m]),Wl._8(4608,Wl.G,Wl.G,[Wl.u]),Wl._8(4608,Vl.h,Vl.h,[ru.c]),Wl._8(4608,Vl.i,Vl.i,[ru.c]),Wl._8(4608,Jl.c,Jl.c,[]),Wl._8(4608,Jl.h,Jl.b,[]),Wl._8(5120,Jl.j,Jl.k,[]),Wl._8(4608,Jl.i,Jl.i,[Jl.c,Jl.h,Jl.j]),Wl._8(4608,Jl.g,Jl.a,[]),Wl._8(5120,Jl.e,Jl.l,[Jl.i,Jl.g]),Wl._8(4608,zu.q,zu.q,[]),Wl._8(4608,zu.d,zu.d,[]),Wl._8(4608,Bt.a,Bt.a,[nu.a,Ln.a]),Wl._8(4608,Zu.a,Zu.a,[nu.a,Ln.a]),Wl._8(4608,vu.a,vu.a,[]),Wl._8(4608,Rn.a,Rn.a,[]),Wl._8(4608,Gt.a,Gt.a,[Jn.a]),Wl._8(4608,Kn.a,Kn.a,[Ln.a,Jn.a,Wl.u,lu.a]),Wl._8(4608,Ru.a,Ru.a,[nu.a,Ln.a]),Wl._8(5120,ru.f,Xt.b,[ru.q,[2,ru.a],Ln.a]),Wl._8(4608,ru.e,ru.e,[ru.f]),Wl._8(5120,Jt.b,Jt.d,[nu.a,Jt.a]),Wl._8(5120,bu.a,bu.b,[nu.a,Jt.b,ru.e,Kt.b,Wl.i]),Wl._8(4608,dt.a,dt.a,[nu.a,Ln.a,bu.a]),Wl._8(4608,Qt.a,Qt.a,[nu.a,Ln.a]),Wl._8(4608,qu.a,qu.a,[nu.a,Ln.a,bu.a]),Wl._8(4608,le.a,le.a,[Ln.a,Jn.a,lu.a,nu.a,Qn.l]),Wl._8(4608,ne.a,ne.a,[nu.a,Ln.a]),Wl._8(4608,mu.a,mu.a,[Jn.a,Ln.a]),Wl._8(5120,ue.a,ue.c,[ue.b]),Wl._8(4608,Kl,Kl,[Jl.e]),Wl._8(4608,Ql,Ql,[ue.a,Kl,Zu.a]),Wl._8(4608,$l.a,$l.a,[]),Wl._8(4608,Bl.a,Bl.a,[]),Wl._8(4608,Gl.a,Gl.a,[]),Wl._8(4608,Xl.a,Xl.a,[]),Wl._8(512,ru.b,ru.b,[]),Wl._8(512,Wl.k,te.a,[]),Wl._8(256,Ln.b,{},[]),Wl._8(1024,ee.a,ee.b,[]),Wl._8(1024,Jn.a,Jn.b,[Vl.b,ee.a,Wl.u]),Wl._8(1024,Ln.a,Ln.c,[Ln.b,Jn.a]),Wl._8(512,lu.a,lu.a,[Jn.a]),Wl._8(512,$n.a,$n.a,[]),Wl._8(512,nu.a,nu.a,[Ln.a,Jn.a,[2,$n.a]]),Wl._8(512,Qn.l,Qn.l,[nu.a]),Wl._8(256,Jt.a,{links:[]},[]),Wl._8(512,Wl.h,Wl.h,[]),Wl._8(512,ae.a,ae.a,[Wl.h]),Wl._8(1024,Kt.b,Kt.c,[ae.a,Wl.o]),Wl._8(1024,Wl.c,function(l,n,u,t,e,a,o,i,s,c,r,_,p){return[Vl.s(l),oe.a(n),vu.b(u,t),le.b(e,a,o,i,s),Kt.d(c,r,_,p)]},[[2,Wl.t],Ln.a,Jn.a,lu.a,Ln.a,Jn.a,lu.a,nu.a,Qn.l,Ln.a,Jt.a,Kt.b,Wl.u]),Wl._8(512,Wl.d,Wl.d,[[2,Wl.c]]),Wl._8(131584,Wl.f,Wl.f,[Wl.u,Wl.T,Wl.o,Wl.k,Wl.i,Wl.d]),Wl._8(512,Wl.e,Wl.e,[Wl.f]),Wl._8(512,Vl.a,Vl.a,[[3,Vl.a]]),Wl._8(512,Jl.f,Jl.f,[]),Wl._8(512,zu.o,zu.o,[]),Wl._8(512,zu.e,zu.e,[]),Wl._8(512,zu.m,zu.m,[]),Wl._8(512,Xt.a,Xt.a,[]),Wl._8(512,Hl.a,Hl.a,[]),Wl._8(512,Cn,Cn,[]),Wl._8(256,wn.a,Sn,[]),Wl._8(256,ru.a,"/",[]),Wl._8(256,ue.b,null,[])])});Object(Wl.M)(),Object(Vl.j)().bootstrapModuleFactory(ie)}},[195]);
+webpackJsonp([0],{
+
+/***/ 113:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 113;
+
+/***/ }),
+
+/***/ 12:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jcx_api_service__ = __webpack_require__(199);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__jcx_api_service__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_setting_service__ = __webpack_require__(279);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__user_setting_service__["a"]; });
+
+
+//# sourceMappingURL=shared.js.map
+
+/***/ }),
+
+/***/ 13:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__ = __webpack_require__(278);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__ = __webpack_require__(280);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__ = __webpack_require__(281);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(282);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(283);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(284);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(285);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(286);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(287);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(288);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(289);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["b"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(290);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(291);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(292);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(293);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(294);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(295);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(296);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(297);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(298);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(299);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(300);
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__["a"]; });
+// app root page
+
+// tab root pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+// second-level pages
+
+
+
+
+
+
+
+
+//# sourceMappingURL=pages.js.map
+
+/***/ }),
+
+/***/ 154:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 154;
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxApi; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(198);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var JcxApi = /** @class */ (function () {
+    function JcxApi(http) {
+        this.http = http;
+        var headers = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' });
+        this.options = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers, withCredentials: true });
+        this.optionsNocredentials = new __WEBPACK_IMPORTED_MODULE_1__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        //this.options = this.optionsTb;
+    }
+    JcxApi_1 = JcxApi;
+    //  how to use http.post to send form data in Ionic
+    //	http://stackoverflow.com/questions/19254029/angularjs-http-post-does-not-send-data
+    //  change n=v&n=v to represent json object
+    JcxApi.prototype.param = function (obj) {
+        var query = '', name, value, fullSubName, subName, subValue, innerObj, i;
+        for (name in obj) {
+            value = obj[name];
+            if (value instanceof Array) {
+                for (i = 0; i < value.length; ++i) {
+                    subValue = value[i];
+                    fullSubName = name + '[' + i + ']';
+                    innerObj = {};
+                    innerObj[fullSubName] = subValue;
+                    query += this.param(innerObj) + '&';
+                }
+            }
+            else if (value instanceof Object) {
+                for (subName in value) {
+                    subValue = value[subName];
+                    fullSubName = name + '[' + subName + ']';
+                    innerObj = {};
+                    innerObj[fullSubName] = subValue;
+                    query += this.param(innerObj) + '&';
+                }
+            }
+            else if (value !== undefined && value !== null)
+                query += encodeURIComponent(name) + '=' + encodeURIComponent(value) + '&';
+        }
+        return query.length ? query.substr(0, query.length - 1) : query;
+    };
+    ;
+    // get taobao baobei's web content via get method
+    /*
+    getTaobaoBaobeiPage(url: string) {
+        return this.httpTb.get(url, {}, { 'Content-Type': 'application/x-www-form-urlencoded; charset=utf-8' }
+            );
+    }
+    */
+    // get url conent directly
+    /*
+    getUrlContent(url: string) {
+        return new Promise((resolve, reject) => {
+            this.http.get(url, this.optionsNocredentials
+            ).subscribe(res =>
+                resolve(res.text()), (error) => {
+                    reject(error);
+                });
+        })
+    }
+    */
+    // get url conent via jichengxin backend server
+    JcxApi.prototype.getUrlContentViaJcx = function (url) {
+        var _this = this;
+        var url_ = JcxApi_1.baseUrl + "/mobile/externalHttpGet.do?mobileORpc=desktop&url="
+            + encodeURIComponent(url);
+        return new Promise(function (resolve, reject) {
+            _this.http.get(url_, _this.optionsNocredentials).subscribe(function (res) {
+                return resolve(res.text());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // get the shop general info from jichengxin website
+    JcxApi.prototype.getShopGI = function (shoptype, shopname, shopid) {
+        var _this = this;
+        var formObj = { shopId: shopid, shopName: shopname };
+        var formData = this.param(formObj);
+        var url = JcxApi_1.baseUrl + "/" + shoptype + "/ajaxgetShopGI.do";
+        return new Promise(function (resolve, reject) {
+            _this.http.post(url, formData, _this.options).subscribe(function (res) {
+                return resolve(res.json());
+            }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // send shop feedbacks 
+    JcxApi.prototype.sendShopAllComments = function (shopid, shoptype_, recommend_, score_, feedback_) {
+        var _this = this;
+        var formObj = { shopId: shopid, shoptype: shoptype_, recommend: recommend_,
+            shopscore: score_, feedback: feedback_ };
+        var formData = this.param(formObj);
+        var url = JcxApi_1.baseUrl + "/tbshop/ajaxShopAllComments.do";
+        return new Promise(function (resolve, reject) {
+            _this.http.post(url, formData, _this.options).subscribe(function (res) { console.log(res.text()); resolve(res.json()); }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // logout for current account
+    JcxApi.prototype.logout = function (userid_) {
+        var _this = this;
+        var formObj = {
+            isapp: 'true',
+            module: 'user'
+        };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/jforum.page", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "validateStatus": 'Invalid'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt); //resolve(res.json());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // send new topic to jforum
+    JcxApi.prototype.sendNewTopic = function (forumid_, subject_, message_) {
+        var _this = this;
+        var formObj = {
+            isapp: 'true',
+            action: 'insertSave',
+            module: 'posts',
+            preview: '0',
+            is_wysiwyg: '1',
+            OWASP_CSRFTOKEN: '',
+            forum_id: forumid_,
+            start: '',
+            subject: subject_,
+            message: message_,
+            poll_label: '',
+            poll_option: '',
+            poll_option_1: '',
+            poll_length: 0,
+            poll_option_count: 1
+        };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/jforum.page", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "errorMessage": '有错！'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt);
+            }, function (error) {
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // send new post to jforum
+    JcxApi.prototype.sendNewReply = function (forumid, topicid, start_, message_) {
+        var _this = this;
+        var formObj = {
+            isapp: 'true',
+            action: 'insertSave',
+            module: 'posts',
+            is_wysiwyg: '1',
+            quick: '1',
+            OWASP_CSRFTOKEN: '',
+            forum_id: forumid,
+            topic_id: topicid,
+            start: start_,
+            message: message_
+        };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/jforum.page", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "errorMessage": '有错！'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt);
+            }, function (error) {
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // login using the username & password
+    JcxApi.prototype.login = function (username_, password_) {
+        var _this = this;
+        var formObj = {
+            isapp: 'true',
+            module: 'user',
+            action: 'validateLogin',
+            OWASP_CSRFTOKEN: '',
+            username: username_,
+            password: password_,
+            redirect: '',
+            autologin: 'on',
+            login: '登入'
+        };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/jforum.page", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "validateStatus": 'Invalid'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt); //resolve(res.json());
+            }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // get the forum catogary list
+    JcxApi.prototype.getForumList = function () {
+        // let currentUser = JSON.parse(localStorage.getItem('currentUser'));
+        // if (currentUser && currentUser.token) {
+        //     let headers = new Headers({ 'Authorization': 'Bearer ' + currentUser.token });
+        //     return new RequestOptions({ headers: headers });
+        // }
+        var _this = this;
+        var formObj = { isapp: 'true' };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/forums/list.page", formData, _this.options).subscribe(function (res) {
+                return resolve(res.json());
+            }, function (error) {
+                // console.log('Error in Post');
+                // console.log(error);
+                reject(error);
+            });
+        });
+    };
+    // get the topic list in one forum
+    JcxApi.prototype.getTopicsInForum = function (forumId, start) {
+        var _this = this;
+        var formObj = { isapp: 'true' };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/forums/show/" + start + "/" + forumId + ".page", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "topics": [],
+                    "recordsPerPage": 20,
+                    "thisPage": 0,
+                    "totalPages": 0,
+                    "forumId": forumId
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt); //resolve(res.json());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // get the post list in one topic
+    JcxApi.prototype.getPostsInTopic = function (topicId, start, postId) {
+        var _this = this;
+        var formObj = { isapp: 'true' };
+        var formData = this.param(formObj);
+        var url_;
+        if (postId != null) {
+            url_ = JcxApi_1.baseUrl + '/posts/preList/' + topicId + '/' + postId + '.page';
+        }
+        else {
+            url_ = JcxApi_1.baseUrl + '/posts/list/' + start + '/' + topicId + '.page';
+        }
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/posts/list/" + start + "/" + topicId + ".page", formData, _this.options).subscribe(function (res) {
+                var tt = [];
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt); //resolve(res.json());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // this method is also ok.
+    JcxApi.prototype.getMobileHomeData = function () {
+        var _this = this;
+        var formObj = {};
+        var formData = this.param(formObj);
+        // let bodyString = JSON.stringify({}); // Stringify payload
+        // let headers = new Headers({ 'Content-Type': 'application/json; charset=utf-8' }); // ... Set content type to JSON
+        // let options = new RequestOptions({ headers: headers, withCredentials: true }); // Create a request option
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/mobile/ajaxloadAllInOneJcx.do", formData, _this.options).subscribe(function (res) {
+                return resolve(res.json());
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // origin : "03/10/2016 22:45:46"
+    // convert : 10-03 22:45
+    JcxApi.prototype.getShortTimeFormat = function (origin) {
+        if (origin != null) {
+            return origin.substr(5, 2) + '-' + origin.substr(8, 2) + origin.substr(10, 6);
+        }
+        else {
+            return "";
+        }
+    };
+    // new shop search
+    JcxApi.prototype.newShopSearch = function (query_keywords, query_shoptype, query_shoparea, query_scope, query_result_sort) {
+        var _this = this;
+        var formObj = {
+            query_keywords: query_keywords,
+            query_shoptype: query_shoptype,
+            query_shoparea: query_shoparea,
+            query_scope: query_scope,
+            query_result_sort: query_result_sort,
+            query_type: 'search'
+        };
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/mobile/ajaxqueryShops.do", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "validateStatus": 'Invalid'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt);
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // previous search result
+    JcxApi.prototype.previousShopSearchPage = function () {
+        var _this = this;
+        var formObj = {};
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/mobile/ajaxloadPrevSearch.do", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "validateStatus": 'Invalid'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt);
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    // next search result
+    JcxApi.prototype.nextShopSearchPage = function () {
+        var _this = this;
+        var formObj = {};
+        var formData = this.param(formObj);
+        return new Promise(function (resolve, reject) {
+            _this.http.post(JcxApi_1.baseUrl + "/mobile/ajaxloadNextSearch.do", formData, _this.options).subscribe(function (res) {
+                // let tt = [];
+                var tt = {
+                    "validateStatus": 'Invalid'
+                };
+                try {
+                    tt = res.json();
+                }
+                catch (e) {
+                    // nothing to do 
+                    console.log("Error in json");
+                    console.log(e);
+                }
+                resolve(tt);
+            }, function (error) {
+                reject(error);
+            });
+        });
+    };
+    JcxApi.baseUrl = 'http://jichengxin.com';
+    JcxApi = JcxApi_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__angular_http__["b" /* Http */]])
+    ], JcxApi);
+    return JcxApi;
+    var JcxApi_1;
+}());
+
+//# sourceMappingURL=jcx-api-service.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 223:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_storage__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_clipboard__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_http__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+// import { Storage } from '@ionic/storage';
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["s" /* SbRankListPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["d" /* JcxContactPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["o" /* SafeCssPipe */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["p" /* SafeHtmlPipe */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["v" /* ShopGiPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_8__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */], {}, {
+                    links: []
+                }),
+                __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["a" /* IonicStorageModule */].forRoot()
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["s" /* SbRankListPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["d" /* JcxContactPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["v" /* ShopGiPage */]
+            ],
+            providers: [__WEBPACK_IMPORTED_MODULE_11__shared_shared__["b" /* UserSettings */], __WEBPACK_IMPORTED_MODULE_11__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_clipboard__["a" /* Clipboard */], { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicErrorHandler */] }]
+            // providers: [UserSettings, JcxApi, StatusBar, InAppBrowser, BarcodeScanner, { provide: ErrorHandler, useClass: IonicErrorHandler }]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 277:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages_pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var JcxApp = /** @class */ (function () {
+    function JcxApp(platform, events, userSettings, alertController, statusBar) {
+        this.platform = platform;
+        this.events = events;
+        this.userSettings = userSettings;
+        this.alertController = alertController;
+        this.statusBar = statusBar;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_3__pages_pages__["w" /* TabsPage */];
+        this.pages = [];
+        this.initializeApp();
+    }
+    JcxApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            //Splashscreen.hide();
+            _this.pages = _this.userSettings.pages;
+            _this.events.subscribe('HomePage', function (userEventData) { return _this.pages = userEventData; });
+            _this.events.subscribe('TradePage', function (userEventData) { return _this.pages = userEventData; });
+            _this.events.subscribe('ForumPage', function (userEventData) { return _this.pages = userEventData; });
+            _this.events.subscribe('MePage', function (userEventData) { return _this.pages = userEventData; });
+            // prepare for the FCM Push service
+            /*
+      
+            
+            try {
+              let push = Push.init({
+                android: {
+                  senderID: "640116486163"
+                },
+                ios: {
+                  alert: "true",
+                  badge: false,
+                  sound: "true"
+                },
+                windows: {}
+              });
+              push.on('registration', (data) => {
+                console.log("device token ->", data.registrationId);
+                //TODO - send device token to server
+              });
+              push.on('notification', (data) => {
+                console.log('message', data.message);
+                let self = this;
+                //if user using app and push notification comes
+                if (data.additionalData.foreground) {
+                  // if application open, show popup
+                  let confirmAlert = this.alertController.create({
+                    title: '新通知',
+                    message: data.message,
+                    buttons: [{
+                      text: '忽略',
+                      role: 'cancel'
+                    }, {
+                      text: '查看',
+                      handler: () => {
+                        //TODO: Your logic here
+                        //self.nav.push(DetailsPage, { message: data.message });
+                        console.log("程序在打开状态，查看新消息");
+                      }
+                    }]
+                  });
+                  confirmAlert.present();
+                } else {
+                  //if user NOT using app and push notification comes
+                  //TODO: Your logic on click of push notification directly
+                  // self.nav.push(DetailsPage, { message: data.message });
+                  console.log("程序在未打开状态，查看新消息");
+                }
+              });
+              push.on('error', (e) => {
+                console.log(e.message);
+              });
+            }
+            catch (err) {
+              // Code to handle exception
+              console.log("Exception in Push initialization!!!");
+              console.log(err);
+            }
+      
+            */
+        });
+    };
+    JcxApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        // this.nav.setRoot(page.component);
+        this.nav.push(page.component);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Nav */])
+    ], JcxApp.prototype, "nav", void 0);
+    JcxApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\app\app.html"*/'\n<ion-menu [content]="content">\n  <ion-header>\n    <ion-toolbar>\n      <div class="sidebar-logo"></div>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n      <ion-list>\n        <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)" style="color: #387ef5;">\n          <ion-icon name="{{p.icon}}"></ion-icon>&nbsp;&nbsp;{{p.title}}\n        </button>\n  \n        <button class="item-block item item-md" menuToggle  style="color: #387ef5;">\n          <ion-icon name="close"></ion-icon>\n        </button>\n      </ion-list>\n    </ion-content>\n\n</ion-menu>\n\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* AlertController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]])
+    ], JcxApp);
+    return JcxApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 278:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TabsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TabsPage = /** @class */ (function () {
+    function TabsPage(navCtrl, events, userSettings) {
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.userSettings = userSettings;
+        this.homeRoot = __WEBPACK_IMPORTED_MODULE_2__pages__["h" /* JcxLitePage */]; //JcxHomePage;
+        this.tradeRoot = __WEBPACK_IMPORTED_MODULE_2__pages__["k" /* JcxTradePage */];
+        this.forumRoot = __WEBPACK_IMPORTED_MODULE_2__pages__["e" /* JcxForumPage */];
+        this.meRoot = __WEBPACK_IMPORTED_MODULE_2__pages__["i" /* JcxMePage */];
+    }
+    TabsPage.prototype.ionViewDidEnter = function () {
+        // console.log(this.tabRef.getSelected());
+        // console.log('Tab ionViewWillEnter: ' + this.tabRef.getSelected().index);
+        console.log('Tab ionViewWillEnter: ' + this.tabRef.selectedIndex);
+        switch (this.tabRef.selectedIndex) {
+            case 0:
+                this.events.publish('HomePage', this.userSettings.pages);
+                break;
+            case 1:
+                this.events.publish('TradePage', this.userSettings.pages);
+                break;
+            case 2:
+                this.events.publish('ForumPage', this.userSettings.pages);
+                break;
+            case 3:
+                this.events.publish('MePage', this.userSettings.pages);
+                break;
+            default:
+                break;
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('myTabs'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Tabs */])
+    ], TabsPage.prototype, "tabRef", void 0);
+    TabsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-tabs',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\tabs\tabs.html"*/'<ion-tabs #myTabs selectedIndex="0">\n  <ion-tab [root]="homeRoot" tabTitle="首页" tabIcon="home"></ion-tab>\n  <ion-tab [root]="tradeRoot" tabTitle="交易" tabIcon="cart"></ion-tab>\n  <ion-tab [root]="forumRoot" tabTitle="论坛" tabIcon="chatbubbles"></ion-tab>\n  <ion-tab [root]="meRoot" tabTitle="我" tabIcon="contact"></ion-tab>\n</ion-tabs>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\tabs\tabs.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]])
+    ], TabsPage);
+    return TabsPage;
+}());
+
+//# sourceMappingURL=tabs.js.map
+
+/***/ }),
+
+/***/ 279:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return UserSettings; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_storage__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_pages__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var UserSettings = /** @class */ (function () {
+    function UserSettings(storage, jcxApi, alertController) {
+        var _this = this;
+        this.storage = storage;
+        this.jcxApi = jcxApi;
+        this.alertController = alertController;
+        this.allinone = null;
+        this.allCategories = null;
+        this.pingTasker = null;
+        this.pages = [
+            // { title: '我要评价', icon: 'text', component: SbIneedCommentPage },
+            { title: '搜索/排序网店', icon: 'search', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["t" /* SbSearchShopPage */] },
+            // { title: '浏览分类网店', icon: 'browsers', component: SbBrowseShopPage },
+            // { title: '排行榜/指数', icon: 'list', component: SbRankListPage },
+            { title: '帮助中心', icon: 'help', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["f" /* JcxHelpPage */] },
+            { title: '关于', icon: 'information-circle', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["b" /* JcxAboutPage */] },
+            { title: '联系我们', icon: 'mail', component: __WEBPACK_IMPORTED_MODULE_4__pages_pages__["d" /* JcxContactPage */] }
+        ];
+        this.user = null;
+        // The below members data is temporarily stored for shop search
+        this.query_criteria = null;
+        this.queryResult = null;
+        console.log('UserSettings is constructed.');
+        storage.get('allinone').then(function (val) {
+            if (val != null) {
+                _this.allinone = val;
+                console.log('allinone is loaded from storage!');
+            }
+        }).catch(function (error) { console.log(error); });
+        storage.get('allCategories').then(function (val) {
+            if (val != null) {
+                _this.allCategories = _this.checkNewInAllCategories(val);
+                ;
+                console.log('allCategories is loaded from storage!');
+            }
+        }).catch(function (error) { console.log(error); });
+        storage.get('jcxuser').then(function (val) {
+            if (val != null) {
+                var user_1 = val;
+                console.log('user info is loaded from storage!');
+                if (user_1.username && user_1.passwd) {
+                    _this.jcxApi.login(user_1.username, user_1.passwd).then(function (data) {
+                        var loginRes = data;
+                        if (loginRes.validateStatus == 'Ok') {
+                            // login sucessful
+                            loginRes.user.passwd = user_1.passwd;
+                            _this.user = loginRes.user;
+                            // this.set('jcxuser', loginRes.user);
+                            console.log("Relogin ok!");
+                        }
+                        else {
+                            // login failed
+                            _this.user = null;
+                        }
+                    }).catch(function (error) { console.log(error); });
+                }
+            }
+        }).catch(function (error) { console.log(error); });
+        this.pingTask();
+        this.scheduleTask();
+    }
+    UserSettings_1 = UserSettings;
+    // stop the cycle
+    UserSettings.prototype.stopScheduleTask = function () {
+        if (this.pingTasker != null) {
+            clearInterval(this.pingTasker);
+        }
+    };
+    // start the cycle
+    UserSettings.prototype.scheduleTask = function () {
+        var _this = this;
+        this.pingTasker = setInterval(function () {
+            _this.pingTask();
+        }, UserSettings_1.UPDATE_INTERVAL);
+    };
+    UserSettings.prototype.pingTask = function () {
+        var _this = this;
+        // obtain allinone data
+        this.jcxApi.getMobileHomeData().then(function (data) {
+            _this.allinone = _this.checkAllInOne_Data(data);
+            _this.storage.set('allinone', _this.allinone);
+            console.log("pingTask of allinone is done!");
+        }).catch(function (error) { console.log(error); });
+        // obtain allCategories data
+        this.jcxApi.getForumList().then(function (data) {
+            _this.allCategories = _this.checkNewInAllCategories(data);
+            _this.storage.set('allCategories', _this.allCategories);
+            console.log("pingTask of allCategories is done!");
+        }).catch(function (e) {
+            console.log(e);
+        });
+    };
+    // persistent store key-value
+    UserSettings.prototype.setKeyVal = function (key, val) {
+        this.storage.set(key, val).then(function (data) { })
+            .catch(function (e) { console.log(e); });
+    };
+    UserSettings.prototype.clearAllKeyVal = function () {
+        this.storage.clear().then(function (data) { })
+            .catch(function (e) { console.log(e); });
+    };
+    UserSettings.prototype.getAllNonTradeCategories = function () {
+        return this.allCategories.filter(function (item) {
+            return item.id != UserSettings_1.TRADE_CATEGORY_ID;
+        });
+    };
+    UserSettings.prototype.getAllTradeCategories = function () {
+        return this.allCategories.filter(function (item) {
+            return item.id == UserSettings_1.TRADE_CATEGORY_ID;
+        });
+    };
+    UserSettings.prototype.checkNewInAllCategories = function (data) {
+        if (data == null) {
+            return data;
+        }
+        var current = Date.now();
+        for (var i = 0; i < data.length; i++) {
+            data[i].isNew = false;
+            for (var j = 0; j < data[i].forums.length; j++) {
+                if (data[i].forums[j].lpi != null &&
+                    data[i].forums[j].lpi.postTimeMillis != null &&
+                    current - data[i].forums[j].lpi.postTimeMillis < UserSettings_1.LATEST_DAYS_MS) {
+                    data[i].forums[j].isNew = true;
+                    data[i].isNew = true;
+                }
+                else {
+                    data[i].forums[j].isNew = false;
+                }
+            }
+        }
+        return data;
+    };
+    UserSettings.prototype.showAlert = function (title_, subTitle_) {
+        var alert = this.alertController.create({
+            title: title_,
+            subTitle: subTitle_,
+            buttons: ['好']
+        });
+        alert.present();
+    };
+    /*  modify the <img> src attributes value , which is retrieved from server
+      only for one input string
+    */
+    UserSettings.prototype.convertImgSrc = function (src) {
+        var ret = src;
+        if (src != null) {
+            if (src.startsWith("//")) {
+                ret = "http:" + src;
+            }
+            else if (src.startsWith("/")) {
+                ret = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + src;
+            }
+        }
+        return ret;
+    };
+    /*  modify the <img> src attributes value , which is retrieved from server
+    */
+    UserSettings.prototype.checkAllInOne_Data = function (data) {
+        if (data != null) {
+            for (var i = 0; i < data.recentShopTopics.length; i++) {
+                var item = data.recentShopTopics[i];
+                if (item.logo.startsWith("//")) {
+                    data.recentShopTopics[i].logo = "http:" + data.recentShopTopics[i].logo;
+                }
+                else if (item.logo.startsWith("/")) {
+                    data.recentShopTopics[i].logo = data.recentShopTopics[i].logo.substr(1);
+                }
+            }
+            for (var i = 0; i < data.topShopForums.length; i++) {
+                var item = data.topShopForums[i];
+                if (item.logo.startsWith("//")) {
+                    data.topShopForums[i].logo = "http:" + data.topShopForums[i].logo;
+                }
+                else if (item.logo.startsWith("/")) {
+                    data.topShopForums[i].logo = data.topShopForums[i].logo.substr(1);
+                }
+            }
+            // allinone.tiList
+            for (var i = 0; i < data.tiList.length; i++) {
+                var item = data.tiList[i];
+                if (item.imgSrc.startsWith("//")) {
+                    data.tiList[i].imgSrc = "http:" + data.tiList[i].imgSrc;
+                }
+                else if (item.imgSrc.startsWith("/")) {
+                    data.tiList[i].imgSrc = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + data.tiList[i].imgSrc;
+                }
+            }
+            if (data.pi1 != null && data.pi1.imgSrc != null) {
+                if (data.pi1.imgSrc.startsWith("//")) {
+                    data.pi1.imgSrc = "http:" + data.pi1.imgSrc;
+                }
+                else if (data.pi1.imgSrc.startsWith("/")) {
+                    data.pi1.imgSrc = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + data.pi1.imgSrc;
+                    // console.log(data.pi1.imgSrc);
+                }
+            }
+            if (data.pi2 != null && data.pi2.imgSrc != null) {
+                if (data.pi2.imgSrc.startsWith("//")) {
+                    data.pi2.imgSrc = "http:" + data.pi2.imgSrc;
+                }
+                else if (data.pi2.imgSrc.startsWith("/")) {
+                    data.pi2.imgSrc = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + data.pi2.imgSrc;
+                    // console.log(data.pi2.imgSrc);
+                }
+            }
+            if (data.pi3 != null && data.pi3.imgSrc != null) {
+                if (data.pi3.imgSrc.startsWith("//")) {
+                    data.pi3.imgSrc = "http:" + data.pi3.imgSrc;
+                }
+                else if (data.pi3.imgSrc.startsWith("/")) {
+                    data.pi3.imgSrc = __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */].baseUrl + data.pi3.imgSrc;
+                    // console.log(data.pi3.imgSrc);
+                }
+            }
+        }
+        return data;
+    };
+    UserSettings.UPDATE_INTERVAL = 600 * 1000; // 10 minutes
+    UserSettings.LATEST_DAYS_MS = 3 * 24 * 3600 * 1000; // within 3 days
+    UserSettings.TRADE_CATEGORY_ID = 14;
+    UserSettings = UserSettings_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["A" /* Injectable */])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__ionic_storage__["b" /* Storage */], __WEBPACK_IMPORTED_MODULE_3__jcx_api_service__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* AlertController */]])
+    ], UserSettings);
+    return UserSettings;
+    var UserSettings_1;
+}());
+
+//# sourceMappingURL=user-setting-service.js.map
+
+/***/ }),
+
+/***/ 280:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return SafeCssPipe; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return SafeHtmlPipe; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxHomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+var SafeCssPipe = /** @class */ (function () {
+    function SafeCssPipe(sanitized) {
+        this.sanitized = sanitized;
+    }
+    SafeCssPipe.prototype.transform = function (value) {
+        // return this.sanitized.bypassSecurityTrustHtml(value);
+        return this.sanitized.bypassSecurityTrustStyle(value);
+    };
+    SafeCssPipe = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Pipe */])({ name: 'safeCss' }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]])
+    ], SafeCssPipe);
+    return SafeCssPipe;
+}());
+
+var SafeHtmlPipe = /** @class */ (function () {
+    function SafeHtmlPipe(sanitized) {
+        this.sanitized = sanitized;
+    }
+    SafeHtmlPipe.prototype.transform = function (value) {
+        // return this.sanitized.bypassSecurityTrustHtml(value);
+        return this.sanitized.bypassSecurityTrustHtml(value);
+    };
+    SafeHtmlPipe = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["S" /* Pipe */])({ name: 'safeHtml' }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__["c" /* DomSanitizer */]])
+    ], SafeHtmlPipe);
+    return SafeHtmlPipe;
+}());
+
+/*
+  Generated class for the JcxHome page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxHomePage = /** @class */ (function () {
+    function JcxHomePage(navCtrl, events, userSettings, popoverController) {
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.userSettings = userSettings;
+        this.popoverController = popoverController;
+        console.log('JcsHomePage constructed.');
+        this.pages = this.userSettings.pages;
+    }
+    /*Runs when the page has loaded. This event only happens once per page being created.
+     If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+      The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    JcxHomePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad');
+    };
+    JcxHomePage.prototype.openTopic = function (shopTopic) {
+        var topic = {};
+        topic.id = shopTopic.topicid;
+        topic.title = shopTopic.shopname;
+        topic.postId = shopTopic.postid;
+        console.log(topic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages__["n" /* PostsListPage */], topic);
+    };
+    JcxHomePage.prototype.myMoreAction = function (ev) {
+        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_3__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
+        popover.present({
+            ev: ev
+        });
+    };
+    JcxHomePage.prototype.searchShops = function () {
+        this.navCtrl.parent.parent.push(__WEBPACK_IMPORTED_MODULE_3__pages__["t" /* SbSearchShopPage */], { keywords: this.keywords });
+    };
+    JcxHomePage.prototype.gotoShopPage = function (topShopForum) {
+        alert("开发中...");
+    };
+    /*Runs when the page is about to enter and become the active page.*/
+    JcxHomePage.prototype.ionViewWillEnter = function () {
+        console.log('ionViewWillEnter');
+        this.events.publish('HomePage', this.pages);
+    };
+    /* Runs when the page has fully entered and is now the active page.
+    This event will fire, whether it was the first load or a cached page.
+    */
+    JcxHomePage.prototype.ionViewDidEnter = function () {
+        // console.log('ionViewDidEnter');
+    };
+    /* Runs when the page is about to leave and no longer be the active page */
+    JcxHomePage.prototype.ionViewWillLeave = function () {
+    };
+    /* Runs when the page has finished leaving and is no longer the active page. */
+    JcxHomePage.prototype.ionViewDidLeave = function () {
+    };
+    /* 	Runs when the page is about to be destroyed and have its elements removed. */
+    JcxHomePage.prototype.ionViewWillUnload = function () {
+    };
+    /* 	Runs before the view can enter. This can be used as a sort of "guard" in
+    authenticated views where you need to check permissions before the view can enter */
+    JcxHomePage.prototype.ionViewCanEnter = function () {
+    };
+    /* 	Runs before the view can leave. This can be used as a sort of "guard" in authenticated views
+     where you need to check permissions before the view can leave */
+    JcxHomePage.prototype.ionViewCanLeave = function () {
+    };
+    JcxHomePage.prototype.itemSelected = function (item) {
+    };
+    JcxHomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-home',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-home\jcx-home.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button menuToggle>\n        <ion-icon large name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <div class="topbar-logo"></div>\n    <ion-buttons end>\n      <button (click)="myMoreAction($event)">\n        <ion-icon large name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <h4 style="text-align: center; font-weight: 800;">集诚信 -- 独立第三方电商评价体系</h4>\n\n<ion-grid>\n  <ion-row>\n    <ion-col width-75>\n      <input type="text" style="border: 1px solid green;padding: 6px; width:100%;\n    height: 35px; border-radius: 4px;" placeholder="网店关键字搜索……" [(ngModel)]="keywords" >\n</ion-col>\n<ion-col width-25>\n  <button class="" (click)="searchShops()" style="width: 100%; background-color: transparent; height: 35px;\n      border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n<strong style="color: #f90;">搜索</strong>\n</button>\n</ion-col>\n</ion-row>\n</ion-grid>\n\n<ion-card>\n  <ion-card-header>\n    最新店铺评价\n  </ion-card-header>\n  <ion-card-content>\n    <div *ngIf="userSettings.allinone != null">\n      <div class="shoptopic" *ngFor="let item of userSettings.allinone.recentShopTopics" (click)="openTopic(item)">\n        <img class="shoptopicLeft" src="{{ item.logo }}">\n        <div class="shoptopicRight">\n          <a class="textEllipsis" href="#" [innerHTML]="item.lpuShopScoreStarRating + item.shopname | safeHtml">\n          </a>\n          <ion-label style="margin: 0px 8px 0px 0;">{{ item.textAbbr }}</ion-label>\n</div>\n</div>\n</div>\n</ion-card-content>\n</ion-card>\n\n<ion-card>\n  <ion-card-header>\n    最新热门店铺\n  </ion-card-header>\n  <ion-card-content>\n    <div *ngIf="userSettings.allinone != null">\n      <div class="topshop" *ngFor="let item of userSettings.allinone.topShopForums" (click)="gotoShopPage(item)">\n        <img class="topshopLeft" src="{{ item.logo }}">\n        <div class="topshopRight">\n          <a class="textEllipsis" href="#" [innerHTML]=" item.shopScoreStarRating + item.shopName | safeHtml">\n          </a>\n        </div>\n      </div>\n    </div>\n  </ion-card-content>\n</ion-card>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-home\jcx-home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_4__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]])
+    ], JcxHomePage);
+    return JcxHomePage;
+}());
+
+//# sourceMappingURL=jcx-home.js.map
+
+/***/ }),
+
+/***/ 281:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxLitePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__ = __webpack_require__(104);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_clipboard__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : new P(function (resolve) { resolve(result.value); }).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+var __generator = (this && this.__generator) || function (thisArg, body) {
+    var _ = { label: 0, sent: function() { if (t[0] & 1) throw t[1]; return t[1]; }, trys: [], ops: [] }, f, y, t, g;
+    return g = { next: verb(0), "throw": verb(1), "return": verb(2) }, typeof Symbol === "function" && (g[Symbol.iterator] = function() { return this; }), g;
+    function verb(n) { return function (v) { return step([n, v]); }; }
+    function step(op) {
+        if (f) throw new TypeError("Generator is already executing.");
+        while (_) try {
+            if (f = 1, y && (t = y[op[0] & 2 ? "return" : op[0] ? "throw" : "next"]) && !(t = t.call(y, op[1])).done) return t;
+            if (y = 0, t) op = [0, t.value];
+            switch (op[0]) {
+                case 0: case 1: t = op; break;
+                case 4: _.label++; return { value: op[1], done: false };
+                case 5: _.label++; y = op[1]; op = [0]; continue;
+                case 7: op = _.ops.pop(); _.trys.pop(); continue;
+                default:
+                    if (!(t = _.trys, t = t.length > 0 && t[t.length - 1]) && (op[0] === 6 || op[0] === 2)) { _ = 0; continue; }
+                    if (op[0] === 3 && (!t || (op[1] > t[0] && op[1] < t[3]))) { _.label = op[1]; break; }
+                    if (op[0] === 6 && _.label < t[1]) { _.label = t[1]; t = op; break; }
+                    if (t && _.label < t[2]) { _.label = t[2]; _.ops.push(op); break; }
+                    if (t[2]) _.ops.pop();
+                    _.trys.pop(); continue;
+            }
+            op = body.call(thisArg, _);
+        } catch (e) { op = [6, e]; y = 0; } finally { f = t = 0; }
+        if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
+    }
+};
+
+
+
+
+
+
+// "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36"
+/*
+
+@Pipe({ name: 'safeCss'})
+export class SafeCssPipe implements PipeTransform  {
+  constructor(private sanitized: DomSanitizer) {}
+  transform(value) {
+    // return this.sanitized.bypassSecurityTrustHtml(value);
+    return this.sanitized.bypassSecurityTrustStyle(value);
+  }
+}
+
+@Pipe({ name: 'safeHtml'})
+export class SafeHtmlPipe implements PipeTransform  {
+  constructor(private sanitized: DomSanitizer) {}
+  transform(value) {
+    // return this.sanitized.bypassSecurityTrustHtml(value);
+    return this.sanitized.bypassSecurityTrustHtml(value);
+  }
+}
+
+*/
+/*
+  Generated class for the JcxLite page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxLitePage = /** @class */ (function () {
+    function JcxLitePage(navCtrl, events, userSettings, popoverController, barcodeScanner, jcxApi, loadingCtrl, 
+        // public platform: Platform) {
+        clipboard, platform) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.userSettings = userSettings;
+        this.popoverController = popoverController;
+        this.barcodeScanner = barcodeScanner;
+        this.jcxApi = jcxApi;
+        this.loadingCtrl = loadingCtrl;
+        this.clipboard = clipboard;
+        this.platform = platform;
+        this.tburl = null;
+        this.shopId = null;
+        this.shopName = null;
+        this.shopType = null;
+        this.isDone = false;
+        console.log('JcxLitePage constructed.');
+        this.pages = this.userSettings.pages;
+        platform.ready().then(function () {
+            if (platform.is('cordova')) {
+                //Subscribe on pause
+                _this.platform.pause.subscribe(function () {
+                    //Hello pause
+                });
+                //Subscribe on resume
+                _this.platform.resume.subscribe(function () {
+                    //---- resume start
+                    _this.clipboard.paste().then(function (resolve) {
+                        console.log(resolve);
+                        var koulingRegExp = /￥(\w+)￥/i;
+                        var koulingMatch = resolve.match(koulingRegExp);
+                        if (koulingMatch != null) {
+                            _this.textinput = resolve;
+                            _this.clipboard.copy("");
+                            _this.navCtrl.parent.select(0);
+                            _this.search_shop();
+                        }
+                    }, function (reject) {
+                        console.log('Error: ' + reject);
+                    });
+                    //---- resume end
+                });
+            }
+        });
+    }
+    JcxLitePage.prototype.myMoreAction = function (ev) {
+        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_4__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
+        popover.present({
+            ev: ev
+        });
+    };
+    // reset the textarea conent to empty
+    JcxLitePage.prototype.clear_shop = function () {
+        this.textinput = null;
+    };
+    JcxLitePage.prototype.search_shop = function () {
+        if (this.textinput == null) {
+            alert("请粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址。");
+            return;
+        }
+        this.search_shop_internal(this.textinput);
+    };
+    JcxLitePage.prototype.search_shop_internal = function (input) {
+        return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
+            var loading, tbShortUrlRegExp, tbShortUrlMatch, koulingRegExp, koulingMatch, urlFound;
+            return __generator(this, function (_a) {
+                switch (_a.label) {
+                    case 0:
+                        this.isDone = false;
+                        loading = this.loadingCtrl.create({
+                            content: '请稍候...'
+                        });
+                        loading.present();
+                        tbShortUrlRegExp = /\(?(?:(http|https|ftp):\/\/)?(?:((?:[^\W\s]|\.|-|[:]{1})+)@{1})?((?:www.)?(?:[^\W\s]|\.|-)+[\.][^\W\s]{2,4}|localhost(?=\/)|\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})(?::(\d*))?([\/]?[^\s\?]*[\/]{1})*(?:\/?([^\s\n\?\[\]\{\}\#]*(?:(?=\.)){1}|[^\s\n\?\[\]\{\}\.\#]*)?([\.]{1}[^\s\?\#]*)?)?(?:\?{1}([^\s\n\#\[\]]*))?([\#][^\s\n]*)?\)?/i;
+                        tbShortUrlMatch = input.match(tbShortUrlRegExp);
+                        if (tbShortUrlMatch == null) {
+                            koulingRegExp = /￥(\w+)￥/i;
+                            koulingMatch = input.match(koulingRegExp);
+                            if (koulingMatch == null) {
+                                alert("既无淘宝地址，也无淘口令。");
+                                this.isDone = true;
+                            }
+                            else {
+                                this.convertTaokoulingToUrl(koulingMatch[1]);
+                            }
+                        }
+                        else {
+                            urlFound = tbShortUrlMatch[0];
+                            if (urlFound.indexOf("//m.tb.cn/") < 0) {
+                                // this is long tb url , not short tb url.
+                                // no need to retrieve long tb url
+                                console.log(urlFound);
+                                this.tburl = urlFound;
+                                this.findShopIdName(this.tburl);
+                            }
+                            else {
+                                // this is shot tb url, need to convert it to long tb url
+                                this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(function (data) {
+                                    //console.log(data);
+                                    var dataStr = data;
+                                    var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
+                                    var tburlMatch = dataStr.match(tburlRegExp);
+                                    if (tburlMatch != null) {
+                                        console.log(tburlMatch[1]);
+                                        _this.tburl = tburlMatch[1];
+                                        _this.findShopIdName(_this.tburl);
+                                    }
+                                }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1'); _this.isDone = true; });
+                            }
+                        }
+                        _a.label = 1;
+                    case 1:
+                        if (!!this.isDone) return [3 /*break*/, 3];
+                        return [4 /*yield*/, this.delay(100)];
+                    case 2:
+                        _a.sent();
+                        return [3 /*break*/, 1];
+                    case 3:
+                        loading.dismiss();
+                        return [2 /*return*/];
+                }
+            });
+        });
+    };
+    JcxLitePage.prototype.convertTaokoulingToUrl = function (tkl) {
+        var _this = this;
+        this.jcxApi.getUrlContentViaJcx("http://api.w4.org.cn/api/detkl.php?tkl=" + tkl).then(function (data) {
+            //console.log(data);
+            var dataStr = data;
+            var tburlRegExp = /"url":"([^"]*)"/i;
+            var tburlMatch = dataStr.match(tburlRegExp);
+            if (tburlMatch != null) {
+                _this.tburl = tburlMatch[1].replace(/\\\//g, "/");
+                console.log(_this.tburl);
+                _this.findShopIdName(_this.tburl);
+            }
+        }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-3'); _this.isDone = true; });
+    };
+    JcxLitePage.prototype.findShopIdName = function (url) {
+        var _this = this;
+        this.shopId = null;
+        this.shopName = null;
+        this.shopType = null;
+        this.jcxApi.getUrlContentViaJcx(url).then(function (data) {
+            var dataStr = data; //JSON.stringify(data);
+            var shopIdNameRegExp = /var\s+g_config\s*=\s*{[\s\S]*shopId\s*:\s*['"]([^'"]*)['"][\s\S]*shopName\s*:\s*['"]([^'"]*)['"]/i;
+            var shopIdNameMatch = dataStr.match(shopIdNameRegExp);
+            if (shopIdNameMatch != null) {
+                _this.shopId = shopIdNameMatch[1];
+                _this.shopType = "tbshop";
+                _this.shopName = _this.unicodeToChar(shopIdNameMatch[2]);
+                console.log(_this.shopId + " | " + _this.shopName + " | " + _this.shopType);
+            }
+            else {
+                _this.shopType = "tmshop";
+                var re = /shopId=(\d+);/i;
+                var reMatch = dataStr.match(re);
+                if (reMatch != null) {
+                    _this.shopId = reMatch[1];
+                }
+                re = /<a\s+class="slogo-shopname"[^<>]*><strong>(.*)<\/strong><\/a>/i;
+                reMatch = dataStr.match(re);
+                if (reMatch != null) {
+                    _this.shopName = reMatch[1];
+                }
+                console.log(_this.shopId + " | " + _this.shopName + " | " + _this.shopType);
+            }
+            _this.retrieveShopGI(_this.shopType, _this.shopName, _this.shopId);
+        }).catch(function (error) { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2'); _this.isDone = true; });
+    };
+    JcxLitePage.prototype.retrieveShopGI = function (shoptype, shopname, shopid) {
+        var _this = this;
+        if (shopid == null || shopname == null || shoptype == null) {
+            this.isDone = true;
+            return;
+        }
+        // obtain allCategories data
+        this.jcxApi.getShopGI(shoptype, shopname, shopid).then(function (data) {
+            var one = data;
+            _this.isDone = true;
+            if (one.tbshop == null && one.tmshop == null) {
+                alert("没有该店铺数据。" + shopid + " | " + shopname + " | " + shoptype);
+                return;
+            }
+            _this.openShopGIPage(data);
+        }).catch(function (e) {
+            console.log(e);
+            _this.isDone = true;
+        });
+    };
+    // open shop general info page
+    JcxLitePage.prototype.openShopGIPage = function (data) {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__pages__["v" /* ShopGiPage */], data);
+        // console.log(this.navCtrl.parent);
+    };
+    JcxLitePage.prototype.unicodeToChar = function (text) {
+        return text.replace(/\\u[\dA-F]{4}/gi, function (match) {
+            return String.fromCharCode(parseInt(match.replace(/\\u/g, ''), 16));
+        });
+    };
+    JcxLitePage.prototype.scan_shop = function () {
+        // this.retrieveShopGI('tmshop', '星屿地球仪旗舰店', '57302185'); 
+        // return;
+        var _this = this;
+        /*
+        let barOptions = {
+        };
+        */
+        this.barcodeScanner.scan().then(function (barcodeData) {
+            _this.search_shop_internal(barcodeData.text);
+        }, function (err) {
+            // An error occurred
+            alert("\u626B\u63CF\u6709\u9519\uFF1A" + err);
+        });
+    };
+    JcxLitePage.prototype.delay = function (ms) {
+        return new Promise(function (resolve) { return setTimeout(resolve, ms); });
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+     If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+      The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    JcxLitePage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad');
+    };
+    /*Runs when the page is about to enter and become the active page.*/
+    JcxLitePage.prototype.ionViewWillEnter = function () {
+        console.log('ionViewWillEnter');
+        this.events.publish('HomePage', this.pages);
+    };
+    /* Runs when the page has fully entered and is now the active page.
+    This event will fire, whether it was the first load or a cached page.
+    */
+    JcxLitePage.prototype.ionViewDidEnter = function () {
+        // console.log('ionViewDidEnter');
+    };
+    /* Runs when the page is about to leave and no longer be the active page */
+    JcxLitePage.prototype.ionViewWillLeave = function () {
+    };
+    /* Runs when the page has finished leaving and is no longer the active page. */
+    JcxLitePage.prototype.ionViewDidLeave = function () {
+    };
+    /* 	Runs when the page is about to be destroyed and have its elements removed. */
+    JcxLitePage.prototype.ionViewWillUnload = function () {
+    };
+    /* 	Runs before the view can enter. This can be used as a sort of "guard" in
+    authenticated views where you need to check permissions before the view can enter */
+    JcxLitePage.prototype.ionViewCanEnter = function () {
+    };
+    /* 	Runs before the view can leave. This can be used as a sort of "guard" in authenticated views
+     where you need to check permissions before the view can leave */
+    JcxLitePage.prototype.ionViewCanLeave = function () {
+    };
+    JcxLitePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="textinput">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_5__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
+            __WEBPACK_IMPORTED_MODULE_5__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_3__ionic_native_clipboard__["a" /* Clipboard */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
+    ], JcxLitePage);
+    return JcxLitePage;
+}());
+
+//# sourceMappingURL=jcx-lite.js.map
+
+/***/ }),
+
+/***/ 282:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShopGiPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ShopGiPage = /** @class */ (function () {
+    function ShopGiPage(navCtrl, navParams, jcxApi, loadingController, userSettings) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxApi = jcxApi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.nicEditorDisplay = "none";
+        this.shopId = null;
+        this.shopType = null;
+        this.shopName = null;
+        this.one = null;
+        this.shop = null;
+        this.shopTopic = null;
+        this.one = navParams.data;
+        if (this.one.tbshop != null) {
+            this.shopId = this.one.tbshop.shopId;
+            this.shopName = this.one.tbshop.shopName;
+            this.shopType = 'tbshop';
+            this.shop = this.one.tbshop;
+        }
+        else if (this.one.tmshop != null) {
+            this.shopId = this.one.tmshop.shopId;
+            this.shopName = this.one.tmshop.shopName;
+            this.shopType = 'tmshop';
+            this.shop = this.one.tmshop;
+        }
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl;
+        this.shopTopic = {};
+        this.jq = jQuery;
+    }
+    ShopGiPage.prototype.loadShopGI = function () {
+        var shop = this.shop;
+        var $ = jQuery;
+        //$('#forumPostsForThisShop').attr("onclick", ddd );
+        //$('#shopOwnerBBS').attr("onclick",  bbslink);
+        this.shopTopic.id = Number(shop.attrs.forumTopicNum);
+        this.shopTopic.title = '"' + this.shopName + '"';
+        console.log('loadShopGI enter!');
+        var jcxtmp = shop.jcx;
+        var shopDefLogo = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl + '/images/ty-logo.png';
+        var shopLink = "";
+        switch (this.shopType) {
+            case 'tbshop':
+            case 'tmshop':
+                shopLink = "http://shop.m.taobao.com/shop/shopIndex.htm?shop_id=" + shop.shopId;
+                break;
+        }
+        $("#tm_shopName_1").attr("href", shopLink);
+        $("#tm_shopName_2").attr("href", shopLink);
+        var shopname = $('<div/>').html(shop.shopName).text();
+        $("#shopName").text(shopname);
+        $("#tm_shopimg").attr("src", shop.attrs.shopImgLink == null ? shopDefLogo : this.userSettings.convertImgSrc(shop.attrs.shopImgLink));
+        // sale & num for products
+        if (jcxtmp < 0) {
+            $("#tm_info_sale").text('--');
+            $("#tm_info_sum").text('--');
+        }
+        else {
+            $("#tm_info_sale").text(shop.bbSale);
+            $("#tm_info_sum").text(shop.bbSum);
+        }
+        var maincat = shop.mainCat;
+        //maincat = maincat.replace(/target="_blank"/g, "");
+        //maincat = maincat.replace(/\/tbshop\/querykeyFromLink.do/g, "page-ns-search.html");
+        maincat = maincat.replace(/<\/a>/g, "");
+        maincat = maincat.replace(/<a[^>]*>/g, "");
+        $("#tm_main_cat").html(maincat);
+        var height = $("#tm_main_cat").height();
+        if (height > 80) {
+            $("#tm_main_cat").height(80);
+            $("#tm_main_cat").after('<a id="moreinfo" href="#" onclick="' + "jQuery('#tm_main_cat').height('auto'); jQuery('#moreinfo').remove(); return false;" + '" >»更多标签</a>');
+        }
+        switch (this.shopType) {
+            case 'tbshop':
+            case 'tmshop':
+                $("#tm_seller").text(shop.nickName);
+                $("#tm_area").text(shop.area);
+                $("#tm_service").text(shop.service);
+                $("#tm_service_div").show();
+                if (shop.shopAlias != undefined && shop.shopAlias != null) {
+                    $("#tm_shopalias").text(shop.shopAlias);
+                    $("#tm_shopalias_div").show();
+                }
+                // 4 products window
+                $("#tm_pHref_0").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg0));
+                $("#tm_pImg_0").attr("src", this.userSettings.convertImgSrc(shop.attrs.pImg0));
+                $("#tm_pHref_1").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg1));
+                $("#tm_pHref_2").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg2));
+                $("#tm_pHref_3").attr("href", this.userSettings.convertImgSrc(shop.attrs.pImg3));
+                // 店铺动态数据
+                $("#tm_mas").text(shop.mas);
+                $("#tm_sas").text(shop.sas);
+                $("#tm_cas").text(shop.cas);
+                if (shop.mg >= 0) {
+                    $("#tm_mg").text('高于 ' + shop.mg + '%');
+                    $("#tm_mg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_mg").text('低于 ' + (-shop.mg) + '%');
+                    $("#tm_mg").attr("class", "lowerThanPeer");
+                }
+                if (shop.sg >= 0) {
+                    $("#tm_sg").text('高于 ' + shop.sg + '%');
+                    $("#tm_sg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_sg").text('低于 ' + (-shop.sg) + '%');
+                    $("#tm_sg").attr("class", "lowerThanPeer");
+                }
+                if (shop.cg >= 0) {
+                    $("#tm_cg").text('高于 ' + shop.cg + '%');
+                    $("#tm_cg").attr("class", "higherThanPeer");
+                }
+                else {
+                    $("#tm_cg").text('低于 ' + (-shop.cg) + '%');
+                    $("#tm_cg").attr("class", "lowerThanPeer");
+                }
+                if (this.one.sgi.currentServicePos > 0) {
+                    $("#tm_service_rank_div").show();
+                    $("#gi-p-stat-jcx-current-service").html("“" + shop.service + "”类 第#" + this.one.sgi.currentServicePos + "/共" + this.one.sgi.currentServiceTotalShops);
+                }
+                if (this.one.sgi.currentRatingPos > 0) {
+                    $("#tm_rating_rank_div").show();
+                    $("#gi-p-stat-jcx-current-rating").html('“' + shop.service + "”类 第#" + this.one.sgi.currentRatingPos + "/共" + this.one.sgi.currentRatingTotalShops);
+                }
+                break;
+        }
+        if (jcxtmp < 0) {
+            $("#gi-p-stat-jcx").text('--');
+            $("#shopTrackCurves").hide();
+        }
+        else {
+            var strack = this.one.strack;
+            //line-chart part
+            //calculateJcxInShop(shop);
+            $("#flot-line-chart-head-0").text("商品销量");
+            $("#flot-line-chart-head-1").text("商品数量");
+            $("#flot-line-chart-head-2").text("卖家信誉");
+            $("#flot-line-chart-head-3").text("描述相符");
+            $("#flot-line-chart-head-4").text("服务态度");
+            $("#flot-line-chart-head-5").text("发货速度");
+            $("#flot-line-chart-head-6").text("集诚信分");
+            var stData = {
+                isnull: false,
+                bbSale: [],
+                bbSum: [],
+                srn: [],
+                mas: [],
+                sas: [],
+                cas: [],
+                jcx: []
+            };
+            /*
+            if(checkStrackNonEmpty(strack)) {
+              var remove = new Array();
+              stData.bbSale = removeSingularPointForBbsale(strack.bbSale, remove);
+              stData.bbSum = removeSingularPointForBbsum(strack.bbSum);
+              stData.srn = removeSingularPointForSrn(strack.srn, remove);
+              stData.mas = removeSingularPointForDynamicPoints(strack.mas, remove);
+              stData.sas = removeSingularPointForDynamicPoints(strack.sas, remove);
+              stData.cas = removeSingularPointForDynamicPoints(strack.cas, remove);
+              
+              if(remove.length > 0) {
+                stData.jcx = removeSingularPointForJcx(strack.jcx, remove);
+              } else {
+                stData.jcx = parseShopTrackString(strack.jcx);
+              }
+            } else {
+              stData.isnull = true;
+              var cur = new Date().getTime();
+              if(shop != undefined && shop != null) {
+                switch(shoptype) {
+                case  'tbshop' :
+                case 'tmshop' :
+                  stData.bbSale.push([cur, shop.bbSale]);
+                  stData.bbSum.push([cur, shop.bbSum]);
+                  stData.srn.push([cur, shop.srn]);
+                  stData.mas.push([cur, shop.mas]);
+                  stData.sas.push([cur, shop.sas]);
+                  stData.cas.push([cur, shop.cas]);
+                  stData.jcx.push([cur, jcxtmp]);
+                  break;
+                }
+              }
+            }
+            plotShopTrack(stData);
+            */
+            $("#gi-p-stat-jcx").html(this.checkJcxPosition(jcxtmp.toFixed(2), this.one.sgi.curPos, this.one.sgi.prePos));
+        }
+        $("#gi-p-stat-rating").html(this.display5star(this.one.sgi.ss.totalShopScore, this.one.sgi.ss.totalScoreNum));
+        $("#gi-p-stat-totalscorenum").text(this.one.sgi.ss.totalScoreNum);
+        if (this.one.sgi.ss.totalScoreNum > 0) {
+            $("#g_score5_num").text(this.one.sgi.numOfScore5);
+            $("#g_score5_fill").width(Math.round(100 * this.one.sgi.numOfScore5 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score4_num").text(this.one.sgi.numOfScore4);
+            $("#g_score4_fill").width(Math.round(100 * this.one.sgi.numOfScore4 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score3_num").text(this.one.sgi.numOfScore3);
+            $("#g_score3_fill").width(Math.round(100 * this.one.sgi.numOfScore3 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score2_num").text(this.one.sgi.numOfScore2);
+            $("#g_score2_fill").width(Math.round(100 * this.one.sgi.numOfScore2 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#g_score1_num").text(this.one.sgi.numOfScore1);
+            $("#g_score1_fill").width(Math.round(100 * this.one.sgi.numOfScore1 / this.one.sgi.ss.totalScoreNum) + "%");
+            $("#jcxratings_chart").show();
+        }
+        $("#gi-p-stat-recommend").text(this.one.sgi.ss.recommendNum);
+        if (this.one.sgi.shopKb != null || this.one.sgi.shopKb != undefined) {
+            $("#gi-p-stat-koubei").text(this.one.sgi.shopKb.koubei);
+        }
+        $("#num-000").text(this.one.sgi.ss.recommendNum);
+        switch (this.one.sgi.sau.recommend) {
+            case -1:
+                $("#gi-p-000").removeClass("checkbox-three-checked");
+                break;
+            case 1:
+                $("#gi-p-000").addClass("checkbox-three-checked");
+                break;
+            default: $("#gi-p-000").removeClass("checkbox-three-checked");
+        }
+        if (this.one.sgi.sau.shopScore < 800) {
+            $('#rangeInput').rating('update', this.one.sgi.sau.shopScore);
+            $("#shopAllCommentsSubmit").text("更改");
+        }
+        else {
+            $("#rangeInput").val(0); // 888 对应 '未评分'--0
+        }
+        this.updateFeedbackNumbers(this.one.sgi.ss.feedbacks);
+        if (this.one.sgi.sau.feedback != undefined) {
+            //			优点：100
+            //			101 产品质量好，描述真实
+            this.one.sgi.sau.feedback.indexOf("101") < 0 ? $("#gi-p-101").removeClass("checkbox-three-checked") : $("#gi-p-101").addClass("checkbox-three-checked");
+            //			102 品牌真实，无假冒
+            this.one.sgi.sau.feedback.indexOf("102") < 0 ? $("#gi-p-102").removeClass("checkbox-three-checked") : $("#gi-p-102").addClass("checkbox-three-checked");
+            //			103 产品性价比高，质优价廉
+            this.one.sgi.sau.feedback.indexOf("103") < 0 ? $("#gi-p-103").removeClass("checkbox-three-checked") : $("#gi-p-103").addClass("checkbox-three-checked");
+            //			104 服务态度一流
+            this.one.sgi.sau.feedback.indexOf("104") < 0 ? $("#gi-p-104").removeClass("checkbox-three-checked") : $("#gi-p-104").addClass("checkbox-three-checked");
+            //			105 其产品/服务为独创
+            this.one.sgi.sau.feedback.indexOf("105") < 0 ? $("#gi-p-105").removeClass("checkbox-three-checked") : $("#gi-p-105").addClass("checkbox-three-checked");
+            //			106 其产品为优质地方特产
+            this.one.sgi.sau.feedback.indexOf("106") < 0 ? $("#gi-p-106").removeClass("checkbox-three-checked") : $("#gi-p-106").addClass("checkbox-three-checked");
+            //			107物流速度快
+            this.one.sgi.sau.feedback.indexOf("107") < 0 ? $("#gi-p-107").removeClass("checkbox-three-checked") : $("#gi-p-107").addClass("checkbox-three-checked");
+            //			108 价格便宜，但质量一般
+            this.one.sgi.sau.feedback.indexOf("108") < 0 ? $("#gi-p-108").removeClass("checkbox-three-checked") : $("#gi-p-108").addClass("checkbox-three-checked");
+            //			109 商品设计得好、外观好、版型剪裁好
+            this.one.sgi.sau.feedback.indexOf("109") < 0 ? $("#gi-p-109").removeClass("checkbox-three-checked") : $("#gi-p-109").addClass("checkbox-three-checked");
+            //		缺点：200
+            //			201 产品描述有虚假成分，货品与图片不一致
+            this.one.sgi.sau.feedback.indexOf("201") < 0 ? $("#gi-p-201").removeClass("checkbox-three-checked") : $("#gi-p-201").addClass("checkbox-three-checked");
+            //			202 曾经买到过假货
+            this.one.sgi.sau.feedback.indexOf("202") < 0 ? $("#gi-p-202").removeClass("checkbox-three-checked") : $("#gi-p-202").addClass("checkbox-three-checked");
+            //			203 服务态度恶劣
+            this.one.sgi.sau.feedback.indexOf("203") < 0 ? $("#gi-p-203").removeClass("checkbox-three-checked") : $("#gi-p-203").addClass("checkbox-three-checked");
+            //			204 与该店有未解决纠纷
+            this.one.sgi.sau.feedback.indexOf("204") < 0 ? $("#gi-p-204").removeClass("checkbox-three-checked") : $("#gi-p-204").addClass("checkbox-three-checked");
+            //			205 商品价格偏贵
+            this.one.sgi.sau.feedback.indexOf("205") < 0 ? $("#gi-p-205").removeClass("checkbox-three-checked") : $("#gi-p-205").addClass("checkbox-three-checked");
+            //			206 售后服务反应慢、低效，态度不好
+            this.one.sgi.sau.feedback.indexOf("206") < 0 ? $("#gi-p-206").removeClass("checkbox-three-checked") : $("#gi-p-206").addClass("checkbox-three-checked");
+            //			207 发货、物流慢
+            this.one.sgi.sau.feedback.indexOf("207") < 0 ? $("#gi-p-207").removeClass("checkbox-three-checked") : $("#gi-p-207").addClass("checkbox-three-checked");
+            //			208 商品质量不好，不满意
+            this.one.sgi.sau.feedback.indexOf("208") < 0 ? $("#gi-p-208").removeClass("checkbox-three-checked") : $("#gi-p-208").addClass("checkbox-three-checked");
+            //			209 商品不耐用，做工不好
+            this.one.sgi.sau.feedback.indexOf("209") < 0 ? $("#gi-p-209").removeClass("checkbox-three-checked") : $("#gi-p-209").addClass("checkbox-three-checked");
+            //		消费者情况：300
+            //			301 是该店的新客户，还会再买
+            this.one.sgi.sau.feedback.indexOf("301") < 0 ? $("#gi-p-301").removeClass("checkbox-three-checked") : $("#gi-p-301").addClass("checkbox-three-checked");
+            //			302 曾经是该店客户，不会再买
+            this.one.sgi.sau.feedback.indexOf("302") < 0 ? $("#gi-p-302").removeClass("checkbox-three-checked") : $("#gi-p-302").addClass("checkbox-three-checked");
+            //			303 不是该店客户
+            this.one.sgi.sau.feedback.indexOf("303") < 0 ? $("#gi-p-303").removeClass("checkbox-three-checked") : $("#gi-p-303").addClass("checkbox-three-checked");
+            //			304 是该店忠实客户，已经买过多次
+            this.one.sgi.sau.feedback.indexOf("304") < 0 ? $("#gi-p-304").removeClass("checkbox-three-checked") : $("#gi-p-304").addClass("checkbox-three-checked");
+        }
+    };
+    /*
+    * produce the position info for jcx scores
+    */
+    ShopGiPage.prototype.checkJcxPosition = function (jcx, curPos, prePos) {
+        var ret = jcx + '(' + curPos;
+        var p = prePos - curPos;
+        var minusP = -p;
+        if (p > 0) {
+            ret += '<span class="list-top-up" ><i class="fa fa-long-arrow-up"></i>' + p + '</span>';
+        }
+        else if (p < 0) {
+            ret += '<span class="list-top-down" ><i class="fa fa-long-arrow-down"></i>' + minusP + '</span>';
+        }
+        else {
+            ret += '<span class="list-top-flat" ><i class="fa fa-minus"></i></span>';
+        }
+        ret += ')';
+        return ret;
+    };
+    ShopGiPage.prototype.checkCommentUserList = function (shopid, shoptype) {
+        var $ = jQuery;
+        var shopid_ = shopid;
+        var shoptype_ = shoptype;
+        function successListener(one, textStatus) {
+            var startstr = 'Success:';
+            if (one.startsWith(startstr)) {
+                alert(one.substring(startstr.length));
+            }
+            else {
+                alert(one);
+            }
+        }
+        function errorListener(xhr, status, error) {
+            alert(status);
+        }
+        // JQuery ajax post method
+        var url_ = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl + '/checkCommentUserList.do';
+        $.ajax({
+            type: "POST",
+            url: url_,
+            contentType: "application/x-www-form-urlencoded; charset=utf-8",
+            success: successListener,
+            error: errorListener,
+            dataType: 'text',
+            data: {
+                shopid: shopid_,
+                shoptype: shoptype_
+            }
+        });
+        return false;
+    };
+    /*
+        * send shop feedbacks
+        */
+    ShopGiPage.prototype.sendShopAllComments = function (shopid, shoptype_) {
+        var _this = this;
+        var $ = jQuery;
+        if (this.userSettings.user == null) {
+            alert("您好，请先登录再评价，谢谢。");
+            return false;
+        }
+        var scoreInput = $('#rangeInput').val();
+        if (scoreInput < 0) {
+            scoreInput = 0;
+        }
+        if (scoreInput > 5) {
+            scoreInput = 5;
+        }
+        var score_ = scoreInput == 0 ? 888 : scoreInput;
+        var recommend_ = 'false';
+        if ($("#gi-p-000").hasClass("checkbox-three-checked")) {
+            recommend_ = 'true';
+        }
+        var feedback_ = '';
+        if ($("#gi-p-101").hasClass("checkbox-three-checked")) {
+            feedback_ += '101;';
+        }
+        if ($("#gi-p-102").hasClass("checkbox-three-checked")) {
+            feedback_ += '102;';
+        }
+        if ($("#gi-p-103").hasClass("checkbox-three-checked")) {
+            feedback_ += '103;';
+        }
+        if ($("#gi-p-104").hasClass("checkbox-three-checked")) {
+            feedback_ += '104;';
+        }
+        if ($("#gi-p-105").hasClass("checkbox-three-checked")) {
+            feedback_ += '105;';
+        }
+        if ($("#gi-p-106").hasClass("checkbox-three-checked")) {
+            feedback_ += '106;';
+        }
+        if ($("#gi-p-107").hasClass("checkbox-three-checked")) {
+            feedback_ += '107;';
+        }
+        if ($("#gi-p-108").hasClass("checkbox-three-checked")) {
+            feedback_ += '108;';
+        }
+        if ($("#gi-p-109").hasClass("checkbox-three-checked")) {
+            feedback_ += '109;';
+        }
+        if ($("#gi-p-201").hasClass("checkbox-three-checked")) {
+            feedback_ += '201;';
+        }
+        if ($("#gi-p-202").hasClass("checkbox-three-checked")) {
+            feedback_ += '202;';
+        }
+        if ($("#gi-p-203").hasClass("checkbox-three-checked")) {
+            feedback_ += '203;';
+        }
+        if ($("#gi-p-204").hasClass("checkbox-three-checked")) {
+            feedback_ += '204;';
+        }
+        if ($("#gi-p-205").hasClass("checkbox-three-checked")) {
+            feedback_ += '205;';
+        }
+        if ($("#gi-p-206").hasClass("checkbox-three-checked")) {
+            feedback_ += '206;';
+        }
+        if ($("#gi-p-207").hasClass("checkbox-three-checked")) {
+            feedback_ += '207;';
+        }
+        if ($("#gi-p-208").hasClass("checkbox-three-checked")) {
+            feedback_ += '208;';
+        }
+        if ($("#gi-p-209").hasClass("checkbox-three-checked")) {
+            feedback_ += '209;';
+        }
+        if ($("#gi-p-301").hasClass("checkbox-three-checked")) {
+            feedback_ += '301;';
+        }
+        if ($("#gi-p-302").hasClass("checkbox-three-checked")) {
+            feedback_ += '302;';
+        }
+        if ($("#gi-p-303").hasClass("checkbox-three-checked")) {
+            feedback_ += '303;';
+        }
+        if ($("#gi-p-304").hasClass("checkbox-three-checked")) {
+            feedback_ += '304;';
+        }
+        console.log(shopid + " " + shoptype_);
+        console.log(recommend_ + " " + score_);
+        console.log(feedback_);
+        var oldButtonText = $('#shopAllCommentsSubmit').text();
+        $('#shopAllCommentsSubmit').text(oldButtonText + "……");
+        // send all comments
+        this.jcxApi.sendShopAllComments(shopid, shoptype_, recommend_, score_, feedback_).then(function (data) {
+            // console.log(data);
+            var ss = data;
+            if (ss.feedbacks === undefined || ss.feedbacks === null) {
+                alert("如已登录，则店铺评分不能为空，或者该店铺ID不合法。如未登录，请登录，再提交或更改！");
+                $('#shopAllCommentsSubmit').text(oldButtonText);
+            }
+            else {
+                _this.updateFeedbackNumbers(ss.feedbacks);
+                $("#gi-p-stat-rating").html(_this.display5star(ss.totalShopScore, ss.totalScoreNum));
+                $("#gi-p-stat-totalscorenum").text(ss.totalScoreNum);
+                $("#gi-p-stat-recommend").text(ss.recommendNum);
+                $("#num-000").text(ss.recommendNum);
+                alert("您好，您的评价提交成功，");
+                $('#shopAllCommentsSubmit').text("更改");
+            }
+        }).catch(function (e) {
+            console.log(e);
+            alert("您好，您的评价提交失败，请重新尝试，谢谢。");
+            $('#shopAllCommentsSubmit').text(oldButtonText);
+        });
+        return false;
+    };
+    ;
+    ShopGiPage.prototype.display5star = function (totalscore, num) {
+        var RATINGEMPTY = '<span class="ratingempty" ><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></span>';
+        var fa_star_o = '<i class="fa fa-star-o"></i>';
+        var fa_star = '<i class="fa fa-star"></i>';
+        var fa_star_half_o = '<i class="fa fa-star-half-o"></i>';
+        var score;
+        if (num == 0 || undefined == num) {
+            return RATINGEMPTY;
+        }
+        else {
+            score = totalscore / num;
+        }
+        var text = '';
+        var color = "#ddd";
+        if (score < 1.5) {
+            color = "#d9534f"; // - label-danger
+        }
+        else if (score < 2.5) {
+            color = "#f0ad4e"; // - label-warning
+        }
+        else if (score < 3.5) {
+            color = "#5bc0de"; // - label-info
+        }
+        else if (score < 4.5) {
+            color = "#337ab7"; // - label-primary
+        }
+        else if (score <= 5.0) {
+            color = "#00FF00"; // #5cb85c - label-success
+        }
+        text += '<span style="color:' + color + ';font-size: 19px;" >';
+        for (var i = 0; i < 5; i++) {
+            if (score >= i + 1) {
+                text += fa_star;
+            }
+            else if (score >= i + 0.5) {
+                text += fa_star_half_o;
+            }
+            else {
+                text += fa_star_o;
+            }
+        }
+        text += '(' + score.toFixed(1) + ')' + '</span>';
+        return text;
+    };
+    ShopGiPage.prototype.updateFeedbackNumbers = function (feedbacks) {
+        var $ = jQuery;
+        if (feedbacks != undefined) {
+            //var myRegEx = /101\((\d+)\)/g;
+            //		优点：100
+            this.getFeedbackMatch('#num-101', '#gi-p-101', feedbacks, /101\((\d+)\);/g); //$('#num-101').text(getFeedbackMatch(feedbacks, /101\((\d+)\);/g));
+            this.getFeedbackMatch('#num-102', '#gi-p-102', feedbacks, /102\((\d+)\);/g);
+            this.getFeedbackMatch('#num-103', '#gi-p-103', feedbacks, /103\((\d+)\);/g);
+            this.getFeedbackMatch('#num-104', '#gi-p-104', feedbacks, /104\((\d+)\);/g);
+            this.getFeedbackMatch('#num-105', '#gi-p-105', feedbacks, /105\((\d+)\);/g);
+            this.getFeedbackMatch('#num-106', '#gi-p-106', feedbacks, /106\((\d+)\);/g);
+            this.getFeedbackMatch('#num-107', '#gi-p-107', feedbacks, /107\((\d+)\);/g);
+            this.getFeedbackMatch('#num-108', '#gi-p-108', feedbacks, /108\((\d+)\);/g);
+            this.getFeedbackMatch('#num-109', '#gi-p-109', feedbacks, /109\((\d+)\);/g);
+            //		缺点：200
+            this.getFeedbackMatch('#num-201', '#gi-p-201', feedbacks, /201\((\d+)\);/g); //$('#num-201').text(getFeedbackMatch(feedbacks, /201\((\d+)\);/g));
+            this.getFeedbackMatch('#num-202', '#gi-p-202', feedbacks, /202\((\d+)\);/g);
+            this.getFeedbackMatch('#num-203', '#gi-p-203', feedbacks, /203\((\d+)\);/g);
+            this.getFeedbackMatch('#num-204', '#gi-p-204', feedbacks, /204\((\d+)\);/g);
+            this.getFeedbackMatch('#num-205', '#gi-p-205', feedbacks, /205\((\d+)\);/g);
+            this.getFeedbackMatch('#num-206', '#gi-p-206', feedbacks, /206\((\d+)\);/g);
+            this.getFeedbackMatch('#num-207', '#gi-p-207', feedbacks, /207\((\d+)\);/g);
+            this.getFeedbackMatch('#num-208', '#gi-p-208', feedbacks, /208\((\d+)\);/g);
+            this.getFeedbackMatch('#num-209', '#gi-p-209', feedbacks, /209\((\d+)\);/g);
+            //		消费者情况：300
+            this.getFeedbackMatch('#num-301', '#gi-p-301', feedbacks, /301\((\d+)\);/g); //$('#num-301').text(getFeedbackMatch(feedbacks, /301\((\d+)\);/g));
+            this.getFeedbackMatch('#num-302', '#gi-p-302', feedbacks, /302\((\d+)\);/g);
+            this.getFeedbackMatch('#num-303', '#gi-p-303', feedbacks, /303\((\d+)\);/g);
+            this.getFeedbackMatch('#num-304', '#gi-p-304', feedbacks, /304\((\d+)\);/g);
+        }
+    };
+    ShopGiPage.prototype.getFeedbackMatch = function (numId, labelId, string, regex) {
+        var $ = jQuery;
+        var match = regex.exec(string);
+        if (match == null) {
+            $(numId).text('0');
+            // return '0';
+        }
+        else {
+            var num = match[1];
+            $(numId).text(num);
+            if (num != '0') {
+                $(labelId).css("font-weight", "bold");
+            }
+            // return match[1];
+        }
+    };
+    // open shop topic
+    ShopGiPage.prototype.openShopTopic = function () {
+        console.log(this.shopTopic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["n" /* PostsListPage */], this.shopTopic);
+    };
+    // toggle user comments
+    ShopGiPage.prototype.toggleUserComments = function () {
+        if (this.jq("#collapseHead").hasClass("collapsed")) {
+            // remove 'collapsed' class
+            this.jq("#collapseHead").removeClass("collapsed");
+            this.jq("#collapseBody").addClass("in");
+        }
+        else {
+            // add 'collapsed' class
+            this.jq("#collapseHead").addClass("collapsed");
+            this.jq("#collapseBody").removeClass("in");
+        }
+        return false;
+    };
+    /*Runs when the page is about to enter and become the active page.*/
+    ShopGiPage.prototype.ionViewWillEnter = function () {
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+    If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+    The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    ShopGiPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--shop-gi');
+        /*
+        new nicEditor({
+          buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
+          uploadURI: this.baseUrl + '/uploadNiceFile.do',
+          baseUrl: this.baseUrl
+        }).panelInstance('niceShopTextArea');
+        */
+        var $ = jQuery;
+        $('#tooltip1').click(function () {
+            $('#tooltip2text').hide();
+            $('#tooltip3text').hide();
+            $('#tooltip1text').toggle();
+        });
+        $('#tooltip2').click(function () {
+            $('#tooltip1text').hide();
+            $('#tooltip3text').hide();
+            $('#tooltip2text').toggle();
+        });
+        $('#tooltip3').click(function () {
+            $('#tooltip1text').hide();
+            $('#tooltip2text').hide();
+            $('#tooltip3text').toggle();
+        });
+        if (this.shop == null) {
+            alert("没有店铺ID，请检查再试。");
+            return;
+        }
+        $('.checkbox-one').click(function () {
+            $(this).toggleClass('checkbox-one-checked');
+            return false;
+        });
+        $('.checkbox-two').click(function () {
+            $(this).toggleClass('checkbox-two-checked');
+            return false;
+        });
+        $('.checkbox-three').click(function () {
+            $(this).toggleClass('checkbox-three-checked');
+            return false;
+        });
+        /*
+        $('input.rating').addClass('rating-loading');
+        var $input = $('input.rating'), count = Object.keys($input).length;
+        if (count > 0) {
+            $input.rating();
+        }
+        */
+        this.loadShopGI();
+    };
+    ShopGiPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n\n\n    <div *ngIf="one == null">\n\n        <h2>没有输入店铺ID，请检查。</h2>\n\n    </div>\n\n    <div *ngIf="one != null">\n\n\n\n      <!-- Content Heading -->\n\n      <div style="padding: 10px;background-color: rgb(39, 174, 96);text-align:center;" >\n\n          <h4 style="color:white; font-size: 17px;">\n\n            集诚信分：<i id="tooltip3" class="fa fa-question-circle" style="cursor: pointer;color: white;"></i>&nbsp;<strong id="gi-p-stat-jcx">数据加载中……</strong>\n\n            &nbsp;&nbsp;<span id="shopName"></span>\n\n          </h4>\n\n      </div>\n\n            \n\n      <div class="container-fluid">\n\n        <ion-grid>\n\n\n\n          <ion-row>\n\n            <ion-col col-3>\n\n              <!-- class="responsive-image" -->\n\n              <a id="tm_shopName_1" href="" title="" target="_blank">\n\n                  <img id="tm_shopimg" src="" onerror="" class="img-responsive"/> \n\n                </a>\n\n            </ion-col>\n\n            <ion-col col-9>\n\n              <div class="shop-info">\n\n                  <span class="info-sale">销量：<strong id="tm_info_sale"></strong></span>\n\n                  <span class="info-sum">共<strong id="tm_info_sum"></strong>件商品</span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>卖家昵称：</strong><span id="tm_seller"></span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>所在地区：</strong><span id="tm_area"></span>\n\n                </div>\n\n                <div class="shop-info" id="tm_service_div" style="display: none;"> \n\n                  <strong>当前主营：</strong><span id="tm_service"></span>\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <div id="tooltip1text" style="display:none;background-color: yellow;">用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。</div>\n\n            <div id="tooltip2text" style="display:none;background-color: yellow;">口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。</div>\n\n            <div id="tooltip3text" style="display:none;background-color: yellow;">集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。</div>\n\n            <ion-col col-7>\n\n                <div class="ns-jcx-rating" id="gi-p-stat-rating">\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                      </div>&nbsp;<i id="tooltip1" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>\n\n                <div style="clear: both;"> \n\n                  评分人数:<strong id="gi-p-stat-totalscorenum">0</strong><a href="#" \n\n                  (click)="checkCommentUserList(shopId, shopType)" style="display: inline;float: right;">查看</a>	\n\n                </div>				    	\n\n            </ion-col>\n\n            <ion-col col-5>\n\n              <div class=""> \n\n                  口碑分&nbsp;<i id="tooltip2" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>:<strong id="gi-p-stat-koubei">暂无</strong>	\n\n                </div>\n\n                <div class=""> \n\n                  推荐数:<strong id="gi-p-stat-recommend">0</strong>	\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row id="jcxratings_chart" style="display: none;">\n\n            <ion-col col-12>\n\n              <ul class="ratings_chart">\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score5_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score5_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">挺好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score4_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score4_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">还可以</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score3_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score3_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">不好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score2_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score2_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很差</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score1_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score1_num"></span>\n\n                </li>\n\n              </ul>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row style="display: none;" id="tm_service_rank_div">\n\n            <ion-col col-5><strong>主营排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-service"></ion-col>\n\n          </ion-row>\n\n          <ion-row class="row" style="display: none;" id="tm_rating_rank_div">\n\n            <ion-col col-5><strong>用户排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-rating"></ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <ion-col col-12>\n\n              <label>产品标签:</label>\n\n              <span id="tm_main_cat" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n            <ion-col col-12 id="tm_shopalias_div" style="display: none;">\n\n              <label>店铺曾用名:</label>\n\n              <span id="tm_shopalias" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>          \n\n          \n\n          <div id="dynamicShopScores">\n\n            <table class="table table-condensed">\n\n                  <thead>\n\n                    <tr><th>店铺动态评分</th><th>与同行业相比</th></tr>  				\n\n                  </thead>\n\n                   <tbody>\n\n                <tr><td><strong>描述相符：</strong><span id="tm_mas">4.93</span></td><td><p style="margin: 0px" id="tm_mg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>服务态度：</strong><span id="tm_sas">4.88</span></td><td><p style="margin: 0px" id="tm_sg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>发货速度：</strong><span id="tm_cas">4.89</span></td><td><p style="margin: 0px" id="tm_cg" class="higherThanPeer"></p></td></tr>\n\n              </tbody>\n\n               </table>\n\n          </div>   		  \n\n          \n\n          <div class="shopGiDecoration"></div>\n\n          \n\n          <div class="panel panel-default" >\n\n            <div class="panel-heading">\n\n              <h4 class="panel-title">\n\n                <a class="sign-toggle" id="collapseHead" href="#" (click)="toggleUserComments()">\n\n                  <img src="images/lists/plus_48.png" class="sign-img large-plus">\n\n                  <img src="images/lists/delete_48.png" class="sign-img large-delete">\n\n                                展开/收起当前用户评价\n\n                </a>\n\n              </h4>\n\n            </div>\n\n            <div id="collapseBody" class="panel-collapse collapse in">\n\n              <div class="panel-body">\n\n                <form id="gi-p-feedback-form" role="form" (submit)="sendShopAllComments(shopId, shopType)">\n\n                    <div>\n\n                       <label for="fader" >店铺评分(0~5)：</label>						\n\n                      <input id="rangeInput" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="md">	\n\n                    </div>\n\n                    <div>\n\n                      <a href="#" id="gi-p-000" class="checkbox checkbox-three">推荐该店铺(<span id="num-000">0</span>)</a>	\n\n                    </div>\n\n                    <div>\n\n                      <label>优点：</label>\n\n                      <a href="#" id="gi-p-101" class="checkbox checkbox-three">产品质量好，描述真实(<span id="num-101">0</span>)</a>\n\n                      <a href="#" id="gi-p-102" class="checkbox checkbox-three">品牌真实，无假冒(<span id="num-102">0</span>)</a>\n\n                      <a href="#" id="gi-p-103" class="checkbox checkbox-three">产品性价比高，质优价廉(<span id="num-103">0</span>)</a>\n\n                      <a href="#" id="gi-p-104" class="checkbox checkbox-three">服务态度一流(<span id="num-104">0</span>)</a>\n\n                      <a href="#" id="gi-p-105" class="checkbox checkbox-three">其产品/服务为独创(<span id="num-105">0</span>)</a>\n\n                      <a href="#" id="gi-p-106" class="checkbox checkbox-three">其产品为优质地方特产(<span id="num-106">0</span>)</a>		    				\n\n                      <a href="#" id="gi-p-107" class="checkbox checkbox-three">物流速度快(<span id="num-107">0</span>)</a>\n\n                      <a href="#" id="gi-p-108" class="checkbox checkbox-three">价格便宜，但质量一般(<span id="num-108">0</span>)</a>\n\n                      <a href="#" id="gi-p-109" class="checkbox checkbox-three">商品设计得好、外观好、版型剪裁好(<span id="num-109">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>缺点：</label>\n\n                      <a href="#" id="gi-p-201" class="checkbox checkbox-three">产品描述有虚假成分，货品与图片不一致(<span id="num-201">0</span>)</a>\n\n                      <a href="#" id="gi-p-202" class="checkbox checkbox-three">曾经买到过假货(<span id="num-202">0</span>)</a>\n\n                      <a href="#" id="gi-p-203" class="checkbox checkbox-three">服务态度恶劣(<span id="num-203">0</span>)</a>\n\n                      <a href="#" id="gi-p-204" class="checkbox checkbox-three">与该店有未解决纠纷(<span id="num-204">0</span>)</a>\n\n                      <a href="#" id="gi-p-205" class="checkbox checkbox-three">商品价格偏贵(<span id="num-205">0</span>)</a>\n\n                      <a href="#" id="gi-p-206" class="checkbox checkbox-three">售后服务反应慢、低效，态度不好(<span id="num-206">0</span>)</a>\n\n                      <a href="#" id="gi-p-207" class="checkbox checkbox-three">发货、物流慢(<span id="num-207">0</span>)</a>\n\n                      <a href="#" id="gi-p-208" class="checkbox checkbox-three">商品质量不好，不满意(<span id="num-208">0</span>)</a>\n\n                      <a href="#" id="gi-p-209" class="checkbox checkbox-three">商品不耐用，做工不好(<span id="num-209">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>消费者情况：</label>\n\n                      <a href="#" id="gi-p-304" class="checkbox checkbox-three">是该店忠实客户，已经买过多次(<span id="num-304">0</span>)</a>	\n\n                      <a href="#" id="gi-p-301" class="checkbox checkbox-three">是该店的新客户，还会再买(<span id="num-301">0</span>)</a>	\n\n                      <a href="#" id="gi-p-302" class="checkbox checkbox-three">曾经是该店客户，不会再买(<span id="num-302">0</span>)</a>	\n\n                      <a href="#" id="gi-p-303" class="checkbox checkbox-three">不是该店客户(<span id="num-303">0</span>)</a>	\n\n                    </div>\n\n                    <div><button type="submit" class="btn btn-success" id="shopAllCommentsSubmit">提交</button></div>											\n\n                </form>						\n\n              </div>\n\n          </div>\n\n        </div>\n\n          \n\n        <a id="forumPostsForThisShop" href="#" (click)="openShopTopic()" style="text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;">进入店铺社区-查看详细评价</a>\n\n      \n\n        </ion-grid>\n\n\n\n      </div> <!-- container-fluid -->\n\n  \n\n\n\n    </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
+        }),
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]) === "function" && _e || Object])
+    ], ShopGiPage);
+    return ShopGiPage;
+    var _a, _b, _c, _d, _e;
+}());
+
+//# sourceMappingURL=shop-gi.js.map
+
+/***/ }),
+
+/***/ 283:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxForumPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/*
+  Generated class for the JcxForum page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxForumPage = /** @class */ (function () {
+    function JcxForumPage(navCtrl, userSettings, platform, jcxApi, loadingController, popoverController) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.platform = platform;
+        this.jcxApi = jcxApi;
+        this.loadingController = loadingController;
+        this.popoverController = popoverController;
+        this.slideHeight = 230;
+        this.mySlideOptions = {
+            autoplay: 4000,
+            initialSlide: 0,
+            loop: true
+        };
+        platform.ready().then(function (readySource) {
+            console.log('Width: ' + platform.width());
+            _this.slideHeight = platform.width() * 0.6;
+        });
+    }
+    /*Runs when the page is about to enter and become the active page.*/
+    JcxForumPage.prototype.ionViewWillEnter = function () {
+        /*
+        console.log('ionViewWillEnter');
+        if (this.allCategories != null) {
+          return;
+        }
+        let loader = this.loadingController.create({
+          content: "加载..."
+        });
+        loader.present().then(() => {
+          this.jcxapi.getForumList().then(data => {
+            this.allCategories = this.checkNewInAllCategories(data);
+            loader.dismiss();
+          }).catch((e) => {
+            console.log(e); loader.dismiss();
+          });
+        });
+        */
+    };
+    JcxForumPage.prototype.openForum = function (forum) {
+        console.log(forum.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["a" /* ForumShowPage */], forum);
+        // console.log(this.navCtrl.parent);
+        // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
+    };
+    JcxForumPage.prototype.openTopic = function (postImage) {
+        var topic = {};
+        topic.id = postImage.topicId;
+        topic.title = postImage.subject;
+        topic.startNum = postImage.startNum;
+        console.log(topic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["n" /* PostsListPage */], topic);
+    };
+    JcxForumPage.prototype.myMoreAction = function (ev) {
+        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_2__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
+        popover.present({
+            ev: ev
+        });
+    };
+    JcxForumPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-forum',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\jcx-forum.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button menuToggle>\n        <ion-icon large name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <div class="topbar-logo"></div>\n    <ion-buttons end>\n      <button (click)="myMoreAction($event)">\n        <ion-icon large name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <h4 style="text-align: center; font-weight: 800;">集诚信 -- 网购社区</h4>\n\n  <!--\n                <div class="imgMiddleCenterBackground2" \n                  [style]=" \'height: \' + slideHeight + \'px; background-image: url(\' + \n                    userSettings.allinone.pi1.imgSrc + \');\' | safeCss">\n                </div>\n  -->\n\n  <ion-card>\n    <ion-card-header>\n      最新论坛图片\n    </ion-card-header>\n    <ion-card-content>\n      <div *ngIf="userSettings.allinone != null">\n        <ion-slides [autoplay]="4000" [initialSlide]="0" [loop]="true" >\n          <ion-slide (click)="openTopic(userSettings.allinone.pi1)">\n            <div class="slider-wrapper">\n              <div class="slide-item">\n                <div class="imgMiddleCenterBackground2" \n                    [ngStyle]="{\'height\': slideHeight + \'px\', \'background-image\': \'url(\'+ userSettings.allinone.pi1.imgSrc + \')\' }">\n                </div>\n              </div>\n              <div class="pi-desc">{{userSettings.allinone.pi1.subject}}</div>\n            </div>\n          </ion-slide>\n          \n          <ion-slide (click)="openTopic(userSettings.allinone.pi2)">\n            <div class="slider-wrapper">\n              <div class="slide-item">\n                <div class="imgMiddleCenterBackground2" \n                    [ngStyle]="{\'height\': slideHeight + \'px\', \'background-image\': \'url(\'+ userSettings.allinone.pi2.imgSrc + \')\' }">\n                </div>\n              </div>\n              <div class="pi-desc">{{userSettings.allinone.pi2.subject}}</div>\n            </div>\n          </ion-slide>\n\n          <ion-slide (click)="openTopic(userSettings.allinone.pi3)">\n            <div class="slider-wrapper">\n              <div class="slide-item">\n                <div class="imgMiddleCenterBackground2" \n                    [ngStyle]="{\'height\': slideHeight + \'px\', \'background-image\': \'url(\'+ userSettings.allinone.pi3.imgSrc + \')\' }">\n                </div>\n              </div>\n              <div class="pi-desc">{{userSettings.allinone.pi3.subject}}</div>\n            </div>\n          </ion-slide>\n        </ion-slides>\n      </div>\n    </ion-card-content>\n  </ion-card>\n\n  <div *ngIf="userSettings.allCategories != null">\n    <ion-list>\n      <ion-item *ngFor="let category of userSettings.getAllNonTradeCategories()">\n        <div class="categoryName">\n          <span style="color:#F96E02" *ngIf="category.isNew">*</span>\n          {{ category.name }}\n          <span style="color:#F96E02" *ngIf="category.isNew">*</span>\n        </div>\n        <ion-list>\n          <ion-item *ngFor="let forum of category.forums" (click)="openForum(forum)" >\n            <div item-left class="forumicon" [ngStyle]="{\'background-position\':-forum.forumIconPos * 36 + \'px 0px\'}"></div> \n            <h2>{{forum.name}}</h2>\n            <p>\n              <span style="color:#F96E02" *ngIf="forum.isNew">【最新】</span>\n              {{ forum.lpi == null ? forum.description : forum.lpi.topicTitle}}\n            </p>\n          </ion-item>\n        </ion-list>\n      </ion-item>\n    </ion-list>\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\jcx-forum.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]])
+    ], JcxForumPage);
+    return JcxForumPage;
+}());
+
+//# sourceMappingURL=jcx-forum.js.map
+
+/***/ }),
+
+/***/ 284:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ForumShowPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ForumShowPage = /** @class */ (function () {
+    function ForumShowPage(navCtrl, navParams, jcxapi, loadingController, userSettings) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxapi = jcxapi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.forumPage = null;
+        this.nicEditorDisplay = "none";
+        this.pagesMap = new Map();
+        this.subjectField = "";
+        var forum = navParams.data;
+        this.forumId = forum.id;
+        this.forumName = forum.name;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl;
+        this.jq = jQuery;
+        console.log(this.forumId + ":" + this.forumName);
+    }
+    ForumShowPage_1 = ForumShowPage;
+    /*Runs when the page is about to enter and become the active page.*/
+    ForumShowPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            this.nicEditorDisplay = "none";
+        }
+        else {
+            this.nicEditorDisplay = "";
+        }
+        if (this.forumPage != null) {
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, 0).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                // TODO: maybe we need to set the limitation of the map size
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    ForumShowPage.prototype.previousPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage - 1) != undefined) {
+            this.forumPage = this.pagesMap.get(thisPage - 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, (thisPage - 2) * recordsPerPage).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    ForumShowPage.prototype.nextPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage + 1) != undefined) {
+            this.forumPage = this.pagesMap.get(thisPage + 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, thisPage * recordsPerPage).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    ForumShowPage.prototype.transformForumData = function (data) {
+        if (data == null) {
+            return data;
+        }
+        var oneTitle;
+        for (var i = 0; i < data.topics.length; i++) {
+            oneTitle = "";
+            switch (data.topics[i].type) {
+                case ForumShowPage_1.TYPE_ANNOUNCE:
+                    oneTitle += '<span style="color:#F96E02">【公告】</span>';
+                    break;
+                case ForumShowPage_1.TYPE_STICKY:
+                    oneTitle += '<span style="color:#F96E02">【置顶】</span>';
+                    break;
+                case ForumShowPage_1.TYPE_DIGEST:
+                    oneTitle += '<span style="color:#F96E02">【精品】</span>';
+                    break;
+                case ForumShowPage_1.TYPE_SOLDOUT:
+                    oneTitle += '<span style="color:#F96E02">【售完】</span>';
+                    break;
+            }
+            oneTitle += data.topics[i].title;
+            oneTitle += '<span style="color:limegreen;">&nbsp;&nbsp;'
+                + this.jcxapi.getShortTimeFormat(data.topics[i].lastPostTime) + '</span>';
+            data.topics[i].oneTitle = oneTitle;
+        }
+        return data;
+    };
+    ForumShowPage.prototype.openTopic = function (topic) {
+        console.log(topic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["n" /* PostsListPage */], topic);
+        // console.log(this.navCtrl.parent);
+        // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+     If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+      The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    ForumShowPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--forum-show');
+        new nicEditor({
+            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
+            uploadURI: this.baseUrl + '/uploadNiceFile.do',
+            baseUrl: this.baseUrl
+        }).panelInstance('niceTopicTextArea');
+    };
+    ForumShowPage.prototype.sendNewTopic = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            alert("您未登录，请到个人中心登录");
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["i" /* JcxMePage */]);
+        }
+        else {
+            if (this.subjectField.replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("主题不能为空！");
+                return false;
+            }
+            var messageStr_1;
+            var nicE_1 = new nicEditors.findEditor('niceTopicTextArea');
+            messageStr_1 = nicE_1.getContent();
+            if (messageStr_1.replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g, "").replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("内容不能为空！");
+                return false;
+            }
+            messageStr_1 = messageStr_1.replace(/src="nice\//g, 'src="/nice/')
+                .replace(/url\(nice/g, 'url(/nice');
+            var loader_1 = this.loadingController.create({
+                content: "发送..."
+            });
+            loader_1.present().then(function () {
+                _this.jcxapi.sendNewTopic(_this.forumId, _this.subjectField, messageStr_1).then(function (data) {
+                    var result = data;
+                    if (result.errorMessage != null) {
+                        alert(result.errorMessage);
+                    }
+                    else {
+                        alert("发表新主题成功！");
+                        nicE_1.setContent('');
+                        _this.subjectField = "";
+                        _this.forumPage = null;
+                        _this.pagesMap.clear();
+                        _this.jq('#newTopic').slideUp();
+                        _this.jq('#openNewTopic').slideDown();
+                        _this.ionViewWillEnter();
+                    }
+                    loader_1.dismiss();
+                }).catch(function (error) { alert(error); console.log(error); loader_1.dismiss(); });
+            });
+        }
+    };
+    ForumShowPage.TYPE_NORMAL = 0;
+    ForumShowPage.TYPE_STICKY = 1;
+    ForumShowPage.TYPE_ANNOUNCE = 2;
+    ForumShowPage.TYPE_DIGEST = 3;
+    ForumShowPage.TYPE_SOLDOUT = -5;
+    ForumShowPage.STATUS_UNLOCKED = 0;
+    ForumShowPage.STATUS_LOCKED = 1;
+    ForumShowPage = ForumShowPage_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-forum-show',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\forum-show\forum-show.html"*/'<!--\n  Generated template for the ForumShow page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{forumName}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <div [ngStyle]="{\'display\': nicEditorDisplay}">\n    <button  id="openNewTopic" ion-button full (click)="jq(\'#newTopic\').slideDown(); jq(\'#openNewTopic\').slideUp();" >发表新主题</button>\n  </div>\n  <div style="margin: 5px; display: none;" id="newTopic">\n		<label class="labelField" >主题：<span>（必填）</span></label>\n		<input type="text" [(ngModel)]="subjectField" value="" class="subjectField" id="subjectField">\n		<label class="labelField" >内容: <span>（必填）</span></label>\n		<div class="niceDiv">\n			<textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceTopicTextArea"></textarea>  				\n  	</div>\n\n    <ion-grid>\n      <ion-row style="margin-top: 5px;">\n        <ion-col width-50>\n          <input type="submit" class="topicSubmitButton" (click)="sendNewTopic()" style="background-color:#99CC33;" value="发送">\n          </ion-col>\n        <ion-col width-50>\n          <input type="submit" class="topicSubmitButton"\n            (click)="jq(\'#newTopic\').slideUp(); jq(\'#openNewTopic\').slideDown();" style="background-color:#FF9933;" value="取消">\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n	</div>\n\n  <div padding *ngIf="forumPage != null && forumPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="forumPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{forumPage.thisPage}}/{{forumPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" forumPage.totalPages > forumPage.thisPage" value="nextPage" (ionSelect)="nextPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div *ngIf="forumPage != null && forumPage.topics != null">\n    <ion-list>\n      <ion-item *ngFor="let topic of forumPage.topics">\n        <!-- <div class="topicTitle" (click)="openTopic(topic)">{{ topic.title }}</div>  -->\n        <div class="topicTitle" (click)="openTopic(topic)" [innerHTML]=" topic.oneTitle | safeHtml"></div>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div padding *ngIf="forumPage != null && forumPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="forumPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{forumPage.thisPage}}/{{forumPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" forumPage.totalPages > forumPage.thisPage" value="nextPage" (ionSelect)="nextPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\forum-show\forum-show.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]])
+    ], ForumShowPage);
+    return ForumShowPage;
+    var ForumShowPage_1;
+}());
+
+//# sourceMappingURL=forum-show.js.map
+
+/***/ }),
+
+/***/ 285:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PostsListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+// - http://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript
+var PostsListPage = /** @class */ (function () {
+    function PostsListPage(navCtrl, userSettings, navParams, jcxapi, loadingController) {
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.navParams = navParams;
+        this.jcxapi = jcxapi;
+        this.loadingController = loadingController;
+        this.topicPage = null;
+        this.pagesMap = new Map();
+        this.nicEditorDisplay = "none";
+        this.neId = 'niceTextArea';
+        this.topic = navParams.data;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl;
+        if (!(this.topic.startNum != null)) {
+            this.topic.startNum = 0;
+        }
+        if (!(this.topic.postId != null)) {
+            this.topic.postId = null;
+        }
+        console.log(this.topic.id + ":" + this.topic.title);
+    }
+    /*Runs when the page is about to enter and become the active page.*/
+    PostsListPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            this.nicEditorDisplay = "none";
+        }
+        else {
+            this.nicEditorDisplay = "";
+        }
+        if (this.topicPage != null) {
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, _this.topic.startNum, _this.topic.postId).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                // TODO: maybe we need to set the limitation of the map size
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    PostsListPage.prototype.previousPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage - 1) != undefined) {
+            this.topicPage = this.pagesMap.get(thisPage - 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, (thisPage - 2) * recordsPerPage, null).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    PostsListPage.prototype.nextPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage + 1) != undefined) {
+            this.topicPage = this.pagesMap.get(thisPage + 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, thisPage * recordsPerPage, null).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    PostsListPage.prototype.transformTopicData = function (data) {
+        if (data == null) {
+            return data;
+        }
+        for (var i = 0; i < data.posts.length; i++) {
+            data.posts[i].text = data.posts[i].text
+                .replace(/src="\/upload/g, 'src="' + __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl + "/upload")
+                .replace(/src="\/\//g, 'src="http://')
+                .replace(/src="\/nice\//g, 'src="nice/')
+                .replace(/url\(\/nice/g, 'url(nice');
+            data.posts[i].longtext = '<b style="color:blue;">' + data.posts[i].postUsername + '</b>'
+                + '<span style="color:limegreen;">&nbsp;&nbsp;'
+                + this.jcxapi.getShortTimeFormat(data.posts[i].formattedTime) + '</span><br>'
+                + data.posts[i].text;
+        }
+        this.topic.forumId = data.forumId;
+        // prepare the user list array for nicEditor , atmoumou
+        var userlistArr = new Array();
+        for (var i = 0; i < data.userList.length; i++) {
+            userlistArr.push([data.userList[i].id, data.userList[i].username]);
+        }
+        neUserListMapObj[this.neId] = userlistArr;
+        return data;
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+   If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+    The ionViewDidLoad event is good place to put your setup code for the page.
+  */
+    PostsListPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--post-list');
+        new nicEditor({
+            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji', 'atmoumou'],
+            uploadURI: this.baseUrl + '/uploadNiceFile.do',
+            baseUrl: this.baseUrl
+        }).panelInstance(this.neId);
+    };
+    // send the post to one forum topic
+    PostsListPage.prototype.sendNewReply = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            alert("您未登录，请到个人中心登录");
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages__["i" /* JcxMePage */]);
+        }
+        else {
+            var messageStr_1;
+            var nicE_1 = new nicEditors.findEditor(this.neId);
+            messageStr_1 = nicE_1.getContent();
+            if (messageStr_1.replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g, "").replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("内容不能为空！");
+                return false;
+            }
+            messageStr_1 = messageStr_1.replace(/src="nice\//g, 'src="/nice/')
+                .replace(/url\(nice/g, 'url(/nice');
+            var loader_1 = this.loadingController.create({
+                content: "发送..."
+            });
+            loader_1.present().then(function () {
+                _this.jcxapi.sendNewReply(_this.topic.forumId, _this.topic.id, _this.topic.startNum, messageStr_1).then(function (data) {
+                    var result = data;
+                    if (result.errorMessage != null) {
+                        alert(result.errorMessage);
+                    }
+                    else {
+                        _this.topicPage = _this.transformTopicData(data);
+                        // TODO: maybe we need to set the limitation of the map size
+                        _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                        nicE_1.setContent('');
+                    }
+                    loader_1.dismiss();
+                }).catch(function (error) { alert(error); console.log(error); loader_1.dismiss(); });
+            });
+        }
+    };
+    PostsListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-posts-list',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\posts-list\posts-list.html"*/'<!--\n  Generated template for the PostsList page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{topic.title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <div padding *ngIf="topicPage != null && topicPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="topicPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{topicPage.thisPage}}/{{topicPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" topicPage.totalPages > topicPage.thisPage" value="nextPage" (ionSelect)="nextPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div *ngIf="topicPage != null && topicPage.posts != null">\n    <ion-list>\n      <ion-item *ngFor="let post of topicPage.posts">\n        <div class="postText" [innerHTML]=" post.longtext | safeHtml"></div>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div padding *ngIf="topicPage != null && topicPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="topicPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{topicPage.thisPage}}/{{topicPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" topicPage.totalPages > topicPage.thisPage" value="nextPage" (ionSelect)="nextPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngStyle]="{\'display\': nicEditorDisplay}" padding>\n    <label class="labelField">回复: </label>\n    <div class="niceDiv">\n      <textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceTextArea"></textarea>\n    </div>\n    <button ion-button full (click)="sendNewReply()" >发送</button>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-forum\posts-list\posts-list.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], PostsListPage);
+    return PostsListPage;
+}());
+
+//# sourceMappingURL=posts-list.js.map
+
+/***/ }),
+
+/***/ 286:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxTradePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/*
+  Generated class for the JcxTrade page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxTradePage = /** @class */ (function () {
+    function JcxTradePage(navCtrl, userSettings, popoverController) {
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.popoverController = popoverController;
+    }
+    JcxTradePage.prototype.openTradeForum = function (forum) {
+        console.log(forum.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["x" /* TradeForumShowPage */], forum);
+        // console.log(this.navCtrl.parent);
+        // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
+    };
+    JcxTradePage.prototype.myMoreAction = function (ev) {
+        var popover = this.popoverController.create(__WEBPACK_IMPORTED_MODULE_2__pages__["m" /* PopoverPage */], { navCtrl: this.navCtrl });
+        popover.present({
+            ev: ev
+        });
+    };
+    JcxTradePage.prototype.openTradeTopic = function (tradeImage) {
+        var topic = {};
+        topic.id = tradeImage.topicId;
+        topic.title = tradeImage.subject;
+        topic.startNum = tradeImage.startNum;
+        console.log(topic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["y" /* TradePostsListPage */], topic);
+    };
+    JcxTradePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-trade',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\jcx-trade.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button menuToggle>\n        <ion-icon large name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <div class="topbar-logo"></div>\n    <ion-buttons end>\n      <button (click)="myMoreAction($event)">\n        <ion-icon large name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n  <h4 style="text-align: center; font-weight: 800;">集诚信 -- 物物交易</h4>\n\n  <div *ngIf="userSettings.allinone != null">\n    <ion-list>\n      <ion-item *ngFor="let item of userSettings.allinone.tiList">\n        <ion-thumbnail item-left>\n          <img class="tradeImg" src="{{item.imgSrc}}">\n        </ion-thumbnail>\n        <h2>{{item.subject}}</h2>\n        <p>{{item.postTime}}</p>\n        <button clear item-right (click)="openTradeTopic(item)">查看</button>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div *ngIf="userSettings.allCategories != null">\n    <ion-list>\n      <ion-item *ngFor="let category of userSettings.getAllTradeCategories()">\n        <div class="categoryName">\n          <span style="color:#F96E02" *ngIf="category.isNew">*</span> {{ category.name }}\n          <span style="color:#F96E02" *ngIf="category.isNew">*</span>\n        </div>\n        <ion-list>\n          <ion-item *ngFor="let forum of category.forums" (click)="openTradeForum(forum)">\n            <div item-left class="forumicon" [ngStyle]="{\'background-position\':-forum.forumIconPos * 36 + \'px 0px\'}"></div>\n            <h2>{{forum.name}}</h2>\n            <p>\n              <span style="color:#F96E02" *ngIf="forum.isNew">【最新】</span> {{ forum.lpi == null ? forum.description : forum.lpi.topicTitle}}\n            </p>\n          </ion-item>\n        </ion-list>\n      </ion-item>\n    </ion-list>\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\jcx-trade.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]])
+    ], JcxTradePage);
+    return JcxTradePage;
+}());
+
+//# sourceMappingURL=jcx-trade.js.map
+
+/***/ }),
+
+/***/ 287:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TradeForumShowPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var TradeForumShowPage = /** @class */ (function () {
+    function TradeForumShowPage(navCtrl, navParams, jcxapi, loadingController, userSettings) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxapi = jcxapi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.forumPage = null;
+        this.nicEditorDisplay = "none";
+        this.pagesMap = new Map();
+        this.subjectField = "";
+        var forum = navParams.data;
+        this.forumId = forum.id;
+        this.forumName = forum.name;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl;
+        this.jq = jQuery;
+        console.log(this.forumId + ":" + this.forumName);
+    }
+    TradeForumShowPage_1 = TradeForumShowPage;
+    /*Runs when the page is about to enter and become the active page.*/
+    TradeForumShowPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            this.nicEditorDisplay = "none";
+        }
+        else {
+            this.nicEditorDisplay = "";
+        }
+        if (this.forumPage != null) {
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, 0).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                // TODO: maybe we need to set the limitation of the map size
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradeForumShowPage.prototype.previousPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage - 1) != undefined) {
+            this.forumPage = this.pagesMap.get(thisPage - 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, (thisPage - 2) * recordsPerPage).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradeForumShowPage.prototype.nextPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage + 1) != undefined) {
+            this.forumPage = this.pagesMap.get(thisPage + 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getTopicsInForum(_this.forumId, thisPage * recordsPerPage).then(function (data) {
+                _this.forumPage = _this.transformForumData(data);
+                _this.pagesMap.set(_this.forumPage.thisPage, _this.forumPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradeForumShowPage.prototype.transformForumData = function (data) {
+        if (data == null) {
+            return data;
+        }
+        var oneTitle;
+        for (var i = 0; i < data.topics.length; i++) {
+            oneTitle = "";
+            switch (data.topics[i].type) {
+                case TradeForumShowPage_1.TYPE_ANNOUNCE:
+                    oneTitle += '<span style="color:#F96E02">【公告】</span>';
+                    break;
+                case TradeForumShowPage_1.TYPE_STICKY:
+                    oneTitle += '<span style="color:#F96E02">【置顶】</span>';
+                    break;
+                case TradeForumShowPage_1.TYPE_DIGEST:
+                    oneTitle += '<span style="color:#F96E02">【精品】</span>';
+                    break;
+                case TradeForumShowPage_1.TYPE_SOLDOUT:
+                    oneTitle += '<span style="color:#F96E02">【售完】</span>';
+                    break;
+            }
+            oneTitle += data.topics[i].title;
+            oneTitle += '<span style="color:limegreen;">&nbsp;&nbsp;'
+                + this.jcxapi.getShortTimeFormat(data.topics[i].lastPostTime) + '</span>';
+            data.topics[i].oneTitle = oneTitle;
+        }
+        return data;
+    };
+    TradeForumShowPage.prototype.openTradeTopic = function (topic) {
+        console.log(topic.id);
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["y" /* TradePostsListPage */], topic);
+        // console.log(this.navCtrl.parent);
+        // this.navCtrl.parent.parent.push(ForumShowPage, forumId);
+    };
+    /*Runs when the page has loaded. This event only happens once per page being created.
+     If a page leaves but is cached, then this event will not fire again on a subsequent viewing.
+      The ionViewDidLoad event is good place to put your setup code for the page.
+    */
+    TradeForumShowPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--trade-forum-show');
+        new nicEditor({
+            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji'],
+            uploadURI: this.baseUrl + '/uploadNiceFile.do',
+            baseUrl: this.baseUrl
+        }).panelInstance('niceTradeTopicTextArea');
+    };
+    TradeForumShowPage.prototype.sendNewTradeTopic = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            alert("您未登录，请到个人中心登录");
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__pages__["i" /* JcxMePage */]);
+        }
+        else {
+            if (this.subjectField.replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("主题不能为空！");
+                return false;
+            }
+            var messageStr_1;
+            var nicE_1 = new nicEditors.findEditor('niceTradeTopicTextArea');
+            messageStr_1 = nicE_1.getContent();
+            if (messageStr_1.replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g, "").replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("内容不能为空！");
+                return false;
+            }
+            messageStr_1 = messageStr_1.replace(/src="nice\//g, 'src="/nice/')
+                .replace(/url\(nice/g, 'url(/nice');
+            var loader_1 = this.loadingController.create({
+                content: "发送..."
+            });
+            loader_1.present().then(function () {
+                _this.jcxapi.sendNewTopic(_this.forumId, _this.subjectField, messageStr_1).then(function (data) {
+                    var result = data;
+                    if (result.errorMessage != null) {
+                        alert(result.errorMessage);
+                    }
+                    else {
+                        alert("发表新主题成功！");
+                        nicE_1.setContent('');
+                        _this.subjectField = "";
+                        _this.forumPage = null;
+                        _this.pagesMap.clear();
+                        _this.jq('#newTradeTopic').slideUp();
+                        _this.jq('#openNewTradeTopic').slideDown();
+                        _this.ionViewWillEnter();
+                    }
+                    loader_1.dismiss();
+                }).catch(function (error) { alert(error); console.log(error); loader_1.dismiss(); });
+            });
+        }
+    };
+    TradeForumShowPage.TYPE_NORMAL = 0;
+    TradeForumShowPage.TYPE_STICKY = 1;
+    TradeForumShowPage.TYPE_ANNOUNCE = 2;
+    TradeForumShowPage.TYPE_DIGEST = 3;
+    TradeForumShowPage.TYPE_SOLDOUT = -5;
+    TradeForumShowPage.STATUS_UNLOCKED = 0;
+    TradeForumShowPage.STATUS_LOCKED = 1;
+    TradeForumShowPage = TradeForumShowPage_1 = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-trade-forum-show',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\trade-forum-show\trade-forum-show.html"*/'<!--\n  Generated template for the ForumShow page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{forumName}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <div [ngStyle]="{\'display\': nicEditorDisplay}">\n    <button  id="openNewTradeTopic" ion-button full (click)="jq(\'#newTradeTopic\').slideDown(); jq(\'#openNewTradeTopic\').slideUp();" >发表新主题</button>\n  </div>\n  <div style="margin: 5px; display: none;" id="newTradeTopic">\n		<label class="labelField" >主题：<span>（必填）</span></label>\n		<input type="text" [(ngModel)]="subjectField" value="" class="subjectField" >\n		<label class="labelField" >内容: <span>（必填）</span></label>\n		<div class="niceDiv">\n			<textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceTradeTopicTextArea"></textarea>  				\n  	</div>\n\n    <ion-grid>\n      <ion-row style="margin-top: 5px;">\n        <ion-col width-50>\n          <input type="submit" class="topicSubmitButton" (click)="sendNewTradeTopic()" style="background-color:#99CC33;" value="发送">\n          </ion-col>\n        <ion-col width-50>\n          <input type="submit" class="topicSubmitButton"\n            (click)="jq(\'#newTradeTopic\').slideUp(); jq(\'#openNewTradeTopic\').slideDown();" style="background-color:#FF9933;" value="取消">\n        </ion-col>\n      </ion-row>\n    </ion-grid>\n	</div>\n\n  <div padding *ngIf="forumPage != null && forumPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="forumPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{forumPage.thisPage}}/{{forumPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" forumPage.totalPages > forumPage.thisPage" value="nextPage" (ionSelect)="nextPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div *ngIf="forumPage != null && forumPage.topics != null">\n    <ion-list>\n      <ion-item *ngFor="let topic of forumPage.topics">\n        <div class="topicTitle" (click)="openTradeTopic(topic)" [innerHTML]=" topic.oneTitle | safeHtml"></div>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div padding *ngIf="forumPage != null && forumPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="forumPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{forumPage.thisPage}}/{{forumPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" forumPage.totalPages > forumPage.thisPage" value="nextPage" (ionSelect)="nextPage(forumPage.thisPage, forumPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\trade-forum-show\trade-forum-show.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]])
+    ], TradeForumShowPage);
+    return TradeForumShowPage;
+    var TradeForumShowPage_1;
+}());
+
+//# sourceMappingURL=trade-forum-show.js.map
+
+/***/ }),
+
+/***/ 288:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TradePostsListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+// - http://stackoverflow.com/questions/1232040/how-do-i-empty-an-array-in-javascript
+var TradePostsListPage = /** @class */ (function () {
+    function TradePostsListPage(navCtrl, userSettings, navParams, jcxapi, loadingController) {
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.navParams = navParams;
+        this.jcxapi = jcxapi;
+        this.loadingController = loadingController;
+        this.topicPage = null;
+        this.pagesMap = new Map();
+        this.nicEditorDisplay = "none";
+        this.neId = 'niceTradeTextArea';
+        this.topic = navParams.data;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl;
+        if (!(this.topic.startNum != null)) {
+            this.topic.startNum = 0;
+        }
+        if (!(this.topic.postId != null)) {
+            this.topic.postId = null;
+        }
+        console.log(this.topic.id + ":" + this.topic.title);
+    }
+    /*Runs when the page is about to enter and become the active page.*/
+    TradePostsListPage.prototype.ionViewWillEnter = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            this.nicEditorDisplay = "none";
+        }
+        else {
+            this.nicEditorDisplay = "";
+        }
+        if (this.topicPage != null) {
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, _this.topic.startNum, _this.topic.postId).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                // TODO: maybe we need to set the limitation of the map size
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradePostsListPage.prototype.previousPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage - 1) != undefined) {
+            this.topicPage = this.pagesMap.get(thisPage - 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, (thisPage - 2) * recordsPerPage, null).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradePostsListPage.prototype.nextPage = function (thisPage, recordsPerPage) {
+        var _this = this;
+        if (this.pagesMap.get(thisPage + 1) != undefined) {
+            this.topicPage = this.pagesMap.get(thisPage + 1);
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "加载..."
+        });
+        loader.present().then(function () {
+            _this.jcxapi.getPostsInTopic(_this.topic.id, thisPage * recordsPerPage, null).then(function (data) {
+                _this.topicPage = _this.transformTopicData(data);
+                _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    TradePostsListPage.prototype.transformTopicData = function (data) {
+        if (data == null) {
+            return data;
+        }
+        for (var i = 0; i < data.posts.length; i++) {
+            data.posts[i].text = data.posts[i].text
+                .replace(/src="\/upload/g, 'src="' + __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl + "/upload")
+                .replace(/src="\/\//g, 'src="http://')
+                .replace(/src="\/nice\//g, 'src="nice/')
+                .replace(/url\(\/nice/g, 'url(nice');
+            data.posts[i].longtext = '<b style="color:blue;">' + data.posts[i].postUsername + '</b>'
+                + '<span style="color:limegreen;">&nbsp;&nbsp;'
+                + this.jcxapi.getShortTimeFormat(data.posts[i].formattedTime) + '</span><br>'
+                + data.posts[i].text;
+        }
+        this.topic.forumId = data.forumId;
+        // prepare the user list array for nicEditor , atmoumou
+        var userlistArr = new Array();
+        for (var i = 0; i < data.userList.length; i++) {
+            userlistArr.push([data.userList[i].id, data.userList[i].username]);
+        }
+        neUserListMapObj[this.neId] = userlistArr;
+        return data;
+    };
+    TradePostsListPage.prototype.ionViewDidLoad = function () {
+        console.log('ionViewDidLoad--trade-post-list');
+        new nicEditor({
+            buttonList: ['bold', 'italic', 'underline', 'image', 'upload', 'emoji', 'atmoumou'],
+            uploadURI: this.baseUrl + '/uploadNiceFile.do',
+            baseUrl: this.baseUrl
+        }).panelInstance(this.neId);
+    };
+    // send the post to one forum topic
+    TradePostsListPage.prototype.sendNewTradeReply = function () {
+        var _this = this;
+        if (this.userSettings.user == null) {
+            alert("您未登录，请到个人中心登录");
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__pages__["i" /* JcxMePage */]);
+        }
+        else {
+            var messageStr_1;
+            var nicE_1 = new nicEditors.findEditor(this.neId);
+            messageStr_1 = nicE_1.getContent();
+            if (messageStr_1.replace(/<p>|<\/p>|<br\s*>|<br\s*\/>|&nbsp;/g, "").replace(/^\s*|\s*$/g, "").length == 0) {
+                alert("内容不能为空！");
+                return false;
+            }
+            messageStr_1 = messageStr_1.replace(/src="nice\//g, 'src="/nice/')
+                .replace(/url\(nice/g, 'url(/nice');
+            var loader_1 = this.loadingController.create({
+                content: "发送..."
+            });
+            loader_1.present().then(function () {
+                _this.jcxapi.sendNewReply(_this.topic.forumId, _this.topic.id, _this.topic.startNum, messageStr_1).then(function (data) {
+                    var result = data;
+                    if (result.errorMessage != null) {
+                        alert(result.errorMessage);
+                    }
+                    else {
+                        _this.topicPage = _this.transformTopicData(data);
+                        // TODO: maybe we need to set the limitation of the map size
+                        _this.pagesMap.set(_this.topicPage.thisPage, _this.topicPage);
+                        nicE_1.setContent('');
+                    }
+                    loader_1.dismiss();
+                }).catch(function (error) { alert(error); console.log(error); loader_1.dismiss(); });
+            });
+        }
+    };
+    TradePostsListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-trade-posts-list',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\trade-posts-list\trade-posts-list.html"*/'<!--\n  Generated template for the PostsList page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>{{topic.title}}</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content>\n\n  <div padding *ngIf="topicPage != null && topicPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="topicPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{topicPage.thisPage}}/{{topicPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" topicPage.totalPages > topicPage.thisPage" value="nextPage" (ionSelect)="nextPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div *ngIf="topicPage != null && topicPage.posts != null">\n    <ion-list>\n      <ion-item *ngFor="let post of topicPage.posts">\n        <div class="postText" [innerHTML]=" post.longtext | safeHtml"></div>\n      </ion-item>\n    </ion-list>\n  </div>\n\n  <div padding *ngIf="topicPage != null && topicPage.totalPages > 1">\n    <ion-segment>\n      <ion-segment-button *ngIf="topicPage.thisPage > 1" value="prePage" (ionSelect)="previousPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        上一页\n      </ion-segment-button>\n      <ion-segment-button value="thisPage">\n        {{topicPage.thisPage}}/{{topicPage.totalPages}}\n      </ion-segment-button>\n      <ion-segment-button *ngIf=" topicPage.totalPages > topicPage.thisPage" value="nextPage" (ionSelect)="nextPage(topicPage.thisPage, topicPage.recordsPerPage)">\n        下一页\n      </ion-segment-button>\n    </ion-segment>\n  </div>\n\n  <div [ngStyle]="{\'display\': nicEditorDisplay}" padding>\n    <label class="labelField">回复: </label>\n    <div class="niceDiv">\n      <textarea class="subjectTextarea" style="width: 100%; height: 200px;" id="niceTradeTextArea"></textarea>\n    </div>\n    <button ion-button full (click)="sendNewTradeReply()" >发送</button>\n  </div>\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-trade\trade-posts-list\trade-posts-list.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]])
+    ], TradePostsListPage);
+    return TradePostsListPage;
+}());
+
+//# sourceMappingURL=trade-posts-list.js.map
+
+/***/ }),
+
+/***/ 289:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return PopoverPage; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxMePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+// popover page
+var PopoverPage = /** @class */ (function () {
+    function PopoverPage(navCtrl, viewController, navParams) {
+        this.navCtrl = navCtrl;
+        this.viewController = viewController;
+        this.navParams = navParams;
+        this.parentNavCtrl = null;
+        this.parentNavCtrl = navParams.data.navCtrl;
+    }
+    PopoverPage.prototype.ionViewDidLoad = function () {
+        console.log('PopoverPage Page loaded.');
+    };
+    PopoverPage.prototype.gotoScanPage = function () {
+        /*
+        if (this.parentNavCtrl != null) {
+          this.parentNavCtrl.push(JcxNativePage);
+        } else {
+          this.navCtrl.push(JcxNativePage);
+        }
+        */
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__pages__["j" /* JcxNativePage */]);
+        this.viewController.dismiss();
+    };
+    PopoverPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            template: "\n    <ion-list>\n      <button ion-item color=\"primary\" (click)=\"gotoScanPage()\"><ion-icon name=\"qr-scanner\"></ion-icon>&nbsp;&nbsp;\u626B\u4E00\u626B</button>\n    </ion-list>\n  "
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]])
+    ], PopoverPage);
+    return PopoverPage;
+}());
+
+var JcxMePage = /** @class */ (function () {
+    function JcxMePage(navCtrl, userSettings, jcxApi, loadingController, popoverController, iab) {
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.jcxApi = jcxApi;
+        this.loadingController = loadingController;
+        this.popoverController = popoverController;
+        this.iab = iab;
+        this.baseUrl = __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */].baseUrl;
+    }
+    JcxMePage.prototype.ionViewDidLoad = function () {
+        console.log('Hello JcxMePage Page');
+    };
+    JcxMePage.prototype.myMoreAction = function (ev) {
+        var popover = this.popoverController.create(PopoverPage, { navCtrl: this.navCtrl });
+        popover.present({
+            ev: ev
+        });
+    };
+    JcxMePage.prototype.gotoRealtimeChatRoom = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_4__pages__["c" /* JcxChatPage */]);
+    };
+    JcxMePage.prototype.logout = function () {
+        this.userSettings.user = null;
+        /*
+        let loader = this.loadingController.create({
+          content: "退出..."
+        });
+        loader.present().then(() => {
+          this.jcxApi.logout(this.userSettings.user.id).then(data => {
+            // TODO
+      
+            loader.dismiss();
+          }).catch(error => {console.log(error); loader.dismiss();});
+        });
+        */
+    };
+    // login into one acccount
+    JcxMePage.prototype.login = function (username, passwd) {
+        var _this = this;
+        console.log('login: ' + username + " , " + passwd);
+        var loader = this.loadingController.create({
+            content: "登录..."
+        });
+        loader.present().then(function () {
+            _this.jcxApi.login(username, passwd).then(function (data) {
+                _this.loginRes = data;
+                if (_this.loginRes.validateStatus == 'Ok') {
+                    _this.loginRes.user.passwd = passwd;
+                    _this.userSettings.user = _this.loginRes.user;
+                    var jcxuser = {};
+                    jcxuser.username = _this.userSettings.user.username;
+                    jcxuser.passwd = _this.userSettings.user.passwd;
+                    _this.userSettings.setKeyVal('jcxuser', jcxuser);
+                    _this.userSettings.showAlert('确认消息', '登录成功！');
+                    // console.log(this.userSettings.user);
+                }
+                loader.dismiss();
+            }).catch(function (error) { console.log(error); loader.dismiss(); });
+        });
+    };
+    JcxMePage.prototype.clearAllCachedData = function () {
+        this.userSettings.clearAllKeyVal();
+    };
+    JcxMePage.prototype.gotoInAppBrowser = function () {
+        var content = "http://jichengxin.com/mobile/index.html?mobileORpc=mobile";
+        //let browser = new InAppBrowser(content, '_blank');
+        var browser = this.iab.create(content, '_blank');
+    };
+    JcxMePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-me',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-me\jcx-me.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-buttons start>\n      <button menuToggle>\n        <ion-icon large name="menu"></ion-icon>\n      </button>\n    </ion-buttons>\n    <div class="topbar-logo"></div>\n    <ion-buttons end>\n      <button (click)="myMoreAction($event)">\n        <ion-icon large name="add"></ion-icon>\n      </button>\n    </ion-buttons>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <div *ngIf="userSettings.user != null">\n    <ion-list>\n      <ion-item>\n        <ion-thumbnail item-left>\n          <img *ngIf="userSettings.user.avatar == null" class="personImg" src="assets/img/default_person.png">\n          <img *ngIf="userSettings.user.avatar != null" class="personImg" \n              src="{{baseUrl}}/images/avatar/{{userSettings.user.avatar}}">\n        </ion-thumbnail>\n        <h2 style="color: blue;font-size: 22px;">{{userSettings.user.username}}</h2>\n        <p style="color: #048E04;"><br>集诚信分：{{userSettings.user.jpoints.toFixed(2)}}</p>\n      </ion-item>\n    </ion-list>\n\n    <button ion-button full (click)="logout()" >退出登录</button>\n  </div>\n\n  <div *ngIf="userSettings.user == null">\n    <h3>您还未登录，请登录！</h3>\n    <ion-list>\n      <ion-item>\n        <ion-label fixed>用户名：</ion-label>\n        <ion-input type="text" value="" [(ngModel)]="username"></ion-input>\n      </ion-item>\n      <ion-item>\n        <ion-label fixed>密码：</ion-label>\n        <ion-input type="password" [(ngModel)]="passwd"></ion-input>\n      </ion-item>\n    </ion-list>\n\n    <button ion-button full (click)="login(username, passwd)" >登录</button>\n  </div>\n\n  <button *ngIf="userSettings.user != null" style="margin-top: 30px;color: #FDE900;" ion-button full (click)="gotoInAppBrowser()" >进入App内置浏览器</button>\n\n  <button style="margin-top: 30px;" ion-button full (click)="gotoRealtimeChatRoom()" >进入集诚信实时聊天室</button>\n\n  <button style="margin-top: 30px;" ion-button full (click)="clearAllCachedData()" >清空本地缓存</button>\n\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-me\jcx-me.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */]])
+    ], JcxMePage);
+    return JcxMePage;
+}());
+
+//# sourceMappingURL=jcx-me.js.map
+
+/***/ }),
+
+/***/ 290:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxChatPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the JcxChat page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxChatPage = /** @class */ (function () {
+    function JcxChatPage(navCtrl, userSettings, jcxapi) {
+        this.navCtrl = navCtrl;
+        this.userSettings = userSettings;
+        this.jcxapi = jcxapi;
+        this.Chat = {};
+        this.isOpen = false;
+        this.message = null;
+    }
+    JcxChatPage.prototype.sendMessage = function (event) {
+        if (this.isOpen && this.message != null && this.message != '' && event.keyCode == 13) {
+            this.Chat.socket.send(this.message);
+            this.message = null;
+        }
+    };
+    JcxChatPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        console.log('Hello JcxChatPage Page');
+        this.Chat = {};
+        this.Chat.socket = null;
+        this.Chat.connect = function (host) {
+            if ('WebSocket' in window) {
+                _this.Chat.socket = new WebSocket(host);
+                console.log('WebSocket is supported.');
+            }
+            else {
+                console.log('Error: WebSocket is not supported by this browser.');
+                return;
+            }
+            _this.Chat.socket.onopen = function () {
+                console.log('Info: WebSocket connection opened.');
+                _this.isOpen = true;
+            };
+            _this.Chat.socket.onclose = function () {
+                console.log('Info: WebSocket closed.');
+                _this.isOpen = false;
+            };
+            _this.Chat.socket.onmessage = function (message) {
+                console.log(message.data);
+                var chatroom = document.getElementById('chatroom');
+                var p = document.createElement('p');
+                p.style.wordWrap = 'break-word';
+                p.innerHTML = message.data;
+                chatroom.appendChild(p);
+                while (chatroom.childNodes.length > 25) {
+                    chatroom.removeChild(chatroom.firstChild);
+                }
+                chatroom.scrollTop = chatroom.scrollHeight;
+            };
+        };
+        this.Chat.initialize = function () {
+            var userid = 1;
+            if (_this.userSettings.user != null) {
+                userid = _this.userSettings.user.id;
+            }
+            _this.Chat.connect('ws://' + __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */].baseUrl.substr('http://'.length) + '/websocket/chat/' + userid);
+        };
+        this.Chat.initialize();
+    };
+    /* 	Runs when the page is about to be destroyed and have its elements removed. */
+    JcxChatPage.prototype.ionViewWillUnload = function () {
+        console.log('close websocket');
+        this.Chat.socket.close();
+    };
+    JcxChatPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-chat',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-me\jcx-chat\jcx-chat.html"*/'<!--\n  Generated template for the JcxChat page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>集诚信聊天室</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n    <h3>欢迎进入集诚信聊天室</h3>\n    <ion-input type="text" full type="text" placeholder="键入内容，按回车发送" [(ngModel)]="message" \n          (keydown)="sendMessage($event)" class="chatinput"></ion-input>\n\n    <div id="chatroom-container">\n        <div id="chatroom"></div>\n    </div>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-me\jcx-chat\jcx-chat.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */]])
+    ], JcxChatPage);
+    return JcxChatPage;
+}());
+
+//# sourceMappingURL=jcx-chat.js.map
+
+/***/ }),
+
+/***/ 291:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxNativePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__ = __webpack_require__(104);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+// https://github.com/phonegap/phonegap-plugin-barcodescanner
+// http://ionicframework.com/docs/v2/native/barcode-scanner/
+// https://github.com/apache/cordova-plugin-inappbrowser
+// http://ionicframework.com/docs/v2/native/inappbrowser/
+var JcxNativePage = /** @class */ (function () {
+    function JcxNativePage(navCtrl, iab, barcodeScanner) {
+        this.navCtrl = navCtrl;
+        this.iab = iab;
+        this.barcodeScanner = barcodeScanner;
+    }
+    JcxNativePage.prototype.ionViewDidLoad = function () {
+        console.log('Hello JcxNativePage Page');
+    };
+    /*
+          {
+            "preferFrontCamera" : true, // iOS and Android
+            "showFlipCameraButton" : true, // iOS and Android
+            "showTorchButton" : true, // iOS and Android
+            "disableAnimations" : true, // iOS
+            "prompt" : "Place a barcode inside the scan area", // supported on Android only
+            "formats" : "QR_CODE,PDF_417", // default: all but PDF_417 and RSS_EXPANDED
+            "orientation" : "landscape" // Android only (portrait|landscape), default unset so it rotates with the device
+        }
+    */
+    JcxNativePage.prototype.scan = function () {
+        /*
+        let barOptions = {
+        };
+        */
+        var _this = this;
+        this.barcodeScanner.scan().then(function (barcodeData) {
+            _this.results = barcodeData;
+        }, function (err) {
+            // An error occurred
+            alert("\u626B\u63CF\u6709\u9519\uFF1A" + err);
+        });
+    };
+    JcxNativePage.prototype.reset = function () {
+        this.results = null;
+    };
+    JcxNativePage.prototype.lookup = function () {
+        // alert("lookup");
+        // window.open(`http://www.upcindex.com/${this.results.text}`, `_system`);
+        var content = this.results.text;
+        if (content.startsWith('http')) {
+            // nothing to change
+        }
+        else {
+            content = 'http://www.upcindex.com/' + content;
+        }
+        //let browser = new InAppBrowser(content, '_blank');
+        var browser = this.iab.create(content, '_blank');
+        // InAppBrowser.open(content, '_blank');
+    };
+    JcxNativePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-native',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-native.html"*/'<!--\n  Generated template for the JcxNative page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>扫一扫</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button full color="primary" (click)="scan()">扫描</button>\n  <button ion-button full color="secondary" (click)="reset()" style="margin-top: 30px;">重置</button>\n\n  <div *ngIf="results">\n    <h2>格式：{{results.format}}</h2>\n    <h2>文本：{{results.text}}</h2>\n\n    <button ion-button full color="primary" (click)="lookup()">查看</button>\n\n  </div>\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-native.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]])
+    ], JcxNativePage);
+    return JcxNativePage;
+}());
+
+//# sourceMappingURL=jcx-native.js.map
+
+/***/ }),
+
+/***/ 292:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxZbarPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+// import { ZBar } from '@ionic-native/zbar';
+// https://github.com/tjwoon/csZBar/blob/master/README.md
+// http://ionicframework.com/docs/v2/native/zbar/
+var JcxZbarPage = /** @class */ (function () {
+    // constructor(public navCtrl: NavController, private zbar: ZBar) { }
+    function JcxZbarPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    JcxZbarPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello JcxZbarPage Page');
+    };
+    /*
+    {
+        text_title: "OPTIONAL Title Text - default = 'Scan QR Code'", // Android only
+        text_instructions: "OPTIONAL Instruction Text - default = 'Please point your camera at the QR code.'", // Android only
+        camera: "front" || "back" // defaults to "back"
+        flash: "on" || "off" || "auto" // defaults to "auto". See Quirks
+        drawSight: true || false //defaults to true, create a red sight/line in the center of the scanner view.
+    }
+    
+    */
+    JcxZbarPage.prototype.scan = function () {
+        /*
+        let zBarOptions = {
+          flash: "off",
+          drawSight: true
+        };
+        this.zbar.scan(zBarOptions).then((data) => {
+          console.log(data);
+          this.results = data;
+        }, (err) => {
+          // An error occurred
+          alert(`扫描有错：${err}`);
+        });
+        */
+    };
+    JcxZbarPage.prototype.reset = function () {
+        this.results = null;
+    };
+    JcxZbarPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-zbar',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-zbar\jcx-zbar.html"*/'<ion-header>\n\n  <ion-navbar>\n    <ion-title>扫描二维码</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n  <button ion-button full color="primary" (click)="scan()" >扫描</button>\n  <button ion-button full color="secondary" (click)="reset()" style="margin-top: 30px;">重置</button>\n\n  <div *ngIf="results">\n    <h2>文本：{{results}}</h2>\n  </div>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-native\jcx-zbar\jcx-zbar.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], JcxZbarPage);
+    return JcxZbarPage;
+}());
+
+//# sourceMappingURL=jcx-zbar.js.map
+
+/***/ }),
+
+/***/ 293:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SbIneedCommentPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the SbIneedComment page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var SbIneedCommentPage = /** @class */ (function () {
+    function SbIneedCommentPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    SbIneedCommentPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello SbIneedCommentPage Page');
+    };
+    SbIneedCommentPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sb-ineed-comment',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-ineed-comment\sb-ineed-comment.html"*/'<!--\n  Generated template for the SbIneedComment page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>我要评价</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<p>你好，这里是INeedComment页面。</p>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-ineed-comment\sb-ineed-comment.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], SbIneedCommentPage);
+    return SbIneedCommentPage;
+}());
+
+//# sourceMappingURL=sb-ineed-comment.js.map
+
+/***/ }),
+
+/***/ 294:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SbSearchShopPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pages__ = __webpack_require__(13);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/*
+  Generated class for the SbSearchShop page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var SbSearchShopPage = /** @class */ (function () {
+    function SbSearchShopPage(navCtrl, navParams, jcxApi, loadingController, userSettings, modalController) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.jcxApi = jcxApi;
+        this.loadingController = loadingController;
+        this.userSettings = userSettings;
+        this.modalController = modalController;
+        this.query_shoptype = "none";
+        this.query_shoparea = "none";
+        this.query_scope = "none";
+        this.query_result_sort = "jcxSort";
+        this.queryResult = null;
+        this.Math = window.Math;
+        var data = navParams.data;
+        if (data.keywords != null && data.keywords.replace(/^\s+|\s+$/g, '') != '') {
+            this.query_keywords = data.keywords;
+            this.searchShop();
+        }
+        else {
+            this.restoreDataFromUsersetting();
+        }
+    }
+    SbSearchShopPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello SbSearchShopPage Page');
+    };
+    SbSearchShopPage.prototype.selectShopType = function (sel) {
+        var $ = jQuery;
+        console.log(sel.target.value);
+        if (sel.target.value == 'jdshop' || sel.target.value == 'tyshop') {
+            $('select[name^="query_shoparea"] option:selected').attr("selected", null);
+            $('select[name^="query_shoparea"] option[value="none"]').attr("selected", "selected");
+            $('#query_shoparea').prop('disabled', 'disabled');
+        }
+        else {
+            $('#query_shoparea').prop('disabled', false);
+        }
+    };
+    SbSearchShopPage.prototype.searchShop = function () {
+        var _this = this;
+        if (this.query_keywords == null || this.query_keywords.replace(/^\s+|\s+$/g, '') == '') {
+            alert("查询关键字不能为空。");
+            return;
+        }
+        var loader = this.loadingController.create({
+            content: "查询..."
+        });
+        loader.present().then(function () {
+            _this.jcxApi.newShopSearch(_this.query_keywords, _this.query_shoptype, _this.query_shoparea, _this.query_scope, _this.query_result_sort).then(function (data) {
+                _this.queryResult = data;
+                if (_this.queryResult.err != '') {
+                    alert(_this.queryResult.err);
+                }
+                else {
+                    _this.storeData2Usersetting();
+                }
+                loader.dismiss();
+            }).catch(function (e) {
+                console.log(e);
+                loader.dismiss();
+            });
+        });
+    };
+    SbSearchShopPage.prototype.previousShopSearchPage = function () {
+        var _this = this;
+        var loader = this.loadingController.create({
+            content: "上..."
+        });
+        loader.present().then(function () {
+            _this.jcxApi.previousShopSearchPage().then(function (data) {
+                _this.queryResult = data;
+                if (_this.queryResult.err != '') {
+                    alert(_this.queryResult.err);
+                }
+                else {
+                    _this.storeData2Usersetting();
+                }
+                loader.dismiss();
+            }).catch(function (e) {
+                console.log(e);
+                loader.dismiss();
+            });
+        });
+    };
+    SbSearchShopPage.prototype.nextShopSearchPage = function () {
+        var _this = this;
+        var loader = this.loadingController.create({
+            content: "下..."
+        });
+        loader.present().then(function () {
+            _this.jcxApi.nextShopSearchPage().then(function (data) {
+                _this.queryResult = data;
+                if (_this.queryResult.err != '') {
+                    alert(_this.queryResult.err);
+                }
+                else {
+                    _this.storeData2Usersetting();
+                }
+                loader.dismiss();
+            }).catch(function (e) {
+                console.log(e);
+                loader.dismiss();
+            });
+        });
+    };
+    SbSearchShopPage.prototype.storeData2Usersetting = function () {
+        this.userSettings.queryResult = this.queryResult;
+        var tmpData = {};
+        tmpData.query_keywords = this.query_keywords;
+        tmpData.query_shoptype = this.query_shoptype;
+        tmpData.query_shoparea = this.query_shoparea;
+        tmpData.query_scope = this.query_scope;
+        tmpData.query_result_sort = this.query_result_sort;
+        this.userSettings.query_criteria = tmpData;
+    };
+    SbSearchShopPage.prototype.restoreDataFromUsersetting = function () {
+        this.queryResult = this.userSettings.queryResult;
+        if (this.userSettings.query_criteria != null) {
+            this.query_keywords = this.userSettings.query_criteria.query_keywords;
+            this.query_shoptype = this.userSettings.query_criteria.query_shoptype;
+            this.query_shoparea = this.userSettings.query_criteria.query_shoparea;
+            this.query_scope = this.userSettings.query_criteria.query_scope;
+            this.query_result_sort = this.userSettings.query_criteria.query_result_sort;
+        }
+    };
+    SbSearchShopPage.prototype.toSTstring = function (st) {
+        var ret = 'tbshop';
+        switch (st) {
+            case 0:
+                ret = 'tbshop';
+                break;
+            case 1:
+                ret = 'tmshop';
+                break;
+            case 2:
+                ret = 'jdshop';
+                break;
+            default:
+            case 3:
+                ret = 'tyshop';
+                break;
+        }
+        return ret;
+    };
+    SbSearchShopPage.prototype.openMoreModal = function (shop) {
+        var modal = this.modalController.create(__WEBPACK_IMPORTED_MODULE_3__pages__["u" /* SbShopDetailsPage */], shop);
+        modal.present();
+    };
+    SbSearchShopPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sb-search-shop',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-search-shop\sb-search-shop.html"*/'<!--\n  Generated template for the SbSearchShop page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n	<ion-navbar>\n		<ion-title>搜索/排序网店</ion-title>\n	</ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n	<div class="container large-title no-bottom">\n		<h3 style="text-align: center;">请输入关键字搜索网店。</h3>\n	</div>\n	<div>\n		<input id="query_keywords" type="text" [(ngModel)]="query_keywords" placeholder="关键字" class="contactField requiredField">\n	</div>\n<div class="portfolio-two">\n	<div class="portfolio-two-item full-bottom">\n		<div class="ui-field-contain">\n			<label class="search_label_name" for="select_tb_shoptype">店铺类型:</label>\n			<select [(ngModel)]="query_shoptype" id="query_shoptype" (change)="selectShopType($event);" data-native-menu="false" data-mini="true">\n<option value="none" selected="selected">不限</option>\n<option value="tbshop">淘宝</option>\n<option value="tmshop">天猫</option>\n<option value="jdshop">京东</option>\n<option value="tyshop">其它</option>\n</select>\n		</div>\n	</div>\n	<div class="portfolio-two-item full-bottom">\n		<div class="ui-field-contain">\n			<label class="search_label_name" for="select_tb_area">所在地区:</label>\n			<select [(ngModel)]="query_shoparea" id="query_shoparea" data-native-menu="false" data-mini="true" tabindex="-1">\n								<option value="none" selected="selected">所有地区</option>\n							  	<optgroup label="城市">\n								    <option value="北京  北京市">北京</option>\n								    <option value="上海  上海市">上海</option>\n								    <option value="重庆  重庆市">重庆</option>\n								    <option value="天津  天津市">天津</option>\n								    <option value="深圳  深圳市 ">深圳</option>\n								    <option value="广州  广州市 ">广州</option>\n								    <option value="杭州  杭州市 ">杭州</option>\n								    <option value="温州  温州市 ">温州</option>\n								    <option value="宁波  宁波市 ">宁波</option>\n									<option value="南京  南京市 ">南京</option>\n									<option value="苏州  苏州市 ">苏州</option>\n									<option value="济南  济南市 ">济南</option>\n									<option value="青岛  青岛市 ">青岛</option>\n									<option value="大连  大连市 ">大连</option>\n									<option value="无锡  无锡市 ">无锡</option>\n									<option value="合肥  合肥市 ">合肥</option>\n									<option value="长沙  长沙市 ">长沙</option>\n									<option value="武汉  武汉市 ">武汉</option>\n									<option value="郑州  郑州市 ">郑州</option>\n									<option value="石家庄  石家庄市 ">石家庄</option>\n									<option value="成都  成都市 ">成都</option>\n									<option value="西安  西安市 ">西安</option>\n									<option value="昆明  昆明市 ">昆明</option>\n									<option value="南宁  南宁市 ">南宁</option>\n									<option value="福州  福州市 ">福州</option>\n									<option value="厦门  厦门市 ">厦门</option>\n									<option value="南昌  南昌市 ">南昌</option>\n									<option value="东莞  东莞市 ">东莞</option>\n									<option value="沈阳  沈阳市 ">沈阳</option>\n									<option value="长春  长春市 ">长春</option>\n									<option value="哈尔滨  哈尔滨市 ">哈尔滨</option>\n									<option value="拉萨  拉萨市 ">拉萨</option>\n									<option value="香港  香港市 ">香港 </option>\n									<option value="澳门  澳门市 ">澳门</option>				\n								</optgroup>\n								<optgroup label="省/地区">			\n									<option value="河北  河北省 ">河北</option>\n									<option value="河南  河南省 ">河南</option>\n									<option value="湖北  湖北省 ">湖北</option>\n									<option value="湖南  湖南省 ">湖南</option>\n									<option value="福建  福建省 ">福建</option>\n									<option value="江苏  江苏省 ">江苏</option>\n									<option value="江西  江西省 ">江西</option>\n									<option value="广东  广东省 ">广东</option>\n									<option value="广西  广西省 ">广西</option>\n									<option value="海南  海南省 ">海南</option>\n									<option value="浙江  浙江省 ">浙江</option>\n									<option value="安徽  安徽省 ">安徽</option>\n									<option value="吉林  吉林省 ">吉林</option>\n									<option value="辽宁  辽宁省 ">辽宁</option>\n									<option value="黑龙江  黑龙江省 ">黑龙江</option>\n									<option value="山东  山东省 ">山东</option>\n									<option value="山西  山西省 ">山西</option>\n									<option value="陕西  陕西省 ">陕西</option>\n									<option value="新疆  新疆省 ">新疆</option>\n									<option value="内蒙古  内蒙古省 ">内蒙古</option>\n									<option value="云南  云南省 ">云南</option>\n									<option value="贵州  贵州省 ">贵州</option>\n									<option value="四川  四川省 ">四川</option>\n									<option value="甘肃  甘肃省 ">甘肃</option>\n									<option value="宁夏  宁夏省 ">宁夏</option>\n									<option value="青海  青海省 ">青海</option>\n									<option value="西藏  西藏省 ">西藏</option>\n									<option value="台湾  台湾省 ">台湾</option>\n								</optgroup>\n							</select>\n		</div>\n	</div>\n	<div class="portfolio-two-item full-bottom">\n		<div class="ui-field-contain">\n			<label class="search_label_name" for="select_tb_scope">指定筛选:</label>\n			<select [(ngModel)]="query_scope" id="query_scope" data-native-menu="false" data-mini="true">\n							    <option value="none" selected="selected">不限</option>\n							    <option value="shopname">店铺名称</option>\n							    <option value="nickname">旺旺名称</option>\n							    <option value="maincat">主营范围</option>\n							</select>\n		</div>\n	</div>\n	<div class="portfolio-two-item full-bottom">\n		<div class="ui-field-contain">\n			<label class="search_label_name" for="select_tb_shoptype">结果排序:</label>\n			<select [(ngModel)]="query_result_sort" id="query_result_sort" data-native-menu="false" data-mini="true">\n							   <option value="default">名称相关度</option>\n							   <option value="srnSort">卖家信誉</option>\n							   <option value="bbSaleSort">商品销量</option>\n							   <option value="bbSumSort">商品数量</option>\n							   <option value="jcxSort" selected="selected">集诚信分</option>\n							   <option value="ratSort">用户评分</option>\n							   <option value="masSort">描述相符</option>\n							   <option value="sasSort">服务态度</option>\n							   <option value="casSort">发货速度</option>							   \n							</select>\n		</div>\n	</div>\n	<div class="decoration hide-if-responsive"></div>\n</div>\n\n<div class="container">\n	<input type="submit" (click)="searchShop()" class="buttonWrap button button-green contactSubmitButton" id="queryShop" value="搜索">\n</div>\n\n<div padding *ngIf="queryResult != null && queryResult.luc_total > 20">\n	<ion-segment>\n		<ion-segment-button *ngIf="queryResult.luc_start > 0" value="prePage" (ionSelect)="previousShopSearchPage()">\n			上一页\n		</ion-segment-button>\n		<ion-segment-button value="thisPage">\n			{{Math.ceil((queryResult.luc_start+1)/20)}}/{{Math.ceil((queryResult.luc_total)/20)}}\n		</ion-segment-button>\n		<ion-segment-button *ngIf="queryResult.luc_start + 20 < queryResult.luc_total" value="nextPage" (ionSelect)="nextShopSearchPage()">\n			下一页\n		</ion-segment-button>\n	</ion-segment>\n</div>\n\n<div *ngIf="queryResult != null">\n	<ion-grid>\n		<ion-row class="queryResultRow" *ngFor="let shop of queryResult.shops; let i = index">\n			<ion-col width-20><img src="images/icons/{{toSTstring(shop.shopType)}}.ico" />&nbsp;{{queryResult.luc_start + i + 1}}</ion-col>\n			<ion-col width-60>{{shop.shopName}}</ion-col>\n			<ion-col width-20 (click)="openMoreModal(shop)">\n				<ion-icon name="more" class="iconMore"></ion-icon>\n			</ion-col>\n		</ion-row>\n	</ion-grid>\n\n</div>\n\n\n<div padding *ngIf="queryResult != null && queryResult.luc_total > 20">\n	<ion-segment>\n		<ion-segment-button *ngIf="queryResult.luc_start > 0" value="prePage" (ionSelect)="previousShopSearchPage()">\n			上一页\n		</ion-segment-button>\n		<ion-segment-button value="thisPage">\n			{{Math.ceil((queryResult.luc_start+1)/20)}}/{{Math.ceil((queryResult.luc_total)/20)}}\n		</ion-segment-button>\n		<ion-segment-button *ngIf="queryResult.luc_start + 20 < queryResult.luc_total" value="nextPage" (ionSelect)="nextShopSearchPage()">\n			下一页\n		</ion-segment-button>\n	</ion-segment>\n</div>\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-search-shop\sb-search-shop.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* ModalController */]])
+    ], SbSearchShopPage);
+    return SbSearchShopPage;
+}());
+
+//# sourceMappingURL=sb-search-shop.js.map
+
+/***/ }),
+
+/***/ 295:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SbShopDetailsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var SbShopDetailsPage = /** @class */ (function () {
+    function SbShopDetailsPage(navParams, viewController) {
+        this.navParams = navParams;
+        this.viewController = viewController;
+        // console.log(navParams.data);
+        this.shop = navParams.data;
+    }
+    SbShopDetailsPage.prototype.dismiss = function () {
+        this.viewController.dismiss();
+    };
+    SbShopDetailsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sb-shop-details',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-search-shop\sb-shop-details.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n        <ion-title>\n\n            店铺详情\n\n        </ion-title>\n\n        <ion-buttons start>\n\n            <button ion-button (click)="dismiss()">\n\n                <span color="primary" showWhen="ios">关闭</span>\n\n                <ion-icon name="md-close" showWhen="android,windows"></ion-icon>\n\n            </button>\n\n        </ion-buttons>\n\n    </ion-toolbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n\n\n    <ion-list>\n\n        <ion-list-header style="color: limegreen;font-size: 16px; font-weight: bold;"> {{shop.shopName}}\n\n        </ion-list-header>\n\n        <ion-item>\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">卖家昵称：</ion-label><ion-label>{{shop.nickName}}</ion-label>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">地区：</ion-label><ion-label>{{shop.area}}</ion-label>\n\n        </ion-item>\n\n        <ion-item *ngIf="shop.rating != null">\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">用户评分：</ion-label><ion-label>{{shop.rating.toFixed(2)}}</ion-label>\n\n        </ion-item>\n\n        <ion-item *ngIf="shop.jcx != null">\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">集诚信分：</ion-label><ion-label>{{shop.jcx.toFixed(2)}}</ion-label>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">卖家信誉 ：</ion-label><ion-label>{{shop.srn}}</ion-label>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">商品数量：</ion-label><ion-label>{{shop.bbSum}}</ion-label>\n\n        </ion-item>\n\n        <ion-item>\n\n            <ion-label style="color: #ff8f20;font-weight: bold;">商品销量：</ion-label><ion-label>{{shop.bbSale}}</ion-label>\n\n        </ion-item>\n\n    </ion-list>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-search-shop\sb-shop-details.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["n" /* ViewController */]])
+    ], SbShopDetailsPage);
+    return SbShopDetailsPage;
+}());
+
+//# sourceMappingURL=sb-shop-details.js.map
+
+/***/ }),
+
+/***/ 296:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SbBrowseShopPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the SbBrowseShop page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var SbBrowseShopPage = /** @class */ (function () {
+    function SbBrowseShopPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    SbBrowseShopPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello SbBrowseShopPage Page');
+    };
+    SbBrowseShopPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sb-browse-shop',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-browse-shop\sb-browse-shop.html"*/'<!--\n  Generated template for the SbBrowseShop page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>浏览分类网店</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<p>你好，这里是Browse页面。</p>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-browse-shop\sb-browse-shop.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], SbBrowseShopPage);
+    return SbBrowseShopPage;
+}());
+
+//# sourceMappingURL=sb-browse-shop.js.map
+
+/***/ }),
+
+/***/ 297:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SbRankListPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the SbRankList page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var SbRankListPage = /** @class */ (function () {
+    function SbRankListPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    SbRankListPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello SbRankListPage Page');
+    };
+    SbRankListPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-sb-rank-list',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-rank-list\sb-rank-list.html"*/'<!--\n  Generated template for the SbRankList page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>排行榜/指数</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n<p>你好，这里是Rank页面。</p>\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\sb-rank-list\sb-rank-list.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], SbRankListPage);
+    return SbRankListPage;
+}());
+
+//# sourceMappingURL=sb-rank-list.js.map
+
+/***/ }),
+
+/***/ 298:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxHelpPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the JcxHelp page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxHelpPage = /** @class */ (function () {
+    function JcxHelpPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    JcxHelpPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello JcxHelpPage Page');
+    };
+    JcxHelpPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-help',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-help\jcx-help.html"*/'<!--\n  Generated template for the JcxHelp page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>帮助中心</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n	        <div class="content">\n	            <div class="container no-bottom">\n	                <h3>欢迎来到<span class="highlight">帮助中心</span>！</h3>\n	                <p>\n						这是一些常见问题，希望能够帮到您。如果您还有更多问题，请进入\n						<a href="forum-home.html">\n							<img class="bounce-left imgInline15" src="images/lists/right_48.png">\n							<span class="highlight" style="padding-left: 10px">网购社区</span>\n						</a>\n						同我们交流。 \n	                </p>\n	            </div>\n	            \n		       	<section class="panel-group accordion" id="accordion">\n		       		<h2 class="hidden">问与答</h2>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                        	<!-- <i class="fa fa-plus"></i> -->\n	                            <a class="sign-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">\n	                            	<!-- <i class="fa fa-minus"></i><i class="fa fa-plus"></i> -->\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何在集诚信注册用户？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse1" class="panel-collapse collapse in">\n	                        <div class="panel-body">\n	                        	<ol>\n									<li>通过网站注册。点击屏幕左上方<i class="fa fa-navicon" style="background-color: #F9BC65;color: white;"></i>图标。 点击“注册”按钮，填入相应信息。</li>\n									<li><span style="line-height: 1.5rem; font-size: 14.4px;">通过微信注册。当您通过微信第一次打开其他人分享的集诚信网站链接时，会出现确认信息，如图，点击“确认登录”即可完成注册。您的初始用户名为“#”+“微信用户名”。您可以在菜单选项的“个人中心”-&gt; “编辑我的资料”中修改用户名。注：用户名修改只适用于微信注册用户，并且只能修改一次。</span></li>\n								</ol>\n								<img src="images/faq/weixinLoginConfirm.png"/>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何验证店主身份？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse2" class="panel-collapse collapse">\n	                        <div class="panel-body">\n	                            	可以通过淘宝旺旺进行验证，一旦通过，店主就可以给自己的店铺发布新闻！\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何查询我想找的店铺？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse3" class="panel-collapse collapse">\n	                        <div class="panel-body">\n	                            	很容易，只需要将该店铺的名称或旺旺名称输入搜索框即可。在“搜索/排序网店”界面，有更多的选项来获得您所想找的店铺。\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何联系我们？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse4" class="panel-collapse collapse">\n	                        <div class="panel-body">\n	                            	发邮件到\n	                            	<a href="mailto:info@jichengxin.com?Subject=咨询" target="_top">info@jichengxin.com</a>\n	                            	我们会尽快回复您的！\n	                        </div>\n	                    </div>\n	                </div>\n	               	<div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	大、中、小店铺是如何划分的？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse5" class="panel-collapse collapse">\n	                        <div class="panel-body">\n	                            <p><strong>大、中、小店铺是按照集诚信分来划分的：</strong></p>\n								<ul>\n								<li>大店铺：集诚信分35～100</li>\n								<li>中店铺：集诚信分20～35</li>\n								<li>小店铺：集诚信分0～20</li>\n								</ul>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	集诚信分是如何计算的？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse6" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p><strong>集诚信分是个综合计算的结果，它的大小和以下信息相关：</strong></p>\n								<ul>\n								<li>电商平台</li>\n								<li>商品评分</li>\n								<li>服务评分</li>\n								<li>物流评分</li>\n								<li>商品销量</li>\n								<li>商品数量</li>\n								<li>历史信誉</li>\n								<li>主营类别</li>\n								<li>用户评价</li>\n								<li>等等</li>\n								</ul>\n								一般集诚信分后面会显示总排名和排名变化，如 \n								<p><strong>集诚信分：81.48(10↑14)</strong></p>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	店铺数据是如何更新的？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse7" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p><strong>店铺数据的更新时间会在首页和网店排行榜页面上显示：</strong></p>\n								<p><strong>一般重要店铺会每日更新，次要店铺会每周更新，其余的店铺会每月更新。</strong></p>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	VIP用户有何特权？如何申请？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse8" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p><strong>普通用户只可以查看60天的店铺历史数据，只能获得500条搜索结果。</strong></p>\n								<p><strong>而VIP用户可以查看180天的店铺历史数据，且能获得5000条搜索结果。</strong></p>\n								<p><strong>欢迎申请VIP用户，将您的申请发送到如下邮箱:&nbsp;<a href="mailto:info@jichengxin.com">info@jichengxin.com</a></strong></p>\n								<p><strong>请在邮件里包含您的用户名和邮箱地址等信息。</strong></p>\n	                        </div>\n	                    </div>\n	                </div>\n	                \n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	手机/微信访问集诚信网站时，如何调出菜单？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse9" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p>有两种方式</p>\n								<ol>\n								  <li>向右滑动屏幕；</li>\n								  <li><span style="line-height: 1.5rem; font-size: 14.4px;">点击屏幕左上方</span><i class="fa fa-navicon" style="background-color: #F9BC65;color: white;"></i>图标。</li>\n								</ol>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何登录网站？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse10" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p>通过网站注册的用户，点击屏幕左上方<i class="fa fa-navicon" style="background-color: #F9BC65;color: white;"></i>图标。 点击“登录”，输入用户名和密码。</p>\n								<p>通过微信注册的用户，有以下三种方式登录：</p>\n								<ol>\n								  <li>在电脑上，打开<a href="http://www.jichengxin.com">http://www.jichengxin.com</a>，点击“登录”，用微信扫描登录页面二维码。</li>\n								  <li>在手机上，打开微信，然后打开任意一篇来自集诚信网站的文章。</li>\n								  <li>在手机上，打开微信，然后打开集诚信公众号（jichengxin-com），从屏幕下端选择“访问网站”-&gt; “进入集诚信”，通过识别途中二维码或点击“阅读原文”，如图：</li>\n								</ol>\n								<img src="images/faq/weixinPublicId.jpg"/>\n								<p>微信扫描电脑版主页<a href="http://www.jichengxin.com">http://www.jichengxin.com</a>左侧下方的“微信扫码立刻参与互动”，也可以在手机上立即注册或进入网站。</p>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse11">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何在社区论坛发表文章？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse11" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p>点击屏幕右上方<i class="fa fa-commenting-o" style="background-color: #F9BC65;color: white;"></i>图标, 进入“网购社区”（<a href="forum-home.html">论坛首页</a>），选择您想发表文章的版面，点击“发表新主题”。</p>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse12">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	如何找到我以前发的帖子？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse12" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								<p>在菜单中选择“<strong>个人中心</strong>”-&gt; “<strong>我的全部帖子</strong>”或者“<strong>我的全部主题贴</strong>”</p>\n	                        </div>\n	                    </div>\n	                </div>\n	                <div class="panel panel-default">\n	                    <div class="panel-heading">\n	                        <h4 class="panel-title">\n	                            <a class="sign-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse13">\n	                            	<img src="images/lists/plus_48.png" class="sign-img large-plus">\n	                            	<img src="images/lists/delete_48.png" class="sign-img large-delete">\n	                                	 如何在文章中插入图片、音频、视频等内容？\n	                            </a>\n	                        </h4>\n	                    </div>\n	                    <div id="collapse13" class="panel-collapse collapse">\n	                        <div class="panel-body">\n								在文章编辑界面点击\n								<div style="width: 36px; display:inline-block; height: 36px; overflow: hidden; zoom: 1; background-image: url(&quot;nice/nicEditorIcons-large-m.png&quot;); background-position: -612px 0px;"></div>\n								或\n								<div style="width: 36px; display:inline-block; height: 36px; overflow: hidden; zoom: 1; background-image: url(&quot;nice/nicEditorIcons-large-m.png&quot;); background-position: -792px 0px;"></div>\n								可插入图片的网址或本地图片。微信/手机版目前不支持插入音视频。\n	                        </div>\n	                    </div>\n	                </div>\n	\n	            </section>\n	            \n	            <div class="decoration"></div>\n	        </div>\n\n\n\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-help\jcx-help.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], JcxHelpPage);
+    return JcxHelpPage;
+}());
+
+//# sourceMappingURL=jcx-help.js.map
+
+/***/ }),
+
+/***/ 299:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxAboutPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_shared__ = __webpack_require__(12);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/*
+  Generated class for the JcxAbout page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxAboutPage = /** @class */ (function () {
+    function JcxAboutPage(navCtrl, events, userSettings) {
+        this.navCtrl = navCtrl;
+        this.events = events;
+        this.userSettings = userSettings;
+    }
+    /*Runs when the page is about to enter and become the active page.*/
+    JcxAboutPage.prototype.ionViewWillEnter = function () {
+        console.log('About ionViewWillEnter');
+    };
+    JcxAboutPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-about',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-about\jcx-about.html"*/'<!--\n  Generated template for the JcxAbout page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <button ion-button menuToggle>\n      <ion-icon name="menu"></ion-icon>\n    </button>\n    <ion-title>关于集诚信</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n\n  <div class="container no-bottom">\n    <h3>欢迎来到<span class="highlight">集诚信</span>！</h3>\n    <p>\n      如果您从网上购物，如果您是<span class="highlight">网上消费者</span>，欢迎您访问我们的网站。 请在这里搜索、比较、查找您想要查找的网店的信息。 我们为不同电商平台的网店提供一个独有的集诚信评分。 集诚信分可以成为您选择网店的一个参考依据。\n      同时请您留下您对您常去的网店的评价。 无论是正面的还是反面的评价； 都会帮助其他的消费者； 同时也帮助给网店的经营者。 请积极参与我们的网上购物者社区。 您的留言和评价， 将成为帮助电子商务健康发展、不断提高、良性循环的宝贵资源。\n    </p>\n  </div>\n\n  <div class="container no-bottom">\n    <p>\n      如果您是<span class="highlight">网店的经营者</span>，欢迎您来到电商评级/网购社区。 我们是独立于所有电商平台的第三方网站。 我们的网站将为您永久保存您的网店经营记录。 无论您现在在哪一个电商平台，\n      无论您将来是否建立自己独立的营销网站， 我们都将忠实独立地记录您的发展轨迹， 保护您辛苦积累的无形资产。 同时，我们将为您提供展示产品、推广服务的机会和平台。 我们将为您提供新的客户源。 我们将为您的网店崭露头角提供机会。 我们将为您建立属于您自己的“百年老店”提供帮助。\n      请联系我们：\n      <a href="mailto:info@jichengxin.com?Subject=咨询" target="_top">info@jichengxin.com</a>\n    </p>\n  </div>\n\n  <div class="container no-bottom">\n    <p>\n      集诚信\n      <br/><span class="highlight">独立，中立，客观，诚信</span>\n      <br/>为建立电子商务诚信的商业环境、优胜劣汰的有机发展生态而努力！\n    </p>\n  </div>\n\n\n</ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-about\jcx-about.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */],
+            __WEBPACK_IMPORTED_MODULE_2__shared_shared__["b" /* UserSettings */]])
+    ], JcxAboutPage);
+    return JcxAboutPage;
+}());
+
+//# sourceMappingURL=jcx-about.js.map
+
+/***/ }),
+
+/***/ 300:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return JcxContactPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(6);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/*
+  Generated class for the JcxContact page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+*/
+var JcxContactPage = /** @class */ (function () {
+    function JcxContactPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    JcxContactPage.prototype.ionViewDidLoad = function () {
+        console.log('Hello JcxContactPage Page');
+    };
+    JcxContactPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-jcx-contact',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-contact\jcx-contact.html"*/'<!--\n  Generated template for the JcxContact page.\n\n  See http://ionicframework.com/docs/v2/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n\n  <ion-navbar>\n    <ion-title>联系我们</ion-title>\n  </ion-navbar>\n\n</ion-header>\n\n\n<ion-content padding>\n\n	       	<img class="responsive-image" src="images/guiyang-jcx.jpg" style="height:125px;">\n	        \n	\n	        <div class="content">\n	            <div class="decoration"></div>\n	            <div class="one-half-responsive">\n	                <h4>欢迎您与我们联系，请在下面输入您的信息。</h4>\n	                <div class="container no-bottom" style="width: 100%;">\n	                    <div class="contact-form no-bottom"> 	\n	                        <form action="" method="post" class="contactForm" id="contactForm">\n	                            <fieldset>  \n	                                <div class="formFieldWrap">\n	                                    <label class="contactNameField" for="contactNameField">名字:<span>（必填）</span></label>\n	                                    <input type="text" name="contactNameField" value="" class="contactField requiredField" id="contactNameField"/>\n	                                </div>\n	                                <div class="formFieldWrap">\n	                                    <label class="contactEmailField" for="contactEmailField">电子邮箱: <span>（必填）</span></label>\n	                                    <input type="text" name="contactEmailField" value="" class="contactField requiredField requiredEmailField" id="contactEmailField"/>\n	                                </div>\n	                                <div class="formTextareaWrap">\n	                                    <label class="contactMessageTextarea" for="contactMessageTextarea">内容: <span>（必填）</span></label>\n	                                    <textarea name="contactMessageTextarea" class="contactTextarea requiredField" id="contactMessageTextarea"></textarea>\n	                                </div>\n	                                <div class="formSubmitButtonErrorsWrap">\n	                                    <input type="submit" class="buttonWrap button button-green contactSubmitButton" id="contactSubmitButton" value="发送" data-formId="contactForm"/>\n	                                </div>\n	                            </fieldset>\n	                        </form>       \n	                    </div>\n	                </div>\n	            </div>\n	            <div class="decoration hide-if-responsive"></div>\n	            <div class="one-half-responsive last-column">\n	                <div class="container no-bottom">\n	                    <h4>联系方式</h4>\n	                    <p>\n	                        <strong>公司名称</strong><br>\n	                       	 贵阳集诚信网络科技有限公司\n	                    </p>	                    \n	                    <p>\n	                        <strong>公司地址</strong><br>\n	                       	 贵州省贵阳市观山湖区阳关大道28号西部研发基地\n	                    </p>\n	                    <p>\n	                        <strong>联系信息:</strong><br>\n	                        <a href="#" class="contact-mail"><i class="fa fa-envelope"></i>产品信息: info@jichengxin.com</a>\n	                        <a href="#" class="contact-mail"><i class="fa fa-envelope"></i>技术支持: support@jichengxin.com</a>\n	                        <a href="#" class="contact-mail"><i class="fa fa-envelope"></i>用户反馈: feedback@jichengxin.com</a>\n	                        <a href="#" class="contact-facebook"><i class="fa fa-weixin"></i>微信公众号: jichengxin-com</a>\n	                        <a href="#" class="contact-twitter"><i class="fa fa-weibo"></i>微博: 集诚信20150808</a>\n	                    </p>\n	                </div>            \n	            </div>\n	        </div>\n\n</ion-content>\n'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\sidebar\jcx-contact\jcx-contact.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]])
+    ], JcxContactPage);
+    return JcxContactPage;
+}());
+
+//# sourceMappingURL=jcx-contact.js.map
+
+/***/ })
+
+},[200]);
+//# sourceMappingURL=main.js.map

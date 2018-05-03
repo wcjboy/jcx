@@ -369,7 +369,14 @@ export class ShopGiPage {
 				return false;
 			}
 
-			var score_ = $('#rangeInput').val() == 0 ? 888 : $('#rangeInput').val();
+      let scoreInput = $('#rangeInput').val();
+      if(scoreInput < 0) {
+        scoreInput = 0;
+      }
+      if(scoreInput > 5) {
+        scoreInput = 5;
+      }
+			var score_ = scoreInput == 0 ? 888 : scoreInput;
 			var recommend_ = 'false';
 			if($("#gi-p-000").hasClass("checkbox-three-checked")) { recommend_ = 'true'; }
 			
@@ -595,6 +602,14 @@ export class ShopGiPage {
       $(this).toggleClass('checkbox-three-checked');
       return false;
     });	
+
+    /*
+    $('input.rating').addClass('rating-loading');
+    var $input = $('input.rating'), count = Object.keys($input).length;
+    if (count > 0) {
+        $input.rating();
+    }
+    */
 
    this.loadShopGI();
   }
