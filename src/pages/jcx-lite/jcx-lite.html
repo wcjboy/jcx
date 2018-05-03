@@ -26,7 +26,7 @@
       <ion-grid>
         <ion-row>
             <ion-col col-12>
-                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="taokouling">
+                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="textinput">
                 </textarea> 
             </ion-col>
         </ion-row>
@@ -52,11 +52,5 @@
       <button class="scan-camera" (click)="scan_shop()"></button>
     </ion-item>    
   </ion-list>
-
-<!--
-  <div *ngIf="results">
-    <h2>结果：{{results}}</h2>
-  </div>
--->
   
   </ion-content>

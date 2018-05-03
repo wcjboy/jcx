@@ -45,14 +45,12 @@ export class SafeHtmlPipe implements PipeTransform  {
   templateUrl: 'jcx-lite.html'
 })
 export class JcxLitePage { 
-
-  results: any = null;
   tburl: string = null;
   shopId: string = null;
   shopName: string = null;
   shopType: string = null;
 
-  public taokouling: string;
+  public textinput: string;
 
   isDone: boolean = false;
 
@@ -65,7 +63,6 @@ export class JcxLitePage {
     private clipboard: Clipboard, public platform: Platform) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
-    //this.taokouling = "default";
 
     platform.ready().then(() => {
       if (platform.is('cordova')){
@@ -79,6 +76,13 @@ export class JcxLitePage {
           this.clipboard.paste().then(
             (resolve: string) => {
               console.log(resolve);
+              let koulingRegExp = /￥(\w+)￥/i;
+              let koulingMatch = resolve.match(koulingRegExp);
+              if(koulingMatch != null) {
+                this.textinput = resolve;
+                this.search_shop();
+                this.clipboard.copy("");
+              }
              },
              (reject: string) => {
                console.log('Error: ' + reject);
@@ -99,15 +103,15 @@ export class JcxLitePage {
 
   // reset the textarea conent to empty
   clear_shop() {
-    this.taokouling = null;
+    this.textinput = null;
   }
 
   search_shop() {
-    if(this.taokouling == null) {
+    if(this.textinput == null) {
       alert("请粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址。");
       return;
     }
-    this.search_shop_internal(this.taokouling);
+    this.search_shop_internal(this.textinput);
   }
 
   async search_shop_internal(input : string) {
@@ -129,18 +133,28 @@ export class JcxLitePage {
         this.convertTaokoulingToUrl(koulingMatch[1]);
       }
     }else {
-      this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(data => {
-        //console.log(data);
-        var dataStr = <string>data;
-        var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
-        var tburlMatch = dataStr.match(tburlRegExp);
-        if(tburlMatch != null) {
-          console.log(tburlMatch[1]);
-          this.tburl = tburlMatch[1];
-          this.findShopIdName(this.tburl);
-        }   
-      }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1');this.isDone = true; });
-    }
+      let urlFound = tbShortUrlMatch[0];
+      if(urlFound.indexOf("//m.tb.cn/") < 0) {
+        // this is long tb url , not short tb url.
+        // no need to retrieve long tb url
+        console.log(urlFound);
+        this.tburl = urlFound;
+        this.findShopIdName(this.tburl);
+      } else {
+        // this is shot tb url, need to convert it to long tb url
+        this.jcxApi.getUrlContentViaJcx(tbShortUrlMatch[0]).then(data => {
+          //console.log(data);
+          var dataStr = <string>data;
+          var tburlRegExp = /var\s+url\s*=\s*['"]([^'"]*)['"]/i;
+          var tburlMatch = dataStr.match(tburlRegExp);
+          if(tburlMatch != null) {
+            console.log(tburlMatch[1]);
+            this.tburl = tburlMatch[1];
+            this.findShopIdName(this.tburl);
+          }   
+        }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-1');this.isDone = true; });  
+      }
+     }
     while (!this.isDone) {
       await this.delay(100);
     }
@@ -171,8 +185,7 @@ export class JcxLitePage {
         this.shopId = shopIdNameMatch[1];
         this.shopType = "tbshop";
         this.shopName = this.unicodeToChar(shopIdNameMatch[2]);
-        this.results = this.shopId + " | " + this.shopName + " | " + this.shopType;
-        console.log(this.results);
+        console.log(this.shopId + " | " + this.shopName + " | " + this.shopType);
       }else {
         this.shopType = "tmshop";
         var re = /shopId=(\d+);/i;
@@ -185,8 +198,7 @@ export class JcxLitePage {
         if(reMatch != null) {
           this.shopName = reMatch[1];
         }
-        this.results = this.shopId + " | " + this.shopName + " | " + this.shopType;
-        console.log(this.results);
+        console.log(this.shopId + " | " + this.shopName + " | " + this.shopType);
       }
       this.retrieveShopGI(this.shopType, this.shopName, this.shopId);      
     }).catch(error => { console.log(JSON.stringify(error)); alert('获取店铺ID失败-2');this.isDone = true;});
