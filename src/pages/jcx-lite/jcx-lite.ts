@@ -1,7 +1,6 @@
 import { Component, Pipe, PipeTransform } from '@angular/core';
-import { NavController, Events, PopoverController, LoadingController, Loading } from 'ionic-angular';
+import { NavController, Events, PopoverController, LoadingController, Loading, Platform } from 'ionic-angular';
 import { DomSanitizer } from '@angular/platform-browser'
-import { Platform } from 'ionic-angular';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
 import { Clipboard } from '@ionic-native/clipboard';
@@ -80,8 +79,9 @@ export class JcxLitePage {
               let koulingMatch = resolve.match(koulingRegExp);
               if(koulingMatch != null) {
                 this.textinput = resolve;
-                this.search_shop();
                 this.clipboard.copy("");
+                this.navCtrl.parent.select(0);
+                this.search_shop();
               }
              },
              (reject: string) => {
