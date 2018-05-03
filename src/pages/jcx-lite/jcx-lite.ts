@@ -4,7 +4,7 @@ import { DomSanitizer } from '@angular/platform-browser'
 import { Platform } from 'ionic-angular';
 
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';
-import { Clipboard } from '@ionic-native/clipboard';
+// import { Clipboard } from '@ionic-native/clipboard';
 
 
 import { PostsListPage, PopoverPage, SbSearchShopPage, ShopGiPage} from "../pages"
@@ -61,7 +61,8 @@ export class JcxLitePage {
   constructor(public navCtrl: NavController, private events: Events, public userSettings : UserSettings,
     private popoverController: PopoverController, private barcodeScanner: BarcodeScanner,
     private jcxApi: JcxApi, public loadingCtrl: LoadingController, 
-    private clipboard: Clipboard, public platform: Platform) {
+    public platform: Platform) {
+    // private clipboard: Clipboard, public platform: Platform) {
     console.log('JcxLitePage constructed.');
     this.pages = this.userSettings.pages;
     //this.taokouling = "default";
@@ -75,6 +76,7 @@ export class JcxLitePage {
         //Subscribe on resume
         this.platform.resume.subscribe(() => {
           //---- resume start
+          /*
           this.clipboard.paste().then(
             (resolve: string) => {
               console.log(resolve);
@@ -83,6 +85,7 @@ export class JcxLitePage {
                console.log('Error: ' + reject);
              }
            );
+           */
            //---- resume end
         });
        }
