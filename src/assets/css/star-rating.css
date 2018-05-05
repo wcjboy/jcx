@@ -16,7 +16,7 @@
     src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
   }
 
-  // Glyphicon fonts family
+  /* Glyphicon fonts family */
   .glyphicon {
       position: relative;
       top: 1px;
@@ -817,7 +817,7 @@
       content: "\e260";
     }
 
-    .label {
+    .starlabel {
     display: inline;
     padding: .2em .6em .3em;
     font-size: 75%;
@@ -829,26 +829,26 @@
     vertical-align: baseline;
     border-radius: .25em;
     }
-    .label:empty {
+    .starlabel:empty {
     display: none;
     }
 
-    .label-default {
+    .starlabel-default {
     background-color: #777;
     }
-    .label-primary {
+    .starlabel-primary {
     background-color: #337ab7;
     }
-    .label-success {
+    .starlabel-success {
     background-color: #5cb85c;
     }
-    .label-info {
+    .lstarlabelbel-info {
     background-color: #5bc0de;
     }
-    .label-warning {
+    .starlabel-warning {
     background-color: #f0ad4e;
     }
-    .label-danger {
+    .starlabel-danger {
     background-color: #d9534f;
     }
        
