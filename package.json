@@ -74,7 +74,6 @@
       },
       "cordova-plugin-device": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-splashscreen": {},
       "cordova-plugin-inappbrowser": {},
       "phonegap-plugin-barcodescanner": {},
       "cordova-plugin-whitelist": {},
@@ -82,7 +81,8 @@
       "cordova-plugin-ionic-keyboard": {},
       "cordova-sqlite-storage": {},
       "phonegap-plugin-push": {},
-      "cordova-clipboard": {}
+      "cordova-clipboard": {},
+      "cordova-plugin-splashscreen": {}
     },
     "platforms": [
       "browser",
