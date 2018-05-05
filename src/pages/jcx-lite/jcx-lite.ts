@@ -252,6 +252,7 @@ export class JcxLitePage {
       // An error occurred
       alert(`扫描有错：${err}`);
     });
+
   }
 
   delay(ms: number) {

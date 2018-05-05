@@ -603,13 +603,11 @@ export class ShopGiPage {
       return false;
     });	
 
-    /*
     $('input.rating').addClass('rating-loading');
     var $input = $('input.rating'), count = Object.keys($input).length;
     if (count > 0) {
         $input.rating();
     }
-    */
 
    this.loadShopGI();
   }

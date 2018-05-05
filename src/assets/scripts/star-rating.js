@@ -515,7 +515,8 @@
             4.5: 'label label-success',
             5: 'label label-success'
         },
-        clearButton: '<i class="glyphicon glyphicon-minus-sign jcx-rating"></i>',
+        // clearButton: '<i class="glyphicon glyphicon-minus-sign jcx-rating"></i>',
+        clearButton: '<i class="fa fa-minus-circle"></i>',
         clearButtonBaseClass: 'clear-rating',
         clearButtonActiveClass: 'clear-rating-active',
         clearCaptionClass: 'label label-default',

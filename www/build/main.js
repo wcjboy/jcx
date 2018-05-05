@@ -23,7 +23,7 @@ webpackEmptyAsyncContext.id = 113;
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__jcx_api_service__ = __webpack_require__(199);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__jcx_api_service__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_setting_service__ = __webpack_require__(279);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__user_setting_service__ = __webpack_require__(280);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__user_setting_service__["a"]; });
 
 
@@ -35,52 +35,52 @@ webpackEmptyAsyncContext.id = 113;
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__ = __webpack_require__(279);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "w", function() { return __WEBPACK_IMPORTED_MODULE_0__tabs_tabs__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__ = __webpack_require__(280);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__ = __webpack_require__(281);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "o", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "p", function() { return __WEBPACK_IMPORTED_MODULE_1__jcx_home_jcx_home__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__ = __webpack_require__(281);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__ = __webpack_require__(282);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_2__jcx_lite_jcx_lite__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(282);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__ = __webpack_require__(283);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "v", function() { return __WEBPACK_IMPORTED_MODULE_3__jcx_lite_shop_gi_shop_gi__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(283);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__ = __webpack_require__(284);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__jcx_forum_jcx_forum__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(284);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__ = __webpack_require__(285);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_5__jcx_forum_forum_show_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(285);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__ = __webpack_require__(286);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_6__jcx_forum_posts_list_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(286);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__ = __webpack_require__(287);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_7__jcx_trade_jcx_trade__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(287);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__ = __webpack_require__(288);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "x", function() { return __WEBPACK_IMPORTED_MODULE_8__jcx_trade_trade_forum_show_trade_forum_show__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(288);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__ = __webpack_require__(289);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "y", function() { return __WEBPACK_IMPORTED_MODULE_9__jcx_trade_trade_posts_list_trade_posts_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(289);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__ = __webpack_require__(290);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_10__jcx_me_jcx_me__["b"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(290);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__ = __webpack_require__(291);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_11__jcx_me_jcx_chat_jcx_chat__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(291);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__ = __webpack_require__(292);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_12__jcx_native_jcx_native__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(292);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__ = __webpack_require__(293);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_13__jcx_native_jcx_zbar_jcx_zbar__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(293);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__ = __webpack_require__(294);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "r", function() { return __WEBPACK_IMPORTED_MODULE_14__sidebar_sb_ineed_comment_sb_ineed_comment__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(294);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__ = __webpack_require__(295);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "t", function() { return __WEBPACK_IMPORTED_MODULE_15__sidebar_sb_search_shop_sb_search_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(295);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__ = __webpack_require__(296);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "u", function() { return __WEBPACK_IMPORTED_MODULE_16__sidebar_sb_search_shop_sb_shop_details__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(296);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__ = __webpack_require__(297);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "q", function() { return __WEBPACK_IMPORTED_MODULE_17__sidebar_sb_browse_shop_sb_browse_shop__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(297);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__ = __webpack_require__(298);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "s", function() { return __WEBPACK_IMPORTED_MODULE_18__sidebar_sb_rank_list_sb_rank_list__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__ = __webpack_require__(299);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_19__sidebar_jcx_help_jcx_help__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__ = __webpack_require__(300);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_20__sidebar_jcx_about_jcx_about__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(300);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__ = __webpack_require__(301);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_21__sidebar_jcx_contact_jcx_contact__["a"]; });
 // app root page
 
@@ -618,11 +618,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__ = __webpack_require__(104);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_clipboard__ = __webpack_require__(197);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_http__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(277);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_pages__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__shared_shared__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__ = __webpack_require__(277);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__angular_platform_browser__ = __webpack_require__(23);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_http__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_component__ = __webpack_require__(278);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_pages__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__shared_shared__ = __webpack_require__(12);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -642,39 +643,40 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["i" /* JcxMePage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["s" /* SbRankListPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["d" /* JcxContactPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["o" /* SafeCssPipe */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["p" /* SafeHtmlPipe */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["y" /* TradePostsListPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["u" /* SbShopDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["v" /* ShopGiPage */]
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* JcxApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["s" /* SbRankListPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["d" /* JcxContactPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["o" /* SafeCssPipe */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["p" /* SafeHtmlPipe */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["v" /* ShopGiPage */]
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_7__angular_platform_browser__["a" /* BrowserModule */],
-                __WEBPACK_IMPORTED_MODULE_8__angular_http__["c" /* HttpModule */],
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */], {}, {
+                __WEBPACK_IMPORTED_MODULE_8__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_9__angular_http__["c" /* HttpModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* JcxApp */], {}, {
                     links: []
                 }),
                 __WEBPACK_IMPORTED_MODULE_3__ionic_storage__["a" /* IonicStorageModule */].forRoot()
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* IonicApp */]],
             entryComponents: [
-                __WEBPACK_IMPORTED_MODULE_9__app_component__["a" /* JcxApp */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["i" /* JcxMePage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["s" /* SbRankListPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["d" /* JcxContactPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["y" /* TradePostsListPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_10__pages_pages__["u" /* SbShopDetailsPage */],
-                __WEBPACK_IMPORTED_MODULE_10__pages_pages__["v" /* ShopGiPage */]
+                __WEBPACK_IMPORTED_MODULE_10__app_component__["a" /* JcxApp */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["w" /* TabsPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["g" /* JcxHomePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["h" /* JcxLitePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["k" /* JcxTradePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["e" /* JcxForumPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["i" /* JcxMePage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["r" /* SbIneedCommentPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["t" /* SbSearchShopPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["q" /* SbBrowseShopPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["s" /* SbRankListPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["f" /* JcxHelpPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["b" /* JcxAboutPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["d" /* JcxContactPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["a" /* ForumShowPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["n" /* PostsListPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["x" /* TradeForumShowPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["y" /* TradePostsListPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["c" /* JcxChatPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["j" /* JcxNativePage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["m" /* PopoverPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["l" /* JcxZbarPage */], __WEBPACK_IMPORTED_MODULE_11__pages_pages__["u" /* SbShopDetailsPage */],
+                __WEBPACK_IMPORTED_MODULE_11__pages_pages__["v" /* ShopGiPage */]
             ],
-            providers: [__WEBPACK_IMPORTED_MODULE_11__shared_shared__["b" /* UserSettings */], __WEBPACK_IMPORTED_MODULE_11__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_clipboard__["a" /* Clipboard */], { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicErrorHandler */] }]
+            providers: [__WEBPACK_IMPORTED_MODULE_12__shared_shared__["b" /* UserSettings */], __WEBPACK_IMPORTED_MODULE_12__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_4__ionic_native_in_app_browser__["a" /* InAppBrowser */], __WEBPACK_IMPORTED_MODULE_5__ionic_native_barcode_scanner__["a" /* BarcodeScanner */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_clipboard__["a" /* Clipboard */], __WEBPACK_IMPORTED_MODULE_7__ionic_native_splash_screen__["a" /* SplashScreen */], { provide: __WEBPACK_IMPORTED_MODULE_0__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* IonicErrorHandler */] }]
             // providers: [UserSettings, JcxApi, StatusBar, InAppBrowser, BarcodeScanner, { provide: ErrorHandler, useClass: IonicErrorHandler }]
         })
     ], AppModule);
@@ -685,7 +687,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 277:
+/***/ 278:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -818,7 +820,7 @@ var JcxApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 278:
+/***/ 279:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -889,7 +891,7 @@ var TabsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 279:
+/***/ 280:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1145,7 +1147,7 @@ var UserSettings = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 280:
+/***/ 281:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1287,7 +1289,7 @@ var JcxHomePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 281:
+/***/ 282:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1637,19 +1639,17 @@ var JcxLitePage = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
             selector: 'page-jcx-lite',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-buttons start>\n\n        <button menuToggle>\n\n          <ion-icon large name="menu"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n      <div class="topbar-logo"></div>\n\n      <ion-buttons end>\n\n        <button (click)="myMoreAction($event)">\n\n          <ion-icon large name="add"></ion-icon>\n\n        </button>\n\n      </ion-buttons>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n  \n\n    <h4 style="text-align: center; font-weight: 800; color: yellowgreen;">集诚信 -- 独立第三方电商评价体系</h4>\n\n  \n\n  <ion-list>\n\n    <ion-item>\n\n      <ion-grid>\n\n        <ion-row>\n\n            <ion-col col-12>\n\n                <textarea placeholder="粘贴宝贝在手淘里的分享代码或者宝贝的网址或者店铺的网址……" [(ngModel)]="textinput">\n\n                </textarea> \n\n            </ion-col>\n\n        </ion-row>\n\n        <ion-row>\n\n          <ion-col col-3>\n\n            <button (click)="clear_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-eraser"></i>\n\n                <strong style="color: #f90;">清空</strong>\n\n            </button>\n\n          </ion-col>\n\n          <ion-col col-9>\n\n            <button (click)="search_shop()" style="width: 100%; background-color: transparent; height: 35px;\n\n                    border: 1px solid #ccc; border-radius: 4px; padding: 6px;"><i class="fa fa-search"></i>\n\n                <strong style="color: #f90;">搜店铺</strong>\n\n            </button>\n\n          </ion-col>\n\n        </ion-row>\n\n      </ion-grid> \n\n\n\n    </ion-item>\n\n    <ion-item></ion-item>\n\n    <ion-item>      \n\n      <button class="scan-camera" (click)="scan_shop()"></button>\n\n    </ion-item>    \n\n  </ion-list>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\jcx-lite.html"*/
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */], __WEBPACK_IMPORTED_MODULE_5__shared_shared__["b" /* UserSettings */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */],
-            __WEBPACK_IMPORTED_MODULE_5__shared_shared__["a" /* JcxApi */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_clipboard__["a" /* Clipboard */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]])
+        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* Events */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__shared_shared__["b" /* UserSettings */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* PopoverController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_barcode_scanner__["a" /* BarcodeScanner */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_5__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__shared_shared__["a" /* JcxApi */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_clipboard__["a" /* Clipboard */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_clipboard__["a" /* Clipboard */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["k" /* Platform */]) === "function" && _j || Object])
     ], JcxLitePage);
     return JcxLitePage;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j;
 }());
 
 //# sourceMappingURL=jcx-lite.js.map
 
 /***/ }),
 
-/***/ 282:
+/***/ 283:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2276,30 +2276,28 @@ var ShopGiPage = /** @class */ (function () {
             $(this).toggleClass('checkbox-three-checked');
             return false;
         });
-        /*
         $('input.rating').addClass('rating-loading');
         var $input = $('input.rating'), count = Object.keys($input).length;
         if (count > 0) {
             $input.rating();
         }
-        */
         this.loadShopGI();
     };
     ShopGiPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n\n\n    <div *ngIf="one == null">\n\n        <h2>没有输入店铺ID，请检查。</h2>\n\n    </div>\n\n    <div *ngIf="one != null">\n\n\n\n      <!-- Content Heading -->\n\n      <div style="padding: 10px;background-color: rgb(39, 174, 96);text-align:center;" >\n\n          <h4 style="color:white; font-size: 17px;">\n\n            集诚信分：<i id="tooltip3" class="fa fa-question-circle" style="cursor: pointer;color: white;"></i>&nbsp;<strong id="gi-p-stat-jcx">数据加载中……</strong>\n\n            &nbsp;&nbsp;<span id="shopName"></span>\n\n          </h4>\n\n      </div>\n\n            \n\n      <div class="container-fluid">\n\n        <ion-grid>\n\n\n\n          <ion-row>\n\n            <ion-col col-3>\n\n              <!-- class="responsive-image" -->\n\n              <a id="tm_shopName_1" href="" title="" target="_blank">\n\n                  <img id="tm_shopimg" src="" onerror="" class="img-responsive"/> \n\n                </a>\n\n            </ion-col>\n\n            <ion-col col-9>\n\n              <div class="shop-info">\n\n                  <span class="info-sale">销量：<strong id="tm_info_sale"></strong></span>\n\n                  <span class="info-sum">共<strong id="tm_info_sum"></strong>件商品</span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>卖家昵称：</strong><span id="tm_seller"></span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>所在地区：</strong><span id="tm_area"></span>\n\n                </div>\n\n                <div class="shop-info" id="tm_service_div" style="display: none;"> \n\n                  <strong>当前主营：</strong><span id="tm_service"></span>\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <div id="tooltip1text" style="display:none;background-color: yellow;">用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。</div>\n\n            <div id="tooltip2text" style="display:none;background-color: yellow;">口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。</div>\n\n            <div id="tooltip3text" style="display:none;background-color: yellow;">集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。</div>\n\n            <ion-col col-7>\n\n                <div class="ns-jcx-rating" id="gi-p-stat-rating">\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                      </div>&nbsp;<i id="tooltip1" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>\n\n                <div style="clear: both;"> \n\n                  评分人数:<strong id="gi-p-stat-totalscorenum">0</strong><a href="#" \n\n                  (click)="checkCommentUserList(shopId, shopType)" style="display: inline;float: right;">查看</a>	\n\n                </div>				    	\n\n            </ion-col>\n\n            <ion-col col-5>\n\n              <div class=""> \n\n                  口碑分&nbsp;<i id="tooltip2" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>:<strong id="gi-p-stat-koubei">暂无</strong>	\n\n                </div>\n\n                <div class=""> \n\n                  推荐数:<strong id="gi-p-stat-recommend">0</strong>	\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row id="jcxratings_chart" style="display: none;">\n\n            <ion-col col-12>\n\n              <ul class="ratings_chart">\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score5_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score5_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">挺好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score4_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score4_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">还可以</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score3_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score3_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">不好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score2_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score2_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很差</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score1_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score1_num"></span>\n\n                </li>\n\n              </ul>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row style="display: none;" id="tm_service_rank_div">\n\n            <ion-col col-5><strong>主营排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-service"></ion-col>\n\n          </ion-row>\n\n          <ion-row class="row" style="display: none;" id="tm_rating_rank_div">\n\n            <ion-col col-5><strong>用户排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-rating"></ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <ion-col col-12>\n\n              <label>产品标签:</label>\n\n              <span id="tm_main_cat" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n            <ion-col col-12 id="tm_shopalias_div" style="display: none;">\n\n              <label>店铺曾用名:</label>\n\n              <span id="tm_shopalias" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>          \n\n          \n\n          <div id="dynamicShopScores">\n\n            <table class="table table-condensed">\n\n                  <thead>\n\n                    <tr><th>店铺动态评分</th><th>与同行业相比</th></tr>  				\n\n                  </thead>\n\n                   <tbody>\n\n                <tr><td><strong>描述相符：</strong><span id="tm_mas">4.93</span></td><td><p style="margin: 0px" id="tm_mg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>服务态度：</strong><span id="tm_sas">4.88</span></td><td><p style="margin: 0px" id="tm_sg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>发货速度：</strong><span id="tm_cas">4.89</span></td><td><p style="margin: 0px" id="tm_cg" class="higherThanPeer"></p></td></tr>\n\n              </tbody>\n\n               </table>\n\n          </div>   		  \n\n          \n\n          <div class="shopGiDecoration"></div>\n\n          \n\n          <div class="panel panel-default" >\n\n            <div class="panel-heading">\n\n              <h4 class="panel-title">\n\n                <a class="sign-toggle" id="collapseHead" href="#" (click)="toggleUserComments()">\n\n                  <img src="images/lists/plus_48.png" class="sign-img large-plus">\n\n                  <img src="images/lists/delete_48.png" class="sign-img large-delete">\n\n                                展开/收起当前用户评价\n\n                </a>\n\n              </h4>\n\n            </div>\n\n            <div id="collapseBody" class="panel-collapse collapse in">\n\n              <div class="panel-body">\n\n                <form id="gi-p-feedback-form" role="form" (submit)="sendShopAllComments(shopId, shopType)">\n\n                    <div>\n\n                       <label for="fader" >店铺评分(0~5)：</label>						\n\n                      <input id="rangeInput" value="0" type="number" class="rating" min=0 max=5 step=0.5 data-size="md">	\n\n                    </div>\n\n                    <div>\n\n                      <a href="#" id="gi-p-000" class="checkbox checkbox-three">推荐该店铺(<span id="num-000">0</span>)</a>	\n\n                    </div>\n\n                    <div>\n\n                      <label>优点：</label>\n\n                      <a href="#" id="gi-p-101" class="checkbox checkbox-three">产品质量好，描述真实(<span id="num-101">0</span>)</a>\n\n                      <a href="#" id="gi-p-102" class="checkbox checkbox-three">品牌真实，无假冒(<span id="num-102">0</span>)</a>\n\n                      <a href="#" id="gi-p-103" class="checkbox checkbox-three">产品性价比高，质优价廉(<span id="num-103">0</span>)</a>\n\n                      <a href="#" id="gi-p-104" class="checkbox checkbox-three">服务态度一流(<span id="num-104">0</span>)</a>\n\n                      <a href="#" id="gi-p-105" class="checkbox checkbox-three">其产品/服务为独创(<span id="num-105">0</span>)</a>\n\n                      <a href="#" id="gi-p-106" class="checkbox checkbox-three">其产品为优质地方特产(<span id="num-106">0</span>)</a>		    				\n\n                      <a href="#" id="gi-p-107" class="checkbox checkbox-three">物流速度快(<span id="num-107">0</span>)</a>\n\n                      <a href="#" id="gi-p-108" class="checkbox checkbox-three">价格便宜，但质量一般(<span id="num-108">0</span>)</a>\n\n                      <a href="#" id="gi-p-109" class="checkbox checkbox-three">商品设计得好、外观好、版型剪裁好(<span id="num-109">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>缺点：</label>\n\n                      <a href="#" id="gi-p-201" class="checkbox checkbox-three">产品描述有虚假成分，货品与图片不一致(<span id="num-201">0</span>)</a>\n\n                      <a href="#" id="gi-p-202" class="checkbox checkbox-three">曾经买到过假货(<span id="num-202">0</span>)</a>\n\n                      <a href="#" id="gi-p-203" class="checkbox checkbox-three">服务态度恶劣(<span id="num-203">0</span>)</a>\n\n                      <a href="#" id="gi-p-204" class="checkbox checkbox-three">与该店有未解决纠纷(<span id="num-204">0</span>)</a>\n\n                      <a href="#" id="gi-p-205" class="checkbox checkbox-three">商品价格偏贵(<span id="num-205">0</span>)</a>\n\n                      <a href="#" id="gi-p-206" class="checkbox checkbox-three">售后服务反应慢、低效，态度不好(<span id="num-206">0</span>)</a>\n\n                      <a href="#" id="gi-p-207" class="checkbox checkbox-three">发货、物流慢(<span id="num-207">0</span>)</a>\n\n                      <a href="#" id="gi-p-208" class="checkbox checkbox-three">商品质量不好，不满意(<span id="num-208">0</span>)</a>\n\n                      <a href="#" id="gi-p-209" class="checkbox checkbox-three">商品不耐用，做工不好(<span id="num-209">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>消费者情况：</label>\n\n                      <a href="#" id="gi-p-304" class="checkbox checkbox-three">是该店忠实客户，已经买过多次(<span id="num-304">0</span>)</a>	\n\n                      <a href="#" id="gi-p-301" class="checkbox checkbox-three">是该店的新客户，还会再买(<span id="num-301">0</span>)</a>	\n\n                      <a href="#" id="gi-p-302" class="checkbox checkbox-three">曾经是该店客户，不会再买(<span id="num-302">0</span>)</a>	\n\n                      <a href="#" id="gi-p-303" class="checkbox checkbox-three">不是该店客户(<span id="num-303">0</span>)</a>	\n\n                    </div>\n\n                    <div><button type="submit" class="btn btn-success" id="shopAllCommentsSubmit">提交</button></div>											\n\n                </form>						\n\n              </div>\n\n          </div>\n\n        </div>\n\n          \n\n        <a id="forumPostsForThisShop" href="#" (click)="openShopTopic()" style="text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;">进入店铺社区-查看详细评价</a>\n\n      \n\n        </ion-grid>\n\n\n\n      </div> <!-- container-fluid -->\n\n  \n\n\n\n    </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
+            selector: 'page-shop-gi',template:/*ion-inline-start:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/'<ion-header>\n\n\n\n    <ion-navbar>\n\n      <ion-title>{{shopName}}</ion-title>\n\n    </ion-navbar>\n\n  \n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content>\n\n\n\n    <div *ngIf="one == null">\n\n        <h2>没有输入店铺ID，请检查。</h2>\n\n    </div>\n\n    <div *ngIf="one != null">\n\n\n\n      <!-- Content Heading -->\n\n      <div style="padding: 10px;background-color: rgb(39, 174, 96);text-align:center;" >\n\n          <h4 style="color:white; font-size: 17px;">\n\n            集诚信分：<i id="tooltip3" class="fa fa-question-circle" style="cursor: pointer;color: white;"></i>&nbsp;<strong id="gi-p-stat-jcx">数据加载中……</strong>\n\n            &nbsp;&nbsp;<span id="shopName"></span>\n\n          </h4>\n\n      </div>\n\n            \n\n      <div class="container-fluid">\n\n        <ion-grid>\n\n\n\n          <ion-row>\n\n            <ion-col col-3>\n\n              <!-- class="responsive-image" -->\n\n              <a id="tm_shopName_1" href="" title="" target="_blank">\n\n                  <img id="tm_shopimg" src="" onerror="" class="img-responsive"/> \n\n                </a>\n\n            </ion-col>\n\n            <ion-col col-9>\n\n              <div class="shop-info">\n\n                  <span class="info-sale">销量：<strong id="tm_info_sale"></strong></span>\n\n                  <span class="info-sum">共<strong id="tm_info_sum"></strong>件商品</span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>卖家昵称：</strong><span id="tm_seller"></span>\n\n                </div>\n\n                <div class="shop-info"> \n\n                  <strong>所在地区：</strong><span id="tm_area"></span>\n\n                </div>\n\n                <div class="shop-info" id="tm_service_div" style="display: none;"> \n\n                  <strong>当前主营：</strong><span id="tm_service"></span>\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <div id="tooltip1text" style="display:none;background-color: yellow;">用户评分是集诚信网站的用户对该网店的评价分数，经过加权计算后，等到的评分。反映本站用户对该网店的总体评价。用户评分范围为0.5~5分。0.5为极差，5分为非常好。</div>\n\n            <div id="tooltip2text" style="display:none;background-color: yellow;">口碑分是集诚信通过采样收集其它公开的网站上对于该网店的消费者评价和评分后计算得出的评分。反映的是当前该网店在其他电商平台和消费者评价网页上得到的综合评分。口碑分范围为0.5~5分。0.5为极差，5分为非常好。口碑分目前为试运行版本。请向我们反馈你的看法。</div>\n\n            <div id="tooltip3text" style="display:none;background-color: yellow;">集诚信分是我们根据一个网店的综合信息，包括其现有的信誉、用户反馈、销售状况、行业以及在本站上获得的用户评分等等，综合评估并计算出来的一个分数。集诚信分为0~100百分制。100分为最优秀无缺点的理想店铺。如果一个网店的集诚信分为50分，可以理解成该网店的综合评估为最有理想网店的50%。</div>\n\n            <ion-col col-7>\n\n                <div class="ns-jcx-rating" id="gi-p-stat-rating">\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                        <label class = "empty"></label>\n\n                        <label class = "empty"></label>	                	\n\n                      </div>&nbsp;<i id="tooltip1" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>\n\n                <div style="clear: both;"> \n\n                  评分人数:<strong id="gi-p-stat-totalscorenum">0</strong><a href="#" \n\n                  (click)="checkCommentUserList(shopId, shopType)" style="display: inline;float: right;">查看</a>	\n\n                </div>				    	\n\n            </ion-col>\n\n            <ion-col col-5>\n\n              <div class=""> \n\n                  口碑分&nbsp;<i id="tooltip2" class="fa fa-question-circle" style="cursor: pointer;color: blue;"></i>:<strong id="gi-p-stat-koubei">暂无</strong>	\n\n                </div>\n\n                <div class=""> \n\n                  推荐数:<strong id="gi-p-stat-recommend">0</strong>	\n\n                </div>\n\n            </ion-col>\n\n          </ion-row>\n\n          <ion-row id="jcxratings_chart" style="display: none;">\n\n            <ion-col col-12>\n\n              <ul class="ratings_chart">\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score5_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score5_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">挺好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score4_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score4_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">还可以</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score3_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score3_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">不好</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score2_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score2_num"></span>\n\n                </li>\n\n                <li class="chart_row">\n\n                  <span class="row_label row_cell">很差</span>\n\n                  <span class="row_bar row_cell">\n\n                    <span class="bar"><span class="fill" id="g_score1_fill"></span></span>\n\n                  </span>\n\n                  <span class="row_count row_cell" id="g_score1_num"></span>\n\n                </li>\n\n              </ul>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row style="display: none;" id="tm_service_rank_div">\n\n            <ion-col col-5><strong>主营排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-service"></ion-col>\n\n          </ion-row>\n\n          <ion-row class="row" style="display: none;" id="tm_rating_rank_div">\n\n            <ion-col col-5><strong>用户排名：</strong></ion-col>\n\n            <ion-col col-7 id="gi-p-stat-jcx-current-rating"></ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>\n\n          <ion-row>\n\n            <ion-col col-12>\n\n              <label>产品标签:</label>\n\n              <span id="tm_main_cat" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n            <ion-col col-12 id="tm_shopalias_div" style="display: none;">\n\n              <label>店铺曾用名:</label>\n\n              <span id="tm_shopalias" style="overflow: hidden;display: block;"></span>\n\n            </ion-col>\n\n          </ion-row>\n\n          <div class="shopGiDecoration"></div>          \n\n          \n\n          <div id="dynamicShopScores">\n\n            <table class="table table-condensed">\n\n                  <thead>\n\n                    <tr><th>店铺动态评分</th><th>与同行业相比</th></tr>  				\n\n                  </thead>\n\n                   <tbody>\n\n                <tr><td><strong>描述相符：</strong><span id="tm_mas">4.93</span></td><td><p style="margin: 0px" id="tm_mg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>服务态度：</strong><span id="tm_sas">4.88</span></td><td><p style="margin: 0px" id="tm_sg" class="higherThanPeer"></p></td></tr>\n\n                <tr><td><strong>发货速度：</strong><span id="tm_cas">4.89</span></td><td><p style="margin: 0px" id="tm_cg" class="higherThanPeer"></p></td></tr>\n\n              </tbody>\n\n               </table>\n\n          </div>   		  \n\n          \n\n          <div class="shopGiDecoration"></div>\n\n          \n\n          <div class="panel panel-default" >\n\n            <div class="panel-heading">\n\n              <h4 class="panel-title">\n\n                <a class="sign-toggle" id="collapseHead" href="#" (click)="toggleUserComments()">\n\n                  <img src="images/lists/plus_48.png" class="sign-img large-plus">\n\n                  <img src="images/lists/delete_48.png" class="sign-img large-delete">\n\n                                展开/收起当前用户评价\n\n                </a>\n\n              </h4>\n\n            </div>\n\n            <div id="collapseBody" class="panel-collapse collapse in">\n\n              <div class="panel-body">\n\n                <form id="gi-p-feedback-form" role="form" (submit)="sendShopAllComments(shopId, shopType)">\n\n                    <div>\n\n                       <label for="fader" >店铺评分(0~5)：</label>						\n\n                      <input id="rangeInput" value="0" type="number" class="rating"\n\n                        min=0 max=5 step=0.5 data-size="xs">	\n\n                    </div>\n\n                    <div>\n\n                      <a href="#" id="gi-p-000" class="checkbox checkbox-three">推荐该店铺(<span id="num-000">0</span>)</a>	\n\n                    </div>\n\n                    <div>\n\n                      <label>优点：</label>\n\n                      <a href="#" id="gi-p-101" class="checkbox checkbox-three">产品质量好，描述真实(<span id="num-101">0</span>)</a>\n\n                      <a href="#" id="gi-p-102" class="checkbox checkbox-three">品牌真实，无假冒(<span id="num-102">0</span>)</a>\n\n                      <a href="#" id="gi-p-103" class="checkbox checkbox-three">产品性价比高，质优价廉(<span id="num-103">0</span>)</a>\n\n                      <a href="#" id="gi-p-104" class="checkbox checkbox-three">服务态度一流(<span id="num-104">0</span>)</a>\n\n                      <a href="#" id="gi-p-105" class="checkbox checkbox-three">其产品/服务为独创(<span id="num-105">0</span>)</a>\n\n                      <a href="#" id="gi-p-106" class="checkbox checkbox-three">其产品为优质地方特产(<span id="num-106">0</span>)</a>		    				\n\n                      <a href="#" id="gi-p-107" class="checkbox checkbox-three">物流速度快(<span id="num-107">0</span>)</a>\n\n                      <a href="#" id="gi-p-108" class="checkbox checkbox-three">价格便宜，但质量一般(<span id="num-108">0</span>)</a>\n\n                      <a href="#" id="gi-p-109" class="checkbox checkbox-three">商品设计得好、外观好、版型剪裁好(<span id="num-109">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>缺点：</label>\n\n                      <a href="#" id="gi-p-201" class="checkbox checkbox-three">产品描述有虚假成分，货品与图片不一致(<span id="num-201">0</span>)</a>\n\n                      <a href="#" id="gi-p-202" class="checkbox checkbox-three">曾经买到过假货(<span id="num-202">0</span>)</a>\n\n                      <a href="#" id="gi-p-203" class="checkbox checkbox-three">服务态度恶劣(<span id="num-203">0</span>)</a>\n\n                      <a href="#" id="gi-p-204" class="checkbox checkbox-three">与该店有未解决纠纷(<span id="num-204">0</span>)</a>\n\n                      <a href="#" id="gi-p-205" class="checkbox checkbox-three">商品价格偏贵(<span id="num-205">0</span>)</a>\n\n                      <a href="#" id="gi-p-206" class="checkbox checkbox-three">售后服务反应慢、低效，态度不好(<span id="num-206">0</span>)</a>\n\n                      <a href="#" id="gi-p-207" class="checkbox checkbox-three">发货、物流慢(<span id="num-207">0</span>)</a>\n\n                      <a href="#" id="gi-p-208" class="checkbox checkbox-three">商品质量不好，不满意(<span id="num-208">0</span>)</a>\n\n                      <a href="#" id="gi-p-209" class="checkbox checkbox-three">商品不耐用，做工不好(<span id="num-209">0</span>)</a>\n\n                    </div>\n\n                    <div>\n\n                      <label>消费者情况：</label>\n\n                      <a href="#" id="gi-p-304" class="checkbox checkbox-three">是该店忠实客户，已经买过多次(<span id="num-304">0</span>)</a>	\n\n                      <a href="#" id="gi-p-301" class="checkbox checkbox-three">是该店的新客户，还会再买(<span id="num-301">0</span>)</a>	\n\n                      <a href="#" id="gi-p-302" class="checkbox checkbox-three">曾经是该店客户，不会再买(<span id="num-302">0</span>)</a>	\n\n                      <a href="#" id="gi-p-303" class="checkbox checkbox-three">不是该店客户(<span id="num-303">0</span>)</a>	\n\n                    </div>\n\n                    <div><button type="submit" class="btn btn-success" id="shopAllCommentsSubmit">提交</button></div>											\n\n                </form>						\n\n              </div>\n\n          </div>\n\n        </div>\n\n          \n\n        <a id="forumPostsForThisShop" href="#" (click)="openShopTopic()" style="text-align: center; background-color: chartreuse; font-size: 18px; line-height: 48px;margin: 5px;">进入店铺社区-查看详细评价</a>\n\n      \n\n        </ion-grid>\n\n\n\n      </div> <!-- container-fluid -->\n\n  \n\n\n\n    </div>\n\n  \n\n  </ion-content>'/*ion-inline-end:"C:\wcj\1_ionic\ws3.0\jcx\src\pages\jcx-lite\shop-gi\shop-gi.html"*/
         }),
-        __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]) === "function" && _e || Object])
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["a" /* JcxApi */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* LoadingController */], __WEBPACK_IMPORTED_MODULE_3__shared_shared__["b" /* UserSettings */]])
     ], ShopGiPage);
     return ShopGiPage;
-    var _a, _b, _c, _d, _e;
 }());
 
 //# sourceMappingURL=shop-gi.js.map
 
 /***/ }),
 
-/***/ 283:
+/***/ 284:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2402,7 +2400,7 @@ var JcxForumPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 284:
+/***/ 285:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2613,7 +2611,7 @@ var ForumShowPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 285:
+/***/ 286:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2803,7 +2801,7 @@ var PostsListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 286:
+/***/ 287:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2871,7 +2869,7 @@ var JcxTradePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 287:
+/***/ 288:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3082,7 +3080,7 @@ var TradeForumShowPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 288:
+/***/ 289:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3268,7 +3266,7 @@ var TradePostsListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 289:
+/***/ 290:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3410,7 +3408,7 @@ var JcxMePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 290:
+/***/ 291:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3514,7 +3512,7 @@ var JcxChatPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 291:
+/***/ 292:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3603,7 +3601,7 @@ var JcxNativePage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 292:
+/***/ 293:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3673,7 +3671,7 @@ var JcxZbarPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 293:
+/***/ 294:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3717,7 +3715,7 @@ var SbIneedCommentPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 294:
+/***/ 295:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3908,7 +3906,7 @@ var SbSearchShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 295:
+/***/ 296:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3950,7 +3948,7 @@ var SbShopDetailsPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 296:
+/***/ 297:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3994,7 +3992,7 @@ var SbBrowseShopPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 297:
+/***/ 298:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4038,7 +4036,7 @@ var SbRankListPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 298:
+/***/ 299:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4082,7 +4080,7 @@ var JcxHelpPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 299:
+/***/ 300:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4132,7 +4130,7 @@ var JcxAboutPage = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 300:
+/***/ 301:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
